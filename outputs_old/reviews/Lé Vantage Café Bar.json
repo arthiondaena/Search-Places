@@ -1,0 +1,1205 @@
+[
+    {
+        "search_metadata": {
+            "id": "6859121417bdbfd470d7fd0a",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/badfa393bcf1a917/6859121417bdbfd470d7fd0a.json",
+            "created_at": "2025-06-23 08:36:36 UTC",
+            "processed_at": "2025-06-23 08:36:36 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x3bcb9131f9373b4b:0x12a4c950d290cbed!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/badfa393bcf1a917/6859121417bdbfd470d7fd0a.html",
+            "prettify_html_file": "https://serpapi.com/searches/badfa393bcf1a917/6859121417bdbfd470d7fd0a.prettify",
+            "total_time_taken": 3.85
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJSzs3-TGRyzsR7cuQ0lDJpBI",
+            "hl": "en"
+        },
+        "place_info": {
+            "title": "L\u00e9 Vantage Caf\u00e9 Bar",
+            "address": "195/A, Rd Number 13, Jubilee Hills, Hyderabad, Telangana 500033, India",
+            "rating": 4.3,
+            "reviews": 7268,
+            "type": "Cafe"
+        },
+        "topics": [
+            {
+                "keyword": "crowd",
+                "mentions": 30,
+                "id": "/m/03qtwd"
+            },
+            {
+                "keyword": "chicken wings",
+                "mentions": 24,
+                "id": "/m/0qf0c"
+            },
+            {
+                "keyword": "mocktails",
+                "mentions": 20,
+                "id": "/m/0118j66g"
+            },
+            {
+                "keyword": "starters",
+                "mentions": 20,
+                "id": "/m/0pqdc"
+            },
+            {
+                "keyword": "romantic",
+                "mentions": 19,
+                "id": "/m/01pxgq"
+            },
+            {
+                "keyword": "nachos",
+                "mentions": 15,
+                "id": "/m/01yjq3"
+            },
+            {
+                "keyword": "peri peri chicken pizza",
+                "mentions": 14,
+                "id": "/g/11qrhqjm80"
+            },
+            {
+                "keyword": "chicken popcorn",
+                "mentions": 14,
+                "id": "/m/0cyw13"
+            },
+            {
+                "keyword": "pork ribs",
+                "mentions": 12,
+                "id": "/m/078k8j"
+            },
+            {
+                "keyword": "alfredo pasta",
+                "mentions": 5,
+                "id": "/g/11lrwkmkj0"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNJcGZDVWtnRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMCIpfCUkgE%7CCgwIw5y6vwYQwNv7rwI%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-03T13:08:57Z",
+                "iso_date_of_last_edit": "2025-04-03T13:33:55Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CRkMKLTk-el1a0mWqLiShgmenG3VCFoc8MPD5ih4u3A0vxu92q6NWnGqni6ipsyBtv4ne7oJjcSfVrlZvXrTrTP_Op5lxsk0hF0DZ0_EKlVjGVoxx8XCBziVFyl1H3TbvO2eBMgg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AikXf3PwMNgz-KWv9ELygHNPMVt1McfSTEupraG3Vfmqnd4efJ8ySvGFDXo85aFuVy7osZ5KA3He8dFxqmnT7OR30z2gcpEKjkf2H61EHH-frah14W1LCMUdujCwl-VAB82zE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJUflAC8A55u3LSbvwOum4Gi0c86AaDx3Et8zX159YYBUUoqofAH-JPqENAoXgxQQPitoOmLYdplxv3xOHW0aATPaeApGpqtV84-ktfRKttxhSrAMUI1e1a5NbO-ovNVDDP9oIXA"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNJcGZDVWtnRRAB",
+                "user": {
+                    "name": "Pallavi Yalala",
+                    "link": "https://www.google.com/maps/contrib/114227413955015926391?hl=en-US",
+                    "contributor_id": "114227413955015926391",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJXlJdX4mueZ_mMgPofsE7qzy_QP9JFVkOUBdhsjv8Hng0nmw=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 19,
+                    "photos": 17
+                },
+                "snippet": "Le Vantage is a perfect place for causal dining with family and friends. Ambience is so well designed that you can capture all your moments in group pictures,  selfies and make it memorable. Talking about food, delicious Hummus with Pita Bread, mouth watering thin crust pizza, authentic Shorba with bread, creamy Pasta and refreshing mocktails. The staff was really quick and helpful. Overall a well spent family time with yummy food. The best part of Le Vantage, it is a pet friendly place.",
+                "extracted_snippet": {
+                    "original": "Le Vantage is a perfect place for causal dining with family and friends. Ambience is so well designed that you can capture all your moments in group pictures,  selfies and make it memorable. Talking about food, delicious Hummus with Pita Bread, mouth watering thin crust pizza, authentic Shorba with bread, creamy Pasta and refreshing mocktails. The staff was really quick and helpful. Overall a well spent family time with yummy food. The best part of Le Vantage, it is a pet friendly place."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Pasta Alfredo, Mocktails",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNJMXN2WlFREAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMCI1svZQQ%7CCgwIuNiwvwYQ-N-OkwE%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-01T18:11:04Z",
+                "iso_date_of_last_edit": "2025-04-01T18:11:04Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BnAOWh-nNV7bc5eUGYtl6AYyGoO_Tk8Ra7wG0S2CQ2a3eFFgpjAOyHC5hWPbvZsA9nBZw09NlkUbtPjpI3cYRxsxPcjF0k02iHwycUwSpW11pV0EGde6eBkyZNRpm6L-JSMNDGJA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ar6YWxy8dBQLldwZQj4ekO-b4u1CwJXOD8_vPNK8b0z8mgm7xG59L_u4e5YRN_bhogJl-siBT3_VBTUQ_EqPfF670XKuG_Advu27xsQ7GiIjz14RDnw0cZ9N301x0Msm5JfWeN",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A0yJ5UE2BJ6fKxKlsBtnk9kD49IOHgfYwaGfN1lcJ26stanPDtekrx0dOYnYBbTahwSzl8xa-SRQPh-Y4qwdBHxZeQEk-4WQIaIQjJM_QTh0veGT7IvL7XRWXKAiP7Y5kr6Z4L",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJVHxqjk_4dUr72P4LcU7KSq2fV5f9yCitA0yl9BCk2F6BKolzQDpD-oAMqqvQQFER5bAMBRnhFa16QCwj1bba3fz7YnNtpPWqV4Wx4i1yux8jlls5AvfV-l0-WfMN-64RTdA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Attdw9Sfo0REDlHHh_ua1DPw8COUZCzZkxA6RQqP7eW3evXzcyUCi_D_lE4aAngGRfnzSsqDgQAW86x3r9-F-qwPL9yTlnH4qHTOEb1YyyypkIn61PH7JhoAoUUrtdJv3qcCKTfA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BvvyTzWaxT-dn3YpAFKcl4G9sPv2BblpbIHIx1M6RsTBFqm3Kt8h_PJDQ_Vs2wk3G7ci02wJ8KPWSDDncX4aRLBPTthiIq04kRcltqSaEGb9AuAS8BfK2-4NGvpB03iVSRY5w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AH4CUtEtwPhD8GDSaW-jzKTatZlS8Wts1XTcKDfClaoCJ1S3sqQaYdzF_qHX8FkAXjpUFRd8D4I-PC8zHtSMh6t82pq0TFrXW06iSAI5whJOGSoPl391vMJz80-yj6FBP32W7I9Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A2BZpfzyVCxrldKDKhqTnkQ_k23w4XgyP4xINGIQm2y1X7Rd_aJxsfiC5lmB-DYbar_R312Xt64XkB-brzTxVb1PHKpP3TUmaXkqlzRl4Mk_thUE-hqc1ahKY0X5S5xC0V5wLf",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DFPwQK2SDVCHSZLYZxodg-cH709OynUbe6aMk0ITGTLDs8aXrJVOMd2PWv2NWEXOPI7ihdXMd9kPmgr77tPJtfucwf6rgF6JRIhEgYVRWjsSOVZc8qpa8jJpB-ZS3eDO6mwY58hA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90An9nu-wcFE0ZxbVj_TxmV_wbHS3LQij3BgOi3zX-ClNaEiEBeSVCgt-AO_erSGFVJ-e_eBe_tnIxhU-d8DcOOKZiUcP4ES3kzgi8OwmZkubbRE4Zi02f3_8j8unLMuw8nuC_TM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C7oULqviYd2kkNHW-7YaumLiU7oBaUXdkooO_8TPErpMw1Y_PYFHR4i71PPVK6fFXCS7x2EM4_PNYKe3djviHrsHSqfLYSGP5YHc7QbXP7uPiH_4pKpW2NtDObX9-jDd1hH5MgFw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DFZ7GPP492NFlsYU7Poz16R-zlUl8KSvZsZS4OpiUIGHCtVdLyFzPbItav3KFggJkGM1wT4j9Amgo7hDJkpkBrDCz15Hm2V0ZCksU4_-mZeRShmAj4b_mwFljCUDzAErkanyJ9",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CfKP3GuKIhVSIQXposSnzJnqNQSZbcFdtR4Qs6fnBmjGRg6B1PZZBwEyXnNS9FjyKAVPo48-DYGz5aySTBAkIMXeVZBETSeDghi8i3_mNcakSh-uq9c-RzgWZvNd4tY1K44siyhw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dqx973tsmqTm34zqcsIlaJBAeCi4XyGKXaFm7nNmcf4-UjR1GG1WXCifZO2kuIyu8zL_faKnYo35lKrQSb4jdbOARwhuEgTv4fCgg7kqCJJp0vNY8wfSGBl8ccH4V6g1bmmoej",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUQsX4fN3gVkc6V8zoIhAoTShjRtLv8y18Eq-74YLpERvr9QRyExZWFESISh88HyP3wBiZvWD7SY1eSkAZ91QV7U4isIObyJyP744vm-0DaIfepDfo56i2jXQapW0bKmPokY_jjg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BC6IhwCrV4HfqNKg0J0k_lsZaQUgpHkWBXysQITtyQrRseOoRst7ud7ZsZ4aruQ53vHYWb6_x980LwcACdlnXwz0S_enKfah5dNFDOav4VwGmHzcEXPxZ9K8LyqQXs7a-lT1zb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ds9BkbDOiXgYAD9bvGNt_5kq9QIHZUsCSBWfo8OKXo2vB2ew5t3HwCSWHC1Mo-ufauIfCF_DB9M6-Qgt0ey10mDD144dLmW1ZWZ_18YzmDeG555p_bdKvspEkVdQ8RB6EcpOSXYw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNJMXN2WlFREAE",
+                "user": {
+                    "name": "sangram kumar dey",
+                    "link": "https://www.google.com/maps/contrib/103294708737359204742?hl=en-US",
+                    "contributor_id": "103294708737359204742",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI2uYp4MMg9fHB60tN8lP0_z3lpijzm2x77doGbwk_AmbXclXE=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 70,
+                    "photos": 332
+                },
+                "snippet": "Food was very good, each of the item was delicious. We Ordered :Pork Pepperoni- Very Good\nLamb Goulash with Homemade Fettuccine - Awesome\nBBQ Chicken Wings- Okayish\nBaklawa with Ice cream - ok\nBrownie Espresso with Vanillace cream - very very good\nalthough they are bit costly. And also, you will not get any sort of discount.Ambience was also very good",
+                "extracted_snippet": {
+                    "original": "Food was very good, each of the item was delicious. We Ordered :Pork Pepperoni- Very Good\nLamb Goulash with Homemade Fettuccine - Awesome\nBBQ Chicken Wings- Okayish\nBaklawa with Ice cream - ok\nBrownie Espresso with Vanillace cream - very very good\nalthough they are bit costly. And also, you will not get any sort of discount.Ambience was also very good"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b91,400\u20131,600",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Vegetarian menu or section",
+                    "vegetarian_options": "They are not available neither in Zomato or Swiggy for a table booking",
+                    "parking_space": "Plenty of parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VLLWF4ZGJUdjlMUm9nRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEK-axdbTv9LRogE%7CCgwIkNzywQYQiOSeiAE%7C?hl=en-US",
+                "rating": 2.0,
+                "date": "3 weeks ago",
+                "iso_date": "2025-06-01T19:46:24Z",
+                "iso_date_of_last_edit": "2025-06-01T19:46:24Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AJrHM9CU2ier8HdpL2TQV2s2DbU86kIWO-PxnHZbIB0Y7oCBMj8dtOp9S76pFWYdPu7uf0MvuicQAIaLJTSRjj0i5T3cmoHvFKo0gr_JXtE3Ra42xVPDN9RC5k_rTdrvJJoF7lTQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B4hWigyc43AvY8tiAMcdT6U9EUQhv34TGYKG1lwBiSE5wnt01II-jnFTuJZ5EQXbvxC2VPHJ_QTRtE2xXZxwbg5m51d1_UPyPgAENdQdYAu6HI-sgflcV7VbVW90vkHt8giANo0g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFTJrVC2Dv8ozF1LuU5JWGyypej7gyUx8pPy9LrB1GtfJj4NbGRB_byX9bTWWwU1Nqhy4E-K1nnipYwTBI40dm8lvMgCaliZdhUsfQPunhHfTqUGcjQz8hVBR9QdQohOpEMO5l"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VLLWF4ZGJUdjlMUm9nRRAB",
+                "user": {
+                    "name": "The Reviewer",
+                    "link": "https://www.google.com/maps/contrib/106876300155709941691?hl=en-US",
+                    "contributor_id": "106876300155709941691",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXOv4KCLy-qdQ8l1veWZ4mQFW8oQ-10R6YXkFVd3RU8CiIXGLU=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 33,
+                    "photos": 58
+                },
+                "snippet": "Food is reasonably priced, but the taste isn\u2019t exactly top-notch. It\u2019s not bad, but it\u2019s not great either. The ambiance is really nice, though. You\u2019ll even see dogs there, which is a great treat for dog lovers.",
+                "extracted_snippet": {
+                    "original": "Food is reasonably priced, but the taste isn\u2019t exactly top-notch. It\u2019s not bad, but it\u2019s not great either. The ambiance is really nice, though. You\u2019ll even see dogs there, which is a great treat for dog lovers."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 1,
+                    "service": 1,
+                    "atmosphere": 3,
+                    "noise_level": "Moderate noise",
+                    "wait_time": "Up to 10 min",
+                    "recommendation_for_vegetarians": "Would not recommend",
+                    "vegetarian_offerings": "Not sure",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot, Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VKX3l3OFAyd2Q2WHhnRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEJ_yw8P2wd6XxgE%7CCgwIsPaSwQYQ0MbXyQE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "a month ago",
+                "iso_date": "2025-05-14T15:48:00Z",
+                "iso_date_of_last_edit": "2025-05-14T15:48:00Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ASBaVgLS5gMUlTcSe4FG_V_ELqj0pfZHAtnki3W79u4vbRdl9fviYGDxcOKmxUZE1ocqWwaR-xxASZNsIwq-PDfK3xIgVs1ww3yc3u-uo05xdoJRvDPUzb-zkSKo20Bbqx4wY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BYlOWS6GlTd00noPM59S3SIVsvrQsI6Cjfat5-y0vhn0Mjwtr5usu4qts1tFj1f3BYncBETIXqyWOjxehvsC1abCDLq07jgEUF8aUYf_TzZKxcF_B3cTpN6HbWDkrQ0xYUYIs"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VKX3l3OFAyd2Q2WHhnRRAB",
+                "user": {
+                    "name": "Taniya Pipariya",
+                    "link": "https://www.google.com/maps/contrib/112753378974990672009?hl=en-US",
+                    "contributor_id": "112753378974990672009",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJpZkVw-sInRDVPjRtuAi0hw-kbzF7H3BsdwZbd0uOa9lSwbw=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 62,
+                    "photos": 90
+                },
+                "snippet": "Been here a few times. it\u2019s a cute, cozy spot with a really nice vibe. The ambience is always on point and the food is yum.\n\nBut this time I tried their Tiramisu and it was a letdown \u2014 not as creamy or rich as expected. Definitely not their best dessert.\n\nStill a nice place overall, just wouldn\u2019t recommend the Tiramisu.",
+                "extracted_snippet": {
+                    "original": "Been here a few times. it\u2019s a cute, cozy spot with a really nice vibe. The ambience is always on point and the food is yum.\n\nBut this time I tried their Tiramisu and it was a letdown \u2014 not as creamy or rich as expected. Definitely not their best dessert.\n\nStill a nice place overall, just wouldn\u2019t recommend the Tiramisu."
+                },
+                "details": {
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "noise_level": "Quiet, easy to talk"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VKdU84S190bXB2d2JnEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEJuO8K_tmpvwbg%7CCgwI7-LywQYQsIHTkQM%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "3 weeks ago",
+                "iso_date": "2025-06-01T20:00:47Z",
+                "iso_date_of_last_edit": "2025-06-01T20:00:47Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BuLbQK2PbKh1c65oIWfF2GsZ8d5W5NFcL6ZV8aod7QhNmmxe9iTpIiLj2TbNx1cPOoJ6936_KvDZ7xBdZ9odLgpsWCFO3uD25RY8YIJsy6ejD9812X6tjcBmD139yPzegg0xI7",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DuoXjjHlsyvgPg1B4mEHP6JkB7Mgv87dSNEK6aP9p2gawrvY8eK1D1aCT8dyroSpThjJ_r2webOI1RKe1_Vd71RgyTdpwSGRHclWmcmNkx0xBC5aD02YeP25tnQNa9rM6_LxZC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_NPiPkH2YsKbL2WjFQIMGdfMacFO4VrxTPK5r8Nluq9nYJKVX0apkiNW5nij2FsJoiihkiMe11SiJ05STzQkjwNK3WU507JOtqrKvvP2zNLmHKZhfffiBWyWR6aWsoyia3L0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bjg9jY_4tDbgfeCIop5VrnVyQtV2xIHZaA5lPZncavb6dK3um5IkQ0y4junhxSTuQK31BnbtzDkx7UF-KaQ3ncUoWSrmbgpAHfxNt0NJz-UqKM0BmjjjPeqJE1Wj-kdTmb-MJexA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ANl_-FyB6Tn481qXDOAw_jqZPkq-IbZdLWXhnZJJNtJKhMVGpL625sMblIw6mSzDqlrnje0ZSv0siDIs6QME1xycqNgciaZJXbIj8tN6DhxZQbi6lBlmANXifyU9x_AHw8s6or",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CDaX8G_DupFYgc5llV357INhWT54yTJzykRckE1vaxLF3HLIJUwPSpp3RKCpKjVRCIyAkZtDNFoZkkSt6TVQyhciyjQ8kowUeUhpNhg-4YeKGLDc7-S_-ubVQboU1Ntwc8OK-gYQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C-XtDp5EOA2t38g62LEjOt1j4fVZhNuOtJxtKHG_KygwzEZiTH8YAFbQjgKvdX7GOQQFs-BUb1wUHDMSqecK0HMXLBxsdgmmmxYeAVhz_LPVUnAqIK-uRu6w2IaDpepg9vFGKY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CcZ56HrKo26iF0hOeb0GJQ4ImowXkZ6dlFE0SrQPgT32rSzkPB4TEIiPumhROTMdGronqeYTNkRa-DJ1vb10NLH5VqUqaf5hh0SEzcb3iU_ZdCB8_J1rrYlAf7KmyglSZLT58",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ARtOMXquVX3dCana4R2seGAEFxGkKSk5ltSCX9OLi6C9Df0NiRyh-ADyJuobobLQCvOx09oXibIHSMJ02ecVa1hYBeQIXaG_84cEFb44HYlir3EiW2NxF4Us8_5YsqrQJKaptgmA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BvRBJjpbAIhNqnSODuDTnwQXPN5jMp8n_Hsc_gPQxMCGnQhbGVhivvjl7TX92LFkgmJBCXWfaX-QLe6ZpIs_06YkqAZTj9Hz2MsN2Tt5036i_iFJ9sGZc4jAau3d58u_TVbVMYIA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cb-pDywtSJ7J3tJcZm9DmQYehsn8jkvQcAJ89xrYE2Uo3R7O0jRHtd46CC7bmi6XL8HBs2C3bhyQqLglRzPSUKmr9JBgyueMdnK4XyczH6fsCkVaqm3Ba4dQ-qUNeiy2vl0ZTH"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VKdU84S190bXB2d2JnEAE",
+                "user": {
+                    "name": "mansi naidu",
+                    "link": "https://www.google.com/maps/contrib/114475307076560262677?hl=en-US",
+                    "contributor_id": "114475307076560262677",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXd9hLm3E2p8AnxbTqyoi_RGCWBrPqoAXURV15M186hOEGLnrYKWw=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 68,
+                    "photos": 590
+                },
+                "snippet": "This place was truly amazing, with a stunning ambiance that set the tone for a wonderful experience. The food was delicious, making it a perfect spot to relax and indulge.",
+                "extracted_snippet": {
+                    "original": "This place was truly amazing, with a stunning ambiance that set the tone for a wonderful experience. The food was delicious, making it a perfect spot to relax and indulge."
+                },
+                "details": {
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b91,800\u20132,000",
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 5,
+                    "noise_level": "Quiet, easy to talk",
+                    "wait_time": "No wait",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURYc3R5Wm93RRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDXstyZowE%7CCgwI45v1uwYQ2OXRuwI%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "5 months ago",
+                "iso_date": "2024-10-25T19:29:25Z",
+                "iso_date_of_last_edit": "2025-01-07T15:53:07Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CDD7K_2EgdKRaTgUgAaXgeBlvRHsjQpf-2SQy3mtlXFoh6jFrs--Y5TMgEZDawh3rxHN4XP7nMIelu8oa1CelNC_Y5GuWiGoFSAlutP0lPymAUBAXUr_mPj3pCszkuMONhpR6vuQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_BsRv3hrIxy_gERPfal1VdQvfupajZKgS3a4d09N29HY7wRWgZfA7dvNs-RsfbR1UJWiEOm-622LNsMKuiJjm0KG1_kTr4qLNZAG1I36jRmTTLsrHlsXoMPhXV3DkWl_uvmfN",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AeL3CswwaDzFLWnqryE9rM_KUGzr3oe-3OioJqL7Z27CY9MhMatcgbUSWdvTaYiJnKcsgjx5eviL5YvG9HW1RjOYm6nE-7hYwA3zgAIbLj-XnG04VKoZlGpj2PhVTcplCYPg1Ldw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CzKyaY-Un4vX2s33geJh5SgI9IjhQ6JS47Pjr-6jWsY3fI1m48-2JPKo3_IsStsoyzzj2KcI-OItKBEkFLAecO2oYfdmuJS5IgelBG3-iSbJSQvBlwXxWbQ4Wr73VX7kT2wqtF",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CzEK9-r7VaFjGrAu-zJfjF5Gl-76xc70HTKpN8p1BdvL9mVsCypi9McPnKQ4jt7HVeSEoE9uonxF1VXSd95IoxwlsPmDl_0XIrT-UvrR5F_jFT70Tp5bx3PL9dGkOy_DRGPHuhyQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DF7m_LkkIlu5xx9fBb2wVrhse3mJp_dSRGOyv2C_2jJP1_SGB6F05TI7ejNI1BYb-bXHPFkL-O6WYITU8gBvh3d1r979LORkJOB8tYjstuTMcvpyRm3C5ea8GvN4PKsm-aCcr8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Am9bK3l5eFWSe5poABIpP4vOqgvOdgvdn7USlazNu9UwiObn9aYsNTEhQwNa_GAcrTDUucpyXj4SkSWBzuoR_REdQmEz8E1wL6QTVLqAGOMsG8SVaO3s0BC4Y2xxAo2-PGwvhEQw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B-jBoT3FxPK-lzEqYLpk277Mtd4XQ5sdDMpFWi-isWniLDG80CCK0bBuld_h1RlO0_O5oD23D6t6K21tKqnC2CNdQ4IkFA-4gV5odJLl3DsnxwATqplMseIVxMpkhNYLS2i-M",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dxbg4vYCQSFenxXxts9pyg7w9vX5KKspS9Unkul2vjWcGoeUr_aGmH1-Q76uKH3PUZDuC-hPF8y6zEvzihpzJA96JXFr9dLLm0y-Xd8oxle25Xjz2_hjmv2Yfr-YICRhYOPRa_DA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DZrm83UetgAFyl19FRCBQq_Rx93ut3zBzK5PHTsg5PmjLhEuZ0vetbtxqix6DE6qR-ejelnaI6UqvwFuQRGWHJAGxIkwa-I9_EjpP5PkfCdmiqVTUBUUPRBLli6KkMRtM0Lqs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C0CPq07uQLOEjofeUrs3EUHyG8ofjD6LYshyXccWdFoCXXrM_PxTpxM7P1dPI5vJXfSp4mPLotjaJo3IkDovQR4mWpzK_hxfO1oVoO7hdXoL6xPdk63SWRWgTNtvLD-DP0jaJeXQ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURYc3R5Wm93RRAB",
+                "user": {
+                    "name": "Gopi Bala",
+                    "link": "https://www.google.com/maps/contrib/111494021899569687547?hl=en-US",
+                    "contributor_id": "111494021899569687547",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIuBX58K4vDnXCoH1vedlOnos3FpAKu0f26Y1pa_oP0qFajADw=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 31,
+                    "photos": 109
+                },
+                "snippet": "Le Vantage Caf\u00e9 is known for its exceptional ambience and is an excellent spot for a relaxing outing. The night view adds a magical touch to the overall experience, making it a perfect place to unwind.\n\nThe **Peri Peri Chicken Pizza** is a must-try, packed with flavorful spices and a perfectly balanced tangy kick. The pizza is freshly made with a crispy base and generous toppings, making it a delight for your taste buds.\n\nThe combination of delicious food and the soothing night atmosphere makes Le Vantage Caf\u00e9 a highly recommended place to visit, especially for food lovers and those looking for a cozy dining experience.",
+                "extracted_snippet": {
+                    "original": "Le Vantage Caf\u00e9 is known for its exceptional ambience and is an excellent spot for a relaxing outing. The night view adds a magical touch to the overall experience, making it a perfect place to unwind.\n\nThe **Peri Peri Chicken Pizza** is a must-try, packed with flavorful spices and a perfectly balanced tangy kick. The pizza is freshly made with a crispy base and generous toppings, making it a delight for your taste buds.\n\nThe combination of delicious food and the soothing night atmosphere makes Le Vantage Caf\u00e9 a highly recommended place to visit, especially for food lovers and those looking for a cozy dining experience."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Peri Peri Chicken Pizza"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VPaXJrOHE3NzRITk5REAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEOirk8q774HNNQ%7CCgwI-daRwgYQ6NuO7AE%7C?hl=en-US",
+                "rating": 3.0,
+                "date": "2 weeks ago",
+                "iso_date": "2025-06-07T16:40:25Z",
+                "iso_date_of_last_edit": "2025-06-07T16:40:25Z",
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VPaXJrOHE3NzRITk5REAE",
+                "user": {
+                    "name": "Madhav Vikranth Petluru",
+                    "link": "https://www.google.com/maps/contrib/113988440110366640951?hl=en-US",
+                    "contributor_id": "113988440110366640951",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVe5ZbNzK9d-5d-TOmtycSCwFUjEcwqkrcyklHr4et1xG7wJ9w=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 1,
+                    "photos": 0
+                },
+                "snippet": "Excellent ambience. This has both out door & indoor seating. Outdoor is more of smoking zone & Indoor is not. However, if you want to really enjoy the atmosphere, visit this at night hours, prefer out doors. It is cozy and great, pet friendly too...\n\nComing to food, it is just fine. Too pricy and I think, we can have good places that can offer better than this. But if price is not a concern, I think you can give it a try!",
+                "extracted_snippet": {
+                    "original": "Excellent ambience. This has both out door & indoor seating. Outdoor is more of smoking zone & Indoor is not. However, if you want to really enjoy the atmosphere, visit this at night hours, prefer out doors. It is cozy and great, pet friendly too...\n\nComing to food, it is just fine. Too pricy and I think, we can have good places that can offer better than this. But if price is not a concern, I think you can give it a try!"
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 3,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "noise_level": "Quiet, easy to talk",
+                    "wait_time": "No wait",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "parking_space": "Plenty of parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNBMWVpLWt3RRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMCA1ei-kwE%7CCgwI46n_vAYQqLml-gI%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "4 months ago",
+                "iso_date": "2025-02-02T20:26:11Z",
+                "iso_date_of_last_edit": "2025-02-02T20:26:11Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BS4wPymMbeLO6Vdf0IEftHf_Li5wyb6IJsCR_OpLB_h-6s0wyQNZqs3YHaD792uWUxJ6ILNtRK1dg1QVPELUulB0DILz7Ky028hac2bSZFcP5c6rWZHdBc39z1flDov_Oq-YlP",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A4g-81qM0V9fN1u9qmJOgMaTFJpcpDZb8M2GUpxEGSUib_9ZyImvSmqCYnQbvnHwEwdPggOX_JtcajqZ9489DJM60hVVq3ayD86X6D7YXvAwAYKugeRPAP3m_CR5nPw0E53-3SHQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DOQPqMRRV5Yt-_91svLtVPjmJEQpepMPxUcjwlE475vTGHKpRnlejVZIieuBZSRvjHoglUjXHlmoqfbWUZosNkG-vk2gaIU6UAfU1Gm4m_HuQ_DUjUxgb9QNUJi03i2b1qRFcA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BfwYf2IIIj5dZG_Ng2tm9qWcMgDRXSPKQIa4_8J5RBcJuJhwmcVw28iP7cUAPMT8aAU7I4AO-gnU3diXyPz_XlDoQmS9BG96gaT06iejfPmnNbmsyNfP--CGbib6PFDgDTyXn1Cg"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNBMWVpLWt3RRAB",
+                "user": {
+                    "name": "Bhavana lakhinena",
+                    "link": "https://www.google.com/maps/contrib/112498080389213603920?hl=en-US",
+                    "contributor_id": "112498080389213603920",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIeOOfqBjfpAZ3KpdZocizXcax-SOnWouDHOXJDPM6Vl7Njv6M0=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 22,
+                    "photos": 76
+                },
+                "snippet": "This is a great spot for casual outing. The ambience is lovely, the service is quick, and it\u2019s fully pet-friendly\u2014you can even take your pet inside. There\u2019s plenty of parking. Overall, a good place to visit!",
+                "extracted_snippet": {
+                    "original": "This is a great spot for casual outing. The ambience is lovely, the service is quick, and it\u2019s fully pet-friendly\u2014you can even take your pet inside. There\u2019s plenty of parking. Overall, a good place to visit!"
+                },
+                "details": {
+                    "service": 3,
+                    "meal_type": "Dinner",
+                    "food": 4,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Pasta Alfredo"
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZGTkRWZlgxOWZSV2hEZFcwNGRIRnVXVVozYjNocmNtdHBTVUZCUVVGQlIyZHVPVEpRYzBOaGVtVnZXbWswV1VGRFNVRQ%3D%3D&place_id=ChIJSzs3-TGRyzsR7cuQ0lDJpBI",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZGTkRWZlgxOWZSV2hEZFcwNGRIRnVXVVozYjNocmNtdHBTVUZCUVVGQlIyZHVPVEpRYzBOaGVtVnZXbWswV1VGRFNVRQ=="
+        }
+    },
+    {
+        "search_metadata": {
+            "id": "68591218ae678cd2bc6c2dc0",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/2b2ff45466152b3a/68591218ae678cd2bc6c2dc0.json",
+            "created_at": "2025-06-23 08:36:40 UTC",
+            "processed_at": "2025-06-23 08:36:40 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/2b2ff45466152b3a/68591218ae678cd2bc6c2dc0.html",
+            "prettify_html_file": "https://serpapi.com/searches/2b2ff45466152b3a/68591218ae678cd2bc6c2dc0.prettify",
+            "total_time_taken": 1.26
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJSzs3-TGRyzsR7cuQ0lDJpBI",
+            "hl": "en",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZGTkRWZlgxOWZSV2hEZFcwNGRIRnVXVVozYjNocmNtdHBTVUZCUVVGQlIyZHVPVEpRYzBOaGVtVnZXbWswV1VGRFNVRQ==",
+            "num": "20"
+        },
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VQdnA4YTNmNGNTSVd3EAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEPvp8a3f4cSIWw%7CCgwIvrKtwQYQoLS2uQI%7C?hl=en",
+                "rating": 4.0,
+                "date": "a month ago",
+                "iso_date": "2025-05-19T16:15:58Z",
+                "iso_date_of_last_edit": "2025-05-19T16:15:58Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlvnzR_8_gycPHDp3lXyws8eMeqKrToI4gRezrrfpsBcLEXnrDs4pzSyyVLicx2XDwZjEX0gE4B1-6gPqkQmV3vA1RlBIJ_kZ4Sf0o6MpY-CWsgbEQKkFQdywZ_y_KWnn0Ybl7ZA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DZxKxItHNMF8k92nUxL8gHZXCEss-veyjuTgKXpWNjcFhjvHt9RxkfqoZz_i4vfS4WXGnBaj8nXlcj9eHC051NtJwU2vrNZJwJQAPYpQ3jlMRE7g__bx_1aGvYwaed6dvuqSQU"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VQdnA4YTNmNGNTSVd3EAE",
+                "user": {
+                    "name": "Nripan Nath",
+                    "link": "https://www.google.com/maps/contrib/116170812242205033739?hl=en",
+                    "contributor_id": "116170812242205033739",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU75-uII88wMtyBnOaRz0nLAe2Cnv8q7eMVgpzY5T3GCwVxSPnG=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 50,
+                    "photos": 52
+                },
+                "snippet": "Really nice ambience and service. Food could have been better. Tenderloin was asked to be made medium rare but ended up being closer to well done. Kaaliya is an amazing host.\n\nNB: They are not selling alcohol because of some license issue but the menu isn't updated.",
+                "extracted_snippet": {
+                    "original": "Really nice ambience and service. Food could have been better. Tenderloin was asked to be made medium rare but ended up being closer to well done. Kaaliya is an amazing host.\n\nNB: They are not selling alcohol because of some license issue but the menu isn't updated."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 3,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "noise_level": "Moderate noise",
+                    "wait_time": "No wait",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot",
+                    "wheelchair_accessibility": "Didn't seem accessible."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VOZUQ0Ti1FcTg3Ykt3EAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKENeD4N-Eq87bKw%7CCgwIt4-ywQYQyKmJ0QI%7C?hl=en",
+                "rating": 3.0,
+                "date": "a month ago",
+                "iso_date": "2025-05-20T13:46:31Z",
+                "iso_date_of_last_edit": "2025-05-20T13:46:31Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DCrmYKHIUIqS02JFwU6TEO5v3_-3MK7l1TO8XwWFNAun8JpqizppXWh07wDyf791b1TUpxK2ukjc5d8zggGz2zXxMgBizr7WuKuC9vTf_o_0S0fH8fhi1TL6dfd-tQqIB9g3aF",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C7lnvGWC1p1LvGv75vo1_jvQ8Oer3d_4GX0tuSQ4hZizOKGEW3e1A_E31bfJlnr4qAAT2NMGUkYwpy2IKQOhXHXPnmsG1oo6KTSJ_-pzKd6QJbHqDQbFJrJv5th4a20TBBvVqw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VOZUQ0Ti1FcTg3Ykt3EAE",
+                "user": {
+                    "name": "Vigya Pandey",
+                    "link": "https://www.google.com/maps/contrib/101452570488660211975?hl=en",
+                    "contributor_id": "101452570488660211975",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXEWCNAyeSvIuvP4L9AyR5T6FDwCgjwBX4qhxKhmAFHxgRFG8cQ=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 25,
+                    "photos": 30
+                },
+                "snippet": "Veg food option limited. But i go there just for cafe frappe and avocado sandwiches which are great. Its pet friendly and the vibe is very cool and aesthetic filled with plants.\nI tried nachos and quesadillas which were below average.",
+                "extracted_snippet": {
+                    "original": "Veg food option limited. But i go there just for cafe frappe and avocado sandwiches which are great. Its pet friendly and the vibe is very cool and aesthetic filled with plants.\nI tried nachos and quesadillas which were below average."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 3,
+                    "service": 4,
+                    "atmosphere": 5,
+                    "group_size": "3-4 people",
+                    "wait_time": "No wait",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_options": "Vibe is good if you are going to chill and not focus too much on food",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot, Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2trNU9GZFRaazFNTTFoSlIxRXllbVZHV0dGdU5sRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CAIQACodChtycF9oOkk5OFdTZk1MM1hJR1EyemVGWGFuNlE%7C0cIv2sm-ry-%7C?hl=en",
+                "rating": 5.0,
+                "date": "a week ago",
+                "iso_date": "2025-06-16T05:51:52Z",
+                "iso_date_of_last_edit": "2025-06-16T05:51:52Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BvTvmBCxvupQJ2wMK6umSushxFAJANAWmolXOXTgUJxD86Iuwo0IVl5IINS4rm7Svtb5FvAtz0ynHDYV7ukgxBoaJ1LGm_xDZyPgkthkUAiY6oRfWQP67kF_QBPFAdLfPJ7UKPn-IBm1Vi"
+                ],
+                "source": "Google",
+                "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trNU9GZFRaazFNTTFoSlIxRXllbVZHV0dGdU5sRRAB",
+                "user": {
+                    "name": "goutham k",
+                    "link": "https://www.google.com/maps/contrib/112627336271485979739?hl=en",
+                    "contributor_id": "112627336271485979739",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWqPgl1SM93lAC194YPkOnC0ojQnC0SdcNQB-Em601eSXkdyyf7=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 19,
+                    "photos": 6
+                },
+                "snippet": "Food, Service and Ambience are top notch. One of the best pet friendly Cafe with good food and vibe. We have enjoyed a lot.",
+                "extracted_snippet": {
+                    "original": "Food, Service and Ambience are top notch. One of the best pet friendly Cafe with good food and vibe. We have enjoyed a lot."
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUMxalB1eTdBRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIC1jPuy7AE%7CCgwIzM6frAYQiNLEoQM%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-12-24T08:09:48Z",
+                "iso_date_of_last_edit": "2023-12-24T08:09:48Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cc_GZ9zSQb4w5HvWB_y8QbyBnXph4ZsXr703H7gobw8cA9lsRXi-70Wqvqo-3Y0KNz8z9WzagZH9TKzZmQ6xW-va-VCwnoKDwEgt4EQaozOIPdjzqBGFU6cDhm46ckzr_UuNHG",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFqPx_s_a82C_gr5VrJJH5VhNtijit4yDKDkNjUQmV4sxHIdhLH_9pDno-_igv6vtHMX_uo6Vgl1aHcCQHP7ilIX0Gt4y__WoTVJdllsmzSQQfKEBNpLiG5eQOF9kQMt2UeLmjpA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B0aKvhcdaB0qvX5Emf5jzdqXvQKMwEgha6a6hKtmo3mxEKsl1sTvQB5cOaEV8wAKOqzT_Pu2zNJiEltSALGK4A9dLvEuTK5OSWJUGZ4orMSMH4ku8xqmCp3LEWl8qZ818p8Pg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AsFX9aHo4mkVwpPZMytAb9FUnCUu7XUf18YKKSZWdo3-_c5hvNKngB-JMjXqjvo1ac8Ll3MylY7N4ZsyLWMJd11x41P8sIO3_kyYIpw5bVP1FJ-lTrs7WEWVIcamKwTF6Pkfc5mA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBflnNWF__3TDaDthg-PEB0Ce9secMfWLcFRX0ZLMyp4qFM2zqn5yYnTe_bINd1O4yDEbZDl14n54z7iwg0qy-wQIG7Ae4hwNSPZjrms-Gyb3qZRZNFNlmT3snSqr5_-vIR0o",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CsWUzvSm9PfvCOHWfmSxAX4R-W32auGfPIgbLv6XuFOCqo2ZmJxi-ukPZhLPW7d5Ao913MhtwYv-7cKTgYLfZ1nzvXVGwGZH6YAvxNvudyWkde5LDjGAk6wFtU0YVF7SAjR6Is",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90APiNi9cXJwUwtqxiBpTkAMrznTDMX8ejs_MgAFuc7RHF3AfTD-h694bA5K46ZaeyYYZ2ggD08iWnu8JrzfH6SNs4Z4AgMlYGHw3HGsLZ2OIW6GT-I4flZwkVh7_jt3ck_HBLpn"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUMxalB1eTdBRRAB",
+                "user": {
+                    "name": "Ankita",
+                    "link": "https://www.google.com/maps/contrib/105447223359078282646?hl=en",
+                    "contributor_id": "105447223359078282646",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK1fR9cJWgK3o5vMb0pbyXbsQvfH5j1ijOGniBHqsMc3fUHYLA=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 82,
+                    "photos": 363
+                },
+                "snippet": "The ambience of this place is the best part! We spent a beautiful evening here, there was no loud music and such beautiful ambience that we could have amazing conversations and the staff was very cooperative and we weren't disturbed at all. The food was pretty much average. And cocktails too. There weren't many options. But we had an unforgettable evening sitting and chatting. The Christmas decor and vibes are on point.",
+                "extracted_snippet": {
+                    "original": "The ambience of this place is the best part! We spent a beautiful evening here, there was no loud music and such beautiful ambience that we could have amazing conversations and the staff was very cooperative and we weren't disturbed at all. The food was pretty much average. And cocktails too. There weren't many options. But we had an unforgettable evening sitting and chatting. The Christmas decor and vibes are on point."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 3,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Shrimp Popcorn"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURQdkx2dU5nEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDPvLvuNg%7CCgsIn8OqugYQ0OLUPA%7C?hl=en",
+                "rating": 5.0,
+                "date": "6 months ago",
+                "iso_date": "2024-11-30T05:24:47Z",
+                "iso_date_of_last_edit": "2024-11-30T05:24:47Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dd6VWEE65MUjOmEZwC6nApdegAqnpXqxWzDEW-8w6Iy2wldySJKzXNwR5_AdzkCpWnltN0p-j1dM4sS7qaZ7R3_DOB2Hmut8DaBcmHOX0CD6vSbl5geTdVr__-6LDr4SG8wkTrwA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AI0I2DL8KZmbePhEKOZ664CPd3cOdW4l6bTYCzj-q1KUgM2UsyjQXSOAob5r_yvjtS5UVWy1GspHVcXId41JEm-EC02lp2kJPw0FZKMLt6sGCEj3oQhDaZecs2169NhVuvVH1k",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AV8jNYi6FzZxdYMLqMMP776e9xXU-4OZ9Velu1e61KvA9jls3_cU3ICBbK8JIEdcs7p2Kb5IunTR7_PbIV1iAC5XaO369GpH1BC_bURCZfFwd39C1OSuQdn1bF5dvzPdfF1H8bWA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cj8C5PSkMtrSbt7I21ba8QVLPSQczlH4q0ldaEr1MceN6TNMy1JKdz4z285IVl_Q0P8emg6Anz6l0vpZz7-YKm5LCkqqILZEm3Fws7PTCek645DZZgFsdYo2NC2A3W6q6xBVts",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DjK4ld830xTm2busrcThf9gbPjrfmRGFpyy5PcJWWIY1_oyvIRb7tDxA9XPMLYLqofXqhzIpgz3Y4974SI8GxUa5Z_BxdDpOd4wzOpgrEq46VCsj2hPkL0qOmnghwFQoda7OshtQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A42_NpupVC_7IC0-7EbF_4tXoJmnT9QphwktvMnBPr_OZd7mi3onIDQW2pIhSAv7304W62i9cJP-zD4DHScYCp8AMfuf9sDncMC-4xjxM94o5BZlejnodTMEgKJlEq7wv4vBw4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AxapGh-j1NuxVyNJH4UsA5NO-uMh5n0rt_jA_HBoPPLpPdiD4FaaV_LVcqeVfh4jcQjzjblVdYCCWMdzLjoAJmLhL0GC2UrS-rYN92Fxd6yNeXy43Q_rT_LQCqY2DimD6WP_rVsA"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURQdkx2dU5nEAE",
+                "user": {
+                    "name": "Rudraa Nayak",
+                    "link": "https://www.google.com/maps/contrib/107602695026597288682?hl=en",
+                    "contributor_id": "107602695026597288682",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWn2hJiB10dbl_t5fRjjPCz0-3_3JO3mm3eZBdKVKmr76LRubAm=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 279,
+                    "photos": 337
+                },
+                "snippet": "I just loved it. The pizza, the coffee, everything. There was this cute huge siberian to welcome me and he was so good letting me click his pics. The place has multiple seating options all giving a different vibe with the same theme. It's so quiet around and the service, quick and top notch. Go for it.\n\nRecommended",
+                "extracted_snippet": {
+                    "original": "I just loved it. The pizza, the coffee, everything. There was this cute huge siberian to welcome me and he was so good letting me click his pics. The place has multiple seating options all giving a different vibe with the same theme. It's so quiet around and the service, quick and top notch. Go for it.\n\nRecommended"
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ1eU56X0NBEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgID5yNz_CA%7CCgwI1oLFqQYQgPLPzQM%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2023-10-19T14:46:46Z",
+                "iso_date_of_last_edit": "2023-10-19T14:46:46Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AZPv0Z9enFXCqukk3Vf06oCKHeRjZcm0DN153CFR-wSZhLWBDOucolvKaqYsT-aA6c6YoJb3_oCsHPM_Yk7LNIPnPzX-v0hIqKiRPNHJI3M1mC9VxRZkX5w36TtkKOzViQoieegg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AIUovw5uwauz3yfyvaQIjPdVzm1kbv8Ppj_Xtqoi41TGWxp5JrA7u_-TcxJBEh4NLtkwxtd1WeuTW53X6Rmk_Ibm6HU4TsoWGIUmMpX8hxsm3SCzHurrjMd3hfRP3t0ke45gsn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BCwq-C1yw2SkBVMci82ZfVY4qUgzkEc4n582neKG9hbjbxwfNlDt3yOO9G7R_BB71tLZjjHUyltroxn5-8HPBPo6OLcrWcggoObM7na7VRjw6rS0dQj5UctjJursinACjkdfMq7A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BHpTbhNVjDbGD92jcKPYLMJP6oXgzUqne1zP3QBVRYwanng7WEohDCC2hXJlfdj2FlYvo22F6sU9CixEamWOeZ8t7RKdDmZOTdfiHXv3g9BWO3FF2sWJ57YdaS2SORjvbmwpbe",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C9NzogobHeb3D5Q8XzcPvFXb1hRVZa2-xXAenj-EOzXK63zg2UxXysMc3apZjS1F6418f8uxCaQon7qGDICIkbjiUFBRsl7VaVglpzs5ORNV5eC-hTHhhIx_cdynNn5Ml7oeIQxA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CMLgrKd733tmy-c8Xt1QfQT3ec4GRQwDlC_HEVi4DdajCWgWmWZx95CiSqriErR9Nr7G9CHj5FqpPzEEsqDS9jl9HMcuiYVeKjyQ0ZlHeJOYJ674_jVSnSUJLqnu4qzyMwTa4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A9b448RAB3tzRy34UdA1eJU9bosf3Ao0zGZsCxNjQ2hv3zmFUXCtR2Rq8QU3ojapSblLB_67OJCGMqhh2P9w3T2dgbpv5nXJkjhzktKW9Yakfg8rFacXEUO21m91AKtFJSkwj7zw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BwEpfbUSj35nZmtsAzCUReCpsu3C-g6z1n7tEgGMH9ykZrDCGbM5Cg7I3ILMzrY6bYWFOv8Bu_atCa5OhFg8x7dI305w3ODgN8uDC3VC9vTd42hoLeVP3jmouacyzbBcRJRLQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BVs9Oak-ynJSvwMWu7LddpOG4WHhnkXah-a894JGBn_U5iJP3SX2hqQsP3-UbU6hc_pwDpXZ80k9WfLRSg-U3uHRDhTL1cuFsL8ar1jCbFnYRT7KGUhhu5qfunc2ED9lk69f1tbA"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQ1eU56X0NBEAE",
+                "user": {
+                    "name": "Mamtha Kosuri",
+                    "link": "https://www.google.com/maps/contrib/117235837281481833759?hl=en",
+                    "contributor_id": "117235837281481833759",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV-SGFj_oaRh7wPpDslz_VgXvcgk7bDysHY5EYZVgtyFcpI5rigEA=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 71,
+                    "photos": 269
+                },
+                "snippet": "One of the best cafes I've visited, in terms of ambience, very cozy interior with cute table lights, which will make your dining experience awesome. Best place if you're looking to go on a date.\nI've tried their cream of broccoli soup and pesto pasta. The soup was fine, but the pasta was amazing. Will definitely visit again to try other items in their menu.",
+                "extracted_snippet": {
+                    "original": "One of the best cafes I've visited, in terms of ambience, very cozy interior with cute table lights, which will make your dining experience awesome. Best place if you're looking to go on a date.\nI've tried their cream of broccoli soup and pesto pasta. The soup was fine, but the pasta was amazing. Will definitely visit again to try other items in their menu."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 4,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURyanJUaTBRRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDrjrTi0QE%7CCgwI1pDftAYQ0NT0nwI%7C?hl=en",
+                "rating": 5.0,
+                "date": "11 months ago",
+                "iso_date": "2024-07-17T13:34:14Z",
+                "iso_date_of_last_edit": "2024-07-17T13:34:14Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DngZn2wHtvb8SAp28C7ARBPXrkZh6A9Miv9gXGwR3aijQ3Rt6dKE1lIoORqBmO20E1n1DPMurgxbiVzUsF8gbNzervbhMm8ISrqpfFvPuqD51IjEeCm5etDMfaBTsZV4BGMGAy",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DxO55K6Yl6vrwqz-Z2rABtXnN3YppulTi9Ci50cmRC6hQdZGVz8DnOd4Hfg90D_c520IFviAAM_ivaBLLazCxAwAi5DQ3AhnL8hHOa4wzRsNkAjlPmF3w9nx2pSHgBnmikEwkK",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlCG-mZjTtsBwPfc99itcHWrPa3sV-BkMVUaaEP284MUtH6iKbg6sbAylEOlQiGvnotrIkI-Rk2YTgA_M6cmjC9UGBjM_4hRRZris0zL7mdZ3M8SDuY3O23fJ4XiqCF8qX7ar1",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BG1TwplTg37_5efLE7-cRn_TK_rjW3KMxaXNdxs8e5m2Osp4YD_l0zqUEk0yLfeQTeOph5YoD3rr3IQfiF-y78Zbr3JPHS3LUR7KKEPIpA55t3UlFsDAV0tS3LzyfjEO0XkFMefQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIdQEB3l9E0mWkSeeoFAZuXe5tWOO5Mu2RtQouL-PKEzbOYUdgsc9OhQ4jHtd8BKS_JkQ4T9cPMimVgW_MuAsdsMohgTbf05KjlvvhlJ2zzSEY7dKkkcoNdtLGg2bhKQiBuVsz",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D1EmJuS2GqV_VJohPTmMRdbH5ACX87iiZ9_Zq6iuITG2ISmg7as7LRitEaCf1CAz4Mg9C3fHw8goZZnbmCLUbU88_SOaufV07ounabjr2EA0_6Qo5lqgcUpNHKra80jaHM7TxKwA"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURyanJUaTBRRRAB",
+                "user": {
+                    "name": "Durgga DK",
+                    "link": "https://www.google.com/maps/contrib/109447256731765345162?hl=en",
+                    "contributor_id": "109447256731765345162",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWOLe5Gc_q00fNUr7ka6w6lu_fSWYqNAeqw-XFXi-bppufNOudBlA=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 37,
+                    "photos": 98
+                },
+                "snippet": "Loved the ambience!!! Me and my frnds had a great time there. Quantity of the food is really better than other cafes. Loved the pasta and strawberry milkshake. A very good place to click pictures.",
+                "extracted_snippet": {
+                    "original": "Loved the ambience!!! Me and my frnds had a great time there. Quantity of the food is really better than other cafes. Loved the pasta and strawberry milkshake. A very good place to click pictures."
+                },
+                "details": {
+                    "service": 5,
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURJM2JuSGR3EAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMDI3bnHdw%7CCgsIqvnovwYQ-Mq9XA%7C?hl=en",
+                "rating": 5.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-12T10:12:58Z",
+                "iso_date_of_last_edit": "2025-04-12T10:12:58Z",
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTURJM2JuSGR3EAE",
+                "user": {
+                    "name": "Steevo Saju",
+                    "link": "https://www.google.com/maps/contrib/116457073515100048993?hl=en",
+                    "contributor_id": "116457073515100048993",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWtS0JgpXXhdZ0sEMYtCxIYYp2vl8lZm5WxgGXpOBcRM_gkK4Fw=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 2,
+                    "photos": 0
+                },
+                "snippet": "This cafe offers a cozy and inviting atmosphere, making it the perfect spot to relax or catch up with friends. The coffee is rich and expertly brewed, with a variety of options for every taste\u2014from strong espressos to smooth lattes. The pastries are freshly baked and pair wonderfully with the drinks, especially the croissants and muffins. The staff is friendly and always ready to make personalized recommendations. Whether you\u2019re looking for a quiet corner to work or a lively place to enjoy a chat, this cafe creates the ideal environment. Highly recommend for anyone in search of great coffee and a warm vibe!",
+                "extracted_snippet": {
+                    "original": "This cafe offers a cozy and inviting atmosphere, making it the perfect spot to relax or catch up with friends. The coffee is rich and expertly brewed, with a variety of options for every taste\u2014from strong espressos to smooth lattes. The pastries are freshly baked and pair wonderfully with the drinks, especially the croissants and muffins. The staff is friendly and always ready to make personalized recommendations. Whether you\u2019re looking for a quiet corner to work or a lively place to enjoy a chat, this cafe creates the ideal environment. Highly recommend for anyone in search of great coffee and a warm vibe!"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Pasta Alfredo, Peri Peri Chicken Pizza",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "parking_space": "Plenty of parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUM5OGJpWC1BRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIC98biX-AE%7CCgsI_eeirwYQ8MX1Dg%7C?hl=en",
+                "rating": 2.0,
+                "date": "a year ago",
+                "iso_date": "2024-03-06T18:14:30Z",
+                "iso_date_of_last_edit": "2024-03-06T18:20:45Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AwflXGL-uv2m1CwXwxVaAfCTydqWPSn_NVKUnl4R92op-1FENzeMVxJxp6LikTRdMVX1aH0Me8lej0gByIe9qJonmyLy6DGZXODqz30wuvirU-sdlvSQiANVrzh9RFHi_lJjk9",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AvFHOdhtIuGtNlzyQnTiMU6BQU5cjsNITBRwf778AeuGkb4i4BodLJKDcoSe19MRpa7jTEU7QWm79E16dxVrSJp1HG7Wyx17AMreCVp8ncLNfZih-cxU9-SSQcw8I9Ck1wzLf-pA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A0G5F_N1JVYsNZlVp4uyDsWrGYuIXMQjsU7T4c3fDklvfE9ZWxsorhvMED0Z-tan8W2QLi32haJ4nP28S3NT2WLytsDn_UqANl4WeEbjxfWDOOlbWjF1vzMx0go0Q658i5K7c",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D4fMZ4QIptkGdXXtFBN4K0ay6Q0TpVgt6DcyptExONZZGNoq8V3wbJfE-GUOnc-SUsSQp_UonEeQ7FGBrsUfBkcm6k6LkHIyQC1_VOqMpWTw1mZPObCLw1Dj0UChAOh-QD_kRM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CoTCg7tdZRe3CGFhhfC9QBPvE5-7Xudoc-wfbwFle4NjySjqPENUV-lJL9Dtk1Abci3jKrfY7kULNujWjnfYr91s3X5dz_EpWNFtUca2BoZ7teiXmIFz3qWCp46DGukyqkFhY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrH5792yZFkh8J-xnXesePS7xPJMPvS4SZVfsWlExw_gWXrZDLDZMHXUUQQgBVCOhjq2AGFgUWT3tMee_ZKuv6db_sDFGrrSbJeKZuYireyulZ-XR8DPnyoQtaGo84RXsW4XyHSw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADJ9T4ojc73F1IscZoi5903qZFuEllEpN2LHlxt5-69YssX4YujntM81FapHmup-c3ObYGBGQn3gl7l5wXkkTGTKixlDDJqM65sGfeuRZUaZTv1b8A-p0D7Ha48YMg8Cgsiwuy",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BNE0S4948GBeduBZf8cLU5E8nZVIQvVZ4npwZUI2kSQelhiDdPiBsUJADWlGe2Vj5A-aqdudusJ92QwG_ZQW2v-AsPoUy1mttMdJVIO5CyUP5nD-mizauNHO4jkNVnOd82_PyN1g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BtNMHwXnvxB6fREyZArQY_QL6TFurU4Zyv692D4WdvH8agRIGnfOT2Az9jicZbo4oruSNYi77f9DY52L6orGNlOZF8-3LpSItC2T7tmbk5RPt44oP3acmSiwX1sXnpZdYJw5cJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D00l3aAVRK465KFHZg_AeltA0lM7CEg-kp2H-Bt9wR74P_zyykQgQZoBEfp4ntpGhJotfBBFErLi3hcsAuyprj7i1qf0GknRShFSmtXxoQAI5IRnLUH46EOfpptUmc0ZfQUPK9yQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A2348fxgcSZ6x8FWn_XeG0sY07cyn4QVcSfpzJLp7alPTkv5xAV9BZb4uGM-2pY29RIS2hNrZKLpHqfQuXjiK1WhdLU7q-FWpg9pS3hfjCEZ0xdWw_GXUDiGGLAjBIudb9DC3C",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBi_sq6hvdHSQNYctdX7uhHnFeIDp7RsZ-4uHzuN9Gf_fTrTMVggewvWBhJdoYrvoaJdfxjOVF_PNKxjGSPmLvwK6T3iBM89U55WfIhhBwY8LqyVCYYXHb2l0k3jAMpnTYGEsJ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUM5OGJpWC1BRRAB",
+                "user": {
+                    "name": "Aman Agarwal",
+                    "link": "https://www.google.com/maps/contrib/108025645705724315736?hl=en",
+                    "contributor_id": "108025645705724315736",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXb3T2A_0Wj9_EJRg2ZquTKSYmm-S6kI5pdDJaSd4sOIV4rbHPVTw=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 203,
+                    "photos": 1178
+                },
+                "snippet": "This Bar offers a charming vintage ambiance that captures the eye upon entering. With its cozy and aesthetically pleasing decor, it's an inviting spot for a casual outing. However, my experience here has been mixed.\n\nWhile the ambiance is undoubtedly a highlight, I found the seating arrangements to be somewhat uncomfortable, with limited space between tables. This detracted from the overall comfort of the dining experience.\n\nUnfortunately, my disappointment extended to the menu offerings. Despite visiting the caf\u00e9 bar multiple times over the past few months, I failed to find dishes or drinks that truly appealed to my palate. While taste preferences vary, I found both the food and cocktails to be rather average, lacking the wow factor I had hoped for.\n\nAdditionally, the pricing at L\u00e9 Vantage Caf\u00e9 Bar leans towards the higher end, which may not be justified by the quality of the offerings. While I wouldn't discourage others from giving it a try, especially for the ambiance alone, I do believe that the establishment could benefit from refining its menu and focusing more on customer service.\n\nOverall, L\u00e9 Vantage Caf\u00e9 Bar falls short of expectations, with its standout feature being the ambiance. While it may not leave you with a feeling of regret, it also fails to deliver anything truly exceptional. For me, the food and drinks were passable but didn't leave a lasting impression.",
+                "extracted_snippet": {
+                    "original": "This Bar offers a charming vintage ambiance that captures the eye upon entering. With its cozy and aesthetically pleasing decor, it's an inviting spot for a casual outing. However, my experience here has been mixed.\n\nWhile the ambiance is undoubtedly a highlight, I found the seating arrangements to be somewhat uncomfortable, with limited space between tables. This detracted from the overall comfort of the dining experience.\n\nUnfortunately, my disappointment extended to the menu offerings. Despite visiting the caf\u00e9 bar multiple times over the past few months, I failed to find dishes or drinks that truly appealed to my palate. While taste preferences vary, I found both the food and cocktails to be rather average, lacking the wow factor I had hoped for.\n\nAdditionally, the pricing at L\u00e9 Vantage Caf\u00e9 Bar leans towards the higher end, which may not be justified by the quality of the offerings. While I wouldn't discourage others from giving it a try, especially for the ambiance alone, I do believe that the establishment could benefit from refining its menu and focusing more on customer service.\n\nOverall, L\u00e9 Vantage Caf\u00e9 Bar falls short of expectations, with its standout feature being the ambiance. While it may not leave you with a feeling of regret, it also fails to deliver anything truly exceptional. For me, the food and drinks were passable but didn't leave a lasting impression."
+                },
+                "details": {
+                    "service": 2,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 2,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Pasta Alfredo, Cheese Rolls, Mocktails, Barbeque Chicken Wings, Veg Burger, Quesadilla"
+                },
+                "response": {
+                    "date": "a year ago",
+                    "iso_date": "2024-03-06T21:42:58Z",
+                    "iso_date_of_last_edit": "2024-03-06T21:42:58Z",
+                    "snippet": "Hey\nOur menu is under process of upgradation. Hope to see you soon.\nThanks for recommendation.\n\nCheers\nHave a good day\nVantage.\n",
+                    "extracted_snippet": {
+                        "original": "Hey\nOur menu is under process of upgradation. Hope to see you soon.\nThanks for recommendation.\n\nCheers\nHave a good day\nVantage.\n"
+                    }
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMyOGMtVlFBEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIC28c-VQA%7CCgwI2-OSkwYQuJjgxgM%7C?hl=en",
+                "rating": 5.0,
+                "date": "3 years ago",
+                "iso_date": "2022-04-24T02:11:39Z",
+                "iso_date_of_last_edit": "2022-04-24T02:11:39Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJdGGkVQXmGs-HwThQrNxtJJp7J8rOYV3asp3h-boDBJ8WLlQK5CZwCBPxKXmxEuZDixiZm7tgMez-iQI7L4FlEIC8qqUaf-TSMmRT5ESVK7gJrjMlCbW-I5AkkuWG9uOboKe6",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AIDrLchiGt7bKac8TBnnD9ia0hK_9lk-qhDJxN0wqOB16P6YwMYtmGNXRViAnWPfvaVRD57Bj-uiV7_ZNf-hmPibg1ZhcMc43OhvTp7toNMVT-Y40nwUTvFQjACbOtK9-8yeY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZEXlKksP5m8KTkRlP6yCjV9SW7SEY2d9M7wLqsjznkxZlx4sFT5wqj2bPLa-cYaplKDY07p5mS-_HfqZKh5YUPHnHU0Pgr9HAhc27Z27Bl2eMBMicNTuJ8OORREvy4Wq2XIKb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A03yE0mMbGL1bJmaFuCZaf_0yXv5a5LGfPMmhhkLI-i_vCTsPXZarrOLXZkboOexvn6xOYgaot6v_lIA2nRMkHuNjbg39wRHhCrehHOy3smu_nUX8iReaOINvsvB_17Rtf3Ux-",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D1OPgrB53S2l4YHeRtiZIiq_1OnMrOLtAMbYdWxe1_CYuUCw3L26S3tlJf0DRKB61_UzKGQtcpTq1m6KyfHg6BNoS3qqrt5UzXY8a6YRz4LnSi-XG3fcULn087MGaZ65--Q-IL",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BfXSp4JYJIR2lscW85Hu-L4yO3aaJaghDqzI6MRcATqEGpRq-MiIyUKAizEK-qA7axkAY8XT8GbtoHOqHV1WdvAggEXn43KZ_l2TNT3kGBGhMKrMs1plXyHI4Ell0umpKH8e2f",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ankp0o6XCGdIuPDzSyR3JPqs-ynL2pQHs69TTd8HIIKo4t8k9PQbvNhVFnZH1l1iWRwq7VBQ6LKtWkmweJd72bOaLVt6DvcO4nmnO6UDV_0cNzQELY_sa12yKHZC4L6ZSSADeEvw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AOUc6BdL78_4zIZNhz5DHhIO8GN23pYZVEgvR06MEAd7kOFL0HCgLP_R4Bk4uxjqDXPUea7-UTylm9-OP1bT8QfguQ68LJBErjRFZcSBNE-Rws_rUmWNf3plkf_gs_QW7Lh4A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AhG5l2Iqn6QTUP3p_zyLUkNAV-PEKt2zRv7kiKlGOaUZouil4t3ubcAiHTUL71g7TxPEwG-mitRFW0J8iS_7u28YY_gS-7Ak1kwYeB2i9zHJk6JFv79JkyrSsZPJkXKSO6z_sHdg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ATyXvpZSrTjDCi3AdE6uF0za_jckZhu6YJlofMwcSnzkyR-fcw8d1ckhgGKOhJzPA7eWiXtWsNPceqv2JQg9v3gEGU3KDMfe0n9NLW-NZ_QIg1RYqrbeHW49fA0s7Jh4ZzOyUs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOTNQwSOH9UCFww1YE5fcjvqGfjtbN2T1Mz-QS37jLnJU_Izw-gFO5TfG7M6ieP2ikUWGHDYT-DMlfHpQXcwgcUTeixIHB_6UUYhnqNuK3EzVcwF8sq0LHeQ3ydflmUyGG4RQ36g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BFEQLU_bqqn-v2ZNrF-7OROseBG-RyDXTeUk2xUR4W0EYXuzNeKrTybhdJxypAQTXbWf80DNkL6842F_dfS79f27ce4y1Pu_yhPV35FQRaFDy-T50rqD8ktm_j8s0xHuyJvtiJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D9T-TtYdsUTpYs7GuSBTigzC4GD3W01R4GbNvPiT0IbW4GcHU89oR6adqhESQFuYayL6qfbKNDxYtQi7kOLammBlyhiQWYErIcKN37P-ziC35EXzi2BnWZnHbF49IzhZt4iUkE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BzDd3kVsprExuIMSP3wEjqMIUCS1HiaoxGoPuUa1aHCQbDAoR2489q65D3-305ZUHyfroXDe7DNFr8M_r1WdatKWu-elTy2rrnFT3bn4wGSMcDZmf5cBjCfjGGtCuKRJDlps4r",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUyX9mlm8zHB2ynQ1rOmsm6MCoyjiUcI9Af4IQDvX47VWvWHL5rgfZSQSS6xYZqfSzd0op4yDOYmQroJCbPBWNbT8cYlHDLLGT_1-5So3jCmzFQGTcUWeYwZQD0Gu7vz703cq1hw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D8CViXOXCgtwneZfG66aBLDlSK9GW3NfrhK2apqyJj3r_XQYBl7UXMqcAiWfERETh2z8a0c-DefYPmSlhnVXt5HdwjgC_97t0NMl3ueYG_QfOigTxiPC9NXpJ6ulIbOtZtqluJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AR66xFdae_aweG07fkVU8QJEGWw9mfpSblUs_VMD7_mvCsbSOZl4-JPYeSH4wobDt9-pZRlro1xrK6i_ZFUkb7wPOyIT6oR-NqwTVl96wMR1sfnj51UxPSHxA7hUDAYcy2zL92",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BqgfnnNKRiGizwMeONRx3zKpswxV_VIGo70ZObjODKQ-x7sv3gBjxyMVYL2Nlav_IWzhVPgXOtC_eEpfy-f5gwjAWuTySXwvnktPWuy4m21dIwiWzyDBMPjBFB7Cz9uQqEJKv5"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMyOGMtVlFBEAE",
+                "user": {
+                    "name": "Durai Praveen D",
+                    "link": "https://www.google.com/maps/contrib/116752177202260458430?hl=en",
+                    "contributor_id": "116752177202260458430",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUKO-N951wydpf_D7vHTRsPkqURRhD4HYAKTNhQ5pR803oXIP0q8w=s120-c-rp-mo-ba7-br100",
+                    "local_guide": true,
+                    "reviews": 498,
+                    "photos": 2911
+                },
+                "snippet": "Came in here for late lunch on a Saturday. What was immediately alluring about here, is the generous amounts of spaciousness. The location, accessible easy car parking with valet (though you may not need it unless the parking lot gets full), the luxurious welcome arch and gateway which in particular makes you feel like you're transported to a different world are really good. On entering you will definitely like the variety of seating arrangements, whether be it the open area with shades, a cafe like area and then the more traditional restaurant setup on the first floor. The quality of ambience is top notch and this is really what you should come to experience when here. Come here prepared to spend more than an hour, eat at a leisurely pace, bring a book to read, etc.\n\nNow let's about the meal experience in itself. We had chicken wings, pita bread with hummus for appetizers followed by pesto cream pasta and tofu broccoli rice Chinese Bowl. The food is more or less 4 stars for their taste, presentation and portions. The food is meant to be enjoyed a bit bland as the taste is subtle. Portions were good for 2. The wait staff were friendly though they seemed a bit understaffed even to support a modest crowd.\n\nOur meal worked out to 1000INR per person, so you know you really paid for the ambience (which is why you should come here prepared for the experience and not the food by itself). 5 stars since I pretty much expected a very friendly ambience for a date with my loved one, and then got it here!",
+                "extracted_snippet": {
+                    "original": "Came in here for late lunch on a Saturday. What was immediately alluring about here, is the generous amounts of spaciousness. The location, accessible easy car parking with valet (though you may not need it unless the parking lot gets full), the luxurious welcome arch and gateway which in particular makes you feel like you're transported to a different world are really good. On entering you will definitely like the variety of seating arrangements, whether be it the open area with shades, a cafe like area and then the more traditional restaurant setup on the first floor. The quality of ambience is top notch and this is really what you should come to experience when here. Come here prepared to spend more than an hour, eat at a leisurely pace, bring a book to read, etc.\n\nNow let's about the meal experience in itself. We had chicken wings, pita bread with hummus for appetizers followed by pesto cream pasta and tofu broccoli rice Chinese Bowl. The food is more or less 4 stars for their taste, presentation and portions. The food is meant to be enjoyed a bit bland as the taste is subtle. Portions were good for 2. The wait staff were friendly though they seemed a bit understaffed even to support a modest crowd.\n\nOur meal worked out to 1000INR per person, so you know you really paid for the ambience (which is why you should come here prepared for the experience and not the food by itself). 5 stars since I pretty much expected a very friendly ambience for a date with my loved one, and then got it here!"
+                },
+                "details": {
+                    "service": "Dine in",
+                    "meal_type": "Lunch"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURJak9EOHl3RRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMDIjOD8ywE%7CCgsI1KfQvwYQuP-sRw%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-07T18:03:20Z",
+                "iso_date_of_last_edit": "2025-04-07T18:05:08Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTURJak9EOHl3RRAB",
+                "user": {
+                    "name": "aparna k",
+                    "link": "https://www.google.com/maps/contrib/118121641385110329035?hl=en",
+                    "contributor_id": "118121641385110329035",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWBclq9EnA4wxj2LDg0pChsrTEjNAGh0HoAqfgsFfS0cE99EBBQ=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 64,
+                    "photos": 555
+                },
+                "snippet": "Le Vantage Caf\u00e9 in Hyderabad is a chill spot to hang out with friends or just relax by yourself. The vibe is cozy, with a cool mix of modern and rustic d\u00e9cor that makes you feel right at home. The menu is packed with delicious options, but their coffee and pastries are definitely the stars perfectly brewed and super tasty. Whether you\u2019re in the mood for a sweet treat or something savory, they\u2019ve got you covered. The staff is super friendly, making the whole experience even better. If you\u2019re looking for a laid-back spot to unwind and enjoy some good food and drinks, Le Vantage is definitely worth checking out!",
+                "extracted_snippet": {
+                    "original": "Le Vantage Caf\u00e9 in Hyderabad is a chill spot to hang out with friends or just relax by yourself. The vibe is cozy, with a cool mix of modern and rustic d\u00e9cor that makes you feel right at home. The menu is packed with delicious options, but their coffee and pastries are definitely the stars perfectly brewed and super tasty. Whether you\u2019re in the mood for a sweet treat or something savory, they\u2019ve got you covered. The staff is super friendly, making the whole experience even better. If you\u2019re looking for a laid-back spot to unwind and enjoy some good food and drinks, Le Vantage is definitely worth checking out!"
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b91,200\u20131,400",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Onion Rings, Peri Peri Shrimp Popcorn, Peri Peri Chicken Pizza"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUROM1lfbmFBEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDN3Y_naA%7CCgwIi4vIrQYQ2LbvzwM%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2024-01-25T06:52:30Z",
+                "iso_date_of_last_edit": "2024-01-25T06:54:03Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DXvTFhrXMvDSQhbOYAoUxknEZQBB7mXZUKrF9cl7cp1EaU4ZHPPawPdd7WU_bn9NXiOBiR9AzbyyJbW3fyHau_6Ywsr-dtz4J-uXffNPuuzrDmI3KwAY3mv8mDDvcVApbJegi0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AY4H9JXepEgZPeRtIOrwIbf4aI1s1E4ehHKiwk3uNyLTH6SQKTy7boSkQmXXctLrSYvbBCWXiTyxrvbFksbBtYCCZAi0QOPMgImXgDdag3GP6P0sY9Z8_PcbMA4zx0jEilX7C-Vg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cbj9gx6svlRLKKNVYcPNjFlshmF5UmFCRvb-UX2LhbfS0fMnCUfDXcbZGY_VTunTfcLiySQSt6auk5rA8P3sNaK3Sr4dYQEBFCguKGRq72l0ZUtBOtWrVMpZEY-RP5aNmiZwCb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DtS2op2oX8o-ETFPsFhkSNnfCA8IvddW5iUMTM19iBHkDpTOPBrJ0vyxHnVRLXiZppo6k8e_uefL638dxrHknWzBD3EVlIR7KnAUsUwtC2z9t0Cdd31ynAdSuEnMmB7FTylaBFqw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIJVn2njnWqSqxQsVBoRTel87Fh4w0TBHC2B6Fv0Y9fUpRxf_RKsuF-fPq1llQygrJKFv31AdwkYKTTKWzLn2LlnJdEj-g6aVTchP4UFdQ05V_AA-g8Jql-ctQh6UOSn56DJCueg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfsObxzscShx_CZLViPEHfqy5l2kDCMyo0SLcUVUl1XlJS3YgOeu7b9qctirpp0rViH66kFFZ1ez4ZRayg4c33vgLGGe6RYPRAYrM8LHeKS34jj5Yowd6ypwJzRk4qj1g6Xhz0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90COM-xQ21DSqM39CwEiJongI9eSssvI_gPBZov2jQzn8Jva64aCfNqpXhstCPbBGLJ48G7wRXpMpsIKwfCqJ8dln9E9fdGcfwUYNe8FgV24IvTW-hJKo8We-BA_PwW1jCASC9yUwQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CazXU196UJIDsSN5b4ssi0hPg2Ul0FQuuJBeD49ELe9zfNeyJQYUn51Qo8d9nNRmlusBfYLkUx8UzXrza4OedUUZ56zHqi2jVIVAjglZ_9FrOC5wvc1o0ELmK9jjmFroCGzk6B",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DTh5kuu4jk4IY0_FTuIAVr-i4NJUQog4pzcwSzfwWDUM3fhh07hENnPhh0BvZTwtLNo-nkpx9i2xIJNFeXcshfFxh0ZisfkvDsRmQSZpQqy9WoHGqWCJMRdMCHIRrbcl9roTiv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DSc5K6k9EIpqOlY2V6cmShTZWBVKhOEuvlKCBVNtGVptnqzQ8_NuH6Jmt57hBXw9kx9JYBVDiJnOFP6Lzc_9nUZ7YfIN32Fw4HOwM-fyhO0AzdBgmZ2GHSYzG83p_nmMl2EahC"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUROM1lfbmFBEAE",
+                "user": {
+                    "name": "Shubha Pandey",
+                    "link": "https://www.google.com/maps/contrib/117672584934321958824?hl=en",
+                    "contributor_id": "117672584934321958824",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW5VI8Fl-u9CtqnuNnGPkN0KvZnTmuBHciPc6DIdwhf71F8Qks=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 14,
+                    "photos": 85
+                },
+                "snippet": "A quick pick of my experience\n\nI liked the atmosphere and ambience of the outside area, They had sitting arrangements inside the hall as well which was not much happening but can be good for any sort of date.\n\nTheir hot chocolate was one of \"the best\" hot chocolates I had in Hyderabad.\nOnion rings were too pricey for the quantity we got.\nWe ordered brocolli soup and that was really good.\nService was 2.5/5 we personally felt that they are a bit rude especially the girl on the front desk.\n\nAverage person expenditure is almost around 1000 plus and depens on your count of orders.\n\nA good place to hangout at last.",
+                "extracted_snippet": {
+                    "original": "A quick pick of my experience\n\nI liked the atmosphere and ambience of the outside area, They had sitting arrangements inside the hall as well which was not much happening but can be good for any sort of date.\n\nTheir hot chocolate was one of \"the best\" hot chocolates I had in Hyderabad.\nOnion rings were too pricey for the quantity we got.\nWe ordered brocolli soup and that was really good.\nService was 2.5/5 we personally felt that they are a bit rude especially the girl on the front desk.\n\nAverage person expenditure is almost around 1000 plus and depens on your count of orders.\n\nA good place to hangout at last."
+                },
+                "details": {
+                    "service": 3,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b91,200\u20131,400",
+                    "food": 4,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Cheese Rolls, Mocktails"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNfaU1fX2tnRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIC_iM__kgE%7CCgsI4PeNvAYQwPeiGA%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-12T08:22:56Z",
+                "iso_date_of_last_edit": "2025-01-12T08:22:56Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNfaU1fX2tnRRAB",
+                "user": {
+                    "name": "SHRIN Gour",
+                    "link": "https://www.google.com/maps/contrib/108710864056729161842?hl=en",
+                    "contributor_id": "108710864056729161842",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVQC1kXW9kOtHbxmwzOF15y6kEYCPiesGF8DIHDjrghMudmmgM_Nw=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 2,
+                    "photos": 0
+                },
+                "snippet": "Certainly! Here's a generic restaurant review:\n\nI recently had the pleasure of dining at a cozy little spot that left a lasting impression. The ambiance was warm and inviting, with just the right balance of elegance and comfort. The service was impeccable; the staff were attentive, knowledgeable, and genuinely friendly, which enhanced the overall experience.\n\nThe food was the true highlight. Every dish was thoughtfully prepared, bursting with flavor, and beautifully presented. From the starters to the dessert, each bite was a testament to the chef\u2019s skill and attention to detail. The menu offered a great variety, catering to different tastes and dietary preferences.\n\nOverall, this place is a gem, perfect for a casual outing or a special occasion. It\u2019s the kind of place that makes you look forward to your next visit. Highly recommended!",
+                "extracted_snippet": {
+                    "original": "Certainly! Here's a generic restaurant review:\n\nI recently had the pleasure of dining at a cozy little spot that left a lasting impression. The ambiance was warm and inviting, with just the right balance of elegance and comfort. The service was impeccable; the staff were attentive, knowledgeable, and genuinely friendly, which enhanced the overall experience.\n\nThe food was the true highlight. Every dish was thoughtfully prepared, bursting with flavor, and beautifully presented. From the starters to the dessert, each bite was a testament to the chef\u2019s skill and attention to detail. The menu offered a great variety, catering to different tastes and dietary preferences.\n\nOverall, this place is a gem, perfect for a casual outing or a special occasion. It\u2019s the kind of place that makes you look forward to your next visit. Highly recommended!"
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNIcHU2QzhBRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgICHpu6C8AE%7CCgsIsorhtgYQwNTWUA%7C?hl=en",
+                "rating": 5.0,
+                "date": "9 months ago",
+                "iso_date": "2024-09-04T11:32:02Z",
+                "iso_date_of_last_edit": "2024-09-04T11:32:02Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D5rb8tbzFuQXQ9UzlSBD6D9xTH4oa-oUlrg_8YeUYfz0_opcCt9r_wybFarw162cZ0g1kedH6GL851nRxTVXD9tx8Oaortw0KghSLS-dY9kd2it5sUPH9V6a1VN4KB3jJsKqnM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A69LZk6OZUrEsJ4vFh2CPk98bFegLeZJyUDjCDl1mT6YETCjgLTB-2ZYn6GYM16yWm35ZYJ1W0wkry_g8DcFVI1wRZqL1O4e-oA7JEP0S_uOvuW1XTJ_JJX6vdoJFFh5WAYrHFxA"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNIcHU2QzhBRRAB",
+                "user": {
+                    "name": "Mahitha Addanki",
+                    "link": "https://www.google.com/maps/contrib/115398358025061932528?hl=en",
+                    "contributor_id": "115398358025061932528",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWPd5mNTAxNOmJ09DRvD70MO1iUxAHhBxgE410SBsZD1TtZb1AqVQ=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 8,
+                    "photos": 7
+                },
+                "snippet": "An amazing vintage cafe that I've visited for the first time. The tables, chairs and even the stairs. Everything was just perfect. Generally when the place is this aesthetic the food is not great but here even the food was delicious!\nMust try:\nSpinach and feta mini rolls\nCaesar salad\nBanoffee pie",
+                "extracted_snippet": {
+                    "original": "An amazing vintage cafe that I've visited for the first time. The tables, chairs and even the stairs. Everything was just perfect. Generally when the place is this aesthetic the food is not great but here even the food was delicious!\nMust try:\nSpinach and feta mini rolls\nCaesar salad\nBanoffee pie"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURWeTgyTm93RRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDVy82NowE%7CCgsIjtjytAYQyJqOVw%7C?hl=en",
+                "rating": 5.0,
+                "date": "11 months ago",
+                "iso_date": "2023-12-16T04:18:18Z",
+                "iso_date_of_last_edit": "2024-07-21T06:34:54Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AcNEZ63d-8sqdUypzAZu_52sqAzMSf6kDAASv5SSCzW5YSpwl0wZSSTB91-7L9ROBCv08Gd5npz_SRGLMaZYrpoom_Pn37x_yVchBHJseEqxCxjH_2GvR-mx4X7Demwfq-z0S_",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ANt1o1AHJvyGg_pSYr_Hw7W5RDwC9nqxU3a5t6dEWI33izaxwpiPEuXP651_XrMus8hnwuTpNShK2bZHiYeoT92qnigGHCOFmgNaUY3TIZKZXv3VKvnBwHrg8N30ylm6DSJYMF",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BK_g-QTKCecnYMrQx3cs_PgE1mGa9yLlEy4PylhqgM9-oOg7Wkwt3N4Z133UHW7apNWhHJSL_EfVmLMqQiYmnMfvOQSGk_-4dJwjUd1Uxk6YlRSJhfRerWm1tyKFq_yd2Q2ms",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B9y0GUZfDslGBU77_WHBMD2LW2LDIEz_gA1t9AG2mGZd78af1MlJQiAPnJkzgGcj71wbs3y8NypBN_xMTpINDaa5rEK9gaQfynHNGTNLhvuyt7bOmmMLpruAYDVg72EGy-cNWF3g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BrWWot1urfWhywvu7OB2aL0gPVfsFqIzJ2b4MH64cQQq8IECxiOVRilnPKkg_Wfz08s0SIggr-O01gWs9BTBcUmNRLZnOnnxM6gtrlyYNuR7Cnt77RiKpPRc9j62R2yk6U2cCn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CHSi3t_WtWj84Ui-EYytS6AWecQmZz5hxTPBEppdfg1LeX4Pfy6YpHwycoj3b5hMBbeHLe92mcWgbnC5CdoRXFJ4ga5FsCLCF1GP5BWsjxvuFeulposb3a1Y8sIQu8lrNZAUi-",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bz7tJ6U1brTxwIrPJ9Du97su72ROdTCjSJY6r2gJsKq2Pp7QA7HH1bfFX0yTGgMori13QwWgztTnziAkiepHiWDewOjMrHgbPBfLfsiBWcJDLhwCBzoH_DA2Qvusvj7uQHUzwT",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B6uhzpdyZAb5Zu3NoYzZz_2PDUwztJm65Umr3Q_qZ7skkpJoy9FJaQAHttSP3XKZxk0y65yYQHv62Rzk2guUeyzLOTyyHb0sVG2i9OgcciWNpp65r7bfHO2Xsh_Dse4JvbJf_MsA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BZWBe9BVoauLUZV1go5eEdUzT1AnfPg_XoXQU24PgtL9Esr0uHfotXNN9_1BYEd3UKDS6jZvnzZA9qcLHAPVOwYmlECfT3U2bhVPNuvNidKCYYOrVDUVfk0rXVdG2lXVKU3BZC-A"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURWeTgyTm93RRAB",
+                "user": {
+                    "name": "JITHIN SRINIVAS K",
+                    "link": "https://www.google.com/maps/contrib/111103932354795215327?hl=en",
+                    "contributor_id": "111103932354795215327",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX9cG-Kyi6pWJTIPWKufoYpsVmuwzDL0Zrs65MMVciMr5SvogT9=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 84,
+                    "photos": 323
+                },
+                "snippet": "Great place with variety of menu for food and for people who drink . And the ambience is quite good and peaceful , the outdoor is so damn good . Except for the rainy days \ud83d\ude05",
+                "extracted_snippet": {
+                    "original": "Great place with variety of menu for food and for people who drink . And the ambience is quite good and peaceful , the outdoor is so damn good . Except for the rainy days \ud83d\ude05"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Pasta Alfredo, Onion Rings, Veg Burger, Sandwiches, Quesadilla",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Clearly labeled vegetarian dishes",
+                    "vegetarian_options": "From pasta to fries and sandwiches to burgers veg options are clearly labelled in the menu",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot, Free street parking, Valet",
+                    "parking": "Valet parking is available"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR1dzV6d1VREAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDuw5zwUQ%7CCgsIrsarmAYQqNq9IQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "2 years ago",
+                "iso_date": "2022-08-28T03:38:22Z",
+                "iso_date_of_last_edit": "2022-08-28T03:38:22Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CfF060LpidQxaFT5faxDW0j8ASE_y29CHSk5lHEaykZO4_VLhEUQkcZoVGy1-ddoAccJCdsm6ZgWRdUa6SkxxDbULhe0t_EQDdJk3MXfks4QD6QZPkQBqJb6-cEHPkEJlkD0-y4Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AuauHq3xjUCmMle7krDQqZmePjI_y2SCImUMGQ1QEvN1_Uf_u-uYp7k8a04Gt52J_BQ3enmSobydxmNEuQDcAQHWfsjhYJj4qJYyg0zBaBtXnylQI_PLIZpXy8Xr0asdFQKYA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B6DSGXFwHVH0eeL6kZ0MtkeFtjK-v29vqnCDAaxWzw3ugsi8IFxd_NGl9H-rU67BFz4TBnE_2G3uLdrcd3D8Zr_Bz0fPSlZ8IvVrgUplG9nLxEU12Wtl61h6cW-NTf8vuFVrtuyw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CviseO0oE0GnBBNdTlkrm_maPMBBemd3UtJdyGIke55LYVmOhPBcl1Q9Phc9hqcck3R6gaYm0YDmm63AxxTRbaarG1hhTaXDbEpuwj9efwwIC2b5FAMpMEGX0IoE14xQgHwN9g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CwTf8lImWpgftIn_UnzXl6jBjWUKg4f3Pvg7LQykdkbWXWyQkAKbKPGuY-T6pwr85boBIUuyg-Mo2BH0Fb9A1M5ch01S772EXx1sPqNz6zoZKKPAV2U5B7TPNBGknxr9X8T5-8yw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Agy4Q7DoWfzEaL2HQ_FveXXWT7vNZHmyho-dhzX6k4u6oS6k7Pwqdln8LmEcOXgZNIeOrl9TH0ZPFhIl9ZLDCn_BkS0dTmJq_Cb3MrWc_w0kC2XDHLTu2grEjTx1mse6cMs32d"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUR1dzV6d1VREAE",
+                "user": {
+                    "name": "Manojkumar Nambisan",
+                    "link": "https://www.google.com/maps/contrib/109736627870901330969?hl=en",
+                    "contributor_id": "109736627870901330969",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ7xvJ9IfE_ouvvyDCdRawB-20eYSPvUmt48w0LpmgUGNv9Lg=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 809,
+                    "photos": 1809
+                },
+                "snippet": "Spacious seating, outdoor and indoor, multi-seating options makes this a good hang out place with friends and family. Excellent service, decent food range and taste makes it worthy. Though expensive, is a good experience. Restroom ambience is shady, could have been better",
+                "extracted_snippet": {
+                    "original": "Spacious seating, outdoor and indoor, multi-seating options makes this a good hang out place with friends and family. Excellent service, decent food range and taste makes it worthy. Though expensive, is a good experience. Restroom ambience is shady, could have been better"
+                },
+                "details": {
+                    "service": "Dine in",
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b91,000\u20131,200"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNBeFoyNTdBRRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgMCAxZ257AE%7CCgwIsJD-vAYQ-J6vqwE%7C?hl=en",
+                "rating": 5.0,
+                "date": "4 months ago",
+                "iso_date": "2025-02-02T14:58:56Z",
+                "iso_date_of_last_edit": "2025-02-02T14:58:56Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNBeFoyNTdBRRAB",
+                "user": {
+                    "name": "karthik bhalla",
+                    "link": "https://www.google.com/maps/contrib/109889837695071871361?hl=en",
+                    "contributor_id": "109889837695071871361",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLwLqCDWHTaiRp_FRipgS7YWaLjXDK2hqxTTkQgg8bOiQE5KA=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 8,
+                    "photos": 0
+                },
+                "snippet": "The ambience is great. Food was amazing. Service was awesome. The price is slightly on the higher end. Almost 1.5k per person depending on what you order , but the food was absolutely delicious so no complaints there. One issue is that smoking is allowed at tables , so that was a issue for me as people were smoking around nearby and it was a disturbance for me , but overall a good experience at the restaurant",
+                "extracted_snippet": {
+                    "original": "The ambience is great. Food was amazing. Service was awesome. The price is slightly on the higher end. Almost 1.5k per person depending on what you order , but the food was absolutely delicious so no complaints there. One issue is that smoking is allowed at tables , so that was a issue for me as people were smoking around nearby and it was a disturbance for me , but overall a good experience at the restaurant"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b91,400\u20131,600",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Mocktails, Blueberry Cheesecake",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Clearly labeled vegetarian dishes",
+                    "vegetarian_options": "Few options for vegitarians",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot, Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURuc0xHSnJ3RRAB!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDnsLGJrwE%7CCgsIjrX0twYQyLKYUQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "8 months ago",
+                "iso_date": "2024-10-02T09:39:17Z",
+                "iso_date_of_last_edit": "2024-10-02T10:03:58Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWPLyhGAQNxfUua-XJBdRagU0qpQ5lUTkRvpV5AeXon4vYK0YfQVZ96AC9m1IAF4kYuQOATfIrK51Mn6mEW_HGHHGzaeq_U-rPEn9ybEvypOVOsA5Sl4o41QWrbtNax94f6KSs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ckp0YqqlBBSvo_PDp6qv1xxR_Y1icLRE47rUW5KpEt1uCULT_fcMT1fyw50tNXRcWxfPI69cQ5HVaAK8_k_F1hKRWZO0TvEqqRRP04P8-qXYE8su08FLdtpdQalQd0QXQFBp1x",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CHGaooKD5Y1KPHd_pmcclheHczsEyW5Ii-0tfOkIZOK4xqzrv8_iQeq8E-SBY5yRmXH2pRRiPLhaBDkUrMko9LXw0wH5sXOeafN1Zcgm28nQwtca1V8zYdVeXrika6poD5k9M",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AtGXM0Mzp3o0rUeR-97AD5SCggK-CB8O9s8drvqHv-h5nYBmHoV0IOtbbQv4aBDt8yRb_eIhxGg6c-TRScq96s8q6UMFbdOIvNfrquzIpbbOG_MxMpe05DR8ZhPG4Ycb_HzUKsHQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADNapQn2sBWDZL2l6A3X_hSAiY8kI4foMkDEgvIwOMDqRdHKlpYwhMjXYKxa3mjW2Z-EV1PGaXSQ3Qx8CfxZC8DyumqrUeXH6AVAzXekuPhzU-LGoiDAn7JqV-5ezHhcMIkayy",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AVu9WCICUuXY6ZwtZ_3oCgtYrQdYsq-tP8KYyFJPoNWIjtobXNB-u6LF-HoNy7BYmqIPVg6M0Cci_bTQYZfAeGTi9ytYjm2CwZBSpzstzrWnlZk3sp8UCoUNTCbPRc3xtZUAJ1"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURuc0xHSnJ3RRAB",
+                "user": {
+                    "name": "Dr Faizal S",
+                    "link": "https://www.google.com/maps/contrib/116115694685627852248?hl=en",
+                    "contributor_id": "116115694685627852248",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUeEspm0x3w_b3h8GA3VGLUSOQhKtbpE8qjHdNBVTv-ns0ab2WN=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 40,
+                    "photos": 48
+                },
+                "snippet": "Good ambience but food was just ok as I experienced a bit more salty.\nVariety drinks are available.\nSmoking and pets allowed.",
+                "extracted_snippet": {
+                    "original": "Good ambience but food was just ok as I experienced a bit more salty.\nVariety drinks are available.\nSmoking and pets allowed."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Pasta Alfredo",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot",
+                    "parking": "Good parking space"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNodnFQQVlnEAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIChvqPAYg%7CCgsI8d2snwYQwPbXPg%7C?hl=en",
+                "rating": 5.0,
+                "date": "2 years ago",
+                "iso_date": "2023-02-14T06:49:21Z",
+                "iso_date_of_last_edit": "2023-02-14T06:49:21Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CbbO425AdBeUbHbThGjAa8V1LjVeoXv0RDk3MGkH1UohC456_YKpd1pYGRGEqlzHFzFGmeKLxHHVeKiZvDDoXzoKBF9a_A7pDiczhbKzb7Z9NIBqRwY_mMI9mtu9Yzgbvbxoqm",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BHIe5MJV_bBS9gcNkO3MpPC_cxtaoKAJDQr4qtpAqzoOAuzLyFCnOuQW-0rffJZy53C66FgVe31Ek0BX4MXdILW5kUL2TK_jKIczeNLqTm2bpP3C3oNTdMGM07HMN5I9ZmsD0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Aa1fSLfbVcEeUtUOdbEoM8mGlHpo1k1rWLikiI_e74x1yll7PpOGnER0d5K9fqrGXqlmZWvH6Jzw2KE8et5s2tOnflvbeQkhN66g4Sy0pnxMHKC6qLO1JEN43W-G3Qo7CGIqkn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A9Bh_Y3h1W8-dbyj40h8eQU9wXJ_edjyiql_5i3vU7OmpjM457ztLi5SvZezObmnuoJXRw-Qshc00g5kC70xj8gZxuzqQbjbv0Q5XxpN0apT0cYYFa7yv2X2OtM6vIjQfLBphn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ar1zOw7MkwWqxU9bb_myNF3a-GnckvzndpJPGMx_0ThKd1J5J5EbmYwGxWaYXYyMWBjpnIM3mPlCgWtWvQLOy-MasrzxXnL_kXHeFAqYtqM7jeeLaHonOAdlUIHVGj_Z4q6Vp8Hg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bj3CpyaUSGtGajc3wIBZPlrzGbW4YIYjTbFK3VCzAFNReG8wIpGnzPICU-CgCnwr6awT9gIoLGXmMNFcd_wVWhuOGulDArIBuXRopJwQ8Edx06tKF3pvC197sc0IsJvphfnHDJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AcsTTlL-J4XFvIr_vqDsgHOneTqnnbsgRpDP5YIgyTGfN5-ZDBT5XAoy-vNY5Vff0khdBp86cUMo0Uqor2bchQDEi8RT6T1Ea4IskEEVntq70cVII1vBdOv9U9CeeD-AZyojxHkw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C3vo7V23YjpXOBPi6U4f-Akr-ToRFY7VRiuIEkWCL8ftCvbpXzVrjlVGAPKz6zWSdZo3Li0KjTF2C31Xf1Y0KD2pPKNzUAbSD_3V4gA8V21lWaolb5PobHyej9wK_H3LhFGPeC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A-EoaoOywt3c1Q3F4LDbacZl7yni73ZPMZpRuqsQjNsXXwOQkmwf9O3CV6m6TgM24yZHUUTJog_SgHH_zO2BPXcSKPH4wIfbxOh2EqBC9H1wtXWIbNYON71GQr6vyj3XSzcOygiQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D7jXJgWiJxay-jbRb6OQRCQzreiTLOnPAXT32cN2dl3Q0alfl2NHs4Zh9eNDisoFKcV6DTy25muuXzJeRmmsM6cotoy9QhLKqoSuGO9OE6G-T0lBhBNYr83vTKQPCepnG7GbKO",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Boh4Az8NjOFOAcc-b2a3hizoad9KELLnhj-2JrhFU9fDVQX6bSngDZJDz0HLkY74abvE6c9JEA6vUu7ZxNdzcCeqAwY8clyeZIjSWoQEVdkQlvCm-AGcStuYfNa_Oj2HOOcDqQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D7IqVc8sGWYdsJcgeNTLIycl9Zrj5Ao0PKfbtFWYYUOgumKU6Kj2IEn8oldpXEgrYQVzkGmkmeqvs4tF8UdgbUwFP2sSW81zLrLZX_hNyDg3vJcYRL5pxcyNg3rkJuXXAJy4n_",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DWojJQZj4MuVjbDwE_9kSUbGi3ReLDNsxKiAe8S2vmMAZ3t058wzeczeMileokpQA60mZFTpIpM1_pFBmXQTt6bqAwZLj5JXQebyF2BoPcipw6zCeBYNBifypvO7MBwEooDOCM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlCxMqEDaAXxAD1FmU-GSPKhCBBlolGQiPNfHoMlX4ox4qOK-Ec8TRmIFVPtp_c6mig5i2HqNubbCIktUbR9v4wFnJ3ZrnrW24zFWa-mK7FmW26kK_EXW0-4iF57dl2wrXeWpb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AAVWMWyJV030eRrJ-UnJdfynKsO6eBsg_aLYnjNbuM4iyyietuI_sY8AFem57mpbBjHAqG6Pl_iAE74o-xwhwISyftDYKHELRcbB7HBOKlUUAeJtqjBvgKAS4Oc6jE54VVwxT3JA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B1sUOXtjxfHj-hjPlchLT_BxXi7CiPkNNbjYVm7nuJJLWVt2lQFFnR7A72PS-hKaSvFozq1gPQ8DCBHppIPTqvQcAATboZ2TWGdHM5hrHFCoVq_bpfLgKul4vmHnUfuY_-iJiK",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CNxxF-rJSQUQsd1qXcMxSfXfU7Jy7DgPKtxA3eiVZtBd23FpX9LdHVwi2pQTeumzQucZoYl5pAB6z6kJTeP76Ut6LdyV1V6E3u9riaxMxCEUCoTaCKBqhGJYv2Oxv1sc-ll9d6Pw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNodnFQQVlnEAE",
+                "user": {
+                    "name": "Ram Bobba",
+                    "link": "https://www.google.com/maps/contrib/102090985787507029612?hl=en",
+                    "contributor_id": "102090985787507029612",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUhRxUpSQxeuTmhokH04d1vC2v-tCSH6-57FoekQvgbGJwCQfWA=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 266,
+                    "photos": 499
+                },
+                "snippet": "This is one of my favourite and Definitely recommend this place for a date night or day. I\u2019m simply impressed with everything from the entrance to the exit. The staff is super friendly. There is lots of greenery around which make eyes so delightful.there will be decent crowd on the weekends. The food is just mamma Mia specially the pizzas and I love there fries burger and mocktails.",
+                "extracted_snippet": {
+                    "original": "This is one of my favourite and Definitely recommend this place for a date night or day. I\u2019m simply impressed with everything from the entrance to the exit. The staff is super friendly. There is lots of greenery around which make eyes so delightful.there will be decent crowd on the weekends. The food is just mamma Mia specially the pizzas and I love there fries burger and mocktails."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURoOU5DalNREAE!2m1!1s0x0:0x12a4c950d290cbed!3m1!1s2@1:CIHM0ogKEICAgIDh9NCjSQ%7CCgsI476DoAYQ4LO1cA%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 years ago",
+                "iso_date": "2023-03-02T17:33:04Z",
+                "iso_date_of_last_edit": "2023-03-02T17:39:47Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSPWyWao5uw7nLyLyo0kKUgGRcLIzHeLsNsRWsOPR5rddAIb7WuBM8hUFnGPekahUVHijNyU4RLnyHVYk5srvxNbF7KOFl3l83C-RkmFCNSy6swZmgNUa32s94mhsLcxzyBkx5",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90COsnEfIk6ZRHP77oGLWL_A6If5OKdJmpNfH8MTlidqbB2kQQTNxCPRCV-afPFIY54yUfp9r98iKX-VToUl0xldIVVmVQ5neWVb4aLc1df5EhwW6t7J8rgb0tH0_gvN4NqIJDiTWQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CNzA5qktuFu4JiFkeHtOupGK8PyXvqIa0fRCBS_I5XWATY_jAJkvx-ZY3xLzMAaV8t3rhe-evD3SyXLBKFsZJLaGbxVNN2EaSswSqZtGgcARH4l2wbJplF834-gt0R-KkTLBI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ax7lGenfrgoz6Dl5eZXK8S-Z1SYz2mgMvLpFFsKPCddwBTFVlXqxghUDI6lUPXXmxXu7FdRB76gxKcWpPTuUNglDkf3jML7WVscZel7URJOjPN83i9bLV-CbRAbMmQ_3Q0BzEv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bx-jkb8n2IgdfuG3n84_6IsFaDS5oXMJFXidO61vH1pwkkR1z0HjEXRWvjo6xRHRFMzzdbVCnz1aBJW7MGfYgvkEiHa58CdWaJmkb95rnQ9y_i8eKJtdhvuyBc1lSCodjpxtc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DkAXb7stAYYMltMLCvFpZiumj4Ab3FrzbtEa9QAHkAMBHDTKmWxLW8RPCQ-lyGuVDT7h6gaJZ0sWjUWDau9NfRcPMVx-XupJUE5gbF74IuOSbfqI4rLOyt5xUDoTFiAfEHDy30hw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B_AGn3aP-NxBO0SDlJAW9-LV1UrjjQ4a0AlSlKOLi5iXjrfUm02887yeKSuyEyatWrG1_8gS5aI3mrxQwbZsK8mz7SiOemN4IKhVpRFES33-NsTCAXhIowWpby1atJ9egzNrzE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CjRs4aSVbUByjMMmqFxsLRAiw3QNoE_MDoHlJEzzsMwxx2DkI5qm5Bz53vLWnPLnjcsyKr540QZCBn6PWP4fkZespbztezjE-RTmmfAxw0KHBdQIP1e2nFp4t4amuJAj_lSjPx5g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CbMjNnhwxLyLX4ekHwkSDhYaBbZ-zIMSy_fq6MzbN0MtZhTE3ZnB1bK2Tc6TRChy4AbV75ix2y-cuwx5rFpXQT7Ghunz2hmftqBZIe-YAH281yAPdzED5ozf2xNWu4WPYIP7Ba",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ArX3K1bCzLi33PwewshASycBNZVYQ26Y1DM77vDarfRfuNNKISTcc7uyw9RYHYY-v2FBgJgWC0AVyKR_2h0WDCUZa4Zx1t4ehNIa1_vGA0SphFvwr9I8TZIMVffQ51drgpmEwNWg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DCFrlavmqvpTcrO8FSpL9SsDHUrn4YwsKsIeONUh9MpJfKSdyVeh0firSyw8a--f4GxlOBeMrhmsq3OKNXBhnJxv8AAo4VODUPFnCFDupguTZhrqw7jAKzZYM4nH5xNlScOHo2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A91Ca7NYBP8FMLXHWMIYlJdj9Mxy5hsoomy1IOiTIshmfmna19Lh9ZQcLHFMwq01GI0fvRoe0XDKNbKHg2C4J-cM24_fFNBAyU3XVhyISXYj5U5D5LG-O31ReTujw2n_u9g2XaUw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ANy7rKOdtqlj87ooih6_PA-7A7AGH2VBw5TYOjIkz22YaJSXQxJ7ZWZ0rjJGtu0MwmnwuFcWZMXByDV8oVSVHI96v5k86jRCqpetdY5aIDw7SkCRcyuTRndr7Vcs3427sbPqpi",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B5ZdZeZGCq5wPCEoOpx3XuSfaM-SgXryGtoVUsdwLjFG7VecuNLiqhVQeoijDpzF1kDox_89Si9NFJzg4HCSr_EeyVKj7cXSWl1AT-9cLrjV7I7Mgo6IxstSyrAXV601Pt58Jmvw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ArJdng9sVMs8B5lhlaegc-WWXlPG17e14mZNlzQI7uEiuQF2y-NhTXC7bTm_yKgvkP_VNzUqg-aVX045-MS9p-J3OKC2XunttdOfiya4r8Ixx54_lnm_k8DVY0HjcF1fqf7es",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BcIipXxz57qgZBZS5utrymnv2a5SdDdQLZ04yhPipjxZhUhVrm6DHcGaKu2uAzim7Pc4JHJ8FgBVSReTYuL8hMqJinO8Uq9eiSLe7kEh2VqUNZElU9bs33dzdRf_lBq038qi_e",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUXwFbq4EJvK6p4v1CvlMCUAi_ps6R4bSFloWo916iZBtR2H7ADVjbCXAX_71JCAQW7uaX_OrdRNm5Z-gUk3rgFSB6lWLd4xXC4BU87yCWWOuy590L_9Wzie4mye2736goCsWF",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmV3-PJjkr9xysMBU9HL02Rigagt_qJmkBqHx6wsgoe-HTsW04W9p9SyV9l7BoVWCeaqyDRdJLyZtAK16HN2hmMBblLWxUeeb9_jpTKyq_i81dGbVXfSMNN1-C4ZdGegNzpVDM0Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AHI6SpLazOUlL49dW-msGe3z6q1AlG4ktoq5mr9s9PavWfM-SSNPqmSvvcUWSF3ec1smlbMeyfrvWDpEcqllbjbpcvdqK6_G6t5tGYh2wx8xO2_L4vHd1Ys3tCKrAltzz2HFMO",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DNVNOy84WT2xzPLGnLKc_jij5pTZiXjsI8PdyX31Tp8IZSjL_6sY6OhJL0ETo6fDBuuurTcHxXn4MLF-zhBjWEdU0xYbaJ-r7Tmh6J84I5rH-hgO31loT1mpXbFlWKAMEQJ-sL"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURoOU5DalNREAE",
+                "user": {
+                    "name": "Meghana Bhaskar",
+                    "link": "https://www.google.com/maps/contrib/102734948913929405530?hl=en",
+                    "contributor_id": "102734948913929405530",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKzSsDOcskW9qRmrJFlh2oOoFhRc23gBFKQ72nh-2xJ5g-MD0Kh=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 188,
+                    "photos": 1232
+                },
+                "snippet": "A very cosy place. Great Ambience. I went here for dinner with my friends. Had a great time. Some of the dishes were really good.\nWe tried:\n1. Chicken popcorn\n2. Chilli chicken wings\n3. Nasi goreng\n4. Hummus with pita\n5. Chicken hot and spicy burger\n6. Fish and chips\n7. Banoffe pie\n\nI didn't like the fish and chips much but the rest of the dishes were good. The burger was really tasty and hot.\nA very good place for a good romantic dinner. A little pricey of course. But if you go in a bunch, it would be reasonable.",
+                "extracted_snippet": {
+                    "original": "A very cosy place. Great Ambience. I went here for dinner with my friends. Had a great time. Some of the dishes were really good.\nWe tried:\n1. Chicken popcorn\n2. Chilli chicken wings\n3. Nasi goreng\n4. Hummus with pita\n5. Chicken hot and spicy burger\n6. Fish and chips\n7. Banoffe pie\n\nI didn't like the fish and chips much but the rest of the dishes were good. The burger was really tasty and hot.\nA very good place for a good romantic dinner. A little pricey of course. But if you go in a bunch, it would be reasonable."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Shrimp Popcorn",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot"
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZoUVRGZlgxOWZSV2hDTUdkMWJuTTBPRk5DZERGS2NEQmlkMEZCUVVGQlIyZHVPVEpUT0VObFZubFlXa1ozV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJSzs3-TGRyzsR7cuQ0lDJpBI",
+            "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZoUVRGZlgxOWZSV2hDTUdkMWJuTTBPRk5DZERGS2NEQmlkMEZCUVVGQlIyZHVPVEpUT0VObFZubFlXa1ozV1VGRFNVRQ=="
+        }
+    }
+]

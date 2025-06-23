@@ -1,0 +1,1063 @@
+[
+    {
+        "search_metadata": {
+            "id": "685919bbcf8870f947d833ff",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/badfa393bcf1a917/685919bbcf8870f947d833ff.json",
+            "created_at": "2025-06-23 09:09:15 UTC",
+            "processed_at": "2025-06-23 09:09:15 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x3bcb914149516243:0xd4715b76be249ba8!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/badfa393bcf1a917/685919bbcf8870f947d833ff.html",
+            "prettify_html_file": "https://serpapi.com/searches/badfa393bcf1a917/685919bbcf8870f947d833ff.prettify",
+            "total_time_taken": 2.11
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJQ2JRSUGRyzsRqJskvnZbcdQ",
+            "hl": "en"
+        },
+        "place_info": {
+            "title": "Tabula Rasa (Jubilee hills)",
+            "address": "624-B, Rd Number 35, Guttala_Begumpet, Kavuri Hills, Jubilee Hills, Hyderabad, Telangana 500033, India",
+            "rating": 4.2,
+            "reviews": 3877,
+            "type": "Bar"
+        },
+        "topics": [
+            {
+                "keyword": "band",
+                "mentions": 208,
+                "id": "/m/05229"
+            },
+            {
+                "keyword": "live music",
+                "mentions": 165,
+                "id": "/m/01jddz"
+            },
+            {
+                "keyword": "crowd",
+                "mentions": 53,
+                "id": "/m/03qtwd"
+            },
+            {
+                "keyword": "mosquitoes",
+                "mentions": 12,
+                "id": "/m/09f96"
+            },
+            {
+                "keyword": "chill out",
+                "mentions": 11,
+                "id": "/m/06lq2g"
+            },
+            {
+                "keyword": "cover charge",
+                "mentions": 10,
+                "id": "/m/07qrnk"
+            },
+            {
+                "keyword": "valet parking",
+                "mentions": 10,
+                "id": "/m/03my80"
+            },
+            {
+                "keyword": "artists",
+                "mentions": 10,
+                "id": "/m/0n1h"
+            },
+            {
+                "keyword": "bouncers",
+                "mentions": 8,
+                "id": "/m/03m1c2"
+            },
+            {
+                "keyword": "soulful",
+                "mentions": 5,
+                "id": "/m/0gywn"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChRDSUhNMG9nS0VJQ0FnTUNnczdnSRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgMCgs7gI%7CCgsI4ZbdvQYQkNPXGg%7C?hl=en-US",
+                "rating": 3.0,
+                "date": "4 months ago",
+                "iso_date": "2025-02-20T15:33:53Z",
+                "iso_date_of_last_edit": "2025-02-20T15:33:53Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUCHh65kfOaw-5QdM6dC2ixDY9As1jU1JjJDoHNWFK6SmQyyMWOfD4IsIpEx54vfyGR3Wb_AO-xG1vtwdEd_Rfy-P0GWIJwZ2fcywFM3k9Rl8IuKmVsEVQcFSEcElH6fp9UScR",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DjtKQt4iBMzR7g2UiB9n4NZBE0nMddnEaHbkWGkw9JttL0__mS6Mqj1kqT-Tah4DpJkQtdKbsN53LtQa-zgGSa9PYUq75NvhB_jGdz8NpcKOW6XgoeD1Q2UfjaACitASypHqDL"
+                ],
+                "source": "Google",
+                "review_id": "ChRDSUhNMG9nS0VJQ0FnTUNnczdnSRAB",
+                "user": {
+                    "name": "SATHISH KUMAR",
+                    "link": "https://www.google.com/maps/contrib/104043649345331270983?hl=en-US",
+                    "contributor_id": "104043649345331270983",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWw6GsuYHjCLkG0AQyCDYZRaYjzalyfbzbvkMMwK6q3qaaR3erDZw=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 189,
+                    "photos": 104
+                },
+                "snippet": "Nice ambiance. Great way to watch sports. Not stag friendly. Helpful staff. Unpredictable music, volume is up and down for no reason. Performers just were rehearsing at the expense of customers pleasure until now. My first round itself was 2k plus.",
+                "extracted_snippet": {
+                    "original": "Nice ambiance. Great way to watch sports. Not stag friendly. Helpful staff. Unpredictable music, volume is up and down for no reason. Performers just were rehearsing at the expense of customers pleasure until now. My first round itself was 2k plus."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 5,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Crispy Corn"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VLS0g3LV9GbXFIcmFnEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEKKH7-_FmqHrag%7CCgwIjOXuwAYQ-JCfpAE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "a month ago",
+                "iso_date": "2025-05-07T19:20:44Z",
+                "iso_date_of_last_edit": "2025-05-07T19:20:44Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CW7QyGdPuBFLLK5xt1YEnqUHG6LBwv11SjBpbvt2nbCEWbpifcToDMAodzyZxk0pA3WGjhCOb4Li1OaxF5kEc0nhcwvyof0eboYK9nslaRJyTMOg3vGJIieSdDsyFtZNo5533iMA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AVFjUQhFjHSECdOqY5tO6s6ZQ0nzLrZr-D0Qt60yQwjjkcYvqomRV9Y8YX7Y1Y-DfSLco70Ebbup3FhCL-za1k-9dw_3AOOjAIiiMmMBH1A_zU4djTb25YC88b80DpW81HW73q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Db5_8oliEhuffsijLrI993dZBIP902pZimFEyD2L682a8ChCs_BwCPH3VTq3Gsyn5qEk-tXAbVs1ujA-CeStCR4_Gdg_3iF4bXlraeBMeZA3jeHU1yZYbiFiQ9004mxCNmb7nE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQXBzqsyAkWOp5ZCI2Uunn7tjBBy8Ixk2f-woZHXnftenhC7jLfVd8dvcJ4aQSjUqTlUeA8190eJII900zPRON-L34stWp4yHXv4dEQ05KkI5-ZqslwwOkK5C72wksHMP48Hs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AYP6g6uYG-_Mjkl_kXSbPVv_AJQkwBc_CLYF0--WZ6O0U8ZzPOBbR66ECSeHeSjI74PtsNOlUrM6RcdquBJoxd1udzumtSn80psRV8EOwtLzvEOS6qaQewcpYHnj6RIaCgkBfY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADXGTHibd1fsxSFLTbQ7IMHXkr2NFYvYdcUPqUJL-89ppzoccD_E-BC2g5zgM9r8BMo7jwASuthTjWFpyhpYWdpB_wpA9dT0KfxaWPWyy1uagkvBPKKKmmyBEn02T6JUh3bNOHyw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VLS0g3LV9GbXFIcmFnEAE",
+                "user": {
+                    "name": "Sirisha Shetty",
+                    "link": "https://www.google.com/maps/contrib/115358391302753307293?hl=en-US",
+                    "contributor_id": "115358391302753307293",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVdF2cnNx1eejRDNW8T2dRb_q8VuubfWL1PECt6EDQRVMVtmoHvHw=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 152,
+                    "photos": 433
+                },
+                "snippet": "Amazing food\nThe vibe we get here from live music is literally like a concert.\nThe best place to spend with friends",
+                "extracted_snippet": {
+                    "original": "Amazing food\nThe vibe we get here from live music is literally like a concert.\nThe best place to spend with friends"
+                },
+                "details": {
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "reservation": "Reservation required",
+                    "group_size": "5-8 people, Suitable for all group sizes",
+                    "special_events": "Live music",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Large vegetarian selection",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNBbU9xVElBEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgMCAmOqTIA%7CCgwIvvXnvAYQyI3gxQI%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "4 months ago",
+                "iso_date": "2025-01-29T09:54:06Z",
+                "iso_date_of_last_edit": "2025-01-29T09:54:06Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B5m9woEXuucCWflwz6OehzKZBS7Sv7VxqeBdgKhmi0rHQtJTohA5zvNUL4EMjM2xfBI67Pg6xLlOX-6ui04lbNvfvXYqvlCw38JkpjF-7YiOBP8gi1QlMOmWoXCZubmZzj9-dxdw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DNrwJ6b3D9kGB-3L7q6reWQcXqNgkvRCjGtD6GpKs9cwaE28VHEVkfgj9C4DzfV0bzm2S1kU_DBZjCv772AmuUHZd_ZEQ3sVNuZg7gIMUvDnddHEnOfFsrfEZzE0Wzbx9QBlY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A4fAkihhi8WKcX70LyYnAu3ZijgtJm0SiIx5mRNVKXNAWuLoPg7Ds5ZcG-H8L8FMHHYSk1tXPMEFMPx8btKElHZ6y-SZj9WJD3coAIfCIaW0F4ppR4L_AKNWldVpMSoWWB14mMCQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CcUr8cqQTuXbbGXRT41upbNlTb5_eyOIkKfM3uU2rV1f1tmTb3YxiDpRbknklacWEV5m97nUYEWetcJwV5NYy1riX1izuNTm8BcPd0eKbUgVdXnFDGyEG2sfRo8pmbDueAjlNR"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNBbU9xVElBEAE",
+                "user": {
+                    "name": "Meghadeep Rasetty",
+                    "link": "https://www.google.com/maps/contrib/106349557357404404285?hl=en-US",
+                    "contributor_id": "106349557357404404285",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU8JMnZnWhfk3-sWyMWy-Ioqfz-UOKqMFJrRTP-gThiPvTvDglh=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 143,
+                    "photos": 493
+                },
+                "snippet": "The signature cocktails that I've tried were very average for the price and they like to keep this place very dark that you may trip, using a low light would not kill the ambience. The entrance bouncer gave me a strange unwelcoming vibe. Not rating the food because I didn't try it!",
+                "extracted_snippet": {
+                    "original": "The signature cocktails that I've tried were very average for the price and they like to keep this place very dark that you may trip, using a low light would not kill the ambience. The entrance bouncer gave me a strange unwelcoming vibe. Not rating the food because I didn't try it!"
+                },
+                "details": {
+                    "price_per_person": "\u20b91,800\u20132,000",
+                    "service": 3,
+                    "atmosphere": 3
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUN2cmM2OXhBRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICvrc69xAE%7CCgwItrHxugYQgM2E_gE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "6 months ago",
+                "iso_date": "2024-12-13T15:54:30Z",
+                "iso_date_of_last_edit": "2024-12-13T15:54:30Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B379fxT2ailBaGMO_GtyE6LHCSaWJV_SK81ksfqAyLF_hp40Og_Gig8X7AtpdoY42K1rViZREDhU_wb5OTEkSLQ8j02BReHPd_4etZKJd9awTSvghjl2SakOOE-VKqGD39WbV4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DoKWQtL0NHfiaTvnjFsL0sArmWEOjpLC6Z-HgP79MR3Cz3WTUvOVtwPh7akBN2f2YKcV9ccm7wW5M-gNOOCm4T-zPXlTw0F9lMZsDay61NuHI2Sk8W7BLbLd8C-_VvI7vMvQtD",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CTHg9Zh6Yn27NPkqfZy3AXyuRCI1AVH_naeLs4E7AG5ffsGXjiJMnAA917p7R0UYBy6-rBEeEuA1PzeBDjt5yE70UmitYJYm8EpngA_h6bOuMOwMd89vzRGDamGXyL0F91PoKJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CDrFjd8xZVfspZhxdqPvKpWcLKmuSwJOk2Z9JO_QVBwUlifj2_a1JGIoczGmwiy702KBcuWff1o1MQSr9IU5QZlsT6WRuMXc81VgN--mG0stPM_bFiDlZeqFWFy2CLsx-N8CWSig",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AAiVigclNqsjR8iFE5GVwbKMzTNEX6ssPaAIl5C0L7z7syQCTIPhqYcyUZYNwjJVmTH_Se-6StxKFVdAtAC9LZDx72to0xOtaFf6lZhf5MMfTakDxRITUXB0iFCBhqTrb6ZTrC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AUoWK8tEio3A-QJJxkJhyPZbsnwSa1vBy7e1EIbCodqNX033McPGLIdKI84rZ-nq9Zg7uRx2cu8VFXTWvHeejq0JRv86VMBYEf8TrV6Mjko_hRXWDiAgUkJF_EYXPCSrNZ-RrBGQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D3ixLT0nC-tYU4q7RH7aB9_O3ojAIDYo-a3-1EjmQb_17sDoebhs5OJPO4KgnrxeTyGh7-mkSpPYS0mrIhBQAUZJ4CAD6cPQ27Fby9amycD5iXMUU2p9Jwbi-kbGgzvpugOAN-",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DCPgHg4CSOHAzvHWlELh9fuvoTaxtQhwyV7YsVKkukBbqSUiL7_EtBh4enqtQXPoa0gZAzr_DnV5VhicWehiBbEo7RwvQOvEr8AWABKsNrvjAwmzH8tf11BagAX27HafltVTyb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DA1siG-FqJg0yYOfOUxU-nq9z0zIbkB3yTi3SqvWw6kNjAUSb2Y5bsG81CszdxaWDExUD-4Cy7LMnQ7AvKcIqq6zk6adMeEAWAQuZCzHWPkc_jN6dFXMdLO18TbR5zX-3k11Xx",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CEO_5PhlAqdIo1oXILsx7-_aC9WZQyuPdmlzbQ3idPwn_CmzKUaUzGfjRGdA-gKqf_dHOh4Vfrd4lmt-SD2O7H1q9k9JU7TO9UdYeLFeAW0lXQj1qMrwoqEud1GUXzJT6XKX1X",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CUQPYEghlT09tAMujMYn3T-aXWIqIL57Sdd7N24poneSEsuT6ROVc-hVZ8Ty4a_KRq7aer7RLsKaCvWMm17D-gPgahUqWYW3_OtQchmYYa03lS2GI-63Je4KovYrUdYltvUtM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DI4ypE99XEU-H_vhYOI5ydC4eDJS_ZahmLDNhH12MTEjGNgnKnjk_6IPCNMSRhUeZX7jy9WQI_bp6DxEox5fFIGwZwKpTlPsfLkK3X8b3OXG1n4jQAwZZtYCzA8Q_9ZCPs1EaC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOtIDOPTFC7n-kGgDvFElVX_60cNxYqVke1ah3Jk4VonA75H25Sk1gufE7NZVQ5tbjc9q6xNa5AYzDPBApZMVYbL4H5kOb9L936TE0miZv1LtPInX1lw9Afo7AlX081NCanvSw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DXAtmNmYHL822EvM5YMoaXpIBiNhM5Kp1ORGZOwSZe5euPLw-8qvo0syKLUqzKdJYEun73oYc_hTVWyAEqe60Uiju9kjPohHknuyLG4GnQKDI6fftpkLllqxrD_AnvF98-gwcb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AG6ehCDlaZhzbGCAJDLRU1aAoViw9f7a91IxnkbkZ9EDsIdSlIeWyj_0ya0L7dN-D4FCC7jLfPYLz9Yg7v7Qsn1OS31IEMBqjBsj-yIQA_SnQNBgS4H8inkO4ygIwIynwBOVy0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CiN1oFvJtIJ515xP3TmctjI0Z-18Ln4m_sFGB0iSnjLpWTIaOeSbg1yQtb90gIez1harvtA3IwUJzozIC3ILS8yo40R0kH1UWm92R-fhEojloxOXxJMXknYNNtxnjv5u7IQcIUoQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BIh8tj20keeQ6JvWSUTETlNZgNubJpSU4kTHilHoYn4DAX3qCtGXHe48SqoxzVhzoGiQ-HyLzeaUjgTLBUPZU-fVkDJF81zK4SQGW-eiyo29HO2tofY3MP2gHaFDeMKoj7R7c",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Agll2_Jh-DeruT5gLJHDEoRqdxSpJQMCZeaTVOD8jUxOrG8mf9WCNV00e6ORv2jjMKn5RQkGsZHTgyerimcnsZd9eBHUvFW3uEzrshXidUIvia21KhFtoupFzQh5YfhDXMBVSZug"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUN2cmM2OXhBRRAB",
+                "user": {
+                    "name": "Monu Y",
+                    "link": "https://www.google.com/maps/contrib/110151347853471081944?hl=en-US",
+                    "contributor_id": "110151347853471081944",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVHLj6q9A6-kAcoM8MMygnrVJe74UrOKw-MD-mPbGECmKiNwJXK=s120-c-rp-mo-ba8-br100",
+                    "local_guide": true,
+                    "reviews": 572,
+                    "photos": 13978
+                },
+                "snippet": "Na personal experience was amazing\nMust visit place ani chpachu\nDrinks and food everything they serves was delicious\nChill out with frnds nd family I blindly recommend it \ud83e\udd24",
+                "extracted_snippet": {
+                    "original": "Na personal experience was amazing\nMust visit place ani chpachu\nDrinks and food everything they serves was delicious\nChill out with frnds nd family I blindly recommend it \ud83e\udd24"
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM5b1l6ZUhREAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIC9oYzeHQ%7CCgwI3q6hrwYQyN_l1gI%7C?hl=en-US",
+                "rating": 3.0,
+                "date": "a year ago",
+                "iso_date": "2024-03-06T11:45:34Z",
+                "iso_date_of_last_edit": "2024-03-06T11:45:34Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CR4DgCmbD_HEbjYPvYtXsdvSMEyyTRNwvQjbCZR80x2-hILufl_XVCa7eMPL3vQGK98uvNZE6NknIJc3Bs3nyEkAhrtEpeFlZo6kqR9NjVrr3xm7oT5SZUIS4txF21SuSvCYOMug",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFNFeemfNcxAq0Ck_Fr8JZvdMp7ykfeMdIdQ34lFn0kqANTOt5CrbZNDciH2-3MnhWFznCzkCo89ayeMcX5Qdpps9FLX9cDAcIxoYkQAJ4ofGPNrMUnypn5Bp7VUlTIJqdABQJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOsykqQWKqfCTi0boO9L0Thu_yzPngTgI-ODJKI044rN7wtbgQrnJc2kSo0wGGQ4V0W3dTbw40OHKvllFzahgVT07mSL0_1HAYrd_XxYU4JOUqTKZdK3bi91DekrZS69BDY_28",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CW4f03XwPoCn00DWHREcj_uQ7pPhxNWQWUke_7NJ5wfKHNJdH9LvGm42PP93lmFNFUvS6-FiWToqKUUs8BzPGMXqKkj1i-muBhbks_akYPwbhZoalXR4w729FDm8fG2jvrcc4"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUM5b1l6ZUhREAE",
+                "user": {
+                    "name": "Udaykiran A",
+                    "link": "https://www.google.com/maps/contrib/107497705000125487417?hl=en-US",
+                    "contributor_id": "107497705000125487417",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ0GBmnKZWnz1nzk8HRdrBzZI2WtR5mYNN0VpUB0uBxtq7shv4=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 30,
+                    "photos": 86
+                },
+                "snippet": "Perfect place for celebrations with live band. A lovely atmosphere with nice live band playing ok decent sound. Food was good and freshly prepared. The service was below average as the staff looks so low, especially the bar staff with huge attitude.\nBesides everything, experience was good \ud83d\udc4d\ud83c\udffb",
+                "extracted_snippet": {
+                    "original": "Perfect place for celebrations with live band. A lovely atmosphere with nice live band playing ok decent sound. Food was good and freshly prepared. The service was below average as the staff looks so low, especially the bar staff with huge attitude.\nBesides everything, experience was good \ud83d\udc4d\ud83c\udffb"
+                },
+                "details": {
+                    "price_per_person": "\u20b91,200\u20131,400",
+                    "food": 4,
+                    "service": 2,
+                    "atmosphere": 4
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURkek9USzZBRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDdzOTK6AE%7CCgwIh-vXrgYQiNCYogM%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2024-02-21T12:54:31Z",
+                "iso_date_of_last_edit": "2024-02-21T13:07:19Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AK6FYTYxPNJiNVB2LuFuHnfIklZxipjDyCpg7Z0y9mHipUsQOISx1HjVqdnlIyyPmDSknEDFccIBrxc7hR9xABDLS8MbSCl_xxQfSRgNRQpXWyBOxJ4KW262v5BQOIb_384xLW",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bct5Hu0Y5jubpxzlumCKbg1xQstYMV9sD61-DGkZbkJetJCUbrZLpq3cLq1LgxQ17VAcSS9nTvxw3ZfSvXiogHMMEQf7oGD7DTMAw07khoUH-vYD2YlpDi9a5WWsvHO3X7atGu",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOl9wRy1uhLV9B-NSOUSUHoYs9-cYdW9AlIXTmB_0mfGXk88ksxW0SZ6BgHrzML0kKdVQSRgkglV7zpbP1rDbeef-gcdDWVgNVeXYJYLnKqbNiRENecb1uqFlub_C1I1TPoywY6g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CNaZj_HreYeVPodIdv0BkwstYEKzbcBTSGw_JQ4ZhkNv5wP0B4nwwCqfJNYV6tue4z7YUGLJkNXgoQihng9U-6nMyDwNL1IZ-iAh5LOv4BiSbyuq7nH_5_bazrvTqDKJ-gkncv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ad9WAfMDpoGHANALBnCR2DGi-YuZ4N5lf8Mn4TprODYGSm-aiCWMTR6OVyIExxgn7-0i798pe9oF7kjOGQCbQ3EP1vNOP_oI02CkS3_FLRLSSARY35Wv9twJ7si-zwYQgw4_ff",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AKFAl_2Qq-q3B6ah8F9IRNolchQXdISwz-pcEl818ZVVCp_Fz5XhPEQXHB_sZHRE5S3VLoqIzzcASCJ6kHAk4E8YzAO_nIBzwLG5s9DRPRpY8fPPy__s_jo79fM6W71FAdK_JL",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CwMuHB_CadtbGgJYC26KBZcicHpASLFBYOK0cGOnVxFcBhaAcE7tsUDYh5FMIIClle8UQY4XSBcp3L-aqjs--BWrHlWlyz3pwj9fN-DlXU4LH98f9xbOycuvJnKiHSKKJrCrJIjw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DBri2TtkMwkVYLjBorQobVVhka39RYUdT76VdF0_kY4lFwNf3TpN_gpM7iQtfsS8ue1jYZ6JaDeZLRqQLX9HTcWK4wlkbhq8cgJjoDmkTd7IGwdAPMa_oRqslH90K2wUbrwBw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C24rPFPzcwkD7QtGmCJxsAUHGArAnMRFMBBbPUl5EagZHT0GSXDK7zHO-Oqe4HJ-9i-W8qNb3e24uB0jddV36JZ2hg51h10YflihflMC8kAI7nqsT6Z1mCr7gdEmLpzZFKYvCQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CLYfqpA15XTqsDtwZ-f12u_WDEHwPVXWgtsvQmQUuMzeV4pl_Ev98pBehi6mxLNaFrhNNDuaKa6X8z50r7DV79t3rMVdNuEOCXFp5u3qiVTPA_au_hJtpWkT0ho6sYOjrfyoNu",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B6jUmbKaoYKV1Bt7U9r--MioJqTTntrpjzWJjnIW8whJgv5yvhc7n8yAoeD5j8hSq7rcQhICi_tGhIKcjx-x_USzjbg5juh_GwsCYYbKI-kL-okI1UhRPTi_-CpjgLXfozbj0z"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURkek9USzZBRRAB",
+                "user": {
+                    "name": "Arpita Manek",
+                    "link": "https://www.google.com/maps/contrib/108887305876151445042?hl=en-US",
+                    "contributor_id": "108887305876151445042",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXD5cEZ0Rs-9C_90ANOGFQS53xOhR-wkANL6XSnRFEltEWqTIbIWQ=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 46,
+                    "photos": 149
+                },
+                "snippet": "It's a low-lit outdoor space with good ambience and drinks menu! The food and service could be better I felt. They also have Live Music and host bands which is a big plus if you just wanna de-stress and vibe!\nYou'll have a lot of Non-veg food options to choose from, Veg however is comparatively limited.\n\nPlease Note: Reservations required!",
+                "extracted_snippet": {
+                    "original": "It's a low-lit outdoor space with good ambience and drinks menu! The food and service could be better I felt. They also have Live Music and host bands which is a big plus if you just wanna de-stress and vibe!\nYou'll have a lot of Non-veg food options to choose from, Veg however is comparatively limited.\n\nPlease Note: Reservations required!"
+                },
+                "details": {
+                    "price_per_person": "\u20b91,600\u20131,800",
+                    "food": 3,
+                    "service": 4,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ3MzdpTjhRRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgID737iN8QE%7CCgwIvqPGtgYQ0J2vygI%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "9 months ago",
+                "iso_date": "2024-08-30T09:32:46Z",
+                "iso_date_of_last_edit": "2024-08-30T09:32:46Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AGlX-1eEDN1w6OG9L-JTRmZyAqoWRTOCtzeHkXDTrgVHIZY0H6V0Hukpts4DgW_lKwfoLqaQBodak5CbajGD4vlkDJQmW9y2IXh4Vle9TpYtJZiVaubx3_KIqxBnfjecYn8-9K",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B2UldWVhsJdE_apXBph0kguOOpl_mncmBy-Xg8B8wM0zljmeI_ZrwBPaFtiR55qZHW27mIO1L94A09L1NpPxoRDxiF-jyMDyggnkv0kfUZrC-hA1rNx-nfYlg3_wKVY_apWx09HA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BlkUqLUquP0Q1Ci1K9oJPMnLjuXQzDjp3AjbcUbHI1GOgNK72_56mn_MOcR5VBR3nXLcC9lc0Ev34yrSKh-4LFlppP8xiJPF8oJ4esfgjW4F8BTXZMzgTvTn3oeN7fu2WaqqCu"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ3MzdpTjhRRRAB",
+                "user": {
+                    "name": "Hunny JayDev",
+                    "link": "https://www.google.com/maps/contrib/103492978778001327126?hl=en-US",
+                    "contributor_id": "103492978778001327126",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLiQW5tA4e--BDaDMKsXoPgVq3fO6mSas12Ceh2Ko0MMdYTl9o=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 30,
+                    "photos": 68
+                },
+                "snippet": "There is live band performing on the day we went. This is the first time me visiting there so here's some info from my experience. You have to pay 3k for 2 people at the entrance. You will be given 2k voucher for it and have to spend it inside.\nThere aren't many options for food and the available ones are not that great.\nPlace is under lit to maintain the ambiance.\nStaff are helpful, bands performance was good. The area was a dead end so there isnt any traffic, you can take your time to leave.",
+                "extracted_snippet": {
+                    "original": "There is live band performing on the day we went. This is the first time me visiting there so here's some info from my experience. You have to pay 3k for 2 people at the entrance. You will be given 2k voucher for it and have to spend it inside.\nThere aren't many options for food and the available ones are not that great.\nPlace is under lit to maintain the ambiance.\nStaff are helpful, bands performance was good. The area was a dead end so there isnt any traffic, you can take your time to leave."
+                },
+                "details": {
+                    "food": 2,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNiMG91aXZ3RRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICb0ouivwE%7CCgwImoKXuAYQ2IDksgI%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "8 months ago",
+                "iso_date": "2024-07-25T10:47:01Z",
+                "iso_date_of_last_edit": "2024-10-08T23:32:42Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dka1YxodkI_Z_TO_1T5PYINBvolX524W22R2grQNknIuP8YC8vvpIEYBZsaPn9YylZFnO2ge0hmJ7x0CKoA_6MKwKBIQr-9z20PY9nysnT5-H-PBGQ_ye9JadTGhuw1uiMBGB4aw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AjYh-NKwxg4xzPESSCzuPp13VDLvx_rAiHzGpLded1U9L7HfRuPhDJYt3xT-EsDvip8scVWd4vIgeYSCJo85aTVK-9bijLBwZT6aa9eSaCgXok6n5XJy0unoqBvbMnK7BfSLWv"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNiMG91aXZ3RRAB",
+                "user": {
+                    "name": "Prudhvi Nagireddy",
+                    "link": "https://www.google.com/maps/contrib/117684177401632483015?hl=en-US",
+                    "contributor_id": "117684177401632483015",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUUICIajSG_xt0lWy-0P6FcuOX37Zw9ydIduRPpZqp7IX6DWukt=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 8,
+                    "photos": 7
+                },
+                "snippet": "Recently visited this restobar and was impressed by its low-light ambiance, which created a relaxed and intimate setting. The vibe was fantastic, with people enjoying themselves and a welcoming atmosphere. The food was good, adding to the overall enjoyable experience. The highlight of the evening was the excellent live music by the Aikam band, which truly elevated the night. Highly recommended for a memorable evening out!",
+                "extracted_snippet": {
+                    "original": "Recently visited this restobar and was impressed by its low-light ambiance, which created a relaxed and intimate setting. The vibe was fantastic, with people enjoying themselves and a welcoming atmosphere. The food was good, adding to the overall enjoyable experience. The highlight of the evening was the excellent live music by the Aikam band, which truly elevated the night. Highly recommended for a memorable evening out!"
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Crispy Corn, Chicken Wings and Fries"
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZVV2xwZlgxOWZSV2hDTTFkQ1FTMVZTVzl3ZDNOMWNYTkJORUZCUVVGQlIyZHVPVEpTTkVOaVdrZEdjaTEzV1VGRFNVRQ%3D%3D&place_id=ChIJQ2JRSUGRyzsRqJskvnZbcdQ",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZVV2xwZlgxOWZSV2hDTTFkQ1FTMVZTVzl3ZDNOMWNYTkJORUZCUVVGQlIyZHVPVEpTTkVOaVdrZEdjaTEzV1VGRFNVRQ=="
+        }
+    },
+    {
+        "search_metadata": {
+            "id": "685919be0fa72e0d449f4121",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/8f39cd44e3d8d66d/685919be0fa72e0d449f4121.json",
+            "created_at": "2025-06-23 09:09:18 UTC",
+            "processed_at": "2025-06-23 09:09:18 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/8f39cd44e3d8d66d/685919be0fa72e0d449f4121.html",
+            "prettify_html_file": "https://serpapi.com/searches/8f39cd44e3d8d66d/685919be0fa72e0d449f4121.prettify",
+            "total_time_taken": 0.79
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJQ2JRSUGRyzsRqJskvnZbcdQ",
+            "hl": "en",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZVV2xwZlgxOWZSV2hDTTFkQ1FTMVZTVzl3ZDNOMWNYTkJORUZCUVVGQlIyZHVPVEpTTkVOaVdrZEdjaTEzV1VGRFNVRQ==",
+            "num": "20"
+        },
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURWbk1tMDZnRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDVnMm06gE%7CCgwIqbncqwYQyLuZnQM%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-12-11T14:27:58Z",
+                "iso_date_of_last_edit": "2023-12-11T14:28:57Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Atcm6NOo71swOQJQmrPHClRkpUXudxqaUUlCgIWeqP0RQ3gVUFTiMSFqePslW4EHo6b9J0kv6k6d0t26afJT5WV-DZCYHaS0o0i9EDJIAqEsf3QEBxYFKzFI-pu0Y_KNhy42Bp",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BFtmjs7f5RIL-P_CrgZixwxT7dm0JclUJzQlQbx6HEMZHM-aOyEdlKb6vi0lw49Le1nI58AZFUjuC-9r31udjAOd2vKW4icHlDxHcleJvD292dR_orvGEZaUs0W4A6PbPNML4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C4EXEgrSN2tTDLHIehBC-tvB6aE7VM0IO3gfQdfn4a5ZIfX4qQ6NtogTEH3GKoYTqnAsMFL_OqUGiy7vfdBCpnyL5AaodTeno66ToGcf3pCCAMRXhejhxaNf0N44A7Fo3WtSJM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AXjkCEtkuGm1ciucybR4MUl8FPob8WhkfsohbhjGrKW1CSYfCtblGehWsBgntFbuhxlns3QX6OU9aBo4zbq6V-CPejmhY8TqiW9hEpZzxbTx7L04_hYiYNE5ib7EA4yB9hoaJA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BVXPHtJ8SXWGzjVtVmDJlh6qYPjcQAE9F6c2vWiPsw6EcDoxHdrbTWsIAZul9fPLUJdv8Xd0U5vF31OdV1zs6UPxciwhFi4EPSQybCqw20qq_iLqtC_olc1dIVSloJu_OW3IW7",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DmU57EiIU_g4ybg4BHyZ1yWaM3oxNk9-UeqG9vuCG_N8whjOFMiAGaHRXjocOcwpZ7tAmhIL_xDb3f6BjohxbjKcZRM0e8HAumwQgK5742vSMg_8OSB0z_7Nj7D--WB5nfoQI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFG78e9iUPiUmlKhK7TgkWWOO4bT7Z7AZ72FpErRK2Mg04LUXQ6Qej2vRo9bO--d0qNY661EXXN4uGdln6BGpI3lePbRHv88yMAR2EaUkMPD_QHHwXntZm54Y2nV8ymDXKkhPMqg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BH4Yfvg5off5NspLcYMbFF7kP3WFFQOfQyMCj4Z0rUrH9tVcGbDox8BnO1oJrPWj7fEOz6-mD2NxtvZo0niDJDPN5Tcfed93Z6LfucEawXiHjVhmQcJaGr3hbffoWBhBeMnPs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIjzI6LZ7fkZTePnkHwMEiJ-9pXPQFGOoVT5GrlDPm-INW-8WwBxH2ijAYI9CiQxKhKeBLBuDDjl9zcpz-E15SknenRGtsVxJi_D4auy7_YD_imYslp0jXWUh6HJAjJCwdC0E04w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C6PJNi-_nrds8XPYkBWEE2FhGPpOiO8h9vyaNyqE0raJNGRHoYgGsUMP1Lu4D07cbrkUkfcjmZHFSOR8U8CBOzMT-5DK4QWlt5a2fspbQfenmG-YUGlD6pcB9yB5YuqMJxmkyA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DyLVH3qY5QD7GPfBEiTXVeu_7fjp2aT9V9sltaIuYe8Vq9UIUGsHpuhMYB6Xy7bZm_QrQCldrrRp-xwIH_CPhfeDWfyjanhZDUS6Gm06h665T_J5rt47RCGzIDdIPB2N3LtK85PQ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURWbk1tMDZnRRAB",
+                "user": {
+                    "name": "Srujana Mereddy",
+                    "link": "https://www.google.com/maps/contrib/106523064084461498959?hl=en",
+                    "contributor_id": "106523064084461498959",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW0L22U8wl0_UUx7ud5mAAnRmWlOLt5WHUbCdAkyl-sfF8APcGy=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 303,
+                    "photos": 1577
+                },
+                "snippet": "Tabula Rasa is a beautiful hangout spot, offering a great vibe and live music. The band Varnam, in particular, impressed during my visit. While the drinks were a bit pricey, the food was decent. I recommend this place, especially when there are good bands performing. Ample parking, including valet service, and the open-sky roof contribute to a pleasant experience.",
+                "extracted_snippet": {
+                    "original": "Tabula Rasa is a beautiful hangout spot, offering a great vibe and live music. The band Varnam, in particular, impressed during my visit. While the drinks were a bit pricey, the food was decent. I recommend this place, especially when there are good bands performing. Ample parking, including valet service, and the open-sky roof contribute to a pleasant experience."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Chicken 65",
+                    "vegetarian_options": "Yes",
+                    "dietary_restrictions": "Na",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Valet",
+                    "parking": "Valet",
+                    "kid_friendliness": "No",
+                    "wheelchair_accessibility": "Not sure"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUROMm9EV09nEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDN2oDWOg%7CCgwI8eu1rQYQ8Mfa9QE%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2024-01-21T19:51:39Z",
+                "iso_date_of_last_edit": "2024-01-21T19:52:17Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Atu6bM4EBUe69gbo6KeYJ5w1VBReHKvmkP_SzACPrz8LGMTLN7s4pGsYcaBIjOtXkbsk4wTyLICCJM73v36ZUuJnaMEgpVFitawBMwrNsFiL820H_SjqTzW4bsQ75NxabvfqyS",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C6PXpuOtgFBTOdXN7Lodtrz1aq-IyTa7TC-U1PjTtYGlvfBMuh0ckObrqSIw3R3hqamFfyR4mlRGAEXIrh1lPLpvP_OW7HhMNxKDcYFQLUZM7kjXe2mvws37H7rZQZ7d-FOUJ9",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DT-PbeCz5p7qG38PXD2ORIKecq62Kz0rsDOdJQ-6yFR-NlqduMBIyyOp8_Dmtw7NruBrQGxJPXUXklDmEWeWURcbLYXh5b9_PikT_tL6h22eKJTZFSPHBoc5Vw-XqOmHuU0pb70w"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUROMm9EV09nEAE",
+                "user": {
+                    "name": "Aditya Viswanath",
+                    "link": "https://www.google.com/maps/contrib/106619822305515518917?hl=en",
+                    "contributor_id": "106619822305515518917",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVsHTGlArtmGgaLczcxHDhnc73yodpF9ZKlwO5ji6BIfVdCBZmM=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 233,
+                    "photos": 592
+                },
+                "snippet": "Went here on a Friday evening with a group of friends. We reserved a table on the day and weren't able to get good seats to view the band varnam that was playing that day. The staff is really accommodative and got us seats up. The sound systems are top notch and gives you a true concert experience.\nThe food and drinks are very pricey as expected, Valet parking is available and it takes a long wait at closing hours to get your car or hire a driver.",
+                "extracted_snippet": {
+                    "original": "Went here on a Friday evening with a group of friends. We reserved a table on the day and weren't able to get good seats to view the band varnam that was playing that day. The staff is really accommodative and got us seats up. The sound systems are top notch and gives you a true concert experience.\nThe food and drinks are very pricey as expected, Valet parking is available and it takes a long wait at closing hours to get your car or hire a driver."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR0el9tc3NnRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDtz_mssgE%7CCgwIgomTrgYQoPL_gQE%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2024-02-08T12:09:38Z",
+                "iso_date_of_last_edit": "2024-02-08T12:09:38Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AR75apBYfKsMpaUCO7plpfd_H3fdK82pal7qnKmG7lH1rvnhY2zzzZqWH-uf1yu4SkbKeh_OcFT8dEnrU6dPEW2ZtA-Il6_YAfL9A8I4IRAcIWsN5FkUfT06NToDbb11EolSEh",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DewgtIl3O9eWUAIn_qF_foGUGCA2VAGB5lICppspTiY-7SOXSbHeSyEkV40sCZ2-irw6UXzLo2K0XSuh5pV6BfN2Mmu-tW2-K2xyODLUEgjmaIQWPHYUpzDgVuBRVWlIw372i8Nw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AsWMUH60MMp4XpExifJkJZyy7zesZEbE3X2RUmsnA4sexlqYm_0YyaZJSuWr0N-xT1PSfqjbx2aXvcZKFBDdl1hD22OiD-6LbbQEoIASdrfIspELuIef5R1AUi7uKoLBxmANjT",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ACBgt1KI4nlClPiJA8B5cCEU3fsZ745L6BNkq_VMpo7AwEABze3Yy7gO05afXqKbbCVD96o73rCPy4x3-GS-FCTQY3-VF4t7qxvh9FPOwPSqoxl_yX6nZFOf8xX7-0GSTTIQrmfw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADkyu8c9bCAobd6KA754McdHDpVJxklVrRcPfoNrlO80P8wLJV_XQvSXfkksvNZ3Kn51L7dybwghEhvW2_LH1pCUmmT8O18KDQ2ZPSXddl2AHKiJpdOQHIS94ulow5WtgkoDHn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CzhDglAyQsE2hYh-U2MTof0p9qqipCfWEnDauz9_InoPFtP3MsoR7NYbKbZOwUcegc6DB8vk6kP_o81DDuZgepsWOpw46-bwWu6wZjXidHQMX67BayUh3bdWKb7F6EV8-UokWA"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUR0el9tc3NnRRAB",
+                "user": {
+                    "name": "Soumya Joseph",
+                    "link": "https://www.google.com/maps/contrib/112100865231390816027?hl=en",
+                    "contributor_id": "112100865231390816027",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXa1unVCDI4vIouqmKQcsiSoJqKk5em71xQUFcGuY6q2oBwPsoGMQ=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 204,
+                    "photos": 907
+                },
+                "snippet": "It's a very very small and congested space. We went there to watch a friend's band.\n\nThe ambience of course was a disappointment.\n\nFood was good and tummy filling. We ordered just two dishes as we weren't sure we would have stayed long.\n\nService was decent too. People were around for you to call them for assistance.\n\nWouldn't go back to this branch maybe.",
+                "extracted_snippet": {
+                    "original": "It's a very very small and congested space. We went there to watch a friend's band.\n\nThe ambience of course was a disappointment.\n\nFood was good and tummy filling. We ordered just two dishes as we weren't sure we would have stayed long.\n\nService was decent too. People were around for you to call them for assistance.\n\nWouldn't go back to this branch maybe."
+                },
+                "details": {
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 2
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURSdWNTQS13RRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDRucSA-wE%7CCgwI_cCyogYQyKPgiwI%7C?hl=en",
+                "rating": 5.0,
+                "date": "2 years ago",
+                "iso_date": "2023-04-29T04:43:41Z",
+                "iso_date_of_last_edit": "2023-04-29T04:43:41Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CCfvvf5nLKkp0SX4_vJqo99PmNWMM6gDRxorqHgl0g-kxBN2L1DMKV4MHVTzIBlXUkm_n8wctJTY-LYzHOB8QIKElPQ9_sRO28f9TuYAbpHZ2NosL7r-yIeYJStOt-QnUV3p_P",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CddZUdJlx_RttVmn1gnFyfwzrhqGiFl8KwbId7tkkMPWdc1-oUWAH926Q0B5pERoTE2Ho082p4muCH0ogXa0Uyz2eYT0CvWb1aDRpvehkPpo4msW9jjiBd4OqMpIypuplGroA4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CKmnDQvaT-IcHPSQVzi_IsuFAZXkeLYdrbmiq5wBeNj8mIiUd0nnHf2wC-rISrjZuXAgQqIpEEHNCzG4NPjy1Y8Fp1vHUlXRemmCjBZoe4hIPN0cbLAy8-aaAX7tn6ft9SHw9o",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CnPO2O3B2dAmbOhGZgwM_rb9AoQhT5dtgpirYl93cJESAHVtIJpD-YAYssa1a0Rt4sw-utRqO-VN5DG4qqdyOgihA8A5gp1AAQ6Wg32ZEzZDSq3MVCQZehnGGuXsKX7syPODBYGQ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURSdWNTQS13RRAB",
+                "user": {
+                    "name": "shiva shakti",
+                    "link": "https://www.google.com/maps/contrib/111023633241898323569?hl=en",
+                    "contributor_id": "111023633241898323569",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWHBSlScFBUZZSegRbFgSf27S091vSc7SvffiFeZHFq6bcGXUuG=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 118,
+                    "photos": 475
+                },
+                "snippet": "This place has the best live performance in the city. Food is quite amazing.\nOverall ambience gives a lovely vibe. Slightly older age profile on a Monday evening.\nBeer is quite expensive and I didn't find my favourite Kingfisher here.",
+                "extracted_snippet": {
+                    "original": "This place has the best live performance in the city. Food is quite amazing.\nOverall ambience gives a lovely vibe. Slightly older age profile on a Monday evening.\nBeer is quite expensive and I didn't find my favourite Kingfisher here."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURGNnBEMS1nRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDF6pD1-gE%7CCgsI7YKfqgYQsJSJdg%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-11-05T16:18:17Z",
+                "iso_date_of_last_edit": "2023-11-05T16:23:09Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DzXA3jgf9CWG9CcOfWZJ3Lqg8u6K-1q7O0X85ybD0_NbHyTckpYCW15buSQ1fJs6thzdF2gWOh4cyvX8eLejadmeZ_ayMuaIV-QtNDBC2l75uwCXTETBUYK1EfVzMRht1y4sRt",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C6q4nS8aWYWSkHnIfIJB2-0mgQPfWADRyo9WRpr2Z4ay4pt0cNm47nMw51SyT41eqlmdUDiFI37TCrilyu_WkPrOiA2WbreYFLfqTDVY-793qOSErnXIYhoqLT1fseKcymB3qh",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFyqMToz6iTvyfmUY2-3L_n_YQIuVhHw0NGKbbXKZ_77N48XE7MvGlqBfFz2BitTZinoX1qIH8MeuVc4-ka74iSkWibu_VVEJMYO81c4R_ThoJXxggG52DoafUUCYEAH4Wd61b",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BuaR0vk_1cYfijlYrFoAK17l2nyH3xQPSdjf-JA3oHs94v5mf0KpvQ7h1h4TN8dHHJdFWppH4uiMwVBgQbUtLByiyiei4xKxTDjGwX6KOcbimX4Hta92G4AaDhghXAKDRV5xYyOw"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURGNnBEMS1nRRAB",
+                "user": {
+                    "name": "Deepak Jawake",
+                    "link": "https://www.google.com/maps/contrib/102463922218716297353?hl=en",
+                    "contributor_id": "102463922218716297353",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWb0YG-lYvVqc9QDIpEhraF0I95X1r83dlSmjP-OTIHfeCunhwo=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 169,
+                    "photos": 468
+                },
+                "snippet": "This place has a great vibe. The atmosphere was electric when I visited this place last week.\nI have been to many bars where they have live music but damn, this was THE best live music. The band that was performing was brilliant and the performance was top notch.\nPaisa vasool show. We loved it.\n\nComing to the food, it was good... i didn't find anything special for the price they are charging. We tried some starters and beers. Food was good but the beer was NOT chilled. So there's a scope of improvement I felt.\nOtherwise a perfect place to go with friends and buddies.",
+                "extracted_snippet": {
+                    "original": "This place has a great vibe. The atmosphere was electric when I visited this place last week.\nI have been to many bars where they have live music but damn, this was THE best live music. The band that was performing was brilliant and the performance was top notch.\nPaisa vasool show. We loved it.\n\nComing to the food, it was good... i didn't find anything special for the price they are charging. We tried some starters and beers. Food was good but the beer was NOT chilled. So there's a scope of improvement I felt.\nOtherwise a perfect place to go with friends and buddies."
+                },
+                "details": {
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Nachos Grande, Jalapeno Poppers, Amritsari Fish Tikka"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURCNE5LbldREAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDB4NKnWQ%7CCgsIyrr0oAYQwLj8AQ%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 years ago",
+                "iso_date": "2023-01-09T12:26:38Z",
+                "iso_date_of_last_edit": "2023-03-24T03:47:22Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CMd6vtYTjE-hG55F_02lLAs7lfQxKwkJbEbKaSSJT_hduUNhFeN-qB4rAE40n_PtXLFqvNAe__TDB56tBbrSdUb6QHRXhwUeBMWIpfP5kFN4d_wMLPUhDHGJOJHGBbhoQr7hs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DCrAUND2FCi3nm1WARyqpd8L4f-p_4kdsV9euvDILsZqFJnWLsIjyo3Opsp0yWgreKJtj38LZK8t-VIrg6G9UpCFBF6gjMKioMmvaR9ja77xCoY6m18Tk7y8FT2ZN8eBeYWKWShg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DflAhNC2DZQSXyuyWTDVaLYItf-5MgtRI24FVyWArmb99ikgUmEVxaVBytZMGzpq76YnnDAm0RXZ8PdmTQhDHUzRmkYIxP14Ayeow8TX5s3GQetKhA8qj0tfjGVDF27ShGvog",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A0Y4nUolY5d4y9yxFuz39cBsDXKyfF-UEPbLoqPDHIFqjpGDaGRZmT4FGU0I7d_iI1J-7kr12zLGUdGvO0PC_Dx_4ODr1ipRtPDT-6JsNuW_RRpgeGZlRSikCih9H9_zPO-O6pOw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CkhqR5-rvgOzdvV9uO1qv3A18KadTvvK3_LE6QKOA6ouYrw7JgJcvOP-ACYfAdmWvIfg2s1w_nenSQDRd9C9xnl6efQcPYFrRuW7eg0AF2cYQ7hKILCgfVGO-7rUWwv_Z7mFU",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DMKdqNlibgpuA7etRvIyB4b-QRpZADNhH__ckArEMbLzlImFPr1Sin6LAuR8cTn6ek1yAmpGqPrHzpJyVeDN18bgEQHpEt13lCXKZ0j5xBQK5baHbhsbegR5GNWa5IN0myKLZO",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DIzJukoy5idzFJ5eoJI1afECoHwLEhPKTjD3zWQvVzLHEMwwmSkkgq0JpGk8_gclgcjJm800ajbRr3BW00SgWmjsrOHA0l9bZhGLbbId2IJ_bRSmWLcwfButIFn-5fHaIJhsGu",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADvLz-e2z6NDrjHrKJUTEO3TcjajMwCLbRhYdmkD0z3E0koaCMrwHPzspG4Yu0T1aaU1c-qQcD9TegKW6Urebs1oa4DCc278cGb6UHLOo3Xf6seQ7pFC4DS9HwZv5B3zpoSurj2Q"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURCNE5LbldREAE",
+                "user": {
+                    "name": "Anurag Tvs",
+                    "link": "https://www.google.com/maps/contrib/110256683167548869334?hl=en",
+                    "contributor_id": "110256683167548869334",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWbD7n0xox5_tovtZEp5i6DBjwZH-RQrMzeoVhJQMaIezloZ9UJlA=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 21,
+                    "photos": 176
+                },
+                "snippet": "Decent and pretty place with good live music and DJ. The ambiance is really good and the taste of the food is really good . The pricing is usually high but, compared to other pubs, it is okay, and the staff here give you a table according to your dressing style and group, and the seating is really good, only when you get a table in the middle. Corner seating is not really good. For a group of 5, you usually need to spend 10k~",
+                "extracted_snippet": {
+                    "original": "Decent and pretty place with good live music and DJ. The ambiance is really good and the taste of the food is really good . The pricing is usually high but, compared to other pubs, it is okay, and the staff here give you a table according to your dressing style and group, and the seating is really good, only when you get a table in the middle. Corner seating is not really good. For a group of 5, you usually need to spend 10k~"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURwN2VQZzhRRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDp7ePg8QE%7CCgwInLCrpwYQ-KO2swI%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2023-08-27T04:58:08Z",
+                "iso_date_of_last_edit": "2023-08-27T04:59:08Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ACgjfnjpYg5WpCLMQnaBr8Rt-A31p6mPcaV-JgRlpBRjbIgPA7M3Nkbu3JJBqgj_omDEtEb-aBomtl7u1lctAc0wG_xE0VB3ZzYqIuhA-mh2rfqk2QKzRz18hKvyW7dVSUfWFs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AVS32ZPjwg-pK3GtQu73-Ub3toBEUaEpCeveD6ySRl3-J6LNgC6qIk8vlUCxHb0bSGdFrfxvUPNQe9JQUroHbxHGewDPs6PjcGVIhfdcWLTrmmulZOdw3gnz5So6CjF3wglbz5LQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrZs7e4tBKJ-QlYNaFJtm5mr_EgbMg-W6ryhyIf8nabHfX-gXrxATHmj5BO_Ihux1qf6LKjiiEpoR5qMvRlbFk3DV9qumGqSWDzG0a-xaaHDj0Do1WV5NTMmQMT7QwmLeybTIk",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DmxJJhhoHaOUAUZweIPmvlgsrhRCMwB6bwXUTjdJkg2gvu8FN1x0POzdOImYytJk2JkKI4GqhCfXK6pcDuBo8ktgfswJtmwhfurTDzM_YdwZ_FXreiSwIXy8xJuFlof4i36dsD",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CkZi8eSIQQGjw5oKRGx_2sbCtzHC8BAR8iePd6kJF6drM6rlKTAsPJwJXYVDF2WX29EvdbrvAYRguDhmuH9dk-Kw20y7WPfRO-WheIQzffCNlaMtMA_p5N2QZgnIu50_NardB0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BapTY-in62LrhMwM8U184W2ELj3HNstp4bcLhs2wM9DzdUlAE9lZHvVUo_doSKRUiYgUNf0s4tvX3rvq8zBFOXh-3j33tw7TfRwxFiwfQhN3Yr7aEO80IGuNO4mqMxc6vs-5vd",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CkQ1NUsaLYREkblCLgSrTkIDHS4DrE7GHhqBrPIJb6ciGIVS6FP_VakwbjdJy8E70tj3oipSvlmvXdyXv9orhCrCJ7189p1RBg8t8_nzjJZjjgxNIiQcKoLyZJ2PyZxsWobU4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BlEsh6jWAblk7TYUTBo5ge0VJNWVqV44YPHXGpKKreIzI5PE49w7o2RuxsXuRS4Rd_yCsWnmZSgtIH1lMmxGPk-VWesswVzqg8emVBau4lnxXHpJNWrYpRoUDSzxLUciLbKklyfQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ArudSYx6PQsPacl06RnUn4XIj5M7lcOeFIu5dOWatYKUIakzH_ZxC3Vd2Yk-9hqDw_rLlSGj194lkWyURQY3rzaseHUqjK1m4Rb846HVeZ-niy6_AK82BFvxXQ49nd8rixXENv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DWdAEp-FA0g87OotPnEa2ZXm1z5DPdQKZBd0k0x_MwEPY76xsNIL8sVBPmBhzJYYum8di7G7hro64kNiTMRamU8DaZRNeM5kvaInb1-88DltMh4LvOuVG_7r3tKffNOrO9e_8jaA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BR179GiMhoUiGZO038qw98kTKzNi8mAuMkRUvMWkL3c4zbqWltj_F-h5GOjodn6vzPkpkZ8iOUbbfRu_yts20fl2AbMl0l-CaBWUqfYbavcyQZ4L2qYW7h9W8y355kh8-uPzro",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_0xXXuVEY2lmpk33FF3-1PjN5fiBtp_q6MLMo2gzhEk6-eYd0R9Ux4gIZ0lBmERn6MiMBSi2ybWdY8TB_S_V7Y3v2ZKZeo_0D8hBKQy53zKjQcotbCHqaFwcHdqGxGLZqmc-o"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURwN2VQZzhRRRAB",
+                "user": {
+                    "name": "Solomon Sujith",
+                    "link": "https://www.google.com/maps/contrib/101033028912200230172?hl=en",
+                    "contributor_id": "101033028912200230172",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXAZSun_SrALOamBdIslOnONAVnePFVPM4SYnGOejcuHMjObQfkYg=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 239,
+                    "photos": 2664
+                },
+                "snippet": "Best Place for Live Music Took 3k for couple when went inside they all seats are booked and Gave Seats at bar counter which was very uncomfortable.. they should have said it earlier...food was ok.has Crispy fried chicken, veg cheese cutlets ..Long iced Tea  Fruit punch and Manga muss ...Taste was good.Service was ok. beautiful ambience Serene outdoor and Cozy Indoors..Prices are little high..valet Parking available..",
+                "extracted_snippet": {
+                    "original": "Best Place for Live Music Took 3k for couple when went inside they all seats are booked and Gave Seats at bar counter which was very uncomfortable.. they should have said it earlier...food was ok.has Crispy fried chicken, veg cheese cutlets ..Long iced Tea  Fruit punch and Manga muss ...Taste was good.Service was ok. beautiful ambience Serene outdoor and Cozy Indoors..Prices are little high..valet Parking available.."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 3,
+                    "atmosphere": 4
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURadFpTa2ZREAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDZtZSkfQ%7CCgsI1fD7qAYQ0OzDCQ%7C?hl=en",
+                "rating": 1.0,
+                "date": "a year ago",
+                "iso_date": "2023-10-05T17:54:29Z",
+                "iso_date_of_last_edit": "2023-10-05T17:54:29Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C6hzcQ6g2R1zUyaVOopJC_OH4Eg72n_ZflpTcynrT8Kmbum9yOB7u1OrS4wYIKDrQkdQoA29vs_LWS7F1pbzVje2ityCNh2QfOJ80Il3mhc1wQnLpLIUKmNUTiQ-pVG_Q_Q8rk",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DqPnFDRhzJcIm5FvnFxtsfV6gZ8cKEcWfklcS4pBysORx81lDIArDZpcmVz20weSeAgDKaxX9vjdaXPvNdfNJunHhvhVqLLxhnEoenf8is5euxaGA9oBOGDGTSDKryQe_gpR7Q"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURadFpTa2ZREAE",
+                "user": {
+                    "name": "Nanda Kishore",
+                    "link": "https://www.google.com/maps/contrib/104802415248174783420?hl=en",
+                    "contributor_id": "104802415248174783420",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV1nC98n-_Zq3Tv4WKoSsvyBB-wg8uiyU2Zg9Y2hvo8CLml8HB1=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 102,
+                    "photos": 196
+                },
+                "snippet": "The service is not as good as expected.  The waiter was standing next to me most of the time just like he's one among Our table, which is irritating.\nThe food taste is worsening.. Something like roadside food taste.\nThe band that comes are good but they repeat most of the songs.\nThe bouncers at entry are like harsh.\nThey don't even give normal water on request, you must buy water bottle  pure business..\n\nNot worth visiting if you have high expectations of food and service",
+                "extracted_snippet": {
+                    "original": "The service is not as good as expected.  The waiter was standing next to me most of the time just like he's one among Our table, which is irritating.\nThe food taste is worsening.. Something like roadside food taste.\nThe band that comes are good but they repeat most of the songs.\nThe bouncers at entry are like harsh.\nThey don't even give normal water on request, you must buy water bottle  pure business..\n\nNot worth visiting if you have high expectations of food and service"
+                },
+                "details": {
+                    "price_per_person": "\u20b91,400\u20131,600",
+                    "food": 2,
+                    "service": 3,
+                    "atmosphere": 4,
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChRDSUhNMG9nS0VPX3Z3Wm5Ld3J3UBAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEO_vwZnKwrwP%7CCgwI9vn1wQYQgM6UwQE%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 weeks ago",
+                "iso_date": "2025-06-02T10:29:10Z",
+                "iso_date_of_last_edit": "2025-06-02T10:29:10Z",
+                "source": "Google",
+                "review_id": "ChRDSUhNMG9nS0VPX3Z3Wm5Ld3J3UBAB",
+                "user": {
+                    "name": "Timsee Thimmaiah",
+                    "link": "https://www.google.com/maps/contrib/117959999131130396700?hl=en",
+                    "contributor_id": "117959999131130396700",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIU-ZO20LnW0cMYAcqsmDrBetJ_dbCj57UoxAc6g0XwJCMX6A=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 9,
+                    "photos": 2
+                },
+                "snippet": "Tabula Rasa \u2013 Where Music Meets Mood in Jubilee Hills\n\nWeekend evenings at Tabula Rasa hit the right note, quite literally. We had the pleasure of catching a soulful live set by the band Raag, whose regional tunes had the crowd swaying, singing along, and soaking in the vibe.\n\nThe ambiance was relaxed yet vibrant, making it a perfect setting for an unwinding night. The food complemented the mood just right, especially the Avakai Chicken Tikka, which packed a punch of flavor and stood out as a must-try.\n\nIf you're in the mood for good music, good food, and an even better vibe, Tabula Rasa checks all the boxes.",
+                "extracted_snippet": {
+                    "original": "Tabula Rasa \u2013 Where Music Meets Mood in Jubilee Hills\n\nWeekend evenings at Tabula Rasa hit the right note, quite literally. We had the pleasure of catching a soulful live set by the band Raag, whose regional tunes had the crowd swaying, singing along, and soaking in the vibe.\n\nThe ambiance was relaxed yet vibrant, making it a perfect setting for an unwinding night. The food complemented the mood just right, especially the Avakai Chicken Tikka, which packed a punch of flavor and stood out as a must-try.\n\nIf you're in the mood for good music, good food, and an even better vibe, Tabula Rasa checks all the boxes."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 4,
+                    "noise_level": "Moderate noise",
+                    "group_size": "Suitable for all group sizes"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURmeGVTMjR3RRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDfxeS24wE%7CCgwIyer5uwYQ0KO48wE%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-08T12:53:29Z",
+                "iso_date_of_last_edit": "2025-01-08T12:53:29Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BCTgHFIPJXsj5gnm62uAnDI2ePHXgKfV05idPRtXQTy3vrm7RW2CjjOjZzspz4meJr-hRjNxgUFh9RYPa1vysClIidOHiZf5YkP3LRZB10yHX-X9W4mF3jodYoWKMXh4VKiCVX"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURmeGVTMjR3RRAB",
+                "user": {
+                    "name": "Ronit",
+                    "link": "https://www.google.com/maps/contrib/105021829076308111063?hl=en",
+                    "contributor_id": "105021829076308111063",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX_sm7SgEEFlsFg0a-RhwjwvzDO03wguWv4Mg7XrvRgWL5oc_XI=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 18,
+                    "photos": 38
+                },
+                "snippet": "New year, same faves! Enjoying my favorite beer and delicious food at my favorite go-to spot!",
+                "extracted_snippet": {
+                    "original": "New year, same faves! Enjoying my favorite beer and delicious food at my favorite go-to spot!"
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNhcllmNlhnEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICarYf6Xg%7CCgwIoLG2iAYQkLPm2AI%7C?hl=en",
+                "rating": 5.0,
+                "date": "3 years ago",
+                "iso_date": "2021-08-06T20:16:32Z",
+                "iso_date_of_last_edit": "2021-08-06T20:16:32Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DL65YsRVdtKNek5j_x2I0dWUQGwA4B4W6KWLpl_zHgwkm6BDUR30TcsfKOe9jsUlu3kM1bh5af7rh4sT_GF8s4H_YYjHQEF8zYQfaAUvd4FvgEbv5mS5xWY8uhORFSQ2N44UPZ2Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BE6km55yYYdnbbKMtovvuFQqrDu1aaKuzh6FOGHYN8daMmsGlBrugzW34ngU3U5AFRGKew6g6glE7yrxOpFVT9CCwWFBSTuhMD4E0VjDZ2FVhm2b4Nj7eHQ3reJvJin66N668",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWc-NKfYmXGJzU5l8LfFw9q9U_QvmaZ1qWl4i497qXEtQFYmRs1LLfr-CFKDqOxZUdxnk95qF4zoeIDN5F1H00GBX8nLC-nE27VI6zT1k83yzi4zLa0opF4roeVR8NEghy5GyeFw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJaXeRnsg0VWYLZVojH8HMvZc4wNsUhLnMIfLrSEoDPZiLXLQNX953Zyhot8shmcci3mNjCjC_HkrxxWYtHietxXH91PEfs2f_NskCjWniuj_Gnen247lJF4kY2wWE9J4HrS4-"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNhcllmNlhnEAE",
+                "user": {
+                    "name": "Not_so_local_wayfarer",
+                    "link": "https://www.google.com/maps/contrib/105564301422954140766?hl=en",
+                    "contributor_id": "105564301422954140766",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX_AbKsitfq7aybqubVXIhmZVLDPpcm1PKLTtB3iDPc91HfPica=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 149,
+                    "photos": 565
+                },
+                "snippet": "It is one of the current booming bars in Hyderabad. It\u2019s uniqueness holds in the open air restaurant and bar idea. We Hyderabadi\u2019s are kinda bored with rooftops now and so this can be interesting if you wanna get some fresh air while you socialise. On a rainy day, ofcourse, as you would expect, the roof is on. The place is perfect and easily accessible. The ambience is decent enough. The food is good if you enjoy spicy stuff. Prices are not very high. There are quite nice music bands during the weekend. The best part is, the singers here sing in most south indian languages like telugu, Tamil, Malayalam. The place is mostly crowded. Specially during the weekends, you can\u2019t find a table without prior reservations. What I dint like, is the long waiting times for the order to arrive. The staff and the ordering system is not very organised.",
+                "extracted_snippet": {
+                    "original": "It is one of the current booming bars in Hyderabad. It\u2019s uniqueness holds in the open air restaurant and bar idea. We Hyderabadi\u2019s are kinda bored with rooftops now and so this can be interesting if you wanna get some fresh air while you socialise. On a rainy day, ofcourse, as you would expect, the roof is on. The place is perfect and easily accessible. The ambience is decent enough. The food is good if you enjoy spicy stuff. Prices are not very high. There are quite nice music bands during the weekend. The best part is, the singers here sing in most south indian languages like telugu, Tamil, Malayalam. The place is mostly crowded. Specially during the weekends, you can\u2019t find a table without prior reservations. What I dint like, is the long waiting times for the order to arrive. The staff and the ordering system is not very organised."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR2cjdMbVhnEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDvr7LmXg%7CCgwIkrGvuwYQ-Ivq0QE%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2024-12-25T10:04:02Z",
+                "iso_date_of_last_edit": "2024-12-25T10:04:02Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DxTKJHNWCEwy0fcxLxUuCcxOFeZLdSIXQ7_olYYPCVqGFFJKYedXjZtcZzWIsSMTEgknA2UqrgdrCCqQfBt3sWtWnXvcUGdkW-GdM-ExUZViTRNONjLcrns_7WIVfnsM0hPSQLgg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DC2JMJ4gbTH3tPh-k-KDpGCH5af1efq0M4APQsDP1oJuy4QCYmuRHWBei5mQ5OCJqEiMDOot-uWaw2nDAbarCK18PxEdf87w2Ci9j5iWaVZVBfqtUWcFTK15L6F3W_YNuKSHLS"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUR2cjdMbVhnEAE",
+                "user": {
+                    "name": "rakesh reddy",
+                    "link": "https://www.google.com/maps/contrib/117354788899838719775?hl=en",
+                    "contributor_id": "117354788899838719775",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWWZFrnU8cAqrWe4mAg1DfaTZ5L--BIglwH_ezn4Xy4rSEpNl-UEA=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 10,
+                    "photos": 9
+                },
+                "snippet": "Awesome experience. Live music by Moksha & team is fabulous..... Must visit... But a little higher on your purse\ud83d\ude02",
+                "extracted_snippet": {
+                    "original": "Awesome experience. Live music by Moksha & team is fabulous..... Must visit... But a little higher on your purse\ud83d\ude02"
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 3,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Chicken 65"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNwcU1MWG5RRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICpqMLXnQE%7CCgsI1eyKpgYQsOCkLQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-07-27T18:24:21Z",
+                "iso_date_of_last_edit": "2023-07-27T18:24:21Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AUemRzR_N2zQTRipIhFqARVv_r8WP-BJNT8pNcrZGEU-cakNtw9fOTDl-x5FxyMcYCh0BhrUVbbs4IHQfOvAYSoDg6znL2R4Adxl3zUSSI-bZUdWbj4rsXMP3jvxTFkzZPdDB0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A6wTK5ivy46RJX55Yle_9lahAFxDFZc0MWkRwvF3_K_3Xi7DAOTnnjpO-UnbyUHgJHyZgyJ9U95cLRXK4XsDiDubWiJtVnnE-B_CD5R8FfrbAtAck2wMeWGJAqRrE_dhYnv28",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bb5Leb7MVpZdhDoGlPvZJhv2uiVFZGc5FT6aCe3xwup51E89Vc5BJ8T2g9B8PuTzL77dSkDxv4uoBFTSHxRd-4-4GmErwLd9jsrvSAFVjXMnakp6wY4qsHjZ5_Uqi85ce33WMEoQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DsV34HRGg3Mh7Cs5ImNEc1ZZ131Q1pkVRenN053oCUlOOES6G6sJLDknaZgBGPH83AYMscVK5rsCq2lQ3sVM3fXAXFA1XPAQ5CNPgFrtbBf_UJPrDi-zK3CDn2PgFJXlWZMt7k",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AmXeTV2_waoeCWtf_3gcvzkqI9kCZAh8FmJoWx4M2Trs3CrGoR9Ie8ZKw6b8BKKC2VNVMyj7LVpHamIgwSP8Ysqlgfa5ywLlhwkOSGHGnxeJJ_yxf34NXzfHwXIcDrVHncrtPw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BGg4Fc5khdk814ZtzR7_6_nfuQj4CmyZGQpCby8EWxsnWhDRz1WFbXEx2x8peC1CcEqS19SP1GcFsv8fmq091djfZlLljcLFnFTxEUtds6KbPYoj1k88qwnlVLfi7gl4ccbktZ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D479l-wQ4mHHfoLVeHj3zGYJo_snk-hbT_O7WeAq-LW3iE7N_pXIVmZqjSRwBVfq810ZYgxE7bz2t8r-BNR6rRUIAdI8j5sHTFPxLbVX6qa_eKBqF7_9RNYA43bIxEQBgomZ0_"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNwcU1MWG5RRRAB",
+                "user": {
+                    "name": "hanee sunkara",
+                    "link": "https://www.google.com/maps/contrib/107983840335250494707?hl=en",
+                    "contributor_id": "107983840335250494707",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXBnQUcILPd3jd7MdoNrmSw0qMic_xWMkaL9ptF4gNUQVo-jBXUrQ=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 17,
+                    "photos": 93
+                },
+                "snippet": "The atmosphere was lively and fun, and the Varnam band was amazing. The food was also delicious, with a wide variety of options to choose from. Overall, it was a great experience and I would definitely recommend Tabula Rasa to anyone looking for a fun night out!",
+                "extracted_snippet": {
+                    "original": "The atmosphere was lively and fun, and the Varnam band was amazing. The food was also delicious, with a wide variety of options to choose from. Overall, it was a great experience and I would definitely recommend Tabula Rasa to anyone looking for a fun night out!"
+                },
+                "details": {
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Chicken 65, Fries with Cheese"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNvcjdxck9nEAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICor7qrOg%7CCgwIkoP94wUQ8IvknwM%7C?hl=en",
+                "rating": 5.0,
+                "date": "6 years ago",
+                "iso_date": "2019-03-06T03:42:10Z",
+                "iso_date_of_last_edit": "2019-03-06T03:42:10Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BAjtTa_W2TOeyG9VU7suYpu8FEiZLyPw4VEABkyD4xwMTgQm0rs0sDpmQ8WXEL1OPMFYgHHGOJ-tx_MyuYB9c3Ma6ywWaKj7p3pKSjsvd1PoTfuwIMeMBBE2NPNnn3k9Zggqh9sg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A8L-mako5ixHrMWG0XYIGZcNjdQm1ptpNYMe3p6APslB60oM30w1Zv4HkO10pdHRArWg7N5ZOBwWd9fCXoQ-fr4W1eUyLAdY2NESflQWGZpGFKCllRh-4zAtvRW9t-wk2FkHu2hg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ChcISGY8H2QYbi6iUFYIEzxrcEWHq84CaC2Dl4zg45SU6nqnA8IcseWd_0OTRWqOfytnQtdF365-IXGGhh_eyOvsO6j1xJiMnZOJz5dcySGPVT9RygssJsOMaYzeyfZiBjFYWzkg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B3doij0puJZeeqW2hHA1pOUSxHRs6qVSbHsMoVJ2K2vDwYS_KwnYxdKhjZWBDjjt6SOohln_Ty5ouWNnfJ6d4NdfNDv4q06eolz4CtV8t5tG8aenpvKArXKSAti68yQyiUleY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A8IhXe1NEcptPgErfzRFRk0S8a0BYyVTwxw0hGL3bMPP184z7aBfYxn53Cu9dd7mKN7TfXl3eSt0FVOl73_5T2t70kOSXm5J8jp-ut9-tua55cl5tZbCEA375-dugTSgA4bpc_Jw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSUfD3sZmJfdEXNWTAojZhHqgbtt_31pZodXOSRT1NukjM4P8VHlq7GLyuFUgUI-E1mv-NEZws3wTYnUF9J_QDoTB-i97pBQZzf23_w9CeCIH0wl0Pg0_htu11YtFsAoPg-APVoQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNvcjdxck9nEAE",
+                "user": {
+                    "name": "Saranya Ravva",
+                    "link": "https://www.google.com/maps/contrib/101008706052455525036?hl=en",
+                    "contributor_id": "101008706052455525036",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXjSifFj7yAPvs6Cp-HfFNf6SydrhxWycDgiampnEUtvEGg3AZLkQ=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 279,
+                    "photos": 2757
+                },
+                "snippet": "The ambience is great at the night. Tabula Rasa indeed means trying out something new and this place proves it with the live music it has. The prices are a bit high. Food is good. Great to hang out with friends. The place is a bit small, not so many tables. Good to organise events.",
+                "extracted_snippet": {
+                    "original": "The ambience is great at the night. Tabula Rasa indeed means trying out something new and this place proves it with the live music it has. The prices are a bit high. Food is good. Great to hang out with friends. The place is a bit small, not so many tables. Good to organise events."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURjaWJTOW1BRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDcibS9mAE%7CCgwIqpGe9wUQ8PaskAE%7C?hl=en",
+                "rating": 4.0,
+                "date": "5 years ago",
+                "iso_date": "2020-06-15T14:35:07Z",
+                "iso_date_of_last_edit": "2020-06-15T14:41:46Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BEX1WRq2gUNZPN9lmAm2qQNtcIyXyaT7Mcw2WyXOxOXC_FzcrNcQEjQLfaXsl9Y_pF5fr6iXy42URR0wu-B1za4JntniH53-mIPtArkv_nBBYinVsHq7DT8ofVOWgoO40Ueirf",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B6H_12NZCaV2b2F9tWcEVFTd8ezT0uI4mkhoSsqn-8X6tTw3mVS6j2hYoA_QxAHzQRIC-1nsbqwEz8_1f8Bdidx-dQv8wk8cQ7zpe0XTeXzpnWwg3m-okaSvmMa8PEJ2TLRuy8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C4A_09eRRGFPLUFJvp33_Y43DueK_alFyziqGQGvb0Aj7YCYLJNIYVb8eIonR_9LhXMh-w0OVrvVXjWa7Kd_3wt4uQKEDOVcojo3YWYU79i1pWUMp2obq9lG6J09K7uHBC38g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYpniHOIvbneWVh_zUIOtuL-8FXOuk7MT8bPIYFnS-MrtOYD-ALkLSJvVFd7frmorLnmy2fNtRyV3zKYpszqVaFmOIhejh41kntlyyoiogVJFonCZQdiQauYf2cM28BSHA9kEWTA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AaBfJjuiT7GaeYZqfZwmZ9_tTekXsJPnuGvgXSM0QFPwuFjOOR5rDA5ziUmf8G3qz88kIA9qSVFAy6MtjDdlev6NOCSIFP5ijGQgKnk9VO3tToVRDg01OJe9CsFASOK1fvyLk"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURjaWJTOW1BRRAB",
+                "user": {
+                    "name": "Rohit Reddy",
+                    "link": "https://www.google.com/maps/contrib/104760941738485755933?hl=en",
+                    "contributor_id": "104760941738485755933",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUMA9fnLiNg76G5Rmk5cOgBzZW6CS6rVEZDgmT8w-VgKYI4tAAC=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 35,
+                    "photos": 111
+                },
+                "snippet": "Been here with a friend of mine. The ambience was decent but there were too many flies which was a major let down. The service was good though.\nComing to the food we had Amritsari fish tikka which was good but it has too much of dhaniya flavour. We also had chicken tikka masala with paratha and butter chicken with jeera rice which were amazingly good.\nOverall it was a decent experience except for the flies. I would rate this place as\nFood - 4/5\nService - 4/5\nAmbience - 3/5",
+                "extracted_snippet": {
+                    "original": "Been here with a friend of mine. The ambience was decent but there were too many flies which was a major let down. The service was good though.\nComing to the food we had Amritsari fish tikka which was good but it has too much of dhaniya flavour. We also had chicken tikka masala with paratha and butter chicken with jeera rice which were amazingly good.\nOverall it was a decent experience except for the flies. I would rate this place as\nFood - 4/5\nService - 4/5\nAmbience - 3/5"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNpaWZhRWZ3EAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICiifaEfw%7CCgwIhN6b_QUQoMHNpQE%7C?hl=en",
+                "rating": 1.0,
+                "date": "4 years ago",
+                "iso_date": "2020-11-06T18:13:54Z",
+                "iso_date_of_last_edit": "2020-11-07T19:01:24Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AWgdPrOqc638I013XBH221eweyIWclna9kGJiI8lDQlCI66d3tdp61TQISzfk5FJV8wd8tQ0Fm_Lw-eSkjRjVTgr0_CtrCBWYUp3_g-npoUUaDngDI__jSN1rprVGfok5L5RxX1w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DosbZ2acVU2tKW1q70yjFTOOs1TUBJrGcHlvwwuqVn2zJhL2w7flRd29Qc_R9Eg91DvWK2QLzVQaJTQW_druq_3KpbiAazq2Ixfb91CRGrJ4TlrNsaXznP2NEOpJtq4KX56q9s",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHNBBT2BFTEECBloUWnnAXVjCguS0n6UTWdCc_8QGhrmMdkG3DXw1WwV-tTEiO1w5gK1ySaXkPuoU31cbNmzD0in0RLNpBL4dIMQUdeFYnTNBOC4Ft6igSElmxxykZb-BiUkeIVg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DsiNdcdkuQdGuii_ap9dDTwrutZlL1r7Cg97WYOTOZoOwo-M7Adwe9bzxyENF-3SdauDcFpIF67rP0AmL4PM2z39HV-Fghes9mxhE5Lt7A0fkSF_CvAyF0L4QYhqWizHVsKEA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CiOfv6ca94VpkFW1jFDgJzYg32vIFBsJ2wDijL1C4ycUDDAPAiACoDxOqAI1b4hCv1wh7WTdBHIAN87xzBR4Rrecc5d2WubaHS9ZmJb4R9xjfRUGYa-dRwp9-xeCD7zyeX3SGOYA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C1ot3rr_Rhlbyn-HHGYEICPCzy4_8mBZ_9hZ0gx3ewQ8xpr3JzbzKy8D4EaDWdfSz4ikc0YOxLVWFQ7KS0c7_H4sWLA-vR0DuJjO0wNQbpSRfMgjbG4sQskyNMlzB-x0DYq2Q"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNpaWZhRWZ3EAE",
+                "user": {
+                    "name": "H R",
+                    "link": "https://www.google.com/maps/contrib/107447656985300135222?hl=en",
+                    "contributor_id": "107447656985300135222",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKPh9ktmV4QmVPtys6qNEmjuy4SJ6Hz0xI_BAN9MS5GHbY_qQ=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 155,
+                    "photos": 1012
+                },
+                "snippet": "Hmmm its was just not a night to be.. if you do not understand telugu then DO NOT WASTE YOUR TIME HERE. The singer didn't or couldn't sing any hindi or english numbers. Though credit to him, he had a good voice and tone, whilst others were quite high on the music it was a total waste of time for us\n\nOn a weekend pre-booking is recommended, valet parking available and the service is prompt, in fact very quick as if in a rush to feed you. Ambience was good, food was okaish and very pricey. The mocktails were alright.\n\nCould have spent the evening at home watching Netflix instead...",
+                "extracted_snippet": {
+                    "original": "Hmmm its was just not a night to be.. if you do not understand telugu then DO NOT WASTE YOUR TIME HERE. The singer didn't or couldn't sing any hindi or english numbers. Though credit to him, he had a good voice and tone, whilst others were quite high on the music it was a total waste of time for us\n\nOn a weekend pre-booking is recommended, valet parking available and the service is prompt, in fact very quick as if in a rush to feed you. Ambience was good, food was okaish and very pricey. The mocktails were alright.\n\nCould have spent the evening at home watching Netflix instead..."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURvdFB1MHNnRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgMDotPu0sgE%7CCgsI5bWdwAYQsLD_FA%7C?hl=en",
+                "rating": 2.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-22T09:01:25Z",
+                "iso_date_of_last_edit": "2025-04-22T09:01:25Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvdFB1MHNnRRAB",
+                "user": {
+                    "name": "Akshita Ratnalu",
+                    "link": "https://www.google.com/maps/contrib/114524282700753502499?hl=en",
+                    "contributor_id": "114524282700753502499",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLhgpX1C5UX1nlGj-RAgzr89wmkhLyLaHULn5VtF4wAKKJ9Snk=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 5,
+                    "photos": 2
+                },
+                "snippet": "Recently visited tabula Rasa. Not up to the expectations. No proper sitting arrangement very congested. Menu was not as shown in website. Apart from that Food and music was quite good",
+                "extracted_snippet": {
+                    "original": "Recently visited tabula Rasa. Not up to the expectations. No proper sitting arrangement very congested. Menu was not as shown in website. Apart from that Food and music was quite good"
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 4,
+                    "service": 3,
+                    "atmosphere": 1,
+                    "recommendation_for_vegetarians": "Highly recommend"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURocU5hSllREAE!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDhqNaJYQ%7CCgwI2qr3nwYQ4KbolQI%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 years ago",
+                "iso_date": "2023-02-28T10:16:55Z",
+                "iso_date_of_last_edit": "2023-02-28T10:20:10Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AGhYRysopBKyTOCRoScYvEyoTteGg3MiMHPBA1AqE-kevKc84uQDdh5o0dnzj-o3FSlh5UJYSFaP-chxFM5AQ-BCIS36J7aAdy2K1JUdFIHj6JeUsEs3jJq5Eb8V8G_QkPYMesCg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DpBhjLFdPcXdLlHpuqmaX9Vz6MOMeGOzxQEvALoYgLitMHPvCLasE_DzbkEru4LiPuLJgKrGz7MGcPYJx9J-xPe1v6IZiF60MFGUZ5ctM4uEqe4dYyMH3_BQ6FmrjKTG7QnNZf",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AApwhfWhiwZNyVi9OX1Zl26Um4mYz8EXb7bXU23D2At5ekU9ZRDrzwGWUKgh9d2RSJLxyEgRFaHquLOxHC5tygHwSYG-ig35BG_UQiUwFMP62SUeeJisMJvbtQcSHGGapXC71_Dg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BFgSy21ozU56-nyJijJsgxAGNm2GR_qKntibB8cdceoOW7Dux14fJdmfL6XT6wrnVrfyTif2k_zNbndLp9QXgIM-ANsZADu1eJgnvPzkCiRN9pJ_wvpse2dE1sAagdTv_vJKQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ABujAIpEylckfPvcO-w18TLd1NZkBz1mtWoapWZZe95pa2qa6a1DLSsdmbDe6NkgGyKwZzM4y8LX92gLKfM8jYeQwVPHvmPf7GlcP68YY-HMWd8rGU4FA44_GZvyEDt27ie6dN6g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DTjsypE0ids3M9AqUvs5VzqiZZBO2mAgC3xGMcyH8mUU3g-qrUVH20zPv6ca22v5AbPAj2k2zX2otR4Uhpi_EzJr1cOB5lj4zr9pqpBo4SgFnBLuwv1Z70TthFzsoZHPdlOiNZ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DVLerv5xlyHvKeOQYfbxK_L9b6KbsVOvWV1csPyouS1xMk9lwNaPDYFEhfCVRBWuD4GvmLAlwwYJ9vyv9eFbMvTvRZGSWchcYwHc3HpPbcYoqOgI0Hsl7o4ju_QRXZ1y1VgYb-IA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ALx1jYsllBjJTzOB4RxlhPL0S1qDD0gTNUqjwYnrvYNYHpoRybNuuwYWfHyqF6scQA8k5U6hTt_5T_QQZBUdXF2ughIf2mauAR_Skp52aDdzZj2TMQ4tuCLN2XQ6uSXGFpmgKw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURocU5hSllREAE",
+                "user": {
+                    "name": "Raja Chandra",
+                    "link": "https://www.google.com/maps/contrib/111553111043557309444?hl=en",
+                    "contributor_id": "111553111043557309444",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXYvahx_Jka6nSjsjPrjP4SzEYeY-VbT6D8xroTN6dAh5NFZjYu=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 94,
+                    "photos": 129
+                },
+                "snippet": "3 stars for tiny space, poor lighting and 4 stars for food, but 5 stars for the band. No entry fee, cover charge (1500 per person if you go as a couple, 4000 for stags) or reservation needed on Mondays. El taxidi band was impressive. Would go again just for the live Telugu music bands here.",
+                "extracted_snippet": {
+                    "original": "3 stars for tiny space, poor lighting and 4 stars for food, but 5 stars for the band. No entry fee, cover charge (1500 per person if you go as a couple, 4000 for stags) or reservation needed on Mondays. El taxidi band was impressive. Would go again just for the live Telugu music bands here."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURmM1ppZmtRRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgIDf3ZifkQE%7CCgsI44v_uwYQyIKTWA%7C?hl=en",
+                "rating": 1.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-09T12:47:23Z",
+                "iso_date_of_last_edit": "2025-01-09T12:49:39Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJRWW2Y0gFrt1m_aUhEmerrPH1YvTXENAmyyWmlWqJLzk7iZv-vBGSMh-nfkhWboxeDpciWCfG9sUgUdONPqk_0-X0rQHSX-FuUhMa_Aj509efZGvDOQ-Mtr9PO1TqZUIpfX0q"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURmM1ppZmtRRRAB",
+                "user": {
+                    "name": "Zeeshan S rather",
+                    "link": "https://www.google.com/maps/contrib/117917543811486682451?hl=en",
+                    "contributor_id": "117917543811486682451",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUbGtHIPOolBPgF3xD9F9Vs6XdroPlMSqIYzxpA2OD98yv7VP4=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 42,
+                    "photos": 4
+                },
+                "snippet": "Visited this place after a lot of recommendations from my friends expecting good vibes/hygiene/food. But to my surprise it was a real bad experience. No ambience, poor food quality and above all darkness to hide the ills. Attaching a video where a cockroach reached right next to my plate, showing the standards of hygiene at Tabula Rasa.",
+                "extracted_snippet": {
+                    "original": "Visited this place after a lot of recommendations from my friends expecting good vibes/hygiene/food. But to my surprise it was a real bad experience. No ambience, poor food quality and above all darkness to hide the ills. Attaching a video where a cockroach reached right next to my plate, showing the standards of hygiene at Tabula Rasa."
+                },
+                "details": {
+                    "price_per_person": "\u20b91,800\u20132,000",
+                    "food": 1,
+                    "service": 1,
+                    "atmosphere": 1
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNQN2JYWTBBRRAB!2m1!1s0x0:0xd4715b76be249ba8!3m1!1s2@1:CIHM0ogKEICAgICP7bXY0AE%7CCgwIpIiaugYQsI3augI%7C?hl=en",
+                "rating": 3.0,
+                "date": "6 months ago",
+                "iso_date": "2024-11-27T02:29:56Z",
+                "iso_date_of_last_edit": "2024-11-27T02:29:56Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNQN2JYWTBBRRAB",
+                "user": {
+                    "name": "ashish jain",
+                    "link": "https://www.google.com/maps/contrib/109117029826048537205?hl=en",
+                    "contributor_id": "109117029826048537205",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXVnmr058TWRWsEsu8H05TlelfaI8DDywBGKmahzr3bFkyLbM5GEg=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 12,
+                    "photos": 4
+                },
+                "snippet": "Small congested place. The live band was extremely loud. We literally couldn't hear the other talk sitting right next to each other. Drinks were OK. Food was good. Cost wise it's definitely on the higher side, we spent nearly 20k for 7 drinks and 5 starters. Personally, I'll skip it next time.",
+                "extracted_snippet": {
+                    "original": "Small congested place. The live band was extremely loud. We literally couldn't hear the other talk sitting right next to each other. Drinks were OK. Food was good. Cost wise it's definitely on the higher side, we spent nearly 20k for 7 drinks and 5 starters. Personally, I'll skip it next time."
+                },
+                "details": {
+                    "price_per_person": "\u20b92,000+",
+                    "food": 3,
+                    "service": 3,
+                    "atmosphere": 2
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUU0TFZWZlgxOWZSV2hDVlRacVZuaFpTelpNVkdndE1scE9VVUZCUVVGQlIyZHVPVEpaVVVOaVNsTk1NRTEzV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJQ2JRSUGRyzsRqJskvnZbcdQ",
+            "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUU0TFZWZlgxOWZSV2hDVlRacVZuaFpTelpNVkdndE1scE9VVUZCUVVGQlIyZHVPVEpaVVVOaVNsTk1NRTEzV1VGRFNVRQ=="
+        }
+    }
+]

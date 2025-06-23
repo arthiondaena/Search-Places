@@ -1,0 +1,960 @@
+[
+    {
+        "search_metadata": {
+            "id": "6859120532f11d8f626a823c",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/badfa393bcf1a917/6859120532f11d8f626a823c.json",
+            "created_at": "2025-06-23 08:36:21 UTC",
+            "processed_at": "2025-06-23 08:36:21 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x3bcb9739375e1fcb:0x74aa995534bbad0a!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/badfa393bcf1a917/6859120532f11d8f626a823c.html",
+            "prettify_html_file": "https://serpapi.com/searches/badfa393bcf1a917/6859120532f11d8f626a823c.prettify",
+            "total_time_taken": 0.42
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJyx9eNzmXyzsRCq27NFWZqnQ",
+            "hl": "en"
+        },
+        "place_info": {
+            "title": "Cafe Graffiti",
+            "address": "8-2-672, 1/A, Rd Number 13, Mithila Nagar, Banjara Hills, Hyderabad, Telangana 500034, India",
+            "rating": 4.2,
+            "reviews": 3140,
+            "type": "Cafe"
+        },
+        "topics": [
+            {
+                "keyword": "milkshakes",
+                "mentions": 77,
+                "id": "/m/01k17j"
+            },
+            {
+                "keyword": "mocktails",
+                "mentions": 17,
+                "id": "/m/0118j66g"
+            },
+            {
+                "keyword": "kebabs",
+                "mentions": 16,
+                "id": "/m/022n8y"
+            },
+            {
+                "keyword": "martabak",
+                "mentions": 12,
+                "id": "/m/06n7yw"
+            },
+            {
+                "keyword": "beef burger",
+                "mentions": 8,
+                "id": "/g/11h79tp2xz"
+            },
+            {
+                "keyword": "blackcurrant",
+                "mentions": 8,
+                "id": "/m/0174rt"
+            },
+            {
+                "keyword": "alfredo pasta",
+                "mentions": 7,
+                "id": "/g/11lrwkmkj0"
+            },
+            {
+                "keyword": "bbq chicken burger",
+                "mentions": 7,
+                "id": "/g/11n5zkbxhw"
+            },
+            {
+                "keyword": "iftar",
+                "mentions": 6,
+                "id": "/m/05782m"
+            },
+            {
+                "keyword": "strawberry shake",
+                "mentions": 5,
+                "id": "/g/11qrhjxvry"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQzaU5IYUFREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgID3iNHaAQ%7CCgsIr5rSvgYQ2NyUAw%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "3 months ago",
+                "iso_date": "2024-11-11T15:36:27Z",
+                "iso_date_of_last_edit": "2025-03-14T20:10:23Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AhbE3utKuUMWBKaE8R4A82yfObDzds50CXxuCXq997II6RLkFZaT6YWwR5lvY_C6DyWqd5mFdXxVW02NQWopwXDkNVHBz_aJXIvyrcK2-Ade8Bx_v9mSr1RU_KSEYodizJte2t",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADlQHQIEeVB0RxcXVu9I8MXL2GbZwOhdS3VtOhCQCtXT28x9RhL0lkzOgtFLcxjzcW-0DU6bV0ZwGenO-2UnxnTjRE7d-bEiX-TU3riIIzE9H80zp5jMay__1CUsTNxj0psLWBHg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJgU9gprFfyUzHM70-3xlhZ-7zA5WZY4G6On1tx_n8Q_vez_P1PnYaCyybZiMgRJAh48wvSgdZTDtAgC0O6mwJiRjX0uAwy5Ry8X1b78tPn1c1amGL_DKz6IYEUAEsxfpB244",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CeBspc_dpnyrSPsDvnY6ByA2zUh3ObIFMMxGmtcYwv4cATBmzFK734vo8MITpNkExcUQUEdaF8mjD792WvBeMHfhcKIbnJ55QoAckyWyoMrgSFWShzrENKcTIFaa71-azWBpaJRg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D_kOfh39rhIu8uqNlufPaMxYRQGPR-kk5tKaXXEn9p_INM6vJyrB3wB3bSqMeb_ROSWpnyHNTIDrSDu2KGcQoHZN42UAizBEiWa4kXUH7qOtHJfPdmO-FMYmVKDU0Gty5GxMQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BetrLliTRWyOoDhOeeQMx5FAgUcy4slpP9oxnJKAkR9Bp--K5DMSB18tENu5da-j7ciyxnD9ySvpFGlHTfzvxI_flwyJH0smqXUuxo8Pg44GFu75o2WWEagtMDjG9v1WBnAsAl0Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dteb2BvOBJ_zzX9k_0EEpFN9JPFyiIkeo3nXz8hmNhTwZ6aFeZZ-tsx658xodJveBolQuZER5igNdhQ7NT-P4NigFkKpoWRIHTB73Jw1YCGkHOM9TOuXKPGDtJAAoafJkMRNY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90APQ_3mRFL9t_nY-vbNwKQy1n3Tr6SkpwFpPnzWjUFKnpkIiSxZ860ydU6S2vpFWMingQe03Q3bDkM30AuGMmijHMC4twvWI5ze5ZLhRQDLTvKu2VryKjhtgBo4pGTDMGdCqYSB",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DsE7YWgWam5nFfHIJPVqI8bKOWDmR9At5HnxD7gtZgGvpt8b5UAEHHB9OU2Qk8ss61yMxdWO9Nq1zQPGGYMR6GFxwHYTLqyUJeumcJM8t0fl2GIpkOA8TWoVlSRZi4GPjTus0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHwD0BVCwNVaLqjWnzco74W7fauRDkvVbeSBghJzSt4i5fSwECjzuCiWafmCZ1whxU-O8K0e3Zg2vay1xA4rdF1SyLd4rj8RYO_csrMW54mgwACNciaKmFNO-MrsNyNzFPTzOR",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D8cuZR80H3QRNZkyqg_KAyBeEyn7z0KQZu4t0huZKQKvUi65iN7XL6LVdKtwquNO8SbvA0z8iFP498-1_peDItaRCb2QunrC-QON0F_qNQ00S75gz2h29vGR6pEJwqzsW4AY6-Gw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B0LCH0L0-59OSmQ_Ezc_VBZymUx2jUf2WeuXvKoZKLlPhGw3zAPovRblJhzNEah7Yre93XxuYVWczwwXjhJ6JRthepXpQArZnL2TknD2ah0vbB1Pzb7jALxkokV9s6jdaQ-SGZ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AwDhetKAzqUiCZiUqf4V07rEMnB1MG2aXueqyt2VHoEUvwbfbqxcdbcl1LSShcgmGNxy1dVlBut7e5EVQ2mwSZOFsGSW8ioesbAWcjI9eXjGw3HeEd5APeC6MVlj7ILQro2lKkEg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ATKHL_mZMe_xFlChUDcx2wk8gsG0xrBacMDzNwmP8MTfCBTgtdbr5JPQSRyB-upFpoX2aNFltssbRCoVk7ju1Uwhk7mTMaZ4bB_LRE0wnIi0rNGSx313vS9JkA8ethfLURS9Wv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CH1jadiDz9g37oWuETMee-feQNHuxjTt6z4U4qVrE9R_vhTPT4SiQNoqGnovMkdWd1l3SPLH1P5bIClzq122-nweO7nJgySQd_mWK6f6ivbVFIihLZGvPhkiFrFEcruvXIotpWhQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DRkAfxhnW4jNel669VmKrDJ5uz0Ajz0WzJdEpDDJN4k6DRQv-vUSRn3Tw4jE7_fkyYf2-y0_e6PGGrqW2RWuvENJTuzHziOqAucLl7VINl1NRCj_cSu30Haa6_Qb8EfVc3cE91",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrM4AKHyoW94nZ--mLOhXsG5gJMjgb9Sd1P4rBFk7kuIhbCnez2hc6rrMKcemN0lkv2iDlkO0B8R0XI2R1FJsJOfBd38h5uvUlGJCr7yrgnTkuXb0IqTp_Rc1XZGspcGYbz7azpA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BEsq_Rpj3pg3lhszRby7azEUV4qHX7DtCsADueUfsr2mr1AC1Wx_WQB0psykV9BGk6bFj--DMh85t1PnkwTVpC7MZyJhhxMaLkQe7TlsI_lVzJLpVl9pCPPOxcTANkUEZHBm65",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DWSP09CkCyonv6adQMjG3xTlJtpr36y7OABkXfMSVbxJOR2RVff450lyFGfFE-OlKperot0nfEweCeVPDrppu-aof6LbXeS44jbWE2GybvhD_UCBnt1AEld1hHQlrA6Zb6ucoZgg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BVWaChphtndZBbUm7UAtnQkG42nrcbRJVMBgyCAfQLSdTf0Uq3q5Zcy6pvCfGg0ckt3zdm48WW_qjdM-wOlxgSdeR0T50npgu09by9rkheND8luK2fd7eKz20risavI439fCI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C1kVp0FcQweaPb-qtp747UzJsPgvFl-Bfzyjqb7zDmQbVc6PtOYsmvh8Q3cWDVBRcVBaq6tmCp-dfYF9oOQkmuQCJzB-R5De1Cv2On-0CAalwA7PwCd_ofyEn36d7v9gShOFkOfw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BdknHGrv2-hnr-iDpG3JH7e8HOCHxJ3cPkUdglqzWcekvJDuuUOOOehPewbIZ3Pr8Hcagb4qtApbQbojOZX-Xn8o3Pduqry3Vb8Fjgpeb9iU4hJgYDsYj-w0z5KD3gWaweofNa",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AegptjCTIzpkrRE17qRNiJLCV0n_MgHGcpf3UK3j67fSw2mEZtynJZLAqpH-ISIUb0WAzM-oviIj09lmTjshqp62_A72c79n8aFPDkvmYnA7l0ziZ_Ny4Blai7W4wABDALPXks",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B5qwjJf9q05hgeq9EIbEwUqPJU_uQKXcUWbtERqa4fEyM3LfpoGX45N_yi8Z_tRAPXm7PnU-Mfi3Y-qbYE6UKurzPbGeAO-12lwZj_9AUcFV64goes0akNv8ALiayajPAq-Egd",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AKUSWLS_-qSY54NxA2Exkiyr7H_gGtp0sOQ0ugJGKgO3g8ZfocbhMV_Qmcmipbaz1s6OLd9R9s8YL-b5cgYC3n59vCymO_XQ4GLReJ3MPDVZmQbebJIR9fCx_BMnBBBZL39dfj"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQzaU5IYUFREAE",
+                "user": {
+                    "name": "Abdul Aleem Khaja",
+                    "link": "https://www.google.com/maps/contrib/100602380964556485766?hl=en-US",
+                    "contributor_id": "100602380964556485766",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVB7jnlspGz_A2r1f8WstXmLCGT17MQhSNqFJP-DagJnSttHREcWA=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 255,
+                    "photos": 2506
+                },
+                "snippet": "One of the oldest cafes of banjara hills located at road number 13.\n\nAffordable prices with good quality & quantity of food.\n\nWe tried the following items,\n\nChicken Alfredo Pasta 7/10\nBroasted Chicken 9/10\nChicken Cheese Mutabbaq 9/10\nEgg Mutabbaq 9/10\nMeat Mutabbaq 10/10\nSpecial Meat Burger 7/10\nChicken Zinger Burger 9/10\nChicken Zinger Wrap 10/10\nMeat Sheekh Kebab 9/10\nMocktails 9/10 ( Green Apple recommended )\nChocolate Milkshake 8/10\nBlackcurrant Milkshake 10/10 ( Highly recommended )\nIced Latte Hazelnut 6/10\nChocolate Donuts 10/10\n\nThey aren't serving naans anymore.",
+                "extracted_snippet": {
+                    "original": "One of the oldest cafes of banjara hills located at road number 13.\n\nAffordable prices with good quality & quantity of food.\n\nWe tried the following items,\n\nChicken Alfredo Pasta 7/10\nBroasted Chicken 9/10\nChicken Cheese Mutabbaq 9/10\nEgg Mutabbaq 9/10\nMeat Mutabbaq 10/10\nSpecial Meat Burger 7/10\nChicken Zinger Burger 9/10\nChicken Zinger Wrap 10/10\nMeat Sheekh Kebab 9/10\nMocktails 9/10 ( Green Apple recommended )\nChocolate Milkshake 8/10\nBlackcurrant Milkshake 10/10 ( Highly recommended )\nIced Latte Hazelnut 6/10\nChocolate Donuts 10/10\n\nThey aren't serving naans anymore."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Chocolate Donut, Black Current",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free street parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VNTDJqWnJQdnFtYk9nEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEML2jZrPvqmbOg%7CCgwIpMf3wQYQ6OLnkAM%7C?hl=en-US",
+                "rating": 2.0,
+                "date": "2 weeks ago",
+                "iso_date": "2025-06-02T17:47:16Z",
+                "iso_date_of_last_edit": "2025-06-02T17:47:16Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DVmDJU7I5-9vPGRLCGr5EbWDVps-wigLdXa0cObaw6fmzjPPVYt1xN74T4XYZ_JsqDueykBV7L_Go8_nYGPExNN1Fn13RQbsehF2JfgCjzwBwErixbdYM1ZosL7EpAmptFtGBN",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BdtBT_TGolk03pPgAygXylmO00x0xeZsDkDsUce6tv4oNKkiBTA3HL5JoKffmcSy90tJPBMqIjzseVrOkClZa3cBOCJdukLv5I_4Z-3uPeLis-3HMoWaWKhtaEydVSlq5pTM0ulg"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VNTDJqWnJQdnFtYk9nEAE",
+                "user": {
+                    "name": "saqlain ahmed",
+                    "link": "https://www.google.com/maps/contrib/106705346661141916166?hl=en-US",
+                    "contributor_id": "106705346661141916166",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLjtLntM5_HFAnGuC6KHZMV-MMAJI4f2Ci7_KaeAfzX5tYj_A=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 10,
+                    "photos": 2
+                },
+                "snippet": "Popped into the restaurant with my family poor hygiene conditions there were a lot of mosquitos under the table and were falling in the food,need to look into this matter running a fast food shop in banjara hills with this poor hygiene with all the mosquitos falling in the food is not good for your restaurant reputation owners need to take a serious step to sort this out",
+                "extracted_snippet": {
+                    "original": "Popped into the restaurant with my family poor hygiene conditions there were a lot of mosquitos under the table and were falling in the food,need to look into this matter running a fast food shop in banjara hills with this poor hygiene with all the mosquitos falling in the food is not good for your restaurant reputation owners need to take a serious step to sort this out"
+                },
+                "details": {
+                    "food": 2,
+                    "service": 2,
+                    "atmosphere": 1
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNZeVl2NnVnRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICYyYv6ugE%7CCgwI--f3vwYQ-JaRogM%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2019-04-14T18:07:33Z",
+                "iso_date_of_last_edit": "2025-04-15T05:51:55Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ck4X73Q8bskaIZHQxvPMnFPopgCoEFcbLWpE-AFVCpbW4MvySFs0E0ywOLEgmgje5Xp3DfxKWIwR5r0HW7fgRH9T3w1dpRn0VVEiYhZ4ktDkPZfaBOcp-bT7xJGwF-dYUd1uk0aw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BboleUhw8rghr8-dasQZxfHEnjat3-E161q41qOxNxczGyOd1ENkCxCmYccY_HDNK33Bz06ZG_LIQydE9WsRNYmK7x4t1kBvuafLFDmLF_bSqqcV9hO6B8sxZh2fXXf6FozPmc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CV1eRKQbm1K6G60KHd0clxh2D7YXQwRwvBtJsiI6pWe5HGN49zF5aegDEtoRexKcykkQTZBO3D0hKh3uXjHGuHUxcnKns-a7zeNpIBtZqqBPxO1Lk4pWRll_M--_45_yuQDmKh0Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmX1dJyOZGWI1HhRfejGpVy2r04rSpgYiL2avjcyvlvI-zl-hmPXZPpVtV44M8vigR20vCntxwBMmweGD-ZY5J9QnkG24gst_TddeVZcJOMBXGhvgf8AMtAKZKt2DE7U61JaWg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CDbYETslFzvUVDcXJxAmQbPUG4ek8Abw77wlo0vIDcIqLFQKicAtkpSE-VUo-a3puBStNfiOnwPHsjwLGVE8tepGmNT3m1l0FgI5MTXFq8E6dU7Nuq5AHGXlxB5ihXd9BhfJASCg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJXlLJTKgSoSDKGBC4GPudzREEHnVp8Ej3WLyThLzd4DLsgJDZMYz5PHxn7i_WhlAeJhvO_2vDk6lgwulCnCfbyW9Y-Q1ZuO44smiS6Fv5qGIACnIZmW8BMIgoceTMdVugTpPQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CvZkgthyuW3QIdO10u0j_73P2qn3gqCz_VNoQaN3lwShhsClnod0jhxxS3EFLEowFO6uOivzhsbPDYfzeSvovZ9lsNDR0FvAngmARpXiWQ0-tm6mHN3jx_UTIWBCn03rASMk_iJA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BcAoHxVVu-nUesQgl4QrjcOUyf2Lng_59-YTlZIv8RTygQUd-J9Tqg23wf560IKIS1sWwx7stCozwOwvUcFs3UikC1F0hBUN_mWhxRT4nwMi7uUaLHq5HIJu7hVglSqFVu876v"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNZeVl2NnVnRRAB",
+                "user": {
+                    "name": "Mohammed Jaffer",
+                    "link": "https://www.google.com/maps/contrib/116915823201800441816?hl=en-US",
+                    "contributor_id": "116915823201800441816",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWytYm2JpdTGYj5o2PxX7i9AI0OGoOU07Nfr0Opv79LQtraSKJIBg=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 53,
+                    "photos": 121
+                },
+                "snippet": "One of the old cafe , the food is good and ambience is cozy",
+                "extracted_snippet": {
+                    "original": "One of the old cafe , the food is good and ambience is cozy"
+                },
+                "details": {
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 4
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURyN19DemR3EAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDr7_Czdw%7CCgwIkZf0tAYQgMD95QE%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "11 months ago",
+                "iso_date": "2024-07-21T13:22:25Z",
+                "iso_date_of_last_edit": "2024-07-21T13:22:25Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DxXABaQia3sQEAOYsRkL5_DZS9zeQz-nyEVPxm7_yNrmTN-ikd480QUqbXUSWebwyHN5SrLz5TgpLHFD8A8x0t6-0mHGBZdQy3k0XALk_N_8gund67TFpeQBl2oGPY2dHOS5DG",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBVee0tOFtK7BJDXGQuGDHFeFgfF4raOFsNb-KWiOvLRm_ABCIVBARQoRCVePsgz7k1BuECcIkrPcY50peXGfYrhoMs8_Kdn80Enekp3nr2UL0v1QlRzw0AQg2zlRBSmi0ofPH",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSCVkETHba_Sw0oT4LfbDFWZol8-q0h2hFjqynuMskOdnY3rUPUXjl30wqWqNZrlguS62Zqvbsoe6moJ_s_5SLHvoum2bV0h0bP-l6Ix1kBl7b7J4lU2znrXnaTvCDWeXU0Syn"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURyN19DemR3EAE",
+                "user": {
+                    "name": "Mohammed Ather Khan",
+                    "link": "https://www.google.com/maps/contrib/101636726460829559414?hl=en-US",
+                    "contributor_id": "101636726460829559414",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV4nxt33loD7lZDYN8oIC8JFrhmhscWEFzy9Qma-OahGQT31Z6nVA=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 167,
+                    "photos": 330
+                },
+                "snippet": "It's a hidden gem for sure!\ud83d\udcaf\n\nIsse sasta aur acha purey Banjara hills me kahin nahi\ud83d\ude02\u270c\ufe0f\n\nWe consider it a sin to visit this place and not order the following items :\n- Potato Wedges\n- Chocolate donuts and croissants\n- Chicken Alfredo Pasta\n- Chicken Muttabaq\n- Zinger burger (Beef/Chicken) Etc\n\nThe only disappointment I faced here was the news about Bhukari rice and kababs,\nThey aren't serving these dishes anymore \ud83d\udc94",
+                "extracted_snippet": {
+                    "original": "It's a hidden gem for sure!\ud83d\udcaf\n\nIsse sasta aur acha purey Banjara hills me kahin nahi\ud83d\ude02\u270c\ufe0f\n\nWe consider it a sin to visit this place and not order the following items :\n- Potato Wedges\n- Chocolate donuts and croissants\n- Chicken Alfredo Pasta\n- Chicken Muttabaq\n- Zinger burger (Beef/Chicken) Etc\n\nThe only disappointment I faced here was the news about Bhukari rice and kababs,\nThey aren't serving these dishes anymore \ud83d\udc94"
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 4,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Potato Wedges, Mixed Chicken Kebabs, Chicken Zinger Burger",
+                    "recommendation_for_vegetarians": "Would not recommend",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free parking lot, Free street parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMweU15ekJ3EAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIC0yMyzBw%7CCgwI3LPq6wUQ4LH-xwE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "5 years ago",
+                "iso_date": "2019-09-12T19:16:10Z",
+                "iso_date_of_last_edit": "2019-09-12T19:17:48Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AR5WlkBUf09-KPsH2ipw-pgiP3nRo4IvXIOs5ijHeAGdTsbAVwwZGfEGwlDVkHDGyJJqIpBsOJ5aq5O0UnapVB6Y4dsmL8BpvpdbbRmyzLJ1i2bVCDSicN8wV5fA9bD9gQnlma",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADqPUGQ95XAVLaAPwLhbr8Q6Z7ewxyODVOKx8YNNxq2kIv3wVBfiFX0GrwKiMTnunoqNIlcoQphc0sPIknqAndHffo7RpheQp2vjBuH1nDCuutJXL68LCycsgwZaPpLGbhdIY2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D8p2qQJN9FR_FbSeIZMKAe9cClqGZTdNxgUoXOTvqobau7bRqnpsjKsvfA_9pybtQa9gncsEbiWZ0noai08SZtzXW-CEWu8Yqz-0JgXKaPpm5uDllg4flYtxmQ1Qo3RmsKazo6UA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AggxCTlvSSzf3WSbKsW-rSMOUy9qjGvKAC7xYy1-zhlj3OzDronFEofacD6N9G2U9BCgquIwoLRHqq2bX8gobnaT4Tp7zstqFI1y-0nMeGfptA9UwdZ2WLQRo8W2j6OnILH1lI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cx4hqYxNf_G3jp1p3Eb0IE7zwMdAvoJr6RJkN1kMAawxbjjbJhhjpd-A9tkKPS7ua8i5vRLQyRzdk05r_lPfrU_dUA_zBGdUqX0TRkVejNSR7L77N31gQD8ozTlBDjAGs7AASt",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C-y9fpwBaUtd-X5_pXojbWjbJm2ume48LfYNk3oU5w3XtF0uBV0WyZmAG_jwKpsr-OwSXOLIyDJHEqnNg5vduPlQYUExwXZ9S5sX4uDhcloxA0vy7DoxwdG0LGToGIBkVzbxU_ww",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CMuDjrJBXH27KpSVEA75g7vt28e0PlLOqbA5bxnXmsdhwXzHZRz1lpwH2rBIaZtYeIQUHsfsVnXjBEgYE1eggAPuYP7_EO5Zjg_cXMniAbc77mKoz1HCa8jjikUv2STbJ8WhcSpw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMweU15ekJ3EAE",
+                "user": {
+                    "name": "Dr.X",
+                    "link": "https://www.google.com/maps/contrib/107485080613221524383?hl=en-US",
+                    "contributor_id": "107485080613221524383",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVZxSaxzgOrho70U-5jfqBkXYF2hceTBhstSmFWox2XQdtOPU9w=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 56,
+                    "photos": 238
+                },
+                "snippet": "One of my favourite restraunts in banjara hills! Whenever I'm low on cash,and I want to eat some good tasting food,this is where I go.\nThe staff members are super friendly.\nThey always suggest the best dish when you don't feel like deciding on your own.\nI have went to this restraunt dozens of times,and I've never been disappointed.\nThere's even a dedicated family section on the first floor,which ofcourse is wayy better than the ground floor for bachelors.\nThe prices are quite reasonable.\nInfact,I have found this place to be much cheaper than other restaurants with similar menus.",
+                "extracted_snippet": {
+                    "original": "One of my favourite restraunts in banjara hills! Whenever I'm low on cash,and I want to eat some good tasting food,this is where I go.\nThe staff members are super friendly.\nThey always suggest the best dish when you don't feel like deciding on your own.\nI have went to this restraunt dozens of times,and I've never been disappointed.\nThere's even a dedicated family section on the first floor,which ofcourse is wayy better than the ground floor for bachelors.\nThe prices are quite reasonable.\nInfact,I have found this place to be much cheaper than other restaurants with similar menus."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURWdTdTWk1REAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDVu7SZMQ%7CCgwI5a74qwYQ6LTo-QI%7C?hl=en-US",
+                "rating": 3.0,
+                "date": "a year ago",
+                "iso_date": "2023-12-16T21:23:41Z",
+                "iso_date_of_last_edit": "2023-12-16T21:32:21Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DGga4ycnlXggNJ5qFNhgXmqiCSVSmaZblcPMOc2lraAGg_bOOQDzIHmYdK4UWT5cM2hkZFHetE3CJMpb_P7rX7g-BhVLejAGqSElSHyl77Q2FRhwwan9v1xQsny-uVtHDumCANMg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DByEm3Nl1LFWslJYFx8tX-RBb52b2NFvuiXYGCO9KBOIjjVqBa5764ipqbQ1l1tzEl9Z2qSkyLZsde8hH-yo25AlNTgy7K3S1clSjgfVeXkO_dv1Dpi5InJdazVhpc9iPBVqw_"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURWdTdTWk1REAE",
+                "user": {
+                    "name": "M__ Qayaam",
+                    "link": "https://www.google.com/maps/contrib/104244089195500796233?hl=en-US",
+                    "contributor_id": "104244089195500796233",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXW1aNaUyvMgIUT0ISYjMC2-rhe5_h3fSDw5IKxZDOfPHU8W_1PIg=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 19,
+                    "photos": 13
+                },
+                "snippet": "Hi,\nI've visited this place like 2-4 times till now.\n\nSurely they have improved the ambience and along with that increased the prices.\n\nAs usual I've tried their Alfredo Pasta which was supposed to be tasty but they have compromised on the quality/taste.\n\nEven Fries were not pure peri peri like they just sprinkled the peri peri mix but it didn't mixed it well.",
+                "extracted_snippet": {
+                    "original": "Hi,\nI've visited this place like 2-4 times till now.\n\nSurely they have improved the ambience and along with that increased the prices.\n\nAs usual I've tried their Alfredo Pasta which was supposed to be tasty but they have compromised on the quality/taste.\n\nEven Fries were not pure peri peri like they just sprinkled the peri peri mix but it didn't mixed it well."
+                },
+                "details": {
+                    "service": 2,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 3,
+                    "atmosphere": 4,
+                    "recommendation_for_vegetarians": "Not sure",
+                    "vegetarian_offerings": "Not sure",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free street parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURDcDVTeWpRRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDCp5SyjQE%7CCgwImvua_AUQ8Pn_7gI%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "4 years ago",
+                "iso_date": "2020-10-14T08:55:09Z",
+                "iso_date_of_last_edit": "2020-10-14T08:58:02Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfmUlyKC-zElaCxXt2eHEnyw9FrExJUP_TMR6yUi2BE45X2iOCMdhNFnqhqYXb5_FC9ycZyicU9tHnnZW9TznPyqZsJ4dSasP3PN135cbMUiy5XH-K7i-LcQ-MvI6m9jaRQ1M",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A9Fgu6orPOQlZzsmSeLo-Xe2jMICmHEzafXFxwhLJ1GdrMo0FPjYMLKYavHvf0zWCRZ4NRo6aRPMl3pcsIuI2vy245qbO2QlGi5OchFMIoCrx5Atczd0ef8RUEV98n6staolzJ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ChjhhOniQ1N_KL7a2bWj-i87kum0fV61YgDFkT9oM2zoWnOlrEJ3ftk2HgkKvgxekTeWYfnYb6avnP2hQZmUTS0DNaaBF2dBukPr1JDgZJUBNMtkwdxEUWfRFMXwE57hBOcAQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZaBSJX7dW_2BYDKGxQV0tdf6vVAVsGyKZZT1fSVVGG-qyZegN4CmXNo-RsvqsoRXcL7tF_F8ZsNSdZWMaVL4XJHRMX3OxoejFHLu7kB8ZD0GHUdE55uOGe03ql6mFI-A8r1gNcg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D9y8eL1LtBVaA6yUWJKUuqZ1iB_vB6aS68y-4sg66Ykz7IWwV1P-iM0nff5giemeSq_ojph4evigdb5LxVAqcdt-DKE0yPJODW7E94b9pY_bscWVM1lqqyD3B0-lZc0vFkRao"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURDcDVTeWpRRRAB",
+                "user": {
+                    "name": "Mohammed Furqan",
+                    "link": "https://www.google.com/maps/contrib/108704763365700030318?hl=en-US",
+                    "contributor_id": "108704763365700030318",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUosoUUuN-GbVzJ13h01cPkG_cnFscnyDg5Ts33HvXXZoU1I0dPdA=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 99,
+                    "photos": 270
+                },
+                "snippet": "Best place for Burgers and pasta.\nI tried zinger burger and beef burger here. Hands down it is the best. Also try their potato wedges.\nThe burgers are full of flavour and spice.\nAnd the interior is too minimalistic.\nLove this place.\nAlso the food here is HALAL.\nGood spot for a lunch date.\nShakes here are also good.\nP.s Way better than sound cheesy",
+                "extracted_snippet": {
+                    "original": "Best place for Burgers and pasta.\nI tried zinger burger and beef burger here. Hands down it is the best. Also try their potato wedges.\nThe burgers are full of flavour and spice.\nAnd the interior is too minimalistic.\nLove this place.\nAlso the food here is HALAL.\nGood spot for a lunch date.\nShakes here are also good.\nP.s Way better than sound cheesy"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNHb042T0FREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICGoN6OAQ%7CCgsI5suuiwYQsMq7DA%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "3 years ago",
+                "iso_date": "2021-10-17T04:26:14Z",
+                "iso_date_of_last_edit": "2021-10-17T04:26:14Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B7AfTZzZkZzqFpCIOp2NscKuOOvcywWr_Saj1U0H1cbwd9qmcqJgGzlfT6HqahTSvqC03b4vCCTEDAiVpxfdOAv7RdwnDE9k2A-X8JuRJC1c1pWgs3-2Y8iGDccnphdLLn4hYjPw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNHb042T0FREAE",
+                "user": {
+                    "name": "Ahmed Amjad",
+                    "link": "https://www.google.com/maps/contrib/117850203049772576089?hl=en-US",
+                    "contributor_id": "117850203049772576089",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUDg2CX1DzQd9qPbmuJh71iCrzN81KzHipoe8-LaoFjN_bv1DRy=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 36,
+                    "photos": 89
+                },
+                "snippet": "Great little affordable place offering good some very delicious burgers, fries and Mojitos.\nThe beef burgers are some of the bestt in the cityy. The zinger burgers are a little dry though. Apart from that it\u2019s a cozy place offering good ambience, a neat setup and a relaxing quite time.\nThe place has gotten much larger after their recent renovation, and prices are still pretty affordable so that\u2019s something really nice.\nService is quick and appropriate.\nOverall 8/10.",
+                "extracted_snippet": {
+                    "original": "Great little affordable place offering good some very delicious burgers, fries and Mojitos.\nThe beef burgers are some of the bestt in the cityy. The zinger burgers are a little dry though. Apart from that it\u2019s a cozy place offering good ambience, a neat setup and a relaxing quite time.\nThe place has gotten much larger after their recent renovation, and prices are still pretty affordable so that\u2019s something really nice.\nService is quick and appropriate.\nOverall 8/10."
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUpLZFhaZlgxOWZSV2hDYW1Sa05GQk9TVlIwZDFCcFFUVkpUVUZCUVVGQlIyZHVPVEpoVFVObk0wNWZPVmhWV1VGRFNVRQ%3D%3D&place_id=ChIJyx9eNzmXyzsRCq27NFWZqnQ",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUpLZFhaZlgxOWZSV2hDYW1Sa05GQk9TVlIwZDFCcFFUVkpUVUZCUVVGQlIyZHVPVEpoVFVObk0wNWZPVmhWV1VGRFNVRQ=="
+        }
+    },
+    {
+        "search_metadata": {
+            "id": "685912066adf27d3440ab1a8",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/ec64c5133bdcc311/685912066adf27d3440ab1a8.json",
+            "created_at": "2025-06-23 08:36:22 UTC",
+            "processed_at": "2025-06-23 08:36:22 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/ec64c5133bdcc311/685912066adf27d3440ab1a8.html",
+            "prettify_html_file": "https://serpapi.com/searches/ec64c5133bdcc311/685912066adf27d3440ab1a8.prettify",
+            "total_time_taken": 0.28
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJyx9eNzmXyzsRCq27NFWZqnQ",
+            "hl": "en",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUpLZFhaZlgxOWZSV2hDYW1Sa05GQk9TVlIwZDFCcFFUVkpUVUZCUVVGQlIyZHVPVEpoVFVObk0wNWZPVmhWV1VGRFNVRQ==",
+            "num": "20"
+        },
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNabXMzTUZREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICZms3MFQ%7CCgwI37TtpwYQsLLOqQM%7C?hl=en",
+                "rating": 1.0,
+                "date": "a year ago",
+                "iso_date": "2023-09-08T17:30:30Z",
+                "iso_date_of_last_edit": "2023-09-08T17:31:11Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADJrHzBrmK1g8liAXvbpe5t2d8X4U7EobNy7QPEIdwpuqX6Gy-iuR-NanxS7FttmbRxM2Jvn8JeNm-QnV7GQ8xP4EkTVbCZ-lxWrn7ffEOuM_PQHRUSQ0iIki4k7dmMojpl59ESQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DYwYqw1qp0adkF9WMo-NXHDSdy2dkmENMVZQCY1QF5feVVu14NEs8kKNRUfvDdDhe96Uu6UxYUpnkf0SlGt9eRMu8zPik2H_hi6ws38T9qi6FKbz4bXRaJAURwbwQDe8cbLqY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C3opBxihKXZEI6fo_CdGO_56y9IGex3xg9EEOUn0akWadwpxhboQbBrGB7SfD7opoCqS42lt20qw9XXkUHMRrlFiFb37vQlmlEy1QbEzxYbDkyovAAESc4zdJtkl0T7Jhq5l3tFA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DNsziZOLsWqREto28iM6Mu793zWjoxT706Q291aGmS9xmV_8bI8HsoVXAt8E5PBxrm4ipd2NYbhNfrCwb0n6bE0w3fulx9UpSUnjGdZiUKXcL768MEv7NFPcCRuYW2Ir55LoP6"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNabXMzTUZREAE",
+                "user": {
+                    "name": "Mohammed Farmaan",
+                    "link": "https://www.google.com/maps/contrib/111540887389350828892?hl=en",
+                    "contributor_id": "111540887389350828892",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWaPvtK5LPTWquHWTfPlKRLjvie5_6xGfpkOvJPDuRm5Amb7T-6=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 31,
+                    "photos": 46
+                },
+                "snippet": "I went there and ordered fish zinger burger and fish and chips to take away for my wife.. but they betrayed me by giving me chicken burger and there were small pieces of fish in fish and chips..date: 08/09/2023 invoice id: 1/005090 time: 9:53pm bill amount: \u20b9 400.",
+                "extracted_snippet": {
+                    "original": "I went there and ordered fish zinger burger and fish and chips to take away for my wife.. but they betrayed me by giving me chicken burger and there were small pieces of fish in fish and chips..date: 08/09/2023 invoice id: 1/005090 time: 9:53pm bill amount: \u20b9 400."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 1,
+                    "service": 1,
+                    "atmosphere": 1
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNzNU5UNVlREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICs5NT5YQ%7CCgwIwLf_8QUQ4MiIzQI%7C?hl=en",
+                "rating": 4.0,
+                "date": "5 years ago",
+                "iso_date": "2020-01-22T17:59:55Z",
+                "iso_date_of_last_edit": "2020-02-09T10:15:28Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BppdrzFIC67fZ_eBMwIDNzBZdjDZLaGosEzWFMdP_h3YfDA1cH0OeFE-RqhUiGKFxaWJ2TSq-ZPTl209Mxpb8jqNOPFHK9yBHjbEuyJmFNyhTHwQaTHQKdXECq0lqAlKx5K-eY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_6xwTCIS-cRT1bent9_LJCGblhj9cEkRmzbCmv7dT6aehTSJqQTZC3TCtJJEiRZFW-t0pEXJSkSNBcTHK5FQajzYCTSAgE8ViNskGNikh3oh1YSu9eAoafBssR1FtF-AiJRxB",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BKNetA_fcN3-xf_5UJ1cLrX4rcUGSfwGDEZSoA9u_w1IDFUYtimrp7eU-_gl5bpylQT-354f0hduXh4f5Ecgf0nTLc12K-G1rk4z3KEoSdD9paoTg9hXZR-N3FtBAVoTJzaMaYGg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DzGXZhTiAMt8w4q1kc2D2L1bszn5F4YDoUYqS5twsTXKsl0QnthciIXjS_mBgcRyEO-9xrN7zy5D9HJ3Ou_jV_AokSF7zLaYpkyS5TASG3hJqicnGEqiNFQ2g2X3PUOkVtGS2l"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNzNU5UNVlREAE",
+                "user": {
+                    "name": "Sara ahmed",
+                    "link": "https://www.google.com/maps/contrib/102096092109801646292?hl=en",
+                    "contributor_id": "102096092109801646292",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXFKvuWsgpkAcgwOYm0bg2EuMh_jCsVBXgttjdFoex8uCiuSau4DA=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 27,
+                    "photos": 135
+                },
+                "snippet": "The food is great. I just felt the place had a weird smell. They could work a little on their ambience. Nevertheless, it's a good place. The beef burger is must try",
+                "extracted_snippet": {
+                    "original": "The food is great. I just felt the place had a weird smell. They could work a little on their ambience. Nevertheless, it's a good place. The beef burger is must try"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURDbnRLdWhBRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDCntKuhAE%7CCgwI-aDG-wUQkJyEnQE%7C?hl=en",
+                "rating": 4.0,
+                "date": "4 years ago",
+                "iso_date": "2020-09-28T07:25:33Z",
+                "iso_date_of_last_edit": "2020-09-28T07:27:53Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90All_2x40fj0L9X-XUdTTQQTECUyUZ2BGyIatvYShYg6S8kclZwP35E_2MVHPv8K15LlDPrMPnZwZ-YepLGW6bH-FBs_9VRR6dbp2wAgl89yavl6uAHYAMH3i1A43K18ukXvG9Ydg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A13zPvi1Z8osUumevacMVwHvfqFZyAXV8Uun4Wv2wMok93eul4IhwmPQkg8OQhqtJ_NaQ-anwkpY6QOY1iX2-8l6K2Sjym1V1CJdhpzIIaHslldUe_vmyitek50hQAOHYb5tTq",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BZ2tknc23wDYuq_7dSU03Nl34f2WlfIJG9EaEciyh4sUHpZpYI8bfrffLFdNIs4qqG9wa7vUX0CzkS5bKEk4CvZEtASske2VDXH20BZliqz9Ew1FolAPP4thDm8pJbD7c03Od_1A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cf9jUwi6tjDLEqtjj6TrvUelFdXmFZbAu-cya54_cr6HhWlvB7_lOqrbCHH14Vsi-kHL8qXq-2qqChVC1T6bJnHlkOY64bBk211A2eWgE1iWh3AJHD5USStIuO2M6FYAP2Bw8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bmty5-xCwsgR6f8ouq0Nm2yTtHppuoniY1-X-Qunn7KLKAitWrRciZh6zJ5R9Ks_0FjiR56diC1wqgjr7CkejzvNPlgcidh6OcibYYUXq-vY1uEDhDD7vAdXIwa_7oiNoJ8ih07w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BVUcZfy4fWoIsDT6O_RScVfP1nTtjWvWSEEDLZT2jMmHyFgzbnxOQkxLAILAbL-xPu90pp4ve5FDvLPCQYKReZZ-_eACzrRif_SmOI3LgtEmt8MIDpufRuSc6xGzpNZME8lECN"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURDbnRLdWhBRRAB",
+                "user": {
+                    "name": "Mohammad Abdul samee",
+                    "link": "https://www.google.com/maps/contrib/104128777886508018586?hl=en",
+                    "contributor_id": "104128777886508018586",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKh0sxRWXTNNeIssz6JKHIEAJkL7BUUxVM6nebCYIjGNPwpNIzQ=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 335,
+                    "photos": 3894
+                },
+                "snippet": "I had discovered the place a few years ago and it's one of the best snack places that I have known.\n\nThe pics include review for\n\nPotato wedges - love them\nArabbiata pizza - was alright\nChicken BBQ sandwich- must try\nZaatar pide ( beauty..damn delicious upset that isn't back on the menu yet. It was one of my favourites in the city...a must add on every order here)\nCold coffee ( ask to make it strong) and it's thicker than the other known shakes out there.\n\nPlease bring the zaatar pide back \u2665\ufe0f",
+                "extracted_snippet": {
+                    "original": "I had discovered the place a few years ago and it's one of the best snack places that I have known.\n\nThe pics include review for\n\nPotato wedges - love them\nArabbiata pizza - was alright\nChicken BBQ sandwich- must try\nZaatar pide ( beauty..damn delicious upset that isn't back on the menu yet. It was one of my favourites in the city...a must add on every order here)\nCold coffee ( ask to make it strong) and it's thicker than the other known shakes out there.\n\nPlease bring the zaatar pide back \u2665\ufe0f"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR4NXRLT1NREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDx5tKOSQ%7CCgwIpMXNtgYQ8PvOjwI%7C?hl=en",
+                "rating": 5.0,
+                "date": "9 months ago",
+                "iso_date": "2023-06-07T10:33:48Z",
+                "iso_date_of_last_edit": "2024-08-31T18:36:20Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ChsMb2kCYzWptTW4quhoCdqR_fR5FhO_q0cq7U3oGgUCjdsB_CF1WtRClRO2pGC8MqUSMdzW-_QFrrMQ5Ftv2luy24pMZY0NslsGcTrNxaZIn7biIN8BASQTPbCg7xtGhR7CI5og",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BxYKzncWyF5VZRZUojJvb2d3O7QVOgbAbYRWkw0Rny0VSgBqGbTyH5tEYFl7jisHfMn6_FjbmNXMT71SHcafgtADScqXJW-Mbyhfm1MluaL7PTBhqw4thTRokzfJvhjxb7vHvU",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BzOjD-zmfXZqqsDGhJwSAONIf-EMkWSfWY6GPr13sUZrr6-BlnGLWhBXZxFtnG4oxNoHE0vST_BtPg76yTEtAHoFwNTPHXD28Lx0i8qZsxE0DYqgpqnn97Xlyr8iX5ZrH0x8EhHA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BCY9Dj1hxnGJU1glTfeiiWQbygmdm7tTNdoqB8etN0QUs56ckjBgsbcz_wfw3k3KDc_9jfOzyP4PxOFm0TMKXeTVB21l4KNvVmxPGticB_YDQbUxJ1PqO0uFJI_gu5pKmDzgeABA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CxBrBuzI8U35Ovx9K__OjFhqLIrwJDR7kZyiiufJwDX-nk6fc60WvNjhevR-eYvvAndOrg1_Y4ryg3pzc_QD4OzQxveoKVDktxWDE0koIjFtLLx7JIYgJ3N1Dysoi3_9okOlDT",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90By0v9fpEMBeN5UqXxufAF9FT9IBMgHQVVCJVM71oktuh9nJk2mp8J2VsKk5S9AYNa1WbmBPta0hcnieVWJ-rPlaTGEtUMHw5u8qay96ru8m-r2ccw4WjuUURuhRZwUlk5j2PJg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BXVmZnpALx4MVYIuqv_fNixzcbrkGQ_En4_jGFWEceCBc_8fRbXpWO26bh7Qqbz2-JEE-cM2or2BoSf1Zxm6mOutstylA5p7GxIdPidKAjXaDKRJ3uu8RQlk50wP0vBV3iQHwc"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUR4NXRLT1NREAE",
+                "user": {
+                    "name": "Ahmad Raza Chishti",
+                    "link": "https://www.google.com/maps/contrib/112653017276835708325?hl=en",
+                    "contributor_id": "112653017276835708325",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXXNxbD-UK2GLQOcVTIqPjJI2WfDu3Bi4lMeQWFcQiW4C_SD6jP=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 279,
+                    "photos": 778
+                },
+                "snippet": "Cafe Grafitti serves good burgers, wedges, sandwiches, wraps and mocktails.\nA good place for fast foods.",
+                "extracted_snippet": {
+                    "original": "Cafe Grafitti serves good burgers, wedges, sandwiches, wraps and mocktails.\nA good place for fast foods."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 5,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Potato Wedges, Chicken Zinger Burger"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN3OE9fUGRnEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICw8O_Pdg%7CCgsI7sDj3AUQyOSSCA%7C?hl=en",
+                "rating": 5.0,
+                "date": "6 years ago",
+                "iso_date": "2018-09-12T09:43:07Z",
+                "iso_date_of_last_edit": "2018-09-12T09:46:22Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_c0vigepGwqdFM7kWVbShxhg6892yo4SuY-wLhQ04fls-o6pHNwUs37jjA8J2uhETTcAH8pUdaTTkzzJUNMT8Ef4_6uhqPrIXdk-vg8UKDYIjUJNOA9mhgrL-w9h-8g5qM5GQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DH4isr1BPr3Xy11MILsZ3hSzxg-eJ2FCDroOwqwHUyO32Lv-n-bZ4IA6fQZag-Si-0yX-74iWJcgogWExmIKY5p5nAp-Mc-rGbAheZ14tiLPbyoFMAeS42DgMCXqR42hQ_od4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C19MhY7PQrnACO74gNIhCMgSieDSGK2PgrB4l0iA5sFSuCd4fSjOCMqSkwrqIMx4mnyPT-bi2U4NX4o-SClQgGIvG9G9bIW6OET6waYP8OtTLO47TlBzp5IIWW7DMBooEaIZM"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUN3OE9fUGRnEAE",
+                "user": {
+                    "name": "SYED AHMED RASOOL",
+                    "link": "https://www.google.com/maps/contrib/106201837235883539879?hl=en",
+                    "contributor_id": "106201837235883539879",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWz-cGwmVTwGoEfGSoRJvbOXSz480oUmlSSvS_wdQt41fpMnilD=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 37,
+                    "photos": 93
+                },
+                "snippet": "Awesome place to hangout with friends. Service is a bit slow but the tasty food a d ambience will make up for it. Pasta and Zinger burger with Blue Lagoon mocktail is a must try.",
+                "extracted_snippet": {
+                    "original": "Awesome place to hangout with friends. Service is a bit slow but the tasty food a d ambience will make up for it. Pasta and Zinger burger with Blue Lagoon mocktail is a must try."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR5d2JqWW9BRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDywbjYoAE%7CCgsI76yfggYQ2NvEfg%7C?hl=en",
+                "rating": 4.0,
+                "date": "4 years ago",
+                "iso_date": "2021-03-09T19:53:24Z",
+                "iso_date_of_last_edit": "2021-03-09T20:11:27Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B8KucsXcCpg5uWI7Lz25u3d8XCsVhDxp-oPzSI9kkM0tumCm90U_241v_ce4wdwXE4sol3XmwquZ7iQGq4IZhjtRMQ7GTdDUteZuhfhtFMUJtK_lmXGhGZAexlz8CaPgtMV0a-",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ac6Y2w4-t6haESzAZ-2ucedGk9ER8yVT_taZgmFrS02pZWQWfCaxyWihIi1vd--zlKpvQFzrOvs5O0FCB-xPtyb_Tsw0kqEiDjAkYhxS8Yvr66hbv4I8lVcXZeHuT0Y6nIbzqD",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYpmzfyaNLkyhtJW1U9-99HPAI8TM40juVNFBeCtXBcvMF1vKSGIuBscNzPv7nckaF9v8aGznxLLW8LQmbCNws8atqjshqWj93D3kTMoRXF9Heypw2FU2bjQc2S84Ws3I7HLUI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BmkThj3U9hx03_xnLspIcRqhHLdYequP6YA524hJtyH9F-lKQjDLCdoTPm1MXKOeO7dRxuSdyMY1udvWGKyinJj1OzrvnF0J8BBr_exlOARVMJGcjCrGza5gKs-F8tMKVHatyWSA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BubbMtu9ZdM8pkz-LRMA0NfboccNfFm2xyN1ZRkYKEZMOVrL9QkEox5vXBii8sdUFn2xYc-YTUK5VotFb1O_mMWWeq-I97W_c9B_Dw4xW82g6hmLjP06jwtbDrZnqILP3K914",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AJ5FhXEfh_kN-XLgeYIvT1Bq92lG21tTnXKhf8zyDQdYHZOX_IgYOREtE2quLXmpEsioXLWhxDiP-CGauCTGiAh5A8PbbDo_S2BWtI5OEqoZclL9pRWOKGuS0W27nLS9if--8N"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUR5d2JqWW9BRRAB",
+                "user": {
+                    "name": "Mohammed Mazhar",
+                    "link": "https://www.google.com/maps/contrib/111481382507178295137?hl=en",
+                    "contributor_id": "111481382507178295137",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXzvIe5inJ8ijRYZkTd2SczWezajuiERVBj-78DXlOOlByuaIc=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 104,
+                    "photos": 83
+                },
+                "snippet": "Great Place To Chill With Your Family & Friends Where You Can Have a Delicious Food At Affordable Prices...\nSo Go & Enjoy!!!",
+                "extracted_snippet": {
+                    "original": "Great Place To Chill With Your Family & Friends Where You Can Have a Delicious Food At Affordable Prices...\nSo Go & Enjoy!!!"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNadGZPQlJ3EAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICZtfOBRw%7CCgsI-uaPqAYQkJLSFQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-09-15T06:01:21Z",
+                "iso_date_of_last_edit": "2023-09-15T06:02:34Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DW1_06Bsowq9kc49Ne1HqC4OONXGYnQURx-epCztcC-e-uyTDh_bQNB_Y5L1c8Ez-521fhC_58H9PKB_p7NM5c1pSu-2tG5ncTjF4BvoP-uVX7QuIbPss6TIp1gO5dGPQslvA"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNadGZPQlJ3EAE",
+                "user": {
+                    "name": "radhika Kulkarni",
+                    "link": "https://www.google.com/maps/contrib/103292834960852949469?hl=en",
+                    "contributor_id": "103292834960852949469",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVnWAimPp2QWVDLIHJt9LPshvVYV-lsu189p9hB4OFDLeHoQ8URSg=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 201,
+                    "photos": 136
+                },
+                "snippet": "A small quaint cafe in Banjara hills. We walked in pretty late for Hyderabad City standards. But the place had a good vibe and the food was also very tasty. We had wraps and one of their signature dishes which is not on their menu card. They have a lot of other items which are not mentioned in the menu so pls do enquire about it before ordering. We had asked them to suggest some dishes to us. They also served us their fresh made chocolate donut as a complimentary sweet diah. It was really well made. Overall a good experience.",
+                "extracted_snippet": {
+                    "original": "A small quaint cafe in Banjara hills. We walked in pretty late for Hyderabad City standards. But the place had a good vibe and the food was also very tasty. We had wraps and one of their signature dishes which is not on their menu card. They have a lot of other items which are not mentioned in the menu so pls do enquire about it before ordering. We had asked them to suggest some dishes to us. They also served us their fresh made chocolate donut as a complimentary sweet diah. It was really well made. Overall a good experience."
+                },
+                "details": {
+                    "food": 4,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNBaE9yekhnEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICAhOrzHg%7CCgwI8rzjygUQgJa-zwM%7C?hl=en",
+                "rating": 2.0,
+                "date": "7 years ago",
+                "iso_date": "2017-07-02T11:45:15Z",
+                "iso_date_of_last_edit": "2017-07-02T11:52:18Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AtyHK_qyO44qznC-Gb-h6mXF_n9AZZXVkxm_BOqjzl56lhrAYRiRfOhwhDjuCB6hEkdI0IvNqVVfsazbWC5VGzh_uTQiYxirCWQJVO9n00Qtzozhc_9GJF5FuTCZzoR6O-9swa",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bza5hUuevx7_Gp6REQL-36-jSf4b3chngRzndV1YlOCc6Pf325K9j1XGViNpSUTTyTsM_NOnOyvQvURB5oHZB9h7eLba3K6TY-4G3bAOe1aejqo1aoQ73S_Gl7LAqCS1zcniJC"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNBaE9yekhnEAE",
+                "user": {
+                    "name": "Paras Singh",
+                    "link": "https://www.google.com/maps/contrib/110087485262793160712?hl=en",
+                    "contributor_id": "110087485262793160712",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXSJosvmM3QB_5OGkV8hLJ_MXnqsxsaz4XmjduH3lpn_T2hv0k5=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 193,
+                    "photos": 1258
+                },
+                "snippet": "It is a small place where you can find buffet system.The cashier takes money in advance and then becomes least bothered to serve you.\nWe ordered French fries and pasta,lime soda. Nothing was good plus the service was very slow.\nThe black currant shake was okay.A lillte disappointed with the place.",
+                "extracted_snippet": {
+                    "original": "It is a small place where you can find buffet system.The cashier takes money in advance and then becomes least bothered to serve you.\nWe ordered French fries and pasta,lime soda. Nothing was good plus the service was very slow.\nThe black currant shake was okay.A lillte disappointed with the place."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURJM0l2emRREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDI3IvzdQ%7CCgwIm4KP4QUQo6W84QE%7C?hl=en",
+                "rating": 4.0,
+                "date": "6 years ago",
+                "iso_date": "2018-12-26T17:57:47Z",
+                "iso_date_of_last_edit": "2018-12-26T17:57:47Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cq--uN2bkIeUcRSPe8MPmaXa9h5VYWBSNzQ34kwtes09fsv8HcdHSRUWdJgDqbZ8Dfy1fXYfFfABgJegL7_QepjwsJJPRoA8meELCOb-zEsnGmBna2XjNQ57CxTgVX7mIS2p_s",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DVqdZHD5v6SChqiTwx7Ok8zALffWqjpFNh2eJx-2wjodM2L-y_RNq_0ffD6zZ52hF7Dyu3FYnXC3hoiRwe9asQF-cI3NFmYmba8h4MUnFylrz42i77ChhwuA0vjfOup7DvyTlXlg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BAWEIZlsm2iH-ZiyLre2w7s74LMbHcsLj5JWeGdbCJjdgE4Ix50HQVLjcUjpqjkzA4YBX7_Ki0pbeMJGdjMKh_EyEgQCuRR2zqu_Wt90zvwmjuy-lxFJbuEWYKn_qG7dm_AryM1Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cxv_mwQeGYTmD7mdbcFTZhUHEhD7Pvhbi2sP47meBQdRdY8VjgmFVCUS1DiDHYEhtj70NB535r_55-VJSo6-95AAxjxXsaLtvEv4qWAUjlsl6CMfbQS6sDnRLEBDwJuhdmRoDG",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AyRzmazvX43KUcWqrFYPdPjftF-RguAP4pNTnXif8yOGZeBwL5OVj-_CpHyn4UW8PSKc7NG8K-tANyo14fp3IuEsf_HFJxR_BypGwaKYP-vzPCfOyLETWmC1HovHKtMlV2cwmD"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURJM0l2emRREAE",
+                "user": {
+                    "name": "Saba",
+                    "link": "https://www.google.com/maps/contrib/110773384044552787375?hl=en",
+                    "contributor_id": "110773384044552787375",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXoOdKybmeWcEjv4KYaiER7o6kVV8UgDHHKrIAAFOrJAZI5y6TwBA=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 277,
+                    "photos": 3274
+                },
+                "snippet": "I visited this cafe many times its a nice place to hangout with friends and is also pocket friendly the ambience is also good and i like the pastas and cocktails . They have crossonts , the chocolate crossont is very good , the crossont is covered with chocolate and is very tasty .",
+                "extracted_snippet": {
+                    "original": "I visited this cafe many times its a nice place to hangout with friends and is also pocket friendly the ambience is also good and i like the pastas and cocktails . They have crossonts , the chocolate crossont is very good , the crossont is covered with chocolate and is very tasty ."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURoeGNPTUhREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDhxcOMHQ%7CCgsIhce8oAYQ2ICUKQ%7C?hl=en",
+                "rating": 3.0,
+                "date": "2 years ago",
+                "iso_date": "2023-03-13T13:22:13Z",
+                "iso_date_of_last_edit": "2023-03-13T13:22:13Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BrG4MbtEvmsiZIMmdyacA0mB_GN1B3IhY83t6udJzIjOnFE9OeiN-OTBvv_yD1hLv3joepxFj-rN_0Qkp9c_Eaj6_gTZ5G7DoYpgcoXK_ys3CFYQAdMW2gj7vgbSh4ZElK9A_p-g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DSdlhcZ_4tvvGIWamKirHdndz7YQEADkg-fCQqNdzAE6q0bmeR3FhkfhRwUvd6TL2alKcs3bHTmXn45B3wR4uFFGNPYxYGcCSP_p0tnCOARECYqBKCtQGjeYSIeGcAqzQT0IxU",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CN-hjICTob9A7LiOg8Neb-InREDVpH34NwcFWoyvgMY17c1kF6dwkJhMupUHZrUNvuSh3HwpHBF9WpZ2ey-YSafUcL7k2uDvh7qwV-lnljDUuqVAxg4FZDdM2Cs4X-bV1HHHftzA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AA3cAG3sYMbz4NsybsJPMQ0IxN51Q7NAwXT8z0bt3rUbTViGUx9A4zlKNsbxloUG4vF97gm7ooMzPUmrhimnJsWTQibKge_MYheggfOD1lvoY6bm9DSi_qVyiMTaQGT8S4tibg"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURoeGNPTUhREAE",
+                "user": {
+                    "name": "Mohammed Maqsood Ahmed",
+                    "link": "https://www.google.com/maps/contrib/105690804958392716571?hl=en",
+                    "contributor_id": "105690804958392716571",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVAZ6GPqGwqfM2-jvmRSaCTKoVHs97raMYrgGuPHY-8AH-UOl33vw=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 88,
+                    "photos": 438
+                },
+                "snippet": "Good place with some unique ambiance but service is not up to the mark considering the prices",
+                "extracted_snippet": {
+                    "original": "Good place with some unique ambiance but service is not up to the mark considering the prices"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURBaDRXc1VnEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDAh4WsUg%7CCgwIpe_g2gUQgLP_xAM%7C?hl=en",
+                "rating": 4.0,
+                "date": "6 years ago",
+                "iso_date": "2018-07-25T08:41:09Z",
+                "iso_date_of_last_edit": "2018-07-25T08:41:09Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bnzfq-1pzmHfgELDgEwSFOrgwHomovlf3M8m4ILTmoJlbEsN4-c63Exxwl1FaehytGi1dZ0nxStSAqM9E9UHyksCqrRfonaAH6iEEr6BVIWayEs0LiOHAEOujtzRE7Esxj5RGoDw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURBaDRXc1VnEAE",
+                "user": {
+                    "name": "Anto George",
+                    "link": "https://www.google.com/maps/contrib/116262978501970895211?hl=en",
+                    "contributor_id": "116262978501970895211",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXGDjturbxsI3pHctk6hjCpFEVf7pi0os2PQ0QFR6u3IZsJ33Pk=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 55,
+                    "photos": 77
+                },
+                "snippet": "Calm place...not much crowded...i like the french fries here... Chiken Mutabaq is also good. ...fish Tempura was tasty but had a bad smell... A cool place to spend time with peace.",
+                "extracted_snippet": {
+                    "original": "Calm place...not much crowded...i like the french fries here... Chiken Mutabaq is also good. ...fish Tempura was tasty but had a bad smell... A cool place to spend time with peace."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMwclBMcFd3EAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIC0rPLpWw%7CCgwI6K-D7AUQoMTT9gE%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 years ago",
+                "iso_date": "2019-09-17T12:56:08Z",
+                "iso_date_of_last_edit": "2019-09-17T12:56:08Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ALtRwEM9VRobbiHgNeqthMQPe2NAnMCjREijbvilK6E0hUO_qm9ACEQMBcWz9_C7qy2SL6vbus9BSodMm39Lsdz8_KzNUN9a_6rJpgBjhYCZ80Ey3OTc_XD_fXIovbbfikBNAm"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMwclBMcFd3EAE",
+                "user": {
+                    "name": "Safi Hussaini",
+                    "link": "https://www.google.com/maps/contrib/106402664549496358032?hl=en",
+                    "contributor_id": "106402664549496358032",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVOdlpNSG8qxEXcKiqK5VuZtP_YD1Xx2Fh0fHCuYayACDhgCyK3rw=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 47,
+                    "photos": 455
+                },
+                "snippet": "Been visiting this place since its inception during our college days, It was our college hangout spot as this place serves food which is VFM and of excellent quality. Over the years they have expanded to two new branches nearby and extended the seating area of this place. If you are visiting this place do try the Reshmi Kebab w Cheese Naan also while ordering mention that you want the kebab wrapped in egg fluff. If you are roll lover try the Sheesh tawook roll and chicken zinger roll on the milkshake side I'd recommend their signature Rose Mango milkshake and Pina colada mention that you'd prefer less ice in milkshake.",
+                "extracted_snippet": {
+                    "original": "Been visiting this place since its inception during our college days, It was our college hangout spot as this place serves food which is VFM and of excellent quality. Over the years they have expanded to two new branches nearby and extended the seating area of this place. If you are visiting this place do try the Reshmi Kebab w Cheese Naan also while ordering mention that you want the kebab wrapped in egg fluff. If you are roll lover try the Sheesh tawook roll and chicken zinger roll on the milkshake side I'd recommend their signature Rose Mango milkshake and Pina colada mention that you'd prefer less ice in milkshake."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURna3NtTWRBEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDgksmMdA%7CCgwIy-SR1wUQwO_rvQM%7C?hl=en",
+                "rating": 4.0,
+                "date": "7 years ago",
+                "iso_date": "2018-04-28T13:04:54Z",
+                "iso_date_of_last_edit": "2018-04-28T13:08:27Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ArzNsjJ0w9w2Bu77g9RXnbpauHNLyAI-gc7NhyK2MndH_vkjAFi7n3CzwKK8CwyAlkdjCxwb1fY1go3PmNHkR_nmT38PH0tB4wqp74IFoWKgYLVnymZOYkIxG8CKHawpzNILn80Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D26WB8d-rZPlc_MM-y_sypQpDOWtHTFzB711rcpG8KJCz_DKldVucwQvcbOhsAWUS4KJTkJ1Ddiu1g3jmI4bZ6wubEIPktzXpGeDCCTmbdcIY5lKqAXrSw6GiYLfOTaeYvHtGeRg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A4UXeg9tuRE0qZD_IPE3lNEti3vmcO4Q9FSngTniT8R3dE1HfxPTTJIvQQJwLEC03An1V4BROzn1dkDR3CzAmWoM5Ijo9AR66rPgScdShKOFlLiPrvttKBZEMGSb3mXa9AwYT6dw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURna3NtTWRBEAE",
+                "user": {
+                    "name": "Prateek Raghuvanshi",
+                    "link": "https://www.google.com/maps/contrib/117065712378349753397?hl=en",
+                    "contributor_id": "117065712378349753397",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXqI5GTN_Wu-LMpmod-pOIdEX-Myv36LSQ-7Ul40xI66GiEpBwk=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 57,
+                    "photos": 11
+                },
+                "snippet": "Tasty food in affordable price. Quick service. Ambiance is okay okay..you will not find any graffiti inside the restaurant",
+                "extracted_snippet": {
+                    "original": "Tasty food in affordable price. Quick service. Ambiance is okay okay..you will not find any graffiti inside the restaurant"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUM2d0pqRHZRRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIC6wJjDvQE%7CCgsI3oSjiQYQ2MvsLQ%7C?hl=en",
+                "rating": 1.0,
+                "date": "3 years ago",
+                "iso_date": "2021-08-27T10:45:24Z",
+                "iso_date_of_last_edit": "2021-08-27T10:45:50Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D0AbPO-e4oyynp5Jfo9v9cakwFkOzQOxvei8DeiMyM0iaaDi6Nj20Tl718Uz-F94FrB93JrFOO6WZwi0aHulf8MSDEojHZfZzFJ89MkKzeHqsVv6CuevW2MFi-vQJb5rmDyo5H",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ak7yMkLGtBh-yYyvapQgIuT6yHJUMz4JE-DknMAr30pi4z5NyMF68B4lqfu7VVBwBGX1eCzXjbphtqH8OwqJ820uMjqpd0Co5GMQOKzilbFup7zYtEBu4tiOfX1xQwFabvjH0o"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUM2d0pqRHZRRRAB",
+                "user": {
+                    "name": "ammar ilyas",
+                    "link": "https://www.google.com/maps/contrib/103133431302833243373?hl=en",
+                    "contributor_id": "103133431302833243373",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXdSVOsQM2b-FpT9YgSrh11mIyp7f2RbmfZar1X9y62UsFT0F8C=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 136,
+                    "photos": 178
+                },
+                "snippet": "Enjoy your burger with your little friends \"cockroaches\".\n\nWas there for 20mins waiting for a person to collect order. As he himself suggested me to sit and he will come to take order.\nLater the person sitting on counter said they dont take orders and it is self service.\n\nUsed to be a best place. Currently its worst",
+                "extracted_snippet": {
+                    "original": "Enjoy your burger with your little friends \"cockroaches\".\n\nWas there for 20mins waiting for a person to collect order. As he himself suggested me to sit and he will come to take order.\nLater the person sitting on counter said they dont take orders and it is self service.\n\nUsed to be a best place. Currently its worst"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURJNTZtVGFnEAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIDI56mTag%7CCgsI7sKNgwYQkIa8cQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "4 years ago",
+                "iso_date": "2019-01-25T11:49:49Z",
+                "iso_date_of_last_edit": "2021-03-30T17:35:42Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B_66uioOlMM9JFombNnG_RZuitKw0tO68cQ7D7RJugPwxj0ZCIfKrE-c4HUDiW6jksKmI76IoAWxXvBFMpOgOMrckgS4I1WBT6Xj2roozaeYH8LhmQ4EfehaJLgCoqYBuW5EbsjQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURJNTZtVGFnEAE",
+                "user": {
+                    "name": "Ayesha Md",
+                    "link": "https://www.google.com/maps/contrib/113853135306934856038?hl=en",
+                    "contributor_id": "113853135306934856038",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUQgGAiAshj39oYxxMVvTml-xp7fBhJ84AVeZR8gh0_Vi0FAgq_TA=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 26,
+                    "photos": 157
+                },
+                "snippet": "This is the most affordable yet amazing place for delicious food. Here you can have the most yummy fish & chips, fingerlicking good kebabs, lip-smacking pastas, the coolest mocktails & milkshakes. They have more variety to offer. Do visit and enjoy with your friends and family at reasonable prices with fresh food.",
+                "extracted_snippet": {
+                    "original": "This is the most affordable yet amazing place for delicious food. Here you can have the most yummy fish & chips, fingerlicking good kebabs, lip-smacking pastas, the coolest mocktails & milkshakes. They have more variety to offer. Do visit and enjoy with your friends and family at reasonable prices with fresh food."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUMzOFlhYXd3RRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgIC38YaawwE%7CCgwIhqauuQYQgKTogAE%7C?hl=en",
+                "rating": 2.0,
+                "date": "7 months ago",
+                "iso_date": "2024-11-06T16:02:14Z",
+                "iso_date_of_last_edit": "2024-11-06T16:02:14Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUMzOFlhYXd3RRAB",
+                "user": {
+                    "name": "shaibaz ahmed",
+                    "link": "https://www.google.com/maps/contrib/109922291871107872523?hl=en",
+                    "contributor_id": "109922291871107872523",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLAtDiVNaXtdrFCLrQTyZGwEsNVsHNHM23ByTpF1LWx72nUew=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 26,
+                    "photos": 9
+                },
+                "snippet": "This place has a lot of mosquitoes, and every time I plan a visit, I worry about them. Could you please take measures to address this?The place is quite dark, which affects the atmosphere. Improving the lighting and ambiance would make it much more inviting.\u2026food no doubt serves best quality and taste",
+                "extracted_snippet": {
+                    "original": "This place has a lot of mosquitoes, and every time I plan a visit, I worry about them. Could you please take measures to address this?The place is quite dark, which affects the atmosphere. Improving the lighting and ambiance would make it much more inviting.\u2026food no doubt serves best quality and taste"
+                },
+                "details": {
+                    "food": 5,
+                    "atmosphere": 1
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNZOC1EaURREAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICY8-DiDQ%7CCgwI0oX36AUQ6M-OlAM%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 years ago",
+                "iso_date": "2019-04-19T13:45:16Z",
+                "iso_date_of_last_edit": "2019-07-04T09:11:46Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AzH2eno1Aom46jzEKUxmRbyqkoQQh2d4pazgLiCIHK8XqcsJRv3xc5Mv9Y-Wu9L5jkPVr6yT5n6Ko-GsWd5-F5UYjgS_zwA54TuwXGkbP4H68Nfv1REUJKoj4iQ7qowrJVLPFPoQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNZOC1EaURREAE",
+                "user": {
+                    "name": "Safwan Ali",
+                    "link": "https://www.google.com/maps/contrib/116553967577232416964?hl=en",
+                    "contributor_id": "116553967577232416964",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVnyUJH3AxOJbK_X_RI69IraYcP6IXanPPSi-yZfCP33bE188RO8Q=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 116,
+                    "photos": 498
+                },
+                "snippet": "I have visited this place almost 50-100 times. I can never get bored of it. Budget friendly place with delicious fast food. Halal Chicken is served. No extra GST or any kind of tax. However the new branch on Road no. 12 charges tax. They have added one more floor at the top which is extremely spacious and good for larger gatherings.\nMust try : Grill chicken Sub with Strawberry Milkshake",
+                "extracted_snippet": {
+                    "original": "I have visited this place almost 50-100 times. I can never get bored of it. Budget friendly place with delicious fast food. Halal Chicken is served. No extra GST or any kind of tax. However the new branch on Road no. 12 charges tax. They have added one more floor at the top which is extremely spacious and good for larger gatherings.\nMust try : Grill chicken Sub with Strawberry Milkshake"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURJMG9qNU1REAE!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgMDI0oj5MQ%7CCgsIxc_UvwYQ0O2UXg%7C?hl=en",
+                "rating": 1.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-08T13:42:29Z",
+                "iso_date_of_last_edit": "2025-04-08T13:42:29Z",
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTURJMG9qNU1REAE",
+                "user": {
+                    "name": "Govinda karnati",
+                    "link": "https://www.google.com/maps/contrib/109820770939118002109?hl=en",
+                    "contributor_id": "109820770939118002109",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUHuE9zzwMulmXDayPJ9lshtBqc5fwp6cilloxPc5oDodbAA4l3tA=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 29,
+                    "photos": 11
+                },
+                "snippet": "If you don't bring your friends along, don't worry\u2014the mosquitoes will be happy to keep you company.",
+                "extracted_snippet": {
+                    "original": "If you don't bring your friends along, don't worry\u2014the mosquitoes will be happy to keep you company."
+                },
+                "details": {
+                    "food": 3,
+                    "service": 2,
+                    "atmosphere": 1
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNMNXNMZXZnRRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICL5sLevgE%7CCgoItK7HswYQqNck%7C?hl=en",
+                "rating": 1.0,
+                "date": "a year ago",
+                "iso_date": "2024-06-18T18:46:08Z",
+                "iso_date_of_last_edit": "2024-06-18T18:51:32Z",
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNMNXNMZXZnRRAB",
+                "user": {
+                    "name": "Arif A Tareq",
+                    "link": "https://www.google.com/maps/contrib/113204425250072890280?hl=en",
+                    "contributor_id": "113204425250072890280",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWdWbKgKpLklRDCq8XjlNNVAlQKY-HIhxOWiV39AghHeymGRqv5=s120-c-rp-mo-br100",
+                    "reviews": 17,
+                    "photos": 4
+                },
+                "snippet": "I ordered 2 Chicken BBQ Burger and took it home.  Ate within 30 min, stale cheese in the burger, chicken patty tasteless, smelling over used oil, bun not fresh. Took a bite, didn't want to, but had to throw the rest. The second burger is straight in the bin! These guys have lost it, the taste is horrible. Wasted my 500 rupees!!! Not recommended. Period!",
+                "extracted_snippet": {
+                    "original": "I ordered 2 Chicken BBQ Burger and took it home.  Ate within 30 min, stale cheese in the burger, chicken patty tasteless, smelling over used oil, bun not fresh. Took a bite, didn't want to, but had to throw the rest. The second burger is straight in the bin! These guys have lost it, the taste is horrible. Wasted my 500 rupees!!! Not recommended. Period!"
+                },
+                "details": {
+                    "service": 1,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 1,
+                    "atmosphere": 2
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNJbk1DdXF3RRAB!2m1!1s0x0:0x74aa995534bbad0a!3m1!1s2@1:CIHM0ogKEICAgICInMCuqwE%7CCgwIifDm3gUQwsa__wI%7C?hl=en",
+                "rating": 4.0,
+                "date": "6 years ago",
+                "iso_date": "2018-10-31T14:08:24Z",
+                "iso_date_of_last_edit": "2018-10-31T14:11:21Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DDw-xQwpt86dszxlChcTYHsLGTTO_molopqzJcp18TfG3Z5bY9U7oFmq2CRb80uiBXczFwrTrGYc5M4rGqTIpjASoNyxxlfgwO9QRTgwY-eVqclJfgNZyV4GthRBfvePKh4M1g9A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AUSzF7Z1tkfTKKk3-QhGzNwNFd5oKypoiApeoay6ixluYf9FWz_W3RuAl0tX4s-7ixSp3Z0R6SyCVQQRE_uvb4YHqvaJL2h7iqk9xdGNk5XQ5e3rHSiRYcQQfzefUwLi9-rrHh"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNJbk1DdXF3RRAB",
+                "user": {
+                    "name": "Hameed Owaise",
+                    "link": "https://www.google.com/maps/contrib/112359171998306199739?hl=en",
+                    "contributor_id": "112359171998306199739",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUD7EjJCtGF-pG466yTxiIHcYJ8rGtz-IRm9TTD32rhyN959Y0w=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 51,
+                    "photos": 308
+                },
+                "snippet": "This cafe is ideal when you\u2019re planning to hangout with group of friends. I\u2019ve been to this place many times however I got some snaps of Chicken Lucknawi Wrap and orange slush.",
+                "extracted_snippet": {
+                    "original": "This cafe is ideal when you\u2019re planning to hangout with group of friends. I\u2019ve been to this place many times however I got some snaps of Chicken Lucknawi Wrap and orange slush."
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURVJaVnpoZlgxOWZSV2hCUnpCMlZHRlZjR0Z1Y1UxaU9VdDJRVUZCUVVGQlIyZHVPVEoyT0VOdFZGZEtSMkpOV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJyx9eNzmXyzsRCq27NFWZqnQ",
+            "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURVJaVnpoZlgxOWZSV2hCUnpCMlZHRlZjR0Z1Y1UxaU9VdDJRVUZCUVVGQlIyZHVPVEoyT0VOdFZGZEtSMkpOV1VGRFNVRQ=="
+        }
+    }
+]

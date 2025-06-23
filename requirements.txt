@@ -1,0 +1,4 @@
+google_search_results==2.4.2
+dotenv==0.9.9
+# prefect==3.4.6
+openai==1.90.0

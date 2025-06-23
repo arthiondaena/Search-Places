@@ -1,0 +1,1258 @@
+[
+    {
+        "search_metadata": {
+            "id": "68591207271332d98085b51e",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/badfa393bcf1a917/68591207271332d98085b51e.json",
+            "created_at": "2025-06-23 08:36:23 UTC",
+            "processed_at": "2025-06-23 08:36:23 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x3bcb976869a35bd5:0x37138d15aaa9dd6!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/badfa393bcf1a917/68591207271332d98085b51e.html",
+            "prettify_html_file": "https://serpapi.com/searches/badfa393bcf1a917/68591207271332d98085b51e.prettify",
+            "total_time_taken": 0.66
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJ1VujaWiXyzsR1p2qWtE4cQM",
+            "hl": "en"
+        },
+        "place_info": {
+            "title": "Cravery Cafe",
+            "address": "Film Nagar, Plot No 416A, Rd Number 78, Phase III, Jubilee Hills, Hyderabad, Telangana 500033, India",
+            "rating": 4.5,
+            "reviews": 2138,
+            "type": "Cafe"
+        },
+        "topics": [
+            {
+                "keyword": "mac and cheese",
+                "mentions": 113,
+                "id": "/m/029hpc"
+            },
+            {
+                "keyword": "garlic bread",
+                "mentions": 28,
+                "id": "/m/08nk6x"
+            },
+            {
+                "keyword": "cooler",
+                "mentions": 20,
+                "id": "/m/05v9p8"
+            },
+            {
+                "keyword": "chicken popcorn",
+                "mentions": 17,
+                "id": "/m/0cyw13"
+            },
+            {
+                "keyword": "blueberry cheesecake",
+                "mentions": 11,
+                "id": "/g/11lrwjwqp9"
+            },
+            {
+                "keyword": "mozzarella sticks",
+                "mentions": 10,
+                "id": "/m/070k08"
+            },
+            {
+                "keyword": "brownie milkshake",
+                "mentions": 7,
+                "id": "/g/11h92_tzr8"
+            },
+            {
+                "keyword": "chicken pulao",
+                "mentions": 5,
+                "id": "/g/11n5zjcfnz"
+            },
+            {
+                "keyword": "mutton ghee roast",
+                "mentions": 5,
+                "id": "/g/11qrhswmrn"
+            },
+            {
+                "keyword": "5 spice",
+                "mentions": 5,
+                "id": "/m/02z46"
+            }
+        ],
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUNJNGNld2x3RRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMCI4cewlwE%7CCgwI9Pi1vwYQkNL3xAE%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-02T18:05:40Z",
+                "iso_date_of_last_edit": "2025-04-02T18:05:40Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BPHeK1hndbzdE7nwTJ1TkflofEvQTAlW_CgzXvnCPGXt3ICciYVHRglNfN8-JEoeW5D4vPJ8BmOC4JV3MgUcLTcjYBESf4tIW5xD0ZJvqGdGxRjCXR0Eubot-sbkSO6eFYTOcV",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DxTYCnr7f3Sge0n0rv0XLTzvOISFXBxWOcfa9c-iajPDt5MupymvnAQbppV9A_0M5bAjxNl-9TzDpo-NwUGfHVT-zy59823fy_hIPE2gjrVidMeS2OwtKmC_xgME4grhpxgxGY6w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWS8XkKE8WQjMJlNB4iLgyYaUn5-4Y7Mi2RZNmblMcCVOlFowigNmJrzsn2lnnPNIEupR35RlNuy_7UhvvbTlDSKiB-7D7uMa39Pa7dmanOdtqFudoJycG6pPBzfvdnpG3zoU2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CNHr5V9SSqbQmJO-X9AzPciJTk-ISbTHbOIMdqW-2iuQeISVZsnmnGkF0r5xjNdGbkkN2vspF_iKhaFCsy9-VwpcBIWnQ21MwZSZA9MYq-rzToLKJHJJJ8qyuRrJV2wXl0gPIjbA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AgkgPzZwjHVB40raAGkVuOh8SLoESK6_zu4nd-qgvQn62fzvJB7RnCNMln6XrR_m1VFSIDaGnI0gFEYX2TMXKMqSpvL0oV41cLrMdG9cAC6lXT-mzY6LPNyMpZXw-QXHnTMjs",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BMeR5HsbH3r2GXDAURH34_d06Yn5b3qgKAtWK1s9Zxo9Goh1uv1nhiYcP9l0FIZThnSVQ4mA-sV2PRxo3K8z_AHgNSRFR8yGue0nr-2vbdIya1Zi_Gsvj4KuES65o8XdvaOoaBOw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrI_jqWcdpdLE-F8eV4ED0_mf81QaMQwqrqt6Z_1ZmMPEGzIjV3s8gySAQqYxruT_r7UhUljyPOBUyNGVUTLUDy9sZuTu9oTS_qDv10HNGSLg5cywsyk8VYNRc8jnjJtEpJ6y8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BN1Foz8k8OEkd3Nct4_YS-uwr_G55WZuj1xSXQSec8hP5a-o_GToTkEVJdDnL4fRgFilgMcS_7zPe9tVkz6Dz3RZPq2uuafe37bDSjD9cnGMm5_ADHWPJE3ojBCtwfhike0mzPeg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DG0GJEJ8bvzF_O9r1o-_tDd5u4Vt5lUtAwfwsAAWsTjchcBmeOQztmwj32yt3oChgGmXCHv2kfOKGuAtb2z45MLBjqcSQ2520etQR9eXRTXh4aLx2NCNy0zeBJ5QyjsV3WVZc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ByDOtwz3xtg_5f6WzfCZxODJch82UbZi7LqsBQp97DJyIxF7q4Zzr6H8hf_j1qhEb2oo2iLSKdRJX7jcHBFTrpFLZhSV-rGrJ_tx1WzJZXa_2wBPd8J-QyD3zx7pAP9DKa1jeEhA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZO25bBJZovtrdKt-h8vwGtpHsAyvPHTksyP5FHUubfDV1z-5Pg3RDlRcVh19n1n3Zyrd3FYL5kZJhu3_wnpVyw6etdo32T3YkuiINJYhw_7sF2VY7XQx1BonU4tZB2S00JAGf",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CBweFSgfxMMbF6ax_6lRuTVQWUMlzXMNOpym0fK745sk5aJtfEtRY9ywcetSTyFyUFOtYpIgq4HcQCJrSkacOadSJJelSnfrhFn92aPgvLtf2cl6JN9kkEESgLGIAEj0ioN95mUw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ClN0H3lcLM3hv8KA3n68fsGJOORtbDCNM_1h_S9-SF1Lrd99DNLeREA_jCb274aspDr68ZvKce7dp0wSfmT6VSS--suCvpqHYGF0AcL5iV56-qnbMS9z6YkDc8vw346nWKIC1N",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D9R8iPzXz_7dC8Kn4SSgYduoyzeAuWydrq0qHBHzoHF3mv87hbhSeR_hcqI5MKnwyvqER2HrVuhY2MpfmeqZZTe-U2fZ5DZpF9pGh8BvIKABAYF0cNi7eiwn1QiZxtw5Z70tmD",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D4skZexg8BzhL20Pp15_gUnVGyp6QUXyiTkH0b80AFZXipYGRFN8fvlibRY1h_y0f2W3CkZhLjO5xYCX3YPksQ9O3-cIaDpGMSF6WWhfwm_ht_wCk6A4SE2rlaRHiUTNv1YSiI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D0HA10v09RpClWVa0KEA5O-8ohiQhNN43_-9C9zOt4iK7mt0PS6fsOBLMX6qC340u77SzkOWBZbOAH613DBmPH2BA4virO1A5l2WhX2KKP5q6l9sYo74kAr2QgYtOG0FQDxuPw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CllZ9SHBr2MujQdeodriTnL2X7oPkG4Ugap9UzdcLKqV5mVGX6Adsw7TZJ2WtNrKEg5i3mP0_6udZKD78_WOITcgSAgReksf9p_Scl85Vl029MeMKn_owLu9Ds0ve6zmomtaI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BXKBECAN-GmijH-0v9f4e3l3KQvWoVBSCGhyoRbm4eje7gFPwPc-_hpN4nOdkLaFgZAxJ2Lnq7nZx0s1dJNm30614oA4hVWRl4CBWCQcZpGrM78T-zW8YcunGZlEUSwMrL3jyfJw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AAfgnATicuiJLQdIoiO0jh6Qe08A73zpzC3G6ej8mciteRN5nG2eqh9ZHcg10GyfWtUvYWb3UNtJXIJHLmVfTx2UxUTvL5wQzAsJI-BrdIj8kCZuktJNjCBqrpYtWW2j1ElYfc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DXlcFMcdCIeUvuHnmcq1FrqLzx2_zX7K-0vj_f7_7XCZF5Qyn_so2rkcksakfualD1AjUEZtGH63vRhZipjuC3yQfOOuiquqdIbJHCeDYxYAy42ZRdp9rcxMdMoOTS0-HQ5z4mgA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DiBVZ5q9ihBUGMDgSCgzBHwzsrtYqP-VWwj_1zmsLrWpcQs1HBiBvRJQl1CgtHPgMjXDDT3GoPfXs3b5n16bzkGIumcC2sz-nmSGkhnOBskL7a5ljGzwfLjDVtVL2TTUkuAHNb"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNJNGNld2x3RRAB",
+                "user": {
+                    "name": "Shravan Patel",
+                    "link": "https://www.google.com/maps/contrib/101138251771579956081?hl=en-US",
+                    "contributor_id": "101138251771579956081",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUFmrsj6RFV5LAfFPoY-SLTb8JcdyTMwI76S-xEbum6Xuelri_N=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 197,
+                    "photos": 1083
+                },
+                "snippet": "Cozy place, good ambience, food tastes really good. It would be better if the portion of serving could be increased. The size of the pizza was quite small, the price to quantity ratio wasn't that satisfactory but the taste was good. We did try vegetarian options only on the menu.\nThis place has a collection of few books as well for reading during quick bites or solo sessions.\n\nSurprisingly I liked rasam rice here, this place has a variety of coffee options as well. The cheese pulled garlic bread was good too. Paneer panza is also a must try.\n\nOverall I would rate\nFood taste 4.5/5\nFood portion 3/5\nPrice \u20b9\u20b9\u20b9\nAmbience 4/5\nService 5/5",
+                "extracted_snippet": {
+                    "original": "Cozy place, good ambience, food tastes really good. It would be better if the portion of serving could be increased. The size of the pizza was quite small, the price to quantity ratio wasn't that satisfactory but the taste was good. We did try vegetarian options only on the menu.\nThis place has a collection of few books as well for reading during quick bites or solo sessions.\n\nSurprisingly I liked rasam rice here, this place has a variety of coffee options as well. The cheese pulled garlic bread was good too. Paneer panza is also a must try.\n\nOverall I would rate\nFood taste 4.5/5\nFood portion 3/5\nPrice \u20b9\u20b9\u20b9\nAmbience 4/5\nService 5/5"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 4,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Pulled Cheese Garlic Bread, Blueberry, Paneer Panza",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Large vegetarian selection",
+                    "parking_space": "Somewhat difficult to find parking",
+                    "parking_options": "Free street parking",
+                    "kid_friendliness": "Kid friendly.",
+                    "wheelchair_accessibility": "I don't think the wheelchair is accessible."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VNcm8tNUtQNTlUdEZnEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEMro-5KP59TtFg%7CCgsI5evywQYQwOmOPA%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "3 weeks ago",
+                "iso_date": "2025-06-01T20:19:49Z",
+                "iso_date_of_last_edit": "2025-06-01T20:19:49Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CU6D3QXa7EsjNoQxboeT3x0GdGGr4lex7iUhdZuW-FfnrNfw2C_ZkucUOh-JAZt-7NS1eTF03r9Vc8tddXybycvr5vCs29PZunJMpjKfe07J0eY9IGaC8Io49ynI-1t_E154qykg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DpkH5tUiI48O8A39NcbI0_A4sopE4tluXFLEDaJTDlpJ1OIidC8mVZSgqNXFLyb0C6uhwFNKUxidVxd-UKtZw_t_k3kXcWh52eDrHp__AbHLCQoOk2HwgQlBxQ7mpC9CrOqzeMKw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B9If9bOLR1bjk6AZLUQJg_ZJky5zoyW4Da79IE3pRTZlPqQ3rUhF09SOkVWVx0KrloOLvMtsUSoP6Izo2n7_CmRbmh8cdMgE2-stM6Q_00MYzHbmBrURPsQb9WMt62Ae7iKWQVkQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BIpqkDRsvYBfLeG2HsQUlMtLo5J88l3zPQgFNVo_9rhCGNC40EV608bCfz-acfq6jyW6_IvJ7o2xvKuk_Vcplwtzf3yHj5hHXjU3PD34ZyAK2hF2ksUceB5hJ_hcWIkQerde-ncg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_bJjrDxagqOO5xMcRUahE11ATrVtPfA37S6l7Cv7u_rvtlydPh_uzo83t9Y6It82lPmBdPmClH5Wk30IBp-E3FW0COnylup2lbLFdbIJNK1BnSDXp-sMKAJEq0C9Ks015xnetAA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bd9PnpjKMx5D5wJT5UxM1QOmtL9CuVmFJxx682JOC7owVWFFuFf1hDa8oyqkKW1CGXOLvP1VpghRb7JCuMPjK_AFNoVda2y4JBqJeldjB7gRnqdd1p8jbo6fNVF-JL5WDopZL5sQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BKriqwsFM7FyjITh0J9S7drzDPvTGsy2mDDCTbFBPGO8bjHbp6pDKFdMAOSzGCPABqiBddgCu3ZD6TBK0_PoTT5h7QrntoIFAMUN9PVz39ScmdjYvmf9aJd0CuH9c8SsdjRTPJiQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VNcm8tNUtQNTlUdEZnEAE",
+                "user": {
+                    "name": "Tan",
+                    "link": "https://www.google.com/maps/contrib/115849265358171922147?hl=en-US",
+                    "contributor_id": "115849265358171922147",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVXj_d4EirB55GLUyEZvQufSHAeZHD1-f0vNwEaKbkTK6piOi6DSg=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 282,
+                    "photos": 714
+                },
+                "snippet": "Cravery cafe is a perfect place for causal dining with family and friends. Ambience is so well designed and\nThe night view adds a magical touch to the overall experience, making it a perfect place to unwind.\n\nThe food menu is somewhat limited but is carefully curated and each of the dishes that we tried were high presentation and were tastefully done. The options are much more for waffles, desserts, coffee and quenchers and they are delightful.i would recommend blue berry cheese cake is the best dessert in this cafe.The tables are set with a QR code which has the menu there is a small device to call for the attender for service or for the bill.\nThe staff was really quick and helpful. Overall a well spent family time with yummy food.",
+                "extracted_snippet": {
+                    "original": "Cravery cafe is a perfect place for causal dining with family and friends. Ambience is so well designed and\nThe night view adds a magical touch to the overall experience, making it a perfect place to unwind.\n\nThe food menu is somewhat limited but is carefully curated and each of the dishes that we tried were high presentation and were tastefully done. The options are much more for waffles, desserts, coffee and quenchers and they are delightful.i would recommend blue berry cheese cake is the best dessert in this cafe.The tables are set with a QR code which has the menu there is a small device to call for the attender for service or for the bill.\nThe staff was really quick and helpful. Overall a well spent family time with yummy food."
+                },
+                "details": {
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "service": 4,
+                    "atmosphere": 5,
+                    "reservation": "Reservations not required",
+                    "wait_time": "Up to 10 min",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Clearly labeled vegetarian dishes",
+                    "parking_space": "Somewhat difficult to find parking",
+                    "parking_options": "Free parking lot, Free street parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR2OE1fOFZ3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDv8M_8Vw%7CCgsI4J-DuwYQ4L7zaA%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "6 months ago",
+                "iso_date": "2024-12-17T01:12:00Z",
+                "iso_date_of_last_edit": "2024-12-17T01:12:00Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bl3dZrNa6GZc0aTRFfraWE-d7gHztxnBBH-qrdZQeToNPpHkpj2UkfGHP5czGCkE7Xgzzz81p_SpVWn4b8TpPLF02fS7UqXx-5N0xnZ_XEFrM78buQLBF1c-GtnoCfZU_b6tcx",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BxA1QrW3JYVKuepK0jjdZgHJYldMCCbX8UQ1-7pZvWzl1bvNm6Fg2G-Cyh29Hsp1jHiJx-prPLmbIU_PJGsGeUv2ozf8nUdgNK9j9Xw2_NBPJsGIsWGS_W2Dm6JsZYZP7xL0QOCQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ce-VDEDQtqAyeb6k3ZoJAgcL9nLnYvUKGWDgu08ZSrgKk2zMDu_HzdehdDCONDBEG-_TBWGnxM7eu5tkunx7GH0cvQPOZ9tK_kglRwAgsq-TKRLoPq3v1fEdW2lZ1exk7SYAjf",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIXrGaODU2V_x7EbEFGVP0ntxEE4M5q-_okXYkHTpTumgRK3lzuNNziUe8H0lOGsGjOY4AonTrBdvyL_qzapvrbog5NcRvFv-q8bFPhMlYABf-VFNTpAHM4smAIqzqlQU_O9_xXA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CO5mcu5zXlRgFZl6A0g52Rg_MaBWJIKABM4C-FNKymH_7_vZfQQBMaIGPVIax610vYcUyQT3sQL7yKzjQugjTcqkgc5Saf4xCMl0MLkrvGymWtiUJm0uJ23IVad5RTd8ZU63SP",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BCq9s1Tsa7bqURkTAwMmG0azF9L3fRdasjcezlDkcc4wODE2BLvuMYDpC1ggPBwwBylbOTsYmFwIk0sK0YL_OJAtflvPRimC4B2UVF3-1I8A7m6TEWvBDto-FTL5Mp1QZYe6I2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BxkkrNb0GEhxC2EDHbjBHl9-PUrCIIESSB83P9DgDURbII3uQmkswoaw12TfNNuv08K9LQSLeVInzbF1h9yIWIjGMpk0K60-wYk4S-UjKQCpmYxSFNodnbMPB_I_9_gHDxkITy",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADboH2qS9_8dcdJ0BnPQC_lilw65LKxYubU7h6z-0sM6QUumBt57ji99jqPCQrdHHXJ_CxepAXFaIZJ5Tt5sOVq5N0J4auYHe0KOtBxg9BvjiNw1tn43nunahuULB8RA96_3N4gw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bsz0dHcSV3arJQ_KL7GY86zNVYQMR9dx3FuFGQGsBCLRdB9Pfs4lqB2y2qDKSO2tGsA8FN9lYQSFd0bbSSdKleJ4QfEgZslZtix-2PHADGGQM8p9qBt07fhf7xlYq3msM4KClv",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AaCn0wYj62Cn8n9tkxD_u-JNbVstPOLoj8A42ShMJeUqlKfXkD5nAxvUwakXCnzxFNoyOP8d1Q3XM48O4rHrFek8NejHLuP21PwUNBN-ysp7yh0tppSftLtUELHUtq3HTpwFfMjg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D8iZWrT4zgY8j6hun1iVa1dgBCgyUWYlqi_UllglXH68lfRBPm0vXmTrlxOM5VWcfz1A1UDBU1WigUEPYZdt7gD7SO5PeX9S43u9yX7NIeBDeUDreiqfB6ymY4wnaR3s0JqH8F",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DyPwOB7cOu-3CxwWfWm9O0Pwo-JJSFzWZ3V269OlTpKnw42OrG5EvX2b5Sknu6meurHqZTdFKgapgWsYASvcOi0wzgI-RIVIEAeCkUQNytuFRwqDeEThY3KM0zQn3Zc6SmjxbVsw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DTphlmAKIc5vLr7-DvWGpSD5qGzH3rAi8WrqLsMa6UFarQs8W91n_cTpgopbIuODV7dczp2pvSX5COb4sdEpPoARSos8RJkjYLKkJZojzat5LCETpcYskESyFcwWALbzJ2ZRid",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHnStHkQCrHw05W1G6I-lYXqekOlhKn0LJe_-NEcZRjONsZFHfQUOOoD5PnOzCsX4lZDOEtkO7sOdaiq1ZBIITYCZXRwafcwDwawtk-dwCtFHjR2hY9ZuegTUFG2R2PyMAVI-ZdA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C8I2n96-0OnwtPRG69g4lY-8zWGghX1Ydwhyp05MtjBqVxDjLwLfOvik0UTxslKz_6cXZbsq-BEOMbneWm3JtW8qqDNNgJt_hzOk5cFmIn8KHctOl6QQTzjNg5SVkETH9iAP_x",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DXXYSPG_l2uR7G6tLlENgcuDNSqmiryQh3TjZqbLYBZMP-5Dl3HegZuXLNywAJ39YUmHJvySpIEmZiZrfMnHtT0j-o0-TiJi5KZ1XO6A9ZvXkV4tu2kzzBPW8heec-Ij1xZs5LaA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYAyzD5x07Z_uNE5NLNYIbZ-aZhThEAm7uF8VyDrXkbBxk8lyA6fHYYNCE62GMBj1xyRh54JGQBKIEUwCFs6IspU5mZA6ZQ74kfWebg9D6A1UAYyNoi1R729VYhBKRKg-ZjMkO",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AqgVuSGA3osysIf6VuVq_Ti_ukjGVW9n8klbT5Qwz_wXMHNBuWZkmbj2J-bab-kzvhEYbkjA3iqMiAIU1KVqr5ENiJ3I8YHOEzD78eMLhlWQ_549tviUBjuCHcd40pTnEkbEAuVQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CM2E5Xf7bxV8nObMRB2-a6JJgbnxl-3V-8EYRPDo-QvqAxxh72lfRuV1_LhAzV5zFLzKcRHzpHkXyu_MsRwYzrMjkWDz4gKfwTLIWN-Mr9hVVtE9ncPwi7CUbeX64--c0bjVmryg"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUR2OE1fOFZ3EAE",
+                "user": {
+                    "name": "Areej Abdul Basith",
+                    "link": "https://www.google.com/maps/contrib/116855239268408597102?hl=en-US",
+                    "contributor_id": "116855239268408597102",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVjFO911YYuoCUvBDlkaCdwr2iP4AiLQbLUzpVis2GRBjWRngeokg=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 143,
+                    "photos": 707
+                },
+                "snippet": "I recently visited a charming cafe in Hyderabad that left a lasting impression on me. The cozy ambiance with soft lighting and comfortable seating made it a perfect spot to unwind. The staff were incredibly welcoming and attentive, adding to the overall pleasant experience.\n\nThe menu offered a delightful variety of dishes and beverages. I particularly enjoyed their signature coffee blend, which was rich and flavorful. The food was well-prepared and presented beautifully, showcasing both taste and aesthetic appeal.\n\nWhile the prices were slightly on the higher side, the quality of the food and service justified the cost. One area for improvement could be the waiting time for the orders, as it was a bit longer than expected.\n\nOverall, my visit to this cafe was a delightful experience, and I would definitely recommend it to anyone looking for a cozy place to enjoy good food and drinks in Hyderabad.\"",
+                "extracted_snippet": {
+                    "original": "I recently visited a charming cafe in Hyderabad that left a lasting impression on me. The cozy ambiance with soft lighting and comfortable seating made it a perfect spot to unwind. The staff were incredibly welcoming and attentive, adding to the overall pleasant experience.\n\nThe menu offered a delightful variety of dishes and beverages. I particularly enjoyed their signature coffee blend, which was rich and flavorful. The food was well-prepared and presented beautifully, showcasing both taste and aesthetic appeal.\n\nWhile the prices were slightly on the higher side, the quality of the food and service justified the cost. One area for improvement could be the waiting time for the orders, as it was a bit longer than expected.\n\nOverall, my visit to this cafe was a delightful experience, and I would definitely recommend it to anyone looking for a cozy place to enjoy good food and drinks in Hyderabad.\""
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese, Pulled Cheese Garlic Bread, Mozzarella Sticks",
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Free street parking",
+                    "parking": "Carefree parking!"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNPNjRHVnZBRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgICO64GVvAE%7CCgwIo9qOvAYQ0ICp7gE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2022-06-20T10:04:10Z",
+                "iso_date_of_last_edit": "2025-01-12T11:53:07Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B-ZIAxHBkfR3koYyRS1uioKDpQ5TTz6qiL4z_JyX6rA0ex4umGe3Dv9loi55ANpJq-PcM29MCH8VhnSjj0fMw0hKa-UK5-O0uWZ6ptgKC_rlrk6HYiswyd8uzc_ttsUvnG-JPr",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DMZoXwx02e3yt5s5TzUuRVGuI5sYU2eNSfpR8eYWmPQ3lXbft7Ok2eLRnHqZctw4e8XXSua9MlrTReVR-qmEfwgCdA5iofkG7IGBAGm6I-dqJ-WHuYLibz33n_bSFWkWBj0PbpBA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CiW9PK4e8dRdSIUTAZk-f3AHJ8-UqKyGXNjTfVk9ZkdcpuxD_8fJPixsEw2hpBAnFfG6nVlf8d22j-l7bI4m9v_x_W6Ye9u8QiCTm5wPXA-xbOkrIuC5h0upRl6yqoP-5qt00d",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CI2amJaYEq-_G5moy4gfvkBFvFRHid4rZqkl1mgxswW2nh5-P1DMDnK9gSmkPZzUbrAcSn0lF-_f0DSW1OL6kKi7qNUT93zQT0pc_r2zuTvWwRZ5P08jcwtgaRvmwlt3U9ar-q0g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D4vdPtehiJLZVIyFRg41hEEMPkxMkhem-tkjaY8md0iRzDyDzz5eTMd1Q4BPreh2MNKAD18-94H5wbm85ASdoeBMTd8Couh-_66tVRoDrsRb3je2MSSXCGp8D_v87aY-Rgf8qE"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNPNjRHVnZBRRAB",
+                "user": {
+                    "name": "Badal Swain",
+                    "link": "https://www.google.com/maps/contrib/100932232046897784179?hl=en-US",
+                    "contributor_id": "100932232046897784179",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWbwN0_692uP1ktB1cJpNCGdiApYnuxwRpn7cPSz6Q5giuxXSyD=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 2,
+                    "photos": 8
+                },
+                "snippet": "Cravery is one of the best cafe hangout with friends and family. They have a plenty options of menu choices like  Chinese, Italian North Indian and South Indian stuff. They have refreshing drinks desserts too. Ambience looks very cozy. Great hospitality. Had a great experience. Worth of money. Highly recommended .",
+                "extracted_snippet": {
+                    "original": "Cravery is one of the best cafe hangout with friends and family. They have a plenty options of menu choices like  Chinese, Italian North Indian and South Indian stuff. They have refreshing drinks desserts too. Ambience looks very cozy. Great hospitality. Had a great experience. Worth of money. Highly recommended ."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b92,000+",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese, Pulled Cheese Garlic Bread, Blueberry, Mozzarella Sticks, Grilled Fish, Roast Chicken, Soups"
+                },
+                "response": {
+                    "date": "3 years ago",
+                    "iso_date": "2022-06-21T14:20:28Z",
+                    "iso_date_of_last_edit": "2022-06-21T14:20:28Z",
+                    "snippet": "Dear Badal\n\nThanking you for rating us. Hope you liked the outdoor ambiance and service during your visit to our cafe!  Look forward to serving you soon! Do order up at your convenience from swiggy or zomato to fulfill all your cravings at home!\n\nRegards,\nCravery Management",
+                    "extracted_snippet": {
+                        "original": "Dear Badal\n\nThanking you for rating us. Hope you liked the outdoor ambiance and service during your visit to our cafe!  Look forward to serving you soon! Do order up at your convenience from swiggy or zomato to fulfill all your cravings at home!\n\nRegards,\nCravery Management"
+                    }
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNBbWFMT1h3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMCAmaLOXw%7CCgsIwJ78vAYQyODVfQ%7C?hl=en-US",
+                "rating": 4.0,
+                "date": "4 months ago",
+                "iso_date": "2025-02-02T06:22:56Z",
+                "iso_date_of_last_edit": "2025-02-02T06:22:56Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BROFsXbl5kvzq-owP5FpVfMzioD-04OduWL5NsNiR55SYfcaNFbS7TGerKN6VA9JxCGsj8TLVdP3mWMZiPbICR-ZSPKI4F8WNuZFI250zsvLjupPO5aZqpz7NofsaJ41dP1l4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CjAfTPjFC2CSM3TvoS2PrEWWchpbXcd1MdhUUEm6dX9SvymjrPyBwoUkPTaODgcUe8FAaC7YAj-HNzMWfNln-eOiCePD2gbSze7CF4qpl5GSG2HxkC46MpOaFpuF9kO0Gc2yI4iw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AizsYbARCTTctUPu5fCu3vbIoKUvmYVfBmKqt05o_zcDF2qBf7w3ZffoVWQec1teLI46Vpn-NaDn1boIHYXGaVRh3rse0-goK_WtsxkQFgbC0J-4trzcpGJrJ7DVP322n4LYeN",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dik9MHyKdL2UnHEbeYe7ezKdLBCcO8gRHJM-y9cQ9NJDajgFfVTeJDNDWAEMIrv-G522S3zeYkMXEqU89zfvQZZ5SKKoXOR3OXy1JILjBRK2u6mxvfB-zF3pimWsOqiTHXaJAW5A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BASwgUBTGBLwx4NDuSYZneyF0-cd9AG07XSXxGzH9ySve4IaNMi3pqfamrXAtRxyV_xFKNw29cmuosOQC9Wk2DMpvrbQ6CVA7X5sOWY6AvvpbPui3YIB46Co9kAqIR6BUAwQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D1v0MrNbd8MESfA8kNjesQbLKdw9EofRkjyu6I3zhtN-VYmf89z_PifPH0yRu4Dg8FzBQ-Zy3cMcy4XXbACdmMOFWAf47kbbeAI6-FYyRaw7j-YV7vERfHsyB1xGRFCo0LG6hg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfXVO9hSz03gdqr-1KoiRlc6IeV9ibaO58cjPKc1_2Bh06qKHJENk6FdnZ_s3rDA2WibtZFzlhv4m8-PUFsHG-2GvD7EL3cJ6V5J3AIbiBzOGV_egqOG-in1QoAad2oQDAL1g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHMCaUNgxElJofSX8TlI95suLl2eQyrvh9N0W_AQhgZTHyRmU21PzPpP2FIjrOLySXZO3yxzSwQCj4D9aEuuuKD7GkMmHB0391PoAMlwWvLtOSJz2xLyrb_FvqBTovlPjnS3uZWA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DK9rWT11yWoqWhMlgL7GIokS78b9WIYXqWKdJxzf4FQMjAdG__k_8g2zQXv2N5_mck6dNOzAck-g4ap3OkMR14pv_uUYJkiqCfZWuToNnAcKWVcOBrz1RxbExFQuigePLMOm4k0g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlLDTLcpul-HSsQ7L81EFU8ZzJOY5kfQVT7-c2SnLV9zoX6iKo3kPVB9M5YgO2l94_ipJAsVQRd3cpyhHKLsPdHaJHrQ83j-Qx5433Vd6v_QAdgfc4rcbu9hMZD9q7PiCV42s",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CR8sQqo9KhydA5mTRVRfuOzGRXuTZIwUj_1_yksQoeUOkTKF_SvvxjJRJC5MSDdOzVDdQVRrNT8PyeTA5ZXqAZBoKIzKgJVCRKK9dYql-3LqFyE7x_NKUuB1Llx7DIuTKITquI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfjmkwpMlW3xp1kJp1_QyN-9bh22Jrk8fUrCL7kbrliQNIKtPS0n-CJ4dz80OaFNKFFFuMaX85vA5-XnekpY5IZhYhJZTjvyjnQ8cetWOjIIhN5YbF317jondaiR4qaXmmGGsU",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AO__nqvkwyui-hTQ6KNEP8pkP3UhZrnL5bXn4pZollKQEIOEWEsFKZYOSu5uvQ06UpOcLkEVYPG0Gf55uqF5-QeeC54jsG4Uq9vX5WX_tILqtWvjXQHq0bMmm1i7dZMH8ItIDG",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DTTZkxvJ0lu6pD9oTnCm6urSZwr92NAb6Hd0X8NiVMspwlevzPyoShV5QXjKA6y7Vzs6wTok0JMrHFs33_Q_cJqwyeFzWCWwHiq_GvbOgEK4j8ANay0EBCh5Hvu_7Mwe2XXM8W",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BScNXGO38RoxQBi89wJMla-1G1GK5U0xpTcBlgu048Virm31FxuU49w8LEmSh7Xd5eVRIREJl3SDe1xn6SxTotJMO82WsNTPH22QPD0kOCPXHFyOd38dEFF_gFvCjyXkGgAcxvZA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CRO7a0yJiVhvT1y668LC8tOoDJJaYcW9WocZ8ebd1tygPpFvAQyIXUPJH2p3EQFBIIkYDtW1mx_2XpuCU2f0KAk3fvGbwrshV2XUh_mT8HgFZ_gWt2JCX599Rod7wHkASNqyB9"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNBbWFMT1h3EAE",
+                "user": {
+                    "name": "A Mohammed",
+                    "link": "https://www.google.com/maps/contrib/118178355844970581519?hl=en-US",
+                    "contributor_id": "118178355844970581519",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUL9uFCBuQ9pSjIvFy00Pg3jdssfx2BUXaVYHeSsX7lQXcuXqRn=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 169,
+                    "photos": 747
+                },
+                "snippet": "Great place nearby for a scrumptious breakfast. Had english breakfast which had sausages, omlette, mushrooms, toast and butter. Kids liked the pancakes and waffles \ud83e\uddc7 with chocolate syrup. There is a selection of books too. Overall a nice place to eat and meet.",
+                "extracted_snippet": {
+                    "original": "Great place nearby for a scrumptious breakfast. Had english breakfast which had sausages, omlette, mushrooms, toast and butter. Kids liked the pancakes and waffles \ud83e\uddc7 with chocolate syrup. There is a selection of books too. Overall a nice place to eat and meet."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Breakfast",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "parking_space": "Plenty of parking",
+                    "parking_options": "Valet",
+                    "parking": "Valet available",
+                    "kid_friendliness": "Good",
+                    "wheelchair_accessibility": "Accessible"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CdU5XeGlXVVJ0VlU1UWN6RldRbVJqWlY4eFowRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CAIQACodChtycF9oOnBuNWxiWURtVU5QczFWQmRjZV8xZ0E%7C0cHjwjCG4Nj%7C?hl=en-US",
+                "rating": 2.0,
+                "date": "a week ago",
+                "iso_date": "2025-06-12T16:24:15Z",
+                "iso_date_of_last_edit": "2025-06-12T16:24:15Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B2hyR0nK_-PfajsfwH8O52hV4JXeWl3niBuYcUFAynlTBAqb7aFhwOG0nZjP14XMNXmNrHCNswKkpeSpxnNjwYdTpvdbgMovdLOzic8kHmondCfEU6T2XhGC9jZZcz4i-5k3eMr_l7YeYU",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_7UBdjM7VMr3CecQ6JL54pr2SYvVhqQxeWRA4RN0H0dW4rNYSYqjF3Cdb8LBBOyNHKsKDfo8Lzlv1o_hjey6Xq2ISKU4zt6SAzJvY4QRu-t_e2vX2Tkep8pLMJpZm0TEDsbwTeQ2qTKEB"
+                ],
+                "source": "Google",
+                "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CdU5XeGlXVVJ0VlU1UWN6RldRbVJqWlY4eFowRRAB",
+                "user": {
+                    "name": "harsha yelchuri",
+                    "link": "https://www.google.com/maps/contrib/102357595157335939834?hl=en-US",
+                    "contributor_id": "102357595157335939834",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWLXBaNgHMAf5T0LsYQ79_bb5iyIe8XAryfSbeo-SgMqEnGZMqyVQ=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 31,
+                    "photos": 242
+                },
+                "snippet": "Went to Cravery Cafe for dessert and ordered the Nutella cheesecake, was super disappointed with the taste. They have a QR code system for ordering, but the website wasn\u2019t working properly. Thankfully, the staff stepped in and helped fix the order. Overall, not the best experience.",
+                "extracted_snippet": {
+                    "original": "Went to Cravery Cafe for dessert and ordered the Nutella cheesecake, was super disappointed with the taste. They have a QR code system for ordering, but the website wasn\u2019t working properly. Thankfully, the staff stepped in and helped fix the order. Overall, not the best experience."
+                },
+                "details": {
+                    "meal_type": "Other",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 2,
+                    "service": 4,
+                    "atmosphere": 4
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURBcU1yQmF3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMDAqMrBaw%7CCgwIzL2TvQYQwPrV1wE%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "4 months ago",
+                "iso_date": "2025-02-06T16:09:48Z",
+                "iso_date_of_last_edit": "2025-02-06T16:09:48Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ar3s7UcXvOiTAnIkZsmP15JpbWROfhm_AqOC7AadndOBiMIu_i2uOtgRriBqnsTCJcKec9CJUoJIKJadIdlR-HxXKSNyNEwkBqh01JM69aaoaNh0ks0DE_qAbFIZ1qmen15k54Ng",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B7OmhjopFAyK8ThTZqNDq8dCGtasaIaJAkbguxv8SZBmqQ6kbwOwZXuNADyGTpbpry5zK60s5nwiSbrJDMnO5Ja0PsXim8OFNhmulahrsMxP9GY3Mer4LQVB5tsrBH4qdVgVc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dnu5GpJA9RE2iNUqzHNEAu6hzCNnqTyCUN48hY1y8MToMp4D6r0cJioeOFBn71aEKqtG4pKbU3QX2NtOtW2Uj_hdzmW1TG1AhB5vqUT9eHu29H3_wphXcOj3I7uvrbhBSvqdq6",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B5AB1hV7l4txSAMjSJ_7qVJ7KqbvCwlhiTGtvxh8HevDp7dLhufEETM1ZJNIUgwrM5WgYx5IuSsBwz0P-tag2aaqMKDc5KL4Vx2FAzfRO_aQpm22PBDQvwe5NCBkkI9esql7zE"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTURBcU1yQmF3EAE",
+                "user": {
+                    "name": "Hafsa fathima K",
+                    "link": "https://www.google.com/maps/contrib/114708679286183677896?hl=en-US",
+                    "contributor_id": "114708679286183677896",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKiZIafW274QmdZQQU_cCF9lbjLjWi01lNkhsH778sFEzbx9LqC=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 67,
+                    "photos": 42
+                },
+                "snippet": "The staff has always been welcoming it's a very cozy cafe best to hangout with friends or even has a quite good workspace area and outdoor seating is also available where smoking is allowed\nFood has always been very comforting love mac and cheese of this place!!",
+                "extracted_snippet": {
+                    "original": "The staff has always been welcoming it's a very cozy cafe best to hangout with friends or even has a quite good workspace area and outdoor seating is also available where smoking is allowed\nFood has always been very comforting love mac and cheese of this place!!"
+                },
+                "details": {
+                    "service": 5,
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNfcU1tM1p3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIC_qMm3Zw%7CCgwIpcKOvAYQ6KquyAI%7C?hl=en-US",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-12T11:01:57Z",
+                "iso_date_of_last_edit": "2025-01-12T11:01:57Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BV3naOSDcyV1i4A4wTySuChlu5TNF1AS1NtL5hmEXekru8eospe4aU5yLdpg-49Jby-sR3vPD-Stx2RFnH9Zu3dTAEV8KSzoPpI0H7qJdhPyvU0rSSeb8LquAK2vWB6xKQv54mYA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B0Wa04zQmCEzPKz9k26XlHT8J77bqrqAoYcCoy5ZF8Vjt_eKSwXTC13rd3obEHUDSJs9JCfhXehmetJ_S37jQHLxswE77TXrpdXu0RQiidNEHTsmKIYyX9hak59laXJbtjmo6q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dd7fidnP7R-_PzVWlaHxPbjmgEjLfqGZAk3ZfHAmSwKaMWmVey0d7vn0Q2-6qECgW-f07VuhxaUkeNXQqP2ViZ_A9uK2MuMYvtwPsbcvWWaSuEvHvDYC_Vy1Y709c--zccSMRYTA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C0GX2fY-r4FHO7cC3-JUHao6c8clPqIrWfgmn96e3tskrQgxExptoqlWRTJ28sRemiZcocY9PowblNlhpqMifxCrHH5UCTtvLnHOSeOOqohHqZSgpJQdQhURRpFMSq8FmtY3cB"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNfcU1tM1p3EAE",
+                "user": {
+                    "name": "Ravitej Chepuri",
+                    "link": "https://www.google.com/maps/contrib/118380483419399478129?hl=en-US",
+                    "contributor_id": "118380483419399478129",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUSj_dOmth8yiUc0beVR3EI7qBhaIWtAW2X1wWoFysS4c3Y0ffa=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 2,
+                    "photos": 4
+                },
+                "snippet": "I visited today cravery cafe. I ordered  panner pizza ,cheese chilli garlic toast & cappuccino. Food is very tasty. Nice coffee.Ambience is looking pretty good and great service.",
+                "extracted_snippet": {
+                    "original": "I visited today cravery cafe. I ordered  panner pizza ,cheese chilli garlic toast & cappuccino. Food is very tasty. Nice coffee.Ambience is looking pretty good and great service."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b91,600\u20131,800",
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZJUXkxZlgxOWZSV2hFWVZaYVpITnFWV0ZUTFVweU1rUm5RVUZCUVVGQlIyZHVPVEpSUVVOaE5saFRhRTFqV1VGRFNVRQ%3D%3D&place_id=ChIJ1VujaWiXyzsR1p2qWtE4cQM",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZJUXkxZlgxOWZSV2hFWVZaYVpITnFWV0ZUTFVweU1rUm5RVUZCUVVGQlIyZHVPVEpSUVVOaE5saFRhRTFqV1VGRFNVRQ=="
+        }
+    },
+    {
+        "search_metadata": {
+            "id": "685912089f8abce5b2d93a82",
+            "status": "Success",
+            "json_endpoint": "https://serpapi.com/searches/038a1830b40d07fb/685912089f8abce5b2d93a82.json",
+            "created_at": "2025-06-23 08:36:24 UTC",
+            "processed_at": "2025-06-23 08:36:24 UTC",
+            "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+            "raw_html_file": "https://serpapi.com/searches/038a1830b40d07fb/685912089f8abce5b2d93a82.html",
+            "prettify_html_file": "https://serpapi.com/searches/038a1830b40d07fb/685912089f8abce5b2d93a82.prettify",
+            "total_time_taken": 0.74
+        },
+        "search_parameters": {
+            "engine": "google_maps_reviews",
+            "place_id": "ChIJ1VujaWiXyzsR1p2qWtE4cQM",
+            "hl": "en",
+            "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZJUXkxZlgxOWZSV2hFWVZaYVpITnFWV0ZUTFVweU1rUm5RVUZCUVVGQlIyZHVPVEpSUVVOaE5saFRhRTFqV1VGRFNVRQ==",
+            "num": "20"
+        },
+        "reviews": [
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUN3LVkybHp3RRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMCw-Y2lzwE%7CCgsIkrjtvgYQ0N3kUw%7C?hl=en",
+                "rating": 5.0,
+                "date": "3 months ago",
+                "iso_date": "2025-03-20T00:06:42Z",
+                "iso_date_of_last_edit": "2025-03-20T00:06:42Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D0DqXNLIzoLhtVyhWE7xnw9PxHX00APghChofWpz_uejeEnrGn9jPG4s8sg2_tdO8K4Co3WDD43cWJBpQP7wvCs25Q0m25VCqfO3DtX7vUDpb1yHod01Vya-22jvwMg8WFuTa2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BC2mDsN84GeDnd0wuSRUYb9uMXhEnbrjpOGr8l6omaY4rO46LSEkwqY_pjNia3q5Hkg775gWHNVFLoTokhxEdE7xaE1u0n3_vI0SmyQRSlJvFOJfguv4X7GWAWVSPjAQQez7WjEw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DB3abbOjlclVM3tYX7hSvFNcb9DR2qLxySEt_KrR6VL_7hWKtjzm7so5VoLLqF4RSWDGEYGf4O45n1LrfR9Xhd0AAfB_E7hRRtB4OLD9zERGJBv7-N4bfNNgAYyfcLKMMMVpA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AuB0VEqAwyOamkwHV3FQ0o79gkdqSSz__og9tvdgJcdxRGiH3Gg8Y0cKsExwn7eZMWto1nhLe13hu32IQflWyAXx-SH_rJG7PBZ9kN5lDk_KOuUOCSlJkPnVLzJHCXjSZ8rnmB",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BR7-erPpbye9ItVR7sMvwEzxUrpz_zv117kojQyHO1p5aCxQJ53e6OORa1YsOHuG6oJe9J2-x5t1aF8O-_iGStZo1KLB7c-ZaVJtPJG9X-8reXl9Klm8ciA-vL1sqOwGUrBv5q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AdJ2skFrSGsUNNdl1Jn-l8RDF8RZLGx-bmuvIlpB0d6wNKxR5hVuCzqNsPvVIvgkQBWUAssP-LRnB1uTIuQ84hf9Pqk99w6lfcClsd0ZwMU4GNBGxCDC-UZBIGPWgvn1YtzjGktQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A5tJKVyd3jp9ROxKek4b5imq0unGfr_ju2Rj06CcQUG_ElgSAtM1vuxnT0fctkIApgsA6de8JL7fFKMEwPLF2VEi24_1vK8TH8V1oeO3_9m80Ws1YIBn-eLXkTYxPt8HZQPiHa"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTUN3LVkybHp3RRAB",
+                "user": {
+                    "name": "SAMRA FATIMA",
+                    "link": "https://www.google.com/maps/contrib/108505476403904172028?hl=en",
+                    "contributor_id": "108505476403904172028",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUo6-jSEKfxwlDctmYqNKxZhhXhMRWc6W6zy1zI5zecKftI7iDD=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 25,
+                    "photos": 31
+                },
+                "snippet": "Delicious food, price is medium high, cozy boho ambience. A cute and classy go to cafe with your friends.",
+                "extracted_snippet": {
+                    "original": "Delicious food, price is medium high, cozy boho ambience. A cute and classy go to cafe with your friends."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 5,
+                    "atmosphere": 3
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURfMnJ2MEFREAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgID_2rv0AQ%7CCgwI9q7JvAYQiKbg5QI%7C?hl=en",
+                "rating": 5.0,
+                "date": "4 months ago",
+                "iso_date": "2025-01-23T14:51:34Z",
+                "iso_date_of_last_edit": "2025-01-23T14:51:34Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C5GEdWFOfKnqfPDFN20IdwHnChWwCTceEUAcfz_WuOa1qyvQT9Qai24kuAKOYPI8qIWKbiewtijAmPaQs63ME-rRuRvNdiChMqAvxx3HQFDfqMuDFg1sR08GBYYeCG1xzHX4fAdQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURfMnJ2MEFREAE",
+                "user": {
+                    "name": "Shumayela Ibtesam",
+                    "link": "https://www.google.com/maps/contrib/101836085115712979004?hl=en",
+                    "contributor_id": "101836085115712979004",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW5vUN83lQ87WGXO7dz_vmDbEn0rFYa0WJnzwkJsbARPiM63uqV=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 16,
+                    "photos": 8
+                },
+                "snippet": "This cafe is on the list of my most favourite places to visit with friends! Their Mac&Cheese is the cheesiest and the best version I've ever had in Hyderabad. I come back here for their Mac&Cheese and mozerella sticks!\nFlaky chicken popcorn, cheese pull garlic bread, grill chicken and garlic prawns are must try!\n\nNot a fan of desserts here, pretty average.\n\nAmong the beverages, smoked Rosemary and Blueberry and Caramel Frappe are too good!",
+                "extracted_snippet": {
+                    "original": "This cafe is on the list of my most favourite places to visit with friends! Their Mac&Cheese is the cheesiest and the best version I've ever had in Hyderabad. I come back here for their Mac&Cheese and mozerella sticks!\nFlaky chicken popcorn, cheese pull garlic bread, grill chicken and garlic prawns are must try!\n\nNot a fan of desserts here, pretty average.\n\nAmong the beverages, smoked Rosemary and Blueberry and Caramel Frappe are too good!"
+                },
+                "details": {
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUR3MTh6U2JREAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMDw18zSbQ%7CCgsI36ycvwYQiN-RAg%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 months ago",
+                "iso_date": "2025-03-28T21:36:31Z",
+                "iso_date_of_last_edit": "2025-03-28T21:36:31Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJDa1D71cXyIhYG4LQSQ-IZhyvVmth4YOf7ZJuP0V58WqVEnh6wbapYNuQrMh328Sgf1O4wfmlPpMH4DgQMX7kZyIn4GDNV2yvf0eH_lOfjH_lpjSj_3yEo2RgeKR3w4C8wR92vw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBkw-KiyZ5J16Q86lJKBMQiV6-Q3j82H1MkWBRVqJlfkMnykJLlj3vyRTcWbX1SajTfhcA9cOPfHYLDJPJjgh5UXZfMZ1sxPmOu92Olz8qAsYsnuSOWUrOkc6FsHOPqvJE6ZVS"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnTUR3MTh6U2JREAE",
+                "user": {
+                    "name": "Eesa Khan",
+                    "link": "https://www.google.com/maps/contrib/109413576425590631946?hl=en",
+                    "contributor_id": "109413576425590631946",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXGWvXe-cR2GnMAK94m-IkPwsm5uX-UiZX4IGoRzIYczzzDNa4M=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 14,
+                    "photos": 19
+                },
+                "snippet": "Nice quiet and small place with good atmosphere. Coffee was decent and went well with the chocolate cake. Service is nice not professional but very welcoming.",
+                "extracted_snippet": {
+                    "original": "Nice quiet and small place with good atmosphere. Coffee was decent and went well with the chocolate cake. Service is nice not professional but very welcoming."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Other",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 4,
+                    "atmosphere": 3
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR2OFppWTVBRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDv8ZiY5AE%7CCgwIr_SauwYQ4PyzqwI%7C?hl=en",
+                "rating": 5.0,
+                "date": "6 months ago",
+                "iso_date": "2024-12-21T12:53:03Z",
+                "iso_date_of_last_edit": "2024-12-21T12:53:03Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DcSRnXip7FH-0CveSxTY9Aj9rYPJdljFyoLj_Ig2L7VzF1EZNI7K0DeYTeMki6ykQhnvP_gGomhEVBQNGXkJfCD-tdvJpqjNM7CmVq__InKCr2yLzwN5w-BuOwZBrl2LXbamLM"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUR2OFppWTVBRRAB",
+                "user": {
+                    "name": "Megan",
+                    "link": "https://www.google.com/maps/contrib/109821289139454686636?hl=en",
+                    "contributor_id": "109821289139454686636",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK3Hwst0X9FuGKaOMjNIVB4ldIf4mBgiSQ7D0Jk_DxoATBI_g=s120-c-rp-mo-ba2-br100",
+                    "local_guide": true,
+                    "reviews": 30,
+                    "photos": 10
+                },
+                "snippet": "Loved the grilled chicken with mash and veggies. Very filling as portion was generous, including the sauces! Kiran was especially kind with his service. Washroom was clean!! Will definitely revisit.",
+                "extracted_snippet": {
+                    "original": "Loved the grilled chicken with mash and veggies. Very filling as portion was generous, including the sauces! Kiran was especially kind with his service. Washroom was clean!! Will definitely revisit."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYeU8zY2N3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDXyO3ccw%7CCgwI0-XjuAYQwPaa-QE%7C?hl=en",
+                "rating": 4.0,
+                "date": "7 months ago",
+                "iso_date": "2024-10-23T12:57:55Z",
+                "iso_date_of_last_edit": "2024-10-23T12:57:55Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cszk32k-476RKH2G-lrfKg0MwCFzrG-jyVuPtrlQoZhSXVJCYLoH4dC5pATo0Dg_TWafOAXefWrrWpzziNBDAnRy7nR5O2SNjH44VaWITyWr7uwra6wxPzm0GVpC-hZo9D4iT5",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bk9Oj_nRebwq2flnW4jPA5RFrG8JycqSK-EnrwkJrtc9dCxxMql6VDyNqxyapyLgpjNtS7Uucid2r0OiezVwNavST44vIqWvFlzR9c9NoPHpE7IQ6YZEMO-DTGQUJTRKk25tg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AaBUIPx_fSKdqK5YmUAyrHfRAeiH6huB-YHuLa5ecAI-PaQsCgs0PdfpyIP92hxdxuZ5ZXgd7Ze-AfkdfiBYXQwuc-1P4xgbygMTC0YWAKkWWntts3rbrJengaJ1BDp5l3DY3m5A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B9Y-GUy-A8TQaKYlSKTlviFgtOslIkOgxJhET4HBkGKpUwhZbDM3BUEyNeyEmFQLhNdulyZlbDaBwZB92L6DFt_TFywD3ypnekGHSrWiRFVoSfcQu1Dya73sQ7d0YnC-c2vwyB",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AYO0Gi5Sd22ORKmmpi6-tRPxLO-S7DlBbKt2SSMvSnvBFZHqPiMlQksH_q4BcEfB6nbuOmbIL8IgR9zj2d5Fz9alSYKNeQKEtNuqgtM3XEatAk5RbBoc9_SVlmZHhQoCElwhvG7g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C7HKJoR7OuHVpPxGRRvvMZApbqJ1y1NaSHZnbV7e5fgq3ZZ0fhCZf-z7KhfGWdEj-T5BEhU8dfrGU0lDiwaBcTptjeP_xkWCFJ73dBmWDpvkV4uh0GzB8Q1wEo4mh3d76SjB8h"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURYeU8zY2N3EAE",
+                "user": {
+                    "name": "Prateek Srivastava",
+                    "link": "https://www.google.com/maps/contrib/112090486469468976979?hl=en",
+                    "contributor_id": "112090486469468976979",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVAa1tV9jPvwJDTkO3XyAp-7kK4mbhFyvNzn8ISg28jUc2WHgMsRQ=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 71,
+                    "photos": 28
+                },
+                "snippet": "Ambience was good. Drinks were good. Coming to food, we ordered the cheese pull garlic bread. It was just okay, didn\u2019t like it that much.",
+                "extracted_snippet": {
+                    "original": "Ambience was good. Drinks were good. Coming to food, we ordered the cheese pull garlic bread. It was just okay, didn\u2019t like it that much."
+                },
+                "details": {
+                    "food": 2,
+                    "service": 4,
+                    "atmosphere": 4
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURmeUl2dUhnEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDfyIvuHg%7CCgsIq7DguwYQ-PKpeg%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-03T17:00:15Z",
+                "iso_date_of_last_edit": "2025-01-03T17:02:35Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BoQj8W3w1pCd6qrDQLMUz7csMAiGGULbON2DHok2Y0D7Cr0sGcOLidisuRBI-gjMYLPV_V8f8s1rzwdfWFcPRE3parBTxgaY_GFmqk0BZmk9B0LSHkAaPwqJeIplD04UGQ1lsB",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AYgbnsGpp0JAyqVa5jk6LlntxposiAG-2InDn8flgCPCg7JTKqQ5YupY1gh4NI2y4SuIEufDvKCcD6_6vGZwQ-GjEqnMeLiKgdj_zoGXd8wuzw_xkb5vM_yMA23pH23s_GTTsPhw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cv8hKZPwoWBarjs-PbDUErlopxsCk0jDrDounqWvGGjF8P6X_fogZANEgwdTv3BqlntfyDSKVq1GkfA9kMWdojIq6LtkUYX5ajs-fcGZNolhLt7yavGuAztgXxcvuxYOdDp7Y",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bb-Q4u4kmWvDT5QTfLpLaYDYGWNtX0ZEkNiAbzxCyLgk1Sq5vPda9y7vT_T7lhuPLu-nqJ3AC2xomc850w8ZqVOpw54DxHmmHu2uiHYXlUebQBq9GPBEDpRXRoDE-VBEe61vex",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AzmFBDdb0q9G1pIJlyGlMIsIPQ9HfL_eA3qUHg7ahrTgkNPBr93aHRFlcstDIGgGHQeBa0EMrzpvNmbzs2h3zO-Ht-CMEhzMJkTCRgw8e8C7LPxY-wbcbdpoDTtDH-VoTQU5Xk",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D04TdWN_YeFlGF6-IhjdbWUSRGGsh4KqnJeTtNJAt_WZh4wOmUeUTdWzv5BSmDBJk7O1pjHXr1z7G3TteDXuJynQ2laaE6uQM0zQaxqvtSt5c1N4tSgoTRiuJk_AfkzDclWgt3"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURmeUl2dUhnEAE",
+                "user": {
+                    "name": "Drishika Reddy",
+                    "link": "https://www.google.com/maps/contrib/115688378636047474574?hl=en",
+                    "contributor_id": "115688378636047474574",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUrij5nR-Q9yD9nQrYhx27YQ0Cb-VCpnbt2lvOkdg-QeLxCmPKPtg=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 31,
+                    "photos": 164
+                },
+                "snippet": "Cute cozy corner with really yummy food.\nMust try: the OG Mac & cheese, Moroccan paneer, popcorn chicken, strawberry mojito,smoked rosemary and blueberry",
+                "extracted_snippet": {
+                    "original": "Cute cozy corner with really yummy food.\nMust try: the OG Mac & cheese, Moroccan paneer, popcorn chicken, strawberry mojito,smoked rosemary and blueberry"
+                },
+                "details": {
+                    "meal_type": "Brunch",
+                    "price_per_person": "\u20b91,000\u20131,200",
+                    "food": 5,
+                    "service": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese, Pulled Cheese Garlic Bread, Blueberry"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNiX3VxNUlnEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgICb_uq5Ig%7CCgwIxteUtQYQ-OLIqQE%7C?hl=en",
+                "rating": 5.0,
+                "date": "10 months ago",
+                "iso_date": "2024-07-27T17:11:42Z",
+                "iso_date_of_last_edit": "2024-07-27T17:17:58Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQy7hwbUTASG9uJWJgEXVg7n7FyoQntvYHpg18gSc5-GueOojxOsPJXui-M5f935YwL_OjF9BHPPnIbilEwTSomPxh8G0mdqadh_Z_xbBZAt7Nm_-KqWt1x02htiRQAG9Jz1BKDg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C4XBxkYnDee6Uo-c7oXftwSazrV5xcIeDVM4MrhZdU6M0X_X1aI5jBZXreX_ymI1CibM6YkJ0687KmxY84eKEJ3mvsTh-4Jdzd4yuHVARgBk1B5071GBQVHta23oMMgkP557w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BlmJo5xSABXXkwrOm-yu4DlsS0wy5lQIH-7e0ch8iNr4aMV2RdisWxKP2m2nWQ8K1hNEP4eSAdWe-wqRPblO03cZXe1s_3lILh_q6b_MZt1bj_X6GCKddhnYvnlD_saKobfgT0Kw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CvY-V4z7NbnwVwHm7IXJ22wjsIVwaCX7SDEazUXN2QNBoT8dFIA8ueV4yeIsqCh4Tqr-IB_fUqInwHt-y-fXPX3Xqg7x6uqVCXvHSrMK7Ep3L8Nwk1MnuCEphwc-ixE6xOGJ7m",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CWP_s4OsrIUfoGYOGm5UQL79PpyfH2qk0AiylbwEHorxmmig7uJFozsiN09DD0OR4gdtSefNVwo1xYBBfrSFlgUTrzGG4LT0Vb-wHhnkZqmBK10uYIVZzqiBexOU40ScNKGbRTlA"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNiX3VxNUlnEAE",
+                "user": {
+                    "name": "Pooja R",
+                    "link": "https://www.google.com/maps/contrib/116700201510256537348?hl=en",
+                    "contributor_id": "116700201510256537348",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIJ3mfuakFf6n1RB_BOiWe0Zs7KmFgENkoyPV2HtP75Zw1Cyo0e=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 85,
+                    "photos": 294
+                },
+                "snippet": "Cozy little place that serves delicious food.\n\n1. Hazelnut latte - Served in a big cup, quantity more than a conventional cup of coffee, tasted great. 5/5 \ud83c\udf1f\n2. Parisienne carrot and cheese soup - perfect especially on rainy days, the flavours were subtle and pleasant. 5/5 \ud83c\udf1f\n3. Peri peri chicken mac n cheese - if you\u2019re craving for something cheesy then you must try this. Well deserved hype. 4.5/5 \ud83c\udf1f\n\nPrices on the higher side(except for coffee).",
+                "extracted_snippet": {
+                    "original": "Cozy little place that serves delicious food.\n\n1. Hazelnut latte - Served in a big cup, quantity more than a conventional cup of coffee, tasted great. 5/5 \ud83c\udf1f\n2. Parisienne carrot and cheese soup - perfect especially on rainy days, the flavours were subtle and pleasant. 5/5 \ud83c\udf1f\n3. Peri peri chicken mac n cheese - if you\u2019re craving for something cheesy then you must try this. Well deserved hype. 4.5/5 \ud83c\udf1f\n\nPrices on the higher side(except for coffee)."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Other",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ3OGN6WTJRRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgID78czY2QE%7CCgwI27-stgYQuIDPgQE%7C?hl=en",
+                "rating": 5.0,
+                "date": "9 months ago",
+                "iso_date": "2024-08-25T12:13:15Z",
+                "iso_date_of_last_edit": "2024-08-25T12:13:15Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJkdmLIZyJSMBaPJdj4S7JFd50LrPjI-dWhpctITXzHOvjIH6TsZfWMLE3qR6nSwb1sh6F7Alrb88hFrJEP5OPqJOw8LNOIEOZGb2QKl1dI_EqqdD4Xf3sKdyqdLABPFszTNTr",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DkMGunxgeVrgb8zaC3_oOSzTyEM_2olIkF992bG6aETDAtL5SWkMmhs7zJMbZ7ZEHXM-DRlQemPKVmCITIb3CHRIgBmlLseq9aDr0jsNTXg2szTVJxSiQXT6ocj7W_jTjlQVZj8g",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CWy7wPH3mqR-KGIGFJdSx2X_oIG5cV1J_mJfqk02UYsFyzT4yeaL2c8Xrw9O2FF3mB00i20QwOBpORiE6i5pc7nqKT7nDsgvCmBdiIbEdSO4KPcfMi8B3izgh7n_TlmRdBMk5x",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AUcy7WhQ0qmqcnHXp0FJgRtEaYEK6dQYtXKywsN3qsdHyc1iUlaqyfKnCf_Nb-5O9LixBqC_o4sjT722Zqq2pi7Uvyz4IsQNei2pHOsdgnhSJpv61aK3fNFhemJkSeAziXG-Evvw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CXqwWLVcgf6d9Qjg9ZKXy_rqIfef1xNSSdgg5s7DLqKEacEf3aTURAPFSVfEXOgNUs4s9RBeIIa2Oji6_7sRFfquiZEbmNdOHB0C14NlJ3jquYQo0rH5o_CKq6TClF7fZl_Ewy",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BuVYhzasghHBB4qPHICXdQuexnkS-UC9FXNUhx87SBp9NvYf1524HjFgAG4jVlQS_hB9OGjhelJrBC3yENUPmLqbYR0szt_aXOufaJ5D8WPmxbyYrqDyJ3fTPYwQUYKmbQ1OKDfA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AYPEDhseiuoexwrBVoXmqbY4A_qfWR6oz622osvDQGsnYGVqeQu2qw4aJBegmFX4QfbBDOv5WyB50cew7wf5gIM9rrS11Qbds_0HbTYwl-G0kcW5rE7yAC9qTwacbx110F2Fw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CUngGQlAJldGgqByND1aPset0a7StMDPCO922zjRBZtG1ANrwcnx6XAOArp4pxoa_SlyFqCjKYtHoR6d53yGGCHsJML9RXn9oMCaVwd_BsK7685qWyuZp6c9ufWawgHCkKYyeWHg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AGkmR3uXm10EHdkWEkkzVeuBu0JXRn6Jaw-KSu0vBab54sxP2Tzv8wsw9hyJFRkY9mfb9-k8xibhamGW-gV563eyuQkVCSq03h6Ny2297ZVGZwPKp9YJnfKAzOVZAkQGC0XeiY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_gy0uUT4kvgj5dICiU27mQ8yvn7xexSb01DGgNBOTwbAq-cwHpmiwbJTLevgBzlkO9YsbwWCo1uraKdcdMGaGla20g1-EqfwDomZKWAvQBbM245WJw9yuunnny3tU2jQQ3Vta3w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ch2Kr2Dua-SyPvAUVHiDJZ0YFvHMUKK1GMd39pgLMxcbxKpc1NRNZGHExWsdwuwLxRGmQ9V0Yiq2j1Pn8zOsomdiEWeEWjoaD0yvk-Qxl2xHYQgc8lqZ1NKZrtHNFrp7ktWTCb",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ds2RDH8pcd7V0U21n7ki_kt1KinQ6O-RlKEJ72DN-1IW7ECa_9dvzmJUPouPvxJRRv5YTDQpAvvz49hFLyPESYRqV0r4zCqcGnRPSlioEqKY7tkh8rOgAbA5UYLW5jPYeiIJnpTQ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ3OGN6WTJRRRAB",
+                "user": {
+                    "name": "The Golden Raptor",
+                    "link": "https://www.google.com/maps/contrib/108499985251229982623?hl=en",
+                    "contributor_id": "108499985251229982623",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXKw9p3FhKR_WeMFJyWRJFupmue1GRVaFG4PGnARO7uqGJTom72=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 58,
+                    "photos": 439
+                },
+                "snippet": "If you are looking for a cafe to hangout and spend time with a friend/friends and talking over some great food - You found the right place.\nMy personal favourites were the Chicken Forestiere and Nawabi Chicken Panza (Reminds you of Kheema buns). If cheese and cheese pulls are what you crave - Go for the Mac n Cheeze without a second hesitation. For those with a sweet tooth the OCD Sundae is a sweetheart. Otherwise for mild sweet desert - Tres leches garnished with rose petals and nuts is great too",
+                "extracted_snippet": {
+                    "original": "If you are looking for a cafe to hangout and spend time with a friend/friends and talking over some great food - You found the right place.\nMy personal favourites were the Chicken Forestiere and Nawabi Chicken Panza (Reminds you of Kheema buns). If cheese and cheese pulls are what you crave - Go for the Mac n Cheeze without a second hesitation. For those with a sweet tooth the OCD Sundae is a sweetheart. Otherwise for mild sweet desert - Tres leches garnished with rose petals and nuts is great too"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 3,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese",
+                    "recommendation_for_vegetarians": "Highly recommend",
+                    "vegetarian_offerings": "Large vegetarian selection",
+                    "parking_options": "Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUMxcW9PQmNBEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIC1qoOBcA%7CCgwIrqexrAYQ4MqCtgE%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-12-27T16:37:18Z",
+                "iso_date_of_last_edit": "2023-12-27T16:41:18Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BIsxGiuc3xn5dZvofDDH5oJjQC0VpR2lN9TLICstpcVZuMhg-Tuf-fA07HxYGwBvXMSWBUXmKydEzjpMzszKy-6dLiqFyHxsvLzLemo65L96UUSi_ALs9Afbf5raMdRBm72hQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BAPoM1bFe9n_384qkAfBId9JLkyadZMWJy2CDuPD7g2dMzgiX_irEokpPzHCDZ0ygvmQKVqO_8lsDGTqyribLKIbigFvhSy0TFUBhatcue2zHscF-8vzFkkmaMn2vOwc8d0UwN",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfwVe3BWLDVjfotibnX67JUsxSBJ0Kt_zwnuCJfG0hSnLgI9uM3mPxcQE9ehlI23_h3Og69bz5mlw9WfBHakZZW3wYSgtcWjVGNtbMxeTxDIxbxa3Y3tOyo425bbp1YdyFq4mn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D11Zwx-2Z_7ki_oire9jbEdTjWfEAkhrR85bEf1IV4Enq3W4F0rUZia48eNHPztECZbqFXfWAqrGELo2_BGaHCHYFn9SQquL7Ni3ufhqa3munexcTy_-CCnCbZDEFUgKEfCvzRIA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DwcvjAvhLh7wC7uPHNUHLuIzClvOvqQxaIoXGNb5qeYsA3VTgTkJhpk01LljFVqLlaAZ8gfCImJPv-qGwIbjXpZgY5KKLG9j3uSD0hxLqXBJXe1JITGe89sH2dPz2ltZABf31M",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90APbSt-dn2I5YbM4uMsJbXd2ofDYxpcIISKTAJko2K9sAlN-MvAD-2PU-X92QPu7S_MkkR0Llo47TPjbRqUftcb5lyopuGXBMqV6ntEinphyYYGy9ZOw32H2tpHWujJ0WuwxAFp",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CxUvU-B5943q_n0aAttUjnnDYsHQKtgIfdkyZUcLIacIlTf-KwfpMyD_7RGUqVIDoP4Ion5Fin13ohfkH1R98Ep8J0ZhwR3HHAFExNR6NXkGGwjEOb0J-a5USDrTIKzgN8aB-M",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSn3hzaL2WYCwAxa1BTyZ6sO_0jd2UkUwExSHt3t8xklurbcRoIIAsm6jpwFNE8zSbtxj5SM42ToNlm68mM4jwhN221NXhtYlGSu1V_ia1bkNE2c10VpbPW7u_bSPeuwwoMZm0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Az5L74OJI3JKKabwiimKi4RCV8VUe2ngObhlLB6HncbcaCSMx6Us00gLJfkIod2KPV39naz8f1WA-jSRjyyYKhi0C6KpKIya3kXH1MI_akw8NAXuFPNZDQ8X01iPrasGAKpt8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BQC-qYl1XDm1UBzLBNBVcv2PNkLERlAjTiUVIpMzCqUosn9mrOwkcD_yoLUqTMHA79VxGf1BfxMYyTXkH0hCR-OHcBrlu_QkDNd_FrhDv9Hjq3Zm9_Ux6aO9iy8Km-rffX-dKa7Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AAXZ7VD7MnpeYSjn_bd8qvMzSr2P0AWKQpGHyimev7HIZOwAUNPyY-W9bxDQh9ZFVll7btS2fW0dexW9xpBJfoaiNtPJ0wRijCJJX9depQ7y9bUBU6r0HFJ1ut89deUkTap1In",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bnq_WuwRhcM2o_WyU5OW9yE7NDVh9dCI_L7qBagLpS1Go4uwILw4vwGV52DCserVGVSg-fYBRklfhHPBJGsTD_PPWGU-G20NavXP1gHUjjEcoK5JvinISdr3urumL-cDtp8oWlNg"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMxcW9PQmNBEAE",
+                "user": {
+                    "name": "Rohit Shukla",
+                    "link": "https://www.google.com/maps/contrib/110613693090283063040?hl=en",
+                    "contributor_id": "110613693090283063040",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUpjk9vlYEL61X1s3Q30rf9TeIiTP4NLDWjqw52KUdUtWz3H0_gYg=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 83,
+                    "photos": 1471
+                },
+                "snippet": "I loved the food here, it was cooked very well with good amount of attention to detail.\nI would recommend this place to many but I'll say that it is expensive and sometimes the food quantity might not live up to your expectations.\n10/10 food\n8/10 service\n5/10 food quantity (some items)",
+                "extracted_snippet": {
+                    "original": "I loved the food here, it was cooked very well with good amount of attention to detail.\nI would recommend this place to many but I'll say that it is expensive and sometimes the food quantity might not live up to your expectations.\n10/10 food\n8/10 service\n5/10 food quantity (some items)"
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Other",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 5,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Blueberry",
+                    "recommendation_for_vegetarians": "Somewhat recommend",
+                    "vegetarian_offerings": "Clearly labeled vegetarian dishes"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURmNk9EQUN3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDf6ODACw%7CCgsInMPguwYQqJ7RIQ%7C?hl=en",
+                "rating": 5.0,
+                "date": "5 months ago",
+                "iso_date": "2025-01-03T17:42:52Z",
+                "iso_date_of_last_edit": "2025-01-03T17:42:52Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CUPMzraKNIzWnm-HyXsCOi0DmBQwZL6LUIq08UxWKsQZd9RIL88whYdlnBd8AeN8gEprN8d8lukR3yFYr2QwpUUrQYrWDt8cKaBI_dbFA1FwZapv0zguKHfGyfjZH0Tl3ArHBkRQ"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURmNk9EQUN3EAE",
+                "user": {
+                    "name": "Vandana Guggilla",
+                    "link": "https://www.google.com/maps/contrib/110921286294003116874?hl=en",
+                    "contributor_id": "110921286294003116874",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocICei6eD962HWJF--8qoQmzacJdM9wPDRYinvJQ6fE3r0RzQQ=s120-c-rp-mo-br100",
+                    "reviews": 1,
+                    "photos": 1
+                },
+                "snippet": "I had dinner with  my family. Cafe looks very cozy and greenery looks awesome . Food was Delicious their  soups , chilli garlic chicken, south indian rice bowls, mac n cheese is yummy \ud83d\ude0b I recommend blue berry cheese cake is the best dessert in this cafe. Great hospitality. One of the best cafe in Hyderabad.",
+                "extracted_snippet": {
+                    "original": "I had dinner with  my family. Cafe looks very cozy and greenery looks awesome . Food was Delicious their  soups , chilli garlic chicken, south indian rice bowls, mac n cheese is yummy \ud83d\ude0b I recommend blue berry cheese cake is the best dessert in this cafe. Great hospitality. One of the best cafe in Hyderabad."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b91,400\u20131,600",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese, Blueberry, Mozzarella Sticks"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURSbUlxaFhBEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDRmIqhXA%7CCgwIuJjzoQYQoNfmtgE%7C?hl=en",
+                "rating": 4.0,
+                "date": "2 years ago",
+                "iso_date": "2023-04-17T04:34:00Z",
+                "iso_date_of_last_edit": "2023-04-17T04:34:00Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B6egJqPKRLPKvozHE16IUUvcSxpnAkuUq9iPurZXxbr7Zwug7MXKk5hESs7DDWGVUtcS5VH0xyJixwxDYKulKUqLDxcaAHSjWBHDiqz3_76n0280xgL4lt51UfKRrrM1qwobmt_A",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BPQLcBBMIRsh34lamqYGS8CWrCr5NFy5vL_XDdHf93rvDdzFz_ytm76CwCi5WGWh-4VW6EUbcvJS_Yd5sxipsSRzHWtNYJrzX12AyT2M3PTALMXBwTAIU76p8wVuKCNlhePX0R",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CTeclQQNf7hrWcB9wDAF_s8o_gCZcMRNZCoeYdKXwpYDISVH2aaFrfyENXSl8l1ZCzL9nq4u8dyA1opUEh1oliuRWLs3aLrnxeJHy1tLfP4q31bv0LzqJkjUpST8S0oc1c8sld-Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AkkWoI3J3SqV1Hyd1aeF9l8viKbEMENOdBKFSer2yzHmzdq48tZFcRiVIMSgiXa5RFh5WwC1j-2_cWN-hWQBvDSk16kTdYgGTTfJlaQhnqzVtfU-T244b107HGWi_UAqH1LCM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B-Yimo_22CFHL2AxmznqK8PJx0LIOikGQ0UJVvPUFHNvj_8L31nWxRsbgRwVBFSipIDzVWlGZDF6FLZb7GMF7V7iZIK17h7cL1t-hiGWXK4l8QY4ctYH9Ca6G-21mkFeLGFkS7IQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_loYW5x1z4EySwhn4FrkYwjp4i1pF3hPIlNWcUaXNbe6kAt1x5hZCT7HULqm4NqNbK4ih6FzLOHZ40mmXrJS_IWqAqHVIbiYjSX1rqpk32UJ-qRK_wZr7Vek-Bs83agpyPiJ2",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AdSpN8LYfxQAN5yrBUDYBa0fDf0W5JzBnFeUEq2XQsqWku2ls_RGo8FwfD55xN4kQ2_9qDgIaVT1A9RaMn1mo44V_06vkF217FGIy8XE9jAQRGclAZAAlTjXLfzGM_BXnyfWsu",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Be3ECbvQtr3-JwKCThuk_R7Rmh8L9NX0VTCSOI_aH7O1eh68v1KOM4IZwCZBAJdCRF_uP3vqDTIO4SGYAzJDdAPN_L7Gx_BqA_rsKCxamxi7GpmFlLbCsk9bJJqX6bTL3K0Mg"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSURSbUlxaFhBEAE",
+                "user": {
+                    "name": "Rani Seepana",
+                    "link": "https://www.google.com/maps/contrib/111191963234388056011?hl=en",
+                    "contributor_id": "111191963234388056011",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXCcYSC6FOiS8xOkso0j_MmXfqz_nwEEidAl90PV-n6Z2xbo82bPQ=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 175,
+                    "photos": 1007
+                },
+                "snippet": "From aesthetics to yummy food, this place offers a peaceful lunch with your loved ones. I just fell in love with their hot chocolate. We ordered prawns fry which we finished in a jiff. Mac and cheese was good too.\nPeaceful ambience and work friendly too.",
+                "extracted_snippet": {
+                    "original": "From aesthetics to yummy food, this place offers a peaceful lunch with your loved ones. I just fell in love with their hot chocolate. We ordered prawns fry which we finished in a jiff. Mac and cheese was good too.\nPeaceful ambience and work friendly too."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 4,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Blueberry, Lemon Coriander Fish, Nawabi Chicken Rice Bowl"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURqcWNIVG1RRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDjqcHTmQE%7CCgwI4J7asQYQsO2angE%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2024-05-04T19:41:20Z",
+                "iso_date_of_last_edit": "2024-05-04T19:41:20Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AFOfZOp7dAfUAK3Fg08ll5zspVyJNv85ZIepCJz_wj0XE_z6x7wcl_5OQa9aJDGnDiNbof466PRwcaxPn5AxHyw4UZ2yN0Oe7xIf9aTmkauV_V2TOoAko7TTAJpZ8LAU8wWj07",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQtiyLUBcfqrYa7HlGsvqroRJqxwJU1tt6w_tbpHy5P9rF1xsMHPV_2DdP61VVD_OWkEmwIC76r1r1Jq1BwiL0GNK1NvVSiRnMTUNUDYBg1qBVsJyFbEPZ3By0ugWx31hc65q8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CEfIKSzcWk3b51-OqjsNJZGdRZA0ufyoKMAWsi57VWU3h-U5zmcnMqlOhnZzWLY9Io9_86g72gHyNWyHnm3peoxpLMHP2LpadsEBwJRPj8zYsSpwRBKfkLDlkWO1cEcObjLeE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ank-281QQsFKHeRwEhuiwjoYUenzpsFL4BdjWOrFB4Z_q02X_C6RquAfW-qtoVLJBlfObXZJexjT-Wi35FZrfuHVFNrQjt_gjDHfceuDq8JIq_v6FDf3OMQb3Cv47Si30uAqxBrg"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURqcWNIVG1RRRAB",
+                "user": {
+                    "name": "Tamal Saha",
+                    "link": "https://www.google.com/maps/contrib/118168938659818030749?hl=en",
+                    "contributor_id": "118168938659818030749",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWYvAFD91RwHw_YRuIMXkSosdFYLqBUNnno-fY__1GWVHbF6Fw1=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 27,
+                    "photos": 109
+                },
+                "snippet": "It\u2019s a good restaurant for any casual dining. They have both indoor and outdoor (very limited) dining options available. The location is good and is situated right next to the main road. Breakfast options are good and most importantly they serve tasty food. Their service is touch slow but that\u2019s a trade-off to get fresh food I guess. I would recommend this place.",
+                "extracted_snippet": {
+                    "original": "It\u2019s a good restaurant for any casual dining. They have both indoor and outdoor (very limited) dining options available. The location is good and is situated right next to the main road. Breakfast options are good and most importantly they serve tasty food. Their service is touch slow but that\u2019s a trade-off to get fresh food I guess. I would recommend this place."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Breakfast",
+                    "price_per_person": "\u20b9600\u2013800",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "parking_space": "Somewhat difficult to find parking"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQxc2YtelV3EAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgID1sf-zUw%7CCgwIjpHtrAYQ-MSTuAM%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2024-01-08T00:54:01Z",
+                "iso_date_of_last_edit": "2024-01-08T00:57:50Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ChkmPs6g5AFC9JGtLHE-qFdkbpfa3FLAFOKXcQw0quLuBlSZxTh_aiP6P0C__zWwsov5RY-ndpU1STlWBYYjD0X34XqNfpem43xsaPJfDDVlWll8qp-yUuQwijBbrQzGYI31Y4nQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWMH8yokyel3fvRBkMmoMkIi696sT52IdmBdYML4l5L2h0-EUmM14Ys4nUNJorQ72l0A1SeNC6EPPPHWU8ToPHBCjRp8LdvhqNWQ-ptbYREbWSTQfNkQUY7IUHK-_x4NJIxsuI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cy9kMbsi_tw7A5OptGk9MOnmIXLfDZ37M7Q3Nn1vU7zwB1AbkNTzRoLwxAAypdKXA_DUMbj7SHBbxpK51FfFjsEBBL4HHwJAcMnp5IrWBvOKcdZnmSw3k8EPlQDvaV-e7DAMJC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BnPxrzBoxAPBaIXurZ8UT6cBLw5QxXUVhzkuY-FdkhWd1liF5oVs5QoxzDPAjMozdteQpRIATgPfPZvAjJhIhl8HBbRyMJ9rFTa6r8yxsNgukV8-EaIqLBO5_VV83y5OjqYcg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CUoQVDGlkfgKjG6LYVp92mxpo_HkzHGIoh9VBKsz3sKMKOkt2lRYcjzz9fKmdgXzBHKoy1srm-OaZjHgz8oZidZoVl8zd4RFp1BWp_C-IolWS-AV3EBOAqUPAxDhutIrcvR-DtEg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BlldjtufurXsWv2ZKicH-5Qn4EEpJz4DoX7tdokxzS2aXeEtwAtILJKbw6qp6Pq6OCeQDYMZ-tOCKs91tpxm1wr8k_b_6qKUxnYdkuScq4cSNVOfOhdSn1ckMJauPyX2QRzPeY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DBn5u-mc40DLen8y_-GUr8MDy5n7VcvIBIkVoX4V5O9DO5D0HZIyhNBmcW94kh1u57vf1mdpPdlZ6MlxUAgY4Yd725KtsAe03TI9td_knvgA3_8DJ8JpX1KdN9HF584XmOlIIG",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DF1-yR5LW9VEM9b7_CHEtKcDM5aXHF6WhNe3Rb-fLmED1FSXapXAulQ4djGvC9B1JOgcGS5ZNpcvuC7DBQt0blNl2FgIb2pV8K9eVvL40HXJ2rTGf1JM_9jhK5zemlrYTnDP0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJK3AAjS0irIApR6ZQRH9iff8D3_vowJ8TJfJewh3aKBvnkfbqnXg0hktlUfk2QiIQVrdygEvAqWNl2aRvKkLXJDvxhYEEggW3bYomnVy-I4Q0O8i0jYnbHm2UiINtyM96XoXQbA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DzJV4RmFjXlFvKxsGu58UhRaTrfCVwVbePQlPmC5e-jkYQXuUD8J71t1WICIjt27rGLONKa2YZ3scc1frLIZK20Znl-Kz0yuELN3HZfX2unFeYVqaGl0XFAeTtLPhSkxYtuW0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BEKdkocycwSvPBKC2YvJ6OGhcZyIWr9_1BF-N9QdB4IKd1eFYFU_0dRUBcJbqh8Vskxga_Qxd44WEIClBD-w6jJ0pkfKn_WaqPG4AnBfHWv76HTwTW44qjy_IbPg7Hg8gB6Ay8pQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYufVZ4KwGeXS2yIkZGU9tVv0NZ6lql7MXbxDJAc-bp-LsblCX4UWa7Muo5HJ9OrtAtPFB5GoMwDM7XfOVkcMKeMsYO0WCDOQUKmw6YTvEOEi_u6lUKUh_wf4AxN1yJjnju-aW"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQxc2YtelV3EAE",
+                "user": {
+                    "name": "Manojkumar Nambisan",
+                    "link": "https://www.google.com/maps/contrib/109736627870901330969?hl=en",
+                    "contributor_id": "109736627870901330969",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ7xvJ9IfE_ouvvyDCdRawB-20eYSPvUmt48w0LpmgUGNv9Lg=s120-c-rp-mo-ba6-br100",
+                    "local_guide": true,
+                    "reviews": 809,
+                    "photos": 1809
+                },
+                "snippet": "Wide range food menu, good decor, excellent service and equally good food sums up this place. Love the visual appeal of the food in the menu and on the screen, that helps one to choose. Roasted Tomato and garlic soup, farm fresh deep dish pan pizza, Chicken nawabi rice, burnt garlic fried rice and caramel cheese cake made the day. Equally good were the bubble tea, a voluminous cappuccino and jade rings hot tea",
+                "extracted_snippet": {
+                    "original": "Wide range food menu, good decor, excellent service and equally good food sums up this place. Love the visual appeal of the food in the menu and on the screen, that helps one to choose. Roasted Tomato and garlic soup, farm fresh deep dish pan pizza, Chicken nawabi rice, burnt garlic fried rice and caramel cheese cake made the day. Equally good were the bubble tea, a voluminous cappuccino and jade rings hot tea"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 5,
+                    "recommended_dishes": "Deep Dish Pizza"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTURJb19EQ3d3RRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgMDIo_DCwwE%7CCgwI9qHqvwYQ2OTH9gI%7C?hl=en",
+                "rating": 5.0,
+                "date": "2 months ago",
+                "iso_date": "2025-04-12T16:12:38Z",
+                "iso_date_of_last_edit": "2025-04-12T16:12:38Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DRu3q6eTFHClRrLjpbJ0ArCX8Y5fEnjgLtiJVG1t57wo42ujKKmQVOwOVNnhSVZSPkzcwzG19pOdcgXDUk6xAuxj_-ex6FzDvjIiif5-YY6K_t0rhTiXXFIoO4QtMBPweEW9k"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnTURJb19EQ3d3RRAB",
+                "user": {
+                    "name": "Raif Hussain",
+                    "link": "https://www.google.com/maps/contrib/116001816163692658001?hl=en",
+                    "contributor_id": "116001816163692658001",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU2aOkydYem8gdN3Loh5dPv__RMBdvwaNjKkrPimblzbggkUZ6T=s120-c-rp-mo-br100",
+                    "local_guide": true,
+                    "reviews": 3,
+                    "photos": 4
+                },
+                "snippet": "Great selection of food and drinks. Amazing taste and great ambience.",
+                "extracted_snippet": {
+                    "original": "Great selection of food and drinks. Amazing taste and great ambience."
+                },
+                "details": {
+                    "service": 4,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Soups, Alfredo Pasta",
+                    "recommendation_for_vegetarians": "Not sure",
+                    "parking_space": "Somewhat difficult to find parking",
+                    "parking_options": "Valet"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURuazZQbHBnRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDnk6PlpgE%7CCgwI7-ivuAYQkMCX4wI%7C?hl=en",
+                "rating": 3.0,
+                "date": "8 months ago",
+                "iso_date": "2024-10-09T16:02:27Z",
+                "iso_date_of_last_edit": "2024-10-13T16:25:19Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bpi6_PJ3DTgs9cb-pLVj9ya3BQhQSEG_FIuTg5bUTOQ9xXpVMfrRtImbPhEGJvq-GTFfwU6qeZZNgN8S5VqSLDW7B63qePyy6XtcfBd5qdom1r2FL5hUZyXba332UNXMPu_HmS",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C2_dU8RwNFkYrv67ffKdw9DPWMRLsL3FYUGBACfw1sX5uWtgPcbIMQdZfOVYn856OkpQKhTYjD3VfdeSZ4JyUYOdJpuduwWb_K3ckCFMQTUv32Ur4ola7Sq2Q8Xkb4Booa3NCmAw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DAFEejp7Q9ky_nK7WVn_K-G9Uo1-QbdV60b2xIfxxto0OXpnvBhttaCs4nNTenPFC_fnISFYJTqD_rjxxjx2D30EwGjwuxDwYQ8kJ7Q4RDW0c5Wfma8l0gqsz_oE9jfm8ahAJ_"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURuazZQbHBnRRAB",
+                "user": {
+                    "name": "Wajahath",
+                    "link": "https://www.google.com/maps/contrib/110465045552404469745?hl=en",
+                    "contributor_id": "110465045552404469745",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWlwA0SKZg6yWCddblR51XnAtLCOkNEB0_ofAjSbBU1BrYx9NeJ=s120-c-rp-mo-ba3-br100",
+                    "local_guide": true,
+                    "reviews": 12,
+                    "photos": 22
+                },
+                "snippet": "I Visited Here At Night And It Had Rained A Bit Earlier That Day So I Didn\u2019t Like The Ambience That Pleasing (You Might Have A Better Experience On A Better Day Good Luck) I Ate The Mac N Cheese And I Would Say It Has One Of The Best Cheese Pulls (You Could Look At The Pic For Reference) And I Also Had Another Dish Which I Wouldn\u2019t Recommend I Don\u2019t Even Remember It\u2019s Name (Maybe A Panza a Veg One, Idk For Sure. Let Me Know If You Had It There\u2019s A Pic Down)",
+                "extracted_snippet": {
+                    "original": "I Visited Here At Night And It Had Rained A Bit Earlier That Day So I Didn\u2019t Like The Ambience That Pleasing (You Might Have A Better Experience On A Better Day Good Luck) I Ate The Mac N Cheese And I Would Say It Has One Of The Best Cheese Pulls (You Could Look At The Pic For Reference) And I Also Had Another Dish Which I Wouldn\u2019t Recommend I Don\u2019t Even Remember It\u2019s Name (Maybe A Panza a Veg One, Idk For Sure. Let Me Know If You Had It There\u2019s A Pic Down)"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9400\u2013600",
+                    "food": 3,
+                    "atmosphere": 2,
+                    "recommended_dishes": "Peri Peri Chicken Mac and Cheese",
+                    "recommendation_for_vegetarians": "Not sure",
+                    "vegetarian_offerings": "Vegetarian menu or section",
+                    "parking_space": "Difficult to find parking",
+                    "parking": "No Proper Parking When I Visited.."
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tZMVYydHdhM0o1VFZRelEzazBWWEoyVGt4WlNHYxAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CAIQACodChtycF9oOkY1V2twa3J5TVQzQ3k0VXJ2TkxZSGc%7C0cHM2k4IHG-%7C?hl=en",
+                "rating": 4.0,
+                "date": "a week ago",
+                "iso_date": "2025-06-11T12:05:04Z",
+                "iso_date_of_last_edit": "2025-06-11T12:05:04Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AzV3_scROSPbk1kjCRS0x-1Haz3BRqkPnsAVTvYdY9F-2V9EJs3JvlEYyMkEs6Y5rKAOFb4lS9fCivax_sl-ivFJ3xm7qIdt-tT0-J2WGLPGBNY9SSdQnh_0Sa0YJmVqlisrTn0fmE_Mge",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AyXcZFMb78Juu-OXAqVEjbXrYu9bOVbED2q2QQRjidoWs1c6Ee2I64YFQPV8zTN1g5XEmcl5w-1lonLXnpjvd9-tFrjcrOKqULZQdIzdqskI5dxYPWoon6tqywUStldFaS8hn1EHT8PL4q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYUNdzMvEG64mUkkCBOSfWJ1bAMctgtytZxQqFlOH1g9_CRVB7Xhd3VTnmh2V5hHRRbmMo__i6exVI4Q-Cul2Jt3LUSa7MSV8Gwg3J2SSVcpMB2FlSuGKR2U4tJJ8jGzcZb6jCw8lxDQTY",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A5aZGbBxZ6pVe7l5swPYYxI0YCkQe6lFi8PisK9B1s2bl4PJBAQh9vNDEQ7yLNxp7kDvFV-SYm-p4GIIsMyatD_815iGQBl1bsvaYRd8H0FDtbQWL_sHF5WOkhCvSbHC8f3VtmSz1KFZlR",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CJMw42Rn8sxOouxfpimTsUFF2dP6vBVljFacIRHiUNcn6-RiV33ujNC1czFlI1n7ChP-YqREliG1ySqRTayhU9PurZM1clQiwLei-vafjzW1x0puwf9gXGZTVK6PJG_GAImdIW7Bz3U_oE",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D4zrwZGSJVMsQns0yaGBiPfA76QjIhI8GkC6_C_lTPbo7oXtqzC12eeT7l2o0jzJFgaO9KI30-byIFBSKztpi4RX5ae2Axfxz49HAvUlwpGLse4UjturC1HdObPMAtYuvpybF2nDiFW3s5",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AQaJqEreXWs5riUtFQXxy6DeQS9okwYl0YOOxoSAT-rMBmHUFPyoJOU2U4oiym5MUj3IKLsjobQ8TU_P0sXBt-dBXK0WTDmGWviUeYyL2MW0fzxHVpwmFGG6waEQ3Eog6n3nx284DId-c",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D3PCmz0Ehga_mQ34qlgm-6LGkVovoGroSxainszt9IKoygke61cWdZb6rvUVpkH4EL1WmJl_2O9Law43VRnX67rN1jB4pOl5RxcgG2qsWRyxaH3qvORoolWxl8SODzOguspuV8sy1He5o",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJquyV-ZiPV3YLxPEyKkeq-Qqbzz8oIz5n7AVw2kqBRcg0BU8IRL6_KYVFpnU8taJ7DOzA26mGvFrj4mbt6IRvP1rBgY7Bg5k0r2fL01tOdGlpWBCeIn_XS35yl4Iq3p2RE1qY95AamDc"
+                ],
+                "source": "Google",
+                "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMVYydHdhM0o1VFZRelEzazBWWEoyVGt4WlNHYxAB",
+                "user": {
+                    "name": "Chowdary Dandela",
+                    "link": "https://www.google.com/maps/contrib/112911125308874325891?hl=en",
+                    "contributor_id": "112911125308874325891",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV2HLmjtGyj6XyQCfJMe1Dm91s84zb3r_1fPDLlC9ggSsGjInMHVg=s120-c-rp-mo-ba8-br100",
+                    "local_guide": true,
+                    "reviews": 2100,
+                    "photos": 11889
+                },
+                "snippet": "Decent place for small meeting  , well maintained with tasty food",
+                "extracted_snippet": {
+                    "original": "Decent place for small meeting  , well maintained with tasty food"
+                },
+                "details": {
+                    "meal_type": "Other",
+                    "price_per_person": "\u20b9200\u2013400",
+                    "food": 4,
+                    "service": 4,
+                    "atmosphere": 4,
+                    "noise_level": "Quiet, easy to talk",
+                    "wait_time": "No wait"
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNIOWNQS05nEAE!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgICH9cPKNg%7CCgwIqe_wtgYQkLqGmQE%7C?hl=en",
+                "rating": 4.0,
+                "date": "9 months ago",
+                "iso_date": "2024-09-07T11:23:21Z",
+                "iso_date_of_last_edit": "2024-09-07T11:23:21Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C-IAsNBdRIziTta-PCIkuuHGSwaKPJ7du855fs0mga7mutw8jmEMifS8uS0WVx8OgKq6LxufRzNY7I3baeTbgagTPyOhK8viAgvxIQWWxKQYIc1R1FCMBCLLRQpsXM-e5HT_Oc",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfOFjrhZx-Ne0ITDemMEZign5HsQKb6jBPuH2Dbr_x5JShKIxoTEA9HCHCIlznO8VWm5UzxtKpe03BrWsfcYbBd4v47cfygEv1mCeXmAqClLAHs2TJ1qNmyeZkdQRiLJ1hCgw"
+                ],
+                "source": "Google",
+                "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNIOWNQS05nEAE",
+                "user": {
+                    "name": "saumya premchander",
+                    "link": "https://www.google.com/maps/contrib/116693225392811677176?hl=en",
+                    "contributor_id": "116693225392811677176",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX0R0X12D0_lYzRWAPUR1CoBN1TW1jRcWEMlebT7Di2kdquCZee=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 177,
+                    "photos": 291
+                },
+                "snippet": "I spent an afternoon working here and the service is absolutely excellent. The men working here are so attentive, the bathroom was clean, and I would happily go back.\nThe food was a hit or miss. The Moroccan paneer starter didnt have spicy in the description but it was covered with a crust of red chilli. The cheese toast was fine. The coffee is good and I will happily go back and try other things on the menu.",
+                "extracted_snippet": {
+                    "original": "I spent an afternoon working here and the service is absolutely excellent. The men working here are so attentive, the bathroom was clean, and I would happily go back.\nThe food was a hit or miss. The Moroccan paneer starter didnt have spicy in the description but it was covered with a crust of red chilli. The cheese toast was fine. The coffee is good and I will happily go back and try other things on the menu."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Lunch",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 3,
+                    "atmosphere": 5
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNwdjVuS2lBRRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgICpv5nKiAE%7CCgsIxOvjpgYQ0KfWNA%7C?hl=en",
+                "rating": 4.0,
+                "date": "a year ago",
+                "iso_date": "2023-08-13T15:19:36Z",
+                "iso_date_of_last_edit": "2023-08-13T15:24:52Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AqGKUnCbjdKVDyvkM4mo1nJUG8w6YiARyy9JDKlLF4Yb-XGvdvZZGglqnMZq7wiWdjXaVyxrNRPgFddppoVdZCDQEON-DHrBI7wNwmN3YIYGsmAG47DjBHQeq1GXygCser-X8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dv2z8hxAciNwlzjkwigQrPRFz996i8w25vJcrpGFypwb6LVqeJZkTpE_a9iReVfpwTKXDjT5CrUW7IM12APZF7J25pNV02awBpVTv8E37WIDgBAsTkwTF51LsJ_w02Eh0lg6de8Q",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ce-Rghn6OJ3oFwY-uVrhXqdnlNhDtR1al-Zew5CWjWtsoRQFPL1_l8HId23g7ALoP0LkwHBMAYaMyQpOwJ4NE3g8ZMudnkZuUlceE-tOa-Vxxd0TE-oi3zmG6CsneVy39tyNI",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DITxYCjR_etc9sQ6cR2LCbLflnLExmmH8Q_0smV4UEiGPrESYy-66H54QuwOaG69KxWa0jJcuFvQxHH2fW2l7djlOfz9diExDbUjjiMzIadW1aKOeaEFMSogkOg-8ddT5-FRfJow",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AnqQqiClPgpnzBOB_Ya-XSWiYMLdlZrry9OxZeuA_jYr08BDYEnXYPXuddcyDVdfi3IRWPgFcq8DPVhkAE4kaZ_VHFgXBZQy1L_H6l6zP00huP20twQ0qqJpEKhfAb0wBdrSoR",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUsQTp-tOfOG3Qj3yJNzJYxAvSjIniACXu61hW4lOh6xePSge5-t6x3-Nk9SZPT2PtDe_SJezoDnmMDtO9XDpPk55y7vOG8VEARuot5E9EEL6-KuFUPGDXvMZ2u48w3tt1u5mQZQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BMM-QwU_lMAmstv2o7GGl0gS5hwm4vJ4Gx3QBEAAPown7D3O1hCaM1MRdxDCGAkENjXI60rI2255So4iG_T1wa7DGolHpD39IicCjwdV_Q012y3YVfTPhWiIJBab9HK13WEpHP",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DpOtjJMWNk_FdKRtEsqie0wT1MYOCt6_4NApFT-f68Aasl3UfwzNOZagDTriKp5NFjiBASn4UEF2m4RH9jm7NfYEfBKcgHZos1cXlpG1jkVn6DU8bCy_SgnXQ5t1_txMgRH5PwGQ"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNwdjVuS2lBRRAB",
+                "user": {
+                    "name": "Chintu PRASHANTH KUMAR",
+                    "link": "https://www.google.com/maps/contrib/107472405462581581484?hl=en",
+                    "contributor_id": "107472405462581581484",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWKNyAG9g1ZxmjJ7i7uTiGXOaHqLCyVvvhsssIQrRyv9R1DK19eKg=s120-c-rp-mo-ba4-br100",
+                    "local_guide": true,
+                    "reviews": 39,
+                    "photos": 73
+                },
+                "snippet": "We tried the baby roasted allow rasam and it was fantastic. Then we called for three leaf apple walnut salad and it was damn good too. Good food, superb ambience. Highly recommended. It was very kind of Bharat chef to cater to our special request of no onion and garlic food.",
+                "extracted_snippet": {
+                    "original": "We tried the baby roasted allow rasam and it was fantastic. Then we called for three leaf apple walnut salad and it was damn good too. Good food, superb ambience. Highly recommended. It was very kind of Bharat chef to cater to our special request of no onion and garlic food."
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b91,200\u20131,400",
+                    "food": 5,
+                    "atmosphere": 5
+                },
+                "response": {
+                    "date": "a year ago",
+                    "iso_date": "2023-08-27T08:46:03Z",
+                    "iso_date_of_last_edit": "2023-08-27T08:46:03Z",
+                    "snippet": "Hi \n\nThanks for the positive feedback for our cafe. Glad to hear you had a pleasant experience and were taken care of personally by our Head Chef. Do order on Zomato to sort all your cravings from home and do follow us on Instagram @craverycafe to stay updated.\n\nRegards\n\nCravery Management ",
+                    "extracted_snippet": {
+                        "original": "Hi \n\nThanks for the positive feedback for our cafe. Glad to hear you had a pleasant experience and were taken care of personally by our Head Chef. Do order on Zomato to sort all your cravings from home and do follow us on Instagram @craverycafe to stay updated.\n\nRegards\n\nCravery Management "
+                    }
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURXOG9LNi13RRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDW8oK6-wE%7CCgwI8P7bkQYQuPe-rgI%7C?hl=en",
+                "rating": 5.0,
+                "date": "3 years ago",
+                "iso_date": "2022-03-20T10:18:24Z",
+                "iso_date_of_last_edit": "2022-03-20T10:18:24Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWqZNW3HneHqN4_9IMW9uSwV_SyB4qA_Wmd4yoPfni9-yVq19rDWnsyJ1J4TvrGrbCeOtI0xFhPGCETKxtjPSO_n5CA9eSeRmm1oMJQflEJg_cJQuS78kpPXCrYw5nKNIpQZua",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BQn31hlg3z5Ys1eKCaWmBi79JbttgNCoEypalyxIbsYDUJIpXOmgDfWEmllnR7eWiODxo76coOo3UkqtdFq_QEGsefntKC7oKfWUeQqn7mQFvCqN1nrTb1OjgR02jy-J2p68altw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOJ37_d7UQ4xcbYFWasKpd6AxcONNjkpYvLyLn9F_vVFr3mKnnw2MMa27vua6MJPHKkzroj_SFrvu5nUxg2dbg34jfAa3NMqIAp6_MEqBCmrnMM4jOEhgMTJvCVCJgdRWW2xVn",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90ATJqD_YetouakJYxsowXPPuQVxg3O4rWr2dfFTnRiz6s0uDAWRnCjPIzruUnpSfWLOXADLc68-PHhBqIXR4xJ2O_5SXZ2IBsd6EXco_YnjVl1B4v5emoUoPKWlTR62wrnL6qt0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90B4Lb3C4BTjwYkU4evpMYC7XWxyrDzsLIOF7X4t9YtT4TcbBw-bGIytv2fL9dD3TdnXCjcLeu-duzUFi_hBrK_U3XjMzv5_iLw4QxKTM_5stsutSbpufZHvFZ20Co_mC3EI0pH0",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZn90gF8Z0zBlr6bFLCGmNGrBUY2DHchZdTILPt-o-jNwUc7ZwwrhaTzs7HNhWZXjYG2vU37FzuZmEroNbEnc87ouadcOU9rbLv6T2-IZVhVV1B23vy-DrwlAGXPWKZP3shdX0fA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBMOPZTC-8NOLydWShorG7K3R260IVMMdaLDNeWyR0FpRYzz7obX5SYfGtDBqsS5tqbHykk__laFBsb6dns8yPniWvQ4TPIXSeskiduTdpdMtpoWGZIbHtjKh9oOAhjEokh-ge",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90A_05buS-TXNBtoIqWHS853AJxm3yPxHct2aSORZA5xHNWa0OgbjQvPeONvcsV-Go3ah465YMRSBZ7VybHtdyYVS-xi2dz3q97ARE50R7g9pzxRUCQdWSdR7ETpW1g8IS31qDfC",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DvSyyNfE_JyjymfwQIAlahb0Xy4XEh8ueVf1Kct16HLBwJVqlpdtKKyQL4hv-K5tg953dWin-ycJ-Am96fwZiKbSYdIgZuUe1pCt2qX7XmaC5wBd30pQCpTEdjjaSzJ_ndY0Y",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DdxExfcGr5IwAmhFKiTdUp2fmcPN349L6schHa6ChWPZTYkV9QOBSqd9UfqGgYo21-8o9dA_K0j8c-1lpJjwNrKoDJwn9LrqIkIolnjS7Cs4Rq1gXef49dgbZDllyneCW1BSCO",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CyXljXlLu41THxwYmvVWYKnh7LcI72EUCeI092lsWQaAtRGzzcA_-p7i5WRf1vyS5_0YieiO5j5E4KUOpivIAb2g88oO6qw9tt_FJ9AeyD-9LhxLl-5pDp5P0Wq2c-aw-PNWPM",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cig0FC0BZjpPsLzI13JLiZn1o6LkcBFh39dj_QM9FyhWC4DElDOoahqZWk0T3VDUlqqYn4O0bdynz2uO1KCOEmq5AEserzBw_il1CL1r7YuZVmtmofA1r9hwzKyjW4Po2o5pKL",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C-n3n8ZtV6tsmZxl2G8vG7lKis-GhCpGq9Vw6vtltasO218kCoTgtz_HItkFBnKXEqdj-WnLjAu6sy6BlvfGyZOYttwBIFCSwkLC8ITJ4nzQ1E35Y6p52LQU6ygKfDnlDbXQ4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHDUDF1xbrrh-GuRJA7yMipGF3KitkoEPHd8q49IQSUArkv_SqWzd8ih6rR2dFV10IR-d54teFqzVQFh8MuyV9mGAPa7LvQE6djdcPK2CCL9QFoxl-IjZrJBhBD1DzKkImYTptmw",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BNu83M8Vejj77etXrVyt-evRZpTscwPrNLSZoGLEne-MDnGMLqewBDIY4rSwBifZaJEQ8Qz7oEC-ttRTtIGvdQ_w0DaU4ML5E937U0IsEv6XFE5ovgPetevgk8KynGtfbT34Rm",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AU8MfNoe6TW8H0baI5pouvInyviqj-lZ-PfCiaXks6pUDJhHpRTmW2QFGAChj-cryRRxIuskr_P9cXXMm0ai5Ji_3UY9MzWc00IiuF49iYjwR897haIryYwvvMU4fL64oUa2dO2w",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AjG7k4CxqSXMVcNqYuFUZiKIEJgfqvQTNyfLO4fLgbBtilhJjw74t60GtlaVgb6ZCVtVwSb0qdpITgR9S2HR_pwUfNGmWvJ-HmZ5mBpb6b63qDI7NXKbQTiG0ISdvMizLfDGA",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZ14DsbzZoYM_jRjjxX1STJD-Co8TocWmkKZBJT-zlz9VLN27xquFvS4Tgnge3kfLk936seEDad0Vs5KlDgURRC3gXkp9n1JXBGdJ3ybeM206R0Sx_y-hMgReTQhvW-NldZedkgQ",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BhdrDzSdn9kfGMHVdlDt7fPEFYTtVW_wp8HlNuEkS4JDjn-f5wrk3fu21QLR9-CGqg0h1HlzKKkzntz6P6iPnhYUg9yftxy9JmpqOCTGQ6Qv7GFDAq3U8fwKsGU8fGZqHWlwdr"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURXOG9LNi13RRAB",
+                "user": {
+                    "name": "Zeyaur Rahman",
+                    "link": "https://www.google.com/maps/contrib/101294258246291683300?hl=en",
+                    "contributor_id": "101294258246291683300",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXhXvR-eJ0dRKyxGxumzTZY1DGzaoDcFTNx6p3OJS1NPm3yFUhA=s120-c-rp-mo-ba7-br100",
+                    "local_guide": true,
+                    "reviews": 346,
+                    "photos": 3098
+                },
+                "snippet": "Great option for a leisurely lunch. Welcoming ambience and courteous staff, decor is chic and we'll thought through, staff is courteous and the service is quick. Seating arrangement is spread out so it doesn't feel crowded even with a full house.\nThe food menu is somewhat limited but is carefully curated and each of the dishes that we tried were high presentation and were tastefully done. The options are much more for waffles, desserts, coffee and quenchers and they are delightful. Overall a wonderful place to spend time and indulge.",
+                "extracted_snippet": {
+                    "original": "Great option for a leisurely lunch. Welcoming ambience and courteous staff, decor is chic and we'll thought through, staff is courteous and the service is quick. Seating arrangement is spread out so it doesn't feel crowded even with a full house.\nThe food menu is somewhat limited but is carefully curated and each of the dishes that we tried were high presentation and were tastefully done. The options are much more for waffles, desserts, coffee and quenchers and they are delightful. Overall a wonderful place to spend time and indulge."
+                },
+                "details": {
+                    "service": "Dine in",
+                    "meal_type": "Lunch"
+                },
+                "response": {
+                    "date": "3 years ago",
+                    "iso_date": "2022-03-23T07:01:09Z",
+                    "iso_date_of_last_edit": "2022-03-29T20:01:08Z",
+                    "snippet": "Dear Zeyaur,\n\nDelighted to hear that you had a great time and loved the ambiance. Thank you for sharing your experience. Please do try Bailey iced coffee on your next visit. Would love to serve you again at our cafe!\n\nRegards,\nCravery Management",
+                    "extracted_snippet": {
+                        "original": "Dear Zeyaur,\n\nDelighted to hear that you had a great time and loved the ambiance. Thank you for sharing your experience. Please do try Bailey iced coffee on your next visit. Would love to serve you again at our cafe!\n\nRegards,\nCravery Management"
+                    }
+                }
+            },
+            {
+                "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURwX2E3VS13RRAB!2m1!1s0x0:0x37138d15aaa9dd6!3m1!1s2@1:CIHM0ogKEICAgIDp_a7U-wE%7CCgwI_4iupwYQ4N-ggAE%7C?hl=en",
+                "rating": 5.0,
+                "date": "a year ago",
+                "iso_date": "2023-08-27T17:06:54Z",
+                "iso_date_of_last_edit": "2023-08-27T17:14:39Z",
+                "images": [
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AfDRKWkiDO5Dq1-SYrG3ZFQQmsqj-scXM-mEAE8s8DpKhOw7rQGBmlk-63uMY1wJnv0K2mPa8ESNFqf3OHxf-OpA3qtm-imbLu9Mfsv9aRHdgSrBOvKd24OlaYNJ3UiLGLkcr4",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90D7ph6kayBiV8vMnwJNXGlvJiEC5Ds9HwjAgNCp913hbhhE_8R9kmUy4IPnLOhC4SV4drels8AjYQH-mR84JEFxDfKlLmTTYC0bJOqGqs7wHKVO2MWBDWuK7SgJzO897lnn61m1Yg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_jijquQEVt2XwRKXokinR53_tgWZjSvhrktUs8FcKm9wFnIqQkWXGX_0ZeCy9fM5tulTUh3Qq4QkfCRcSFYf8QSYBmw0eMAl5eSyENmvPDGvpkVCoFbwciENfmhI8IWNd-a8",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJP-WMtJoFYVL0sz1WjWSFCh8ku6uMOKKglEWcjdWKTVBRh2OEroSGMdFpBVmhCY5_fI81k7NEhaV75nFc-gzf7nzEZ3v7iJsKZsD3pPkT0pcRKAngx6s_DdFczE29AL_kl97Vew",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90AL6SNTey-R8J3NnuIKki1WIM9gk1pUItAFCCN7NZMYYd1WdgPNxo9Xb7Iy1_jjQxJGofDvcNOvSY-spt9XH_YMqLI6GyYa_3gdy_SeWzDlYbQ9S4t86u8iRhv538AT3qY33LAd",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90CBuGtroQUrZjgnC3RL6vwATCHg8U6qrnxRe94PF-I-Q2thXALd11or9mHZ5YnlUBjvh9jOKrfVz9tz-nc8nDM4V1i7f2LUqrsOK4kockN5DFEDJwGP4AkDLT32haZ24mem6z31",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ae2cXhzOBjV39ypUZl3y5XjdcY9SYd51LviA02k04QLQ0_1BPVTBrWHw75xiseikUyVTINbLrS2iwRbZyFRmXL2_-hznIhqX6vlujs5eYDdWlPImvVeAT8y1V7fNnV-qxEZHGj",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90BGjyQFTApLYVEiL7XCPMZ4mo4n5HgOyHZqQqsfD1bvbgT2eaWdVfoWz1Ax6my3pLAZW1CYcySKCCjvNhBZiW96GoNJbJGOlRyadbjL7PCgxMn9IV7efuj5a6PZFLTuneLZ7gzTYg",
+                    "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_rkHUUbZ2RjSnFK09UocHndwx8eeM2e-wfmhqWa9TdEFXRsIcUFQpUiRlJj-ZbUVihhKYAk_mEgLsYt2eae1VRFjRmXVUaDDGlpVGkDg7ZVLr1cvHMJQzeElV7M4_GV4a50Uo"
+                ],
+                "source": "Google",
+                "review_id": "ChdDSUhNMG9nS0VJQ0FnSURwX2E3VS13RRAB",
+                "user": {
+                    "name": "Irfan \u201cXplore with Irfan\u201d",
+                    "link": "https://www.google.com/maps/contrib/116932886424937198842?hl=en",
+                    "contributor_id": "116932886424937198842",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV2vDrxEKyNkhC-SpAKgsCqGlNIGIrVtps0OEqXHmp0EgppfiuM=s120-c-rp-mo-ba5-br100",
+                    "local_guide": true,
+                    "reviews": 253,
+                    "photos": 573
+                },
+                "snippet": "Amazing food !!!! I am simply amazed by the quality of food served here. . If you are a cheese lover you will love cheesy garlic bread and mac and cheese. The atmosphere is nice and cosy, the menu ranges from continental to South Indian. Highly recommended if you are around film nagar. Must try !!",
+                "extracted_snippet": {
+                    "original": "Amazing food !!!! I am simply amazed by the quality of food served here. . If you are a cheese lover you will love cheesy garlic bread and mac and cheese. The atmosphere is nice and cosy, the menu ranges from continental to South Indian. Highly recommended if you are around film nagar. Must try !!"
+                },
+                "details": {
+                    "service": 5,
+                    "meal_type": "Dinner",
+                    "price_per_person": "\u20b9800\u20131,000",
+                    "food": 5,
+                    "atmosphere": 4,
+                    "recommended_dishes": "Pulled Cheese Garlic Bread, Chicken Forestiere"
+                },
+                "response": {
+                    "date": "a year ago",
+                    "iso_date": "2023-10-03T13:43:15Z",
+                    "iso_date_of_last_edit": "2023-10-03T13:43:15Z",
+                    "snippet": "Hi,\n\nThank you for the positive review for our cafe. Hope you indulged-in the wide variety of food and drink, experienced the chill vibes, and sorted all your cravings. order online through Swiggy or Zomato to enjoy from the comfort of your home. \n\nRegards\n\nCravery Management ",
+                    "extracted_snippet": {
+                        "original": "Hi,\n\nThank you for the positive review for our cafe. Hope you indulged-in the wide variety of food and drink, experienced the chill vibes, and sorted all your cravings. order online through Swiggy or Zomato to enjoy from the comfort of your home. \n\nRegards\n\nCravery Management "
+                    }
+                }
+            }
+        ],
+        "serpapi_pagination": {
+            "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZUTWtaZlgxOWZSV2hCYUVwR2RYTjViVEpoV0hKT2VXZHRRVUZCUVVGQlIyZHVPVEpTTUVOa1kyZERZblJ6V1VGRFNVRQ%3D%3D&num=20&place_id=ChIJ1VujaWiXyzsR1p2qWtE4cQM",
+            "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEZGZURUZUTWtaZlgxOWZSV2hCYUVwR2RYTjViVEpoV0hKT2VXZHRRVUZCUVVGQlIyZHVPVEpTTUVOa1kyZERZblJ6V1VGRFNVRQ=="
+        }
+    }
+]
