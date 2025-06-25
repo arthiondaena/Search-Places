@@ -44,4 +44,10 @@ To run the main script:
 python main.py
 ```
 
+To run the streamlit app:
+
+```sh
+streamlit run app.py
+```
+
 Make sure your virtual environment is activated and the `.env` file is present in the project root.

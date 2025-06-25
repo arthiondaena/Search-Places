@@ -1,6 +1,7 @@
 BASE_URL = "https://openrouter.ai/api/v1"
 # LLM_MODEL = "meta-llama/llama-3.3-70b-instruct:free"
-LLM_MODEL = "google/gemini-2.0-flash-exp:free"
+# LLM_MODEL = "google/gemini-2.0-flash-exp:free"
+LLM_MODEL = "deepseek/deepseek-r1-0528:free"
 
 REQUIRED_COLUMNS_PLACES = ["title", "place_id", "gps_coordinates", "rating", "reviews", "price", "types", "type_id",
                            "type_ids", "address", "open_state", "hours", "operating_hours", "phone", "website",
