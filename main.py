@@ -2,6 +2,8 @@ import config
 from datetime import datetime
 import logging
 import json
+import concurrent.futures
+import os
 
 from utils import get_address_GPS_coord, get_places, get_place_reviews, infer_client
 from openai import OpenAI
@@ -39,27 +41,43 @@ def fetch_places(user_prompt: str, client: OpenAI, output_folder: str = None):
 
     return places
 
+def _fetch_and_save_reviews(args):
+    """Helper function for parallel fetching and saving of reviews."""
+    i, place, output_folder, env = args
+    dataId = place["dataId"]
+    from utils import get_place_reviews  # Import inside for multiprocessing compatibility
+    import json
+    import logging
+    logger = logging.getLogger(__name__)
+    reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=2, service="scrapingdog")
+    try:
+        if output_folder is not None:
+            # Remove invalid characters and replace space with underscore from the title to create a valid filename.
+            filename = output_folder + "/reviews/" + "".join(i for i in place["title"].replace(" ", "_") if i not in r"\/:*?<>|") + ".json"
+            with open(filename, "w") as f:
+                json.dump(reviews_output, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving reviews for {place['title']}: {e}")
+
+    reviews_content = []
+    for page in reviews_output:
+        reviews = page["reviews_results"]
+        for review in reviews:
+            review_dict = {"iso_date": review["iso_date"], "rating": review["rating"], "text": review.get("snippet", "")}
+            reviews_content.append(review_dict)
+    return (i, reviews_content)
+
 def fetch_places_reviews(places, output_folder: str = None):
-    """Fetches reviews for each place and saves them to the specified output folder."""
-    for i, place in enumerate(places):
-        dataId = place["dataId"]
-        reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=2, service="scrapingdog")
-        try:
-            if output_folder is not None:
-                # Remove invalid characters and replace space with underscore from the title to create a valid filename.
-                filename = output_folder + "/reviews/" + "".join(i for i in place["title"].replace(" ", "_") if i not in "\/:*?<>|") + ".json"
-                with open(filename, "w") as f:
-                    json.dump(reviews_output, f, indent=4)
-        except Exception as e:
-            logger.error(f"Error saving reviews for {place['title']}: {e}")
+    """Fetches reviews for each place and saves them to the specified output folder using multiprocessing."""
+    args_list = [(i, place, output_folder, env) for i, place in enumerate(places)]
 
-        places[i]["reviews_content"] = []
+    # Use ProcessPoolExecutor for CPU-bound or IO-bound tasks
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        results = list(executor.map(_fetch_and_save_reviews, args_list))
 
-        for page in reviews_output:
-            reviews = page["reviews_results"]
-            for review in reviews:
-                review_dict = {"iso_date": review["iso_date"], "rating": review["rating"], "text": review.get("snippet", "")}
-                places[i]["reviews_content"].append(review_dict)
+    # Update places with reviews_content
+    for i, reviews_content in results:
+        places[i]["reviews_content"] = reviews_content
 
     if output_folder is not None:
         with open(output_folder + "/places_with_reviews.json", "w", encoding="utf8") as f:
@@ -87,14 +105,13 @@ def main(user_prompt: str, save_output: bool = False):
     client = OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"])
 
     if save_output:
-        import os
         os.makedirs(output_folder, exist_ok=True)
         os.makedirs(output_folder + "/reviews", exist_ok=True)
 
     places = fetch_places(user_prompt, client, output_folder)
 
     # Only taking the first 10 places into account
-    places = places[:10]
+    places = places[:2]
 
     places = fetch_places_reviews(places, output_folder)
 
@@ -104,8 +121,9 @@ def main(user_prompt: str, save_output: bool = False):
 
 if __name__ == "__main__":
     # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
-    import json
-    with open("outputs/2025-06-25_20-50-10/places_with_reviews.json", "r", encoding="utf8") as f:
-        places = json.load(f)
-
-    markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "outputs/2025-06-25_20-50-10")
+    # import json
+    # with open("outputs/2025-06-25_20-50-10/places_with_reviews.json", "r", encoding="utf8") as f:
+    #     places = json.load(f)
+    #
+    # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "outputs/2025-06-25_20-50-10")
+    main("cafe with Asian cuisine in hyderabad", save_output=True)
