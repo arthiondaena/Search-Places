@@ -1,8 +1,48 @@
 import requests
 import math
+import urllib.parse
+
 from datetime import datetime
-from serpapi import GoogleSearch
 from openai import OpenAI
+from typing import Literal
+from serpapi import GoogleSearch
+
+def hasdata_maps_api(
+        engine: Literal["search", "reviews"],
+        params: dict,
+    ) -> dict:
+    """Fetch data from HasData Maps API."""
+    assert "api_key" in params.keys(), "API key is required in params"
+
+    api_url = "https://api.hasdata.com/scrape/google-maps"
+    headers = {
+        "x-api-key": params.pop('api_key'),
+        "Content-Type": "application/json"
+    }
+
+    url_params = urllib.parse.urlencode(params)
+
+    url = api_url + "/" + engine + "?" + url_params
+    response = requests.get(url, headers=headers)
+    return response.json()
+
+def scrapingdog_maps_api(
+        engine: Literal["search", "place", "reviews"],
+        params: dict,
+    ) -> dict:
+    """Fetch data from ScrapingDog Maps API."""
+    assert "api_key" in params.keys(), "API key is required in params"
+    api_url = "http://api.scrapingdog.com/google_maps"
+
+    url_params = urllib.parse.urlencode(params)
+
+    if engine == "search":
+        url = api_url + "?" + url_params
+    else:
+        url = api_url + "/" + engine + "?" + url_params
+
+    response = requests.get(url)
+    return response.json()
 
 def get_geocode_data(address, api_key) -> dict:
     """Get geocode data for an address using Google Maps Geocoding API.
@@ -77,7 +117,7 @@ def get_address_GPS_coord(address, api_key):
     GPS['zoom'] = bounds_zoom_level(data["geometry"]["bounds"])
     return GPS
 
-def get_places(query: str, api_key: str, gps: dict, pages: int):
+def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal["hasdata", "scrapingdog"] = "hasdata"):
     """Get places based on a query. Every page contains 20 places.
 
     Args:
@@ -86,36 +126,56 @@ def get_places(query: str, api_key: str, gps: dict, pages: int):
         gps: A dict containing lat, lng, and zoom level of the location to search for places in.
         pages: Number of pages to fetch. It's better to limit the pages to 6 or less.
             More than that, the result might be duplicated or irrelevant.
+        service: The service to use for fetching places. Can be either 'hasdata' or 'scrapingdog'.
 
     Returns:
         A list of dicts containing the raw output from SerpAPI.
     """
-    params = {
-        "api_key": api_key,
-        "engine": "google_maps",
-        "type": "search",
-        "google_domain": "google.com",
-        "q": query,
-        "ll": f"@{gps['lat']},{gps['lng']},{gps['zoom']}z",
-        "hl": "en",
-        "start": "0"
-    }
+    if service not in ["hasdata", "scrapingdog"]:
+        raise ValueError("Service must be either 'hasdata' or 'scrapingdog'.")
+
+    if service == "hasdata":
+        params = {
+            "api_key": api_key,
+            "engine": "google_maps",
+            "q": query,
+            "ll": f"@{gps['lat']},{gps['lng']},{gps['zoom']}z",
+            "start": "0"
+        }
+    elif service == "scrapingdog":
+        params = {
+            "api_key": api_key,
+            "type": "search",
+            "query": query,
+            "ll": f"@{gps['lat']},{gps['lng']},{gps['zoom']}z",
+            "page": "0"
+        }
+    else:
+        params = {}
+
     final_result = []
 
     for _ in range(pages):
         # Fetch places from SerpAPI.
-        search = GoogleSearch(params)
-        results = search.get_dict()
+        if service == "hasdata":
+            results = hasdata_maps_api("search", params.copy())
+        elif service == "scrapingdog":
+            results = scrapingdog_maps_api("search", params.copy())
+        else:
+            results = {}
 
         # Append the results to the final result list.
         final_result.append(results)
 
         # Update the page offset.
-        params['start'] = str(int(params['start']) + 20)
+        if service == "hasdata":
+            params['start'] = str(int(params['start']) + 20)
+        elif service == "scrapingdog":
+            params['page'] = str(int(params['page']) + 20)
 
     return final_result
 
-def get_place_reviews(place_id: str, api_key: str, pages: int, start_date: datetime = None):
+def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: datetime = None, service: Literal["hasdata", "scrapingdog"] = "scrapingdog") -> list:
     """Get reviews of a place.
 
     The first page contains 8 reviews, and from the second page, 20 reviews are returned.
@@ -123,26 +183,42 @@ def get_place_reviews(place_id: str, api_key: str, pages: int, start_date: datet
     The reviews are sorted based on their date.
 
     Args:
-        place_id: Place IDs uniquely identify a place in the Google Places database.
+        data_id: Data IDs uniquely identify a place in the Google Places database.
         api_key: API key of SerpAPI.
         pages: Number of pages to fetch.
         start_date: Start date of reviews.
+        service: The service to use for fetching reviews. Can be either 'hasdata' or 'scrapingdog'.
 
     Returns:
         A list of dicts containing the raw output from SerpAPI.
     """
-    params = {
-        "engine": "google_maps_reviews",
-        "hl": "en",
-        "place_id": place_id,
-        "api_key": api_key
-    }
+    if service not in ["hasdata", "scrapingdog"]:
+        raise ValueError("Service must be either 'hasdata' or 'scrapingdog'.")
+
+    if service == "hasdata":
+        params = {
+            "dataId": data_id,
+            "api_key": api_key,
+            "sortBy": "newestFirst"
+        }
+    elif service == "scrapingdog":
+        params = {
+            "data_id": data_id,
+            "api_key": api_key,
+            "sort_by": "newestFirst",
+        }
+    else:
+        params = {}
     final_result = []
 
     for _ in range(pages):
-        # Fetch reviews from SerpAPI.
-        search = GoogleSearch(params)
-        results = search.get_dict()
+        # Fetch reviews from respective service.
+        if service == "hasdata":
+            results = hasdata_maps_api("reviews", params.copy())
+        elif service == "scrapingdog":
+            results = scrapingdog_maps_api("reviews", params.copy())
+        else:
+            results = {}
 
         # Check if the date of the first review is before the start date.
         if start_date and datetime.fromisoformat(results["reviews"][0]["iso_date"]) < start_date:
@@ -152,8 +228,12 @@ def get_place_reviews(place_id: str, api_key: str, pages: int, start_date: datet
         final_result.append(results)
 
         # Update the next page token and number of reviews per page.
-        params['next_page_token'] = results["serpapi_pagination"]["next_page_token"]
-        params['num'] = "20"
+        if service == "scrapingdog":
+            params['next_page_token'] = results["pagination"]["next_page_token"]
+        elif service == "hasdata":
+            params['nextPageToken'] = results["pagination"]["nextPageToken"]
+
+        params['results'] = "20"
 
     return final_result
 
@@ -175,4 +255,9 @@ if __name__ == "__main__":
     # with open("outputs/places.json", "w") as f:
     #     json.dump(results, f, indent=4)
     # print(get_geocode_data("Hyderabad", config["GOOGLE_MAPS_API_KEY"]))
-    print(get_address_GPS_coord("Malkajgiri", config["GOOGLE_MAPS_API_KEY"]))
+    # print(get_address_GPS_coord("Malkajgiri", config["GOOGLE_MAPS_API_KEY"]))
+    # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["SCRAPINGDOG_API_KEY"], 2, service="scrapingdog")
+    # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["HASDATA_API_KEY"], 2, service="hasdata")
+    # results = get_places("Cafes in Hyderabad", config["SCRAPINGDOG_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="scrapingdog")
+    results = get_places("Cafes in Hyderabad", config["HASDATA_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="hasdata")
+    print(results)

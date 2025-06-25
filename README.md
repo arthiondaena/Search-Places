@@ -28,7 +28,8 @@
 
    ```
    # .env template
-   SERPAPI_API_KEY=your_serpapi_api_key
+   HASDATA_API_KEY=hasdata_api_key
+   SCRAPINGDOG_API_KEY=scrapingdog_api_key
    GOOGLE_MAPS_API_KEY=your_google_maps_api_key
    LLM_API_KEY=your_llm_api_key
    ```
