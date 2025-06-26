@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Cafes with Live Music & Indian Cuisine | Hyderabad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+        
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.8rem;
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: #64748b;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .card-hero {
+            height: 260px;
+            overflow: hidden;
+        }
+        
+        .card-hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .card-content {
+            padding: 28px;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .place-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 20px;
+        }
+        
+        .rating-value {
+            font-weight: 700;
+            color: #eab308;
+        }
+        
+        .reviews {
+            color: #64748b;
+            font-size: 0.9em;
+        }
+        
+        .price-level {
+            background: #1e293b;
+            color: white;
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .details {
+            margin: 25px 0;
+        }
+        
+        .description {
+            color: #475569;
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+        }
+        
+        .match-reason {
+            background: #fffbeb;
+            border-left: 4px solid #eab308;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin: – 15px -10px 25px -10px;
+        }
+        
+        .reviews-section {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .review {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 2px solid #cbd5e1;
+            font-style: italic;
+            color: #475569;
+        }
+        
+        .review:last-child {
+            margin-bottom: 0;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .info-group h4 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: #64748b;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .info-group p {
+            color: #334155;
+            font-weight: 500;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0f172a;
+            color: white !important;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+        }
+        
+        .btn:hover {
+            background-color: #1e293b;
+        }
+        
+        footer {
+            text-align: center;
+            color: #64748b;
+            padding: 30px 0;
+            font-size: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .card-content {
+                padding: 20px;
+            }
+            
+            .place-title {
+                font-size: 1.5rem;
+            }
+            
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Live Music & Indian Cuisine Cafes in Hyderabad</h1>
+            <p>Top Rated Spots with Authentic Flavors and Entertainment</p>
+        </header>
+        
+        <div class="cards-container">
+            <!-- Air Live Jubilee Hills -->
+            <div class="card">
+                <div class="card-hero">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrTDB_jlnmBtG0Z9V9biBRgt6jlh-jYGaJ87fOBvsM_FAtcrB53y_44r2koFSnifHHc3_wp5etnLRbkkzUMI1mTt0x6Cj1IuzU9kTruh4qShT26J0OCnzDxy_XZeSfJPtB5ORn2=w8192-h6144-k-no" 
+                         alt="Air Live Jubilee Hills">
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2 class="place-title">Air Live Jubilee Hills</h2>
+                        <div class="rating">
+                            <span class="rating-value">4.3</span>
+                            <span class="reviews">(9114 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="price-level">₹2,000+</div>
+                    
+                    <div class="details">
+                        <p class="description">Swanky modern bar with global cooking featuring international dishes alongside creative cocktails and entertainment.</p>
+                        
+                        <div class="match-reason">
+                            <strong>Why this fits:</strong> Features energetic live music performances along with Indian food options in its international menu. 
+                            Popular spot for both late-night entertainment and dining in Hyderabad.
+                        </div>
+                        
+                        <div class="reviews-section">
+                            <h3>Recent Customer Feedback:</h3>
+                            <div class="review">"The live band performed Bollywood retro hits and 90s favorites - created the perfect musical backdrop for our evening."</div>
+                            <div class="review">"Amazing vibe with live music. Good people and good crowd make for an unforgettable nightlife experience!"</div>
+                        </div>
+                        
+                        <div class="contact-grid">
+                            <div class="info-group">
+                                <h4>Address</h4>
+                                <p>Road No. 36, Above Jaguar Showroom, Jubilee Hills, Hyderabad, Telangana 500034</p>
+                            </div>
+                            
+                            <div class="info-group">
+                                <h4>Opening Hours</h4>
+                                <p>Open Daily: 12pm - 12am</p>
+                            </div>
+                            
+                            <div class="info-group">
+                                <h4>Phone</h4>
+                                <p>09160610003</p>
+                            </div>
+                        </div>
+                        
+                        <a href="http://bars-pubs.socialgoat.in/hyderabad/outlet/air-live-jubilee-hills-hyderabad-jubilee-hills" class="btn" target="_blank">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stone Waters - Kitchen & Lounge -->
+            <div class="card">
+                <div class="card-hero">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV0p0QiXbVcfkmVDtaoTHUfIe455gW53mNT82yMBbQb9s90z21gwIzfasC5_-yyLteknUrlY4VidOUafBzcdq4PaTcaPPZBDjbhZPlWjKBelHUIkTzEd3usn2TJIGc3s7klbuyOA=w1200-h686-k-no" 
+                         alt="Stone Waters - Kitchen & Lounge">
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h2 class="place-title">Stone Waters - Kitchen & Lounge</h2>
+                        <div class="rating">
+                            <span class="rating-value">4.2</span>
+                            <span class="reviews">(3310 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="price-level">₹₹₹ (Premium)</div>
+                    
+                    <div class="details">
+                        <p class="description">Vibrant multi-level venue offering gastropub fare, premium drinks, and regular live entertainment events.</p>
+                        
+                        <div class="match-reason">
+                            <strong>Why this fits:</strong> Known for its popular Bollywood music nights and live performances with Indian fusion cuisine options. 
+                            Features rooftop seating with city views.
+                        </div>
+                        
+                        <div class="reviews-section">
+                            <h3>Recent Customer Feedback:</h3>
+                            <div class="review">"Amazing time at Stone Waters. Enjoyed the Bollywood music - the artist shook the place with his mesmerizing voice!"</div>
+                            <div class="review">"Had a wonderful evening with live music - great atmosphere and vibes throughout the night."</div>
+                        </div>
+                        
+                        <div class="contact-grid">
+                            <div class="info-group">
+                                <h4>Address</h4>
+                                <p>5th Floor, Aruna Arcade, 1299B, Road No. 1, opposite KBR Park, Jubilee Hills, Hyderabad</p>
+                            </div>
+                            
+                            <div class="info-group">
+                                <h4>Opening Hours</h4>
+                                <p>Thu-Mon: 12pm–11:30pm<br>Fri-Sat: 12pm–12:30am</p>
+                            </div>
+                            
+                            <div class="info-group">
+                                <h4>Phone</h4>
+                                <p>09642279000</p>
+                            </div>
+                        </div>
+                        
+                        <a href="https://www.google.com/maps/place/Stone+Waters+-+Kitchen+&+Lounge/@17.4239249,78.4129212,11/data=!3m1!1e3!4m6!3m5!1s0x3bcb913354337f5f:0x2baf60b2ba1eed1e!8m2!3d17.4239249!4d78.4129212!16s" class="btn" target="_blank">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2023 Hyderabad Food & Entertainment Guide | Note: Limited matching establishments found</p>
+        </footer>
+    </div>
+</body>
+</html>

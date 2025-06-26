@@ -1,0 +1,100 @@
+[
+    {
+        "search_results": [
+            {
+                "title": "Air Live Jubilee Hills",
+                "place_id": "ChIJDbM_MEiRyzsRA4rnMEfQtJc",
+                "data_id": "0x3bcb9148303fb30d:0x97b4d04730e78a03",
+                "data_cid": "-7515152873992779261",
+                "reviews_link": "https://api.scrapingdog.com/google_maps/reviews?api_key=685bc5634caca32b8c039593&data_id=0x3bcb9148303fb30d:0x97b4d04730e78a03",
+                "photos_link": "https://api.scrapingdog.com/google_maps/photos?api_key=685bc5634caca32b8c039593&data_id=0x3bcb9148303fb30d:0x97b4d04730e78a03",
+                "posts_link": "https://api.scrapingdog.com/google_maps/posts?api_key=685bc5634caca32b8c039593&data_id=0x3bcb9148303fb30d:0x97b4d04730e78a03",
+                "gps_coordinates": {
+                    "latitude": 17.4300492,
+                    "longitude": 78.4103361
+                },
+                "provider_id": "/g/11c56b2_xm",
+                "rating": 4.3,
+                "reviews": 9114,
+                "price": "\u20b92,000+",
+                "type": null,
+                "types": [
+                    "Live music bar",
+                    "Bar & grill",
+                    "Lounge"
+                ],
+                "address": "Road No. 36,Above Jaguar Showroom,Jubilee Hills,Hyderabad, Telangana 500034",
+                "open_state": "Open \u22c5 Closes 12\u202fam",
+                "hours": "Open \u22c5 Closes 12\u202fam",
+                "operating_hours": {
+                    "thursday": "12\u202fpm\u201312\u202fam",
+                    "friday": "12\u202fpm\u201312:30\u202fam",
+                    "saturday": "12\u202fpm\u201312:30\u202fam",
+                    "sunday": "12\u202fpm\u201312\u202fam (Bonalu)",
+                    "monday": "12\u202fpm\u201312\u202fam",
+                    "tuesday": "12\u202fpm\u201312\u202fam",
+                    "wednesday": "12\u202fpm\u201312\u202fam"
+                },
+                "phone": "09160610003",
+                "website": "http://bars-pubs.socialgoat.in/hyderabad/outlet/air-live-jubilee-hills-hyderabad-jubilee-hills",
+                "description": "Swanky modern bar with global cooking. This contemporary spot features a range of international dishes alongside a full bar with cocktails.",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrTDB_jlnmBtG0Z9V9biBRgt6jlh-jYGaJ87fOBvsM_FAtcrB53y_44r2koFSnifHHc3_wp5etnLRbkkzUMI1mTt0x6Cj1IuzU9kTruh4qShT26J0OCnzDxy_XZeSfJPtB5ORn2=w114-h86-k-no",
+                "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrTDB_jlnmBtG0Z9V9biBRgt6jlh-jYGaJ87fOBvsM_FAtcrB53y_44r2koFSnifHHc3_wp5etnLRbkkzUMI1mTt0x6Cj1IuzU9kTruh4qShT26J0OCnzDxy_XZeSfJPtB5ORn2=w8192-h6144-k-no",
+                "google_maps_url": "https://www.google.com/maps/place/Air+Live+Jubilee+Hills/@17.4300492,78.4103361,11/data=!3m1!1e3!4m6!3m5!1s0x3bcb9148303fb30d:0x97b4d04730e78a03!8m2!3d17.4300492!4d78.4103361!16s",
+                "type_ids": null,
+                "service_options": null,
+                "extensions": null,
+                "show_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrTDB_jlnmBtG0Z9V9biBRgt6jlh-jYGaJ87fOBvsM_FAtcrB53y_44r2koFSnifHHc3_wp5etnLRbkkzUMI1mTt0x6Cj1IuzU9kTruh4qShT26J0OCnzDxy_XZeSfJPtB5ORn2=w8192-h6144-k-no"
+            },
+            {
+                "title": "Stone Waters - Kitchen & Lounge",
+                "place_id": "ChIJX38zVDORyzsRHu0eurJgrys",
+                "data_id": "0x3bcb913354337f5f:0x2baf60b2ba1eed1e",
+                "data_cid": "3147840985298300190",
+                "reviews_link": "https://api.scrapingdog.com/google_maps/reviews?api_key=685bc5634caca32b8c039593&data_id=0x3bcb913354337f5f:0x2baf60b2ba1eed1e",
+                "photos_link": "https://api.scrapingdog.com/google_maps/photos?api_key=685bc5634caca32b8c039593&data_id=0x3bcb913354337f5f:0x2baf60b2ba1eed1e",
+                "posts_link": "https://api.scrapingdog.com/google_maps/posts?api_key=685bc5634caca32b8c039593&data_id=0x3bcb913354337f5f:0x2baf60b2ba1eed1e",
+                "gps_coordinates": {
+                    "latitude": 17.4239249,
+                    "longitude": 78.4129212
+                },
+                "provider_id": "/g/11b7cc3_pr",
+                "rating": 4.2,
+                "reviews": 3310,
+                "type": null,
+                "types": [
+                    "Gastropub",
+                    "Bar & grill",
+                    "Disco club",
+                    "DJ service",
+                    "Live music bar",
+                    "Live music venue",
+                    "Lounge",
+                    "Musical club",
+                    "Pub",
+                    "Restaurant"
+                ],
+                "address": "5th Floor,Aruna Arcade,1299B, Road No. 1, opposite KBR Park, Jubilee Hills,Hyderabad, Telangana 500033",
+                "open_state": "Open \u22c5 Closes 11:30\u202fpm",
+                "hours": "Open \u22c5 Closes 11:30\u202fpm",
+                "operating_hours": {
+                    "thursday": "12\u201311:30\u202fpm",
+                    "friday": "12\u202fpm\u201312:30\u202fam",
+                    "saturday": "12\u202fpm\u201312:30\u202fam",
+                    "sunday": "12\u201311:30\u202fpm (Bonalu)",
+                    "monday": "12\u201311:30\u202fpm",
+                    "tuesday": "12\u201311:30\u202fpm",
+                    "wednesday": "12\u201311:30\u202fpm"
+                },
+                "phone": "09642279000",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV0p0QiXbVcfkmVDtaoTHUfIe455gW53mNT82yMBbQb9s90z21gwIzfasC5_-yyLteknUrlY4VidOUafBzcdq4PaTcaPPZBDjbhZPlWjKBelHUIkTzEd3usn2TJIGc3s7klbuyOA=w150-h86-k-no",
+                "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV0p0QiXbVcfkmVDtaoTHUfIe455gW53mNT82yMBbQb9s90z21gwIzfasC5_-yyLteknUrlY4VidOUafBzcdq4PaTcaPPZBDjbhZPlWjKBelHUIkTzEd3usn2TJIGc3s7klbuyOA=w1200-h686-k-no",
+                "google_maps_url": "https://www.google.com/maps/place/Stone+Waters+-+Kitchen+&+Lounge/@17.4239249,78.4129212,11/data=!3m1!1e3!4m6!3m5!1s0x3bcb913354337f5f:0x2baf60b2ba1eed1e!8m2!3d17.4239249!4d78.4129212!16s",
+                "type_ids": null,
+                "service_options": null,
+                "extensions": null,
+                "show_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrV0p0QiXbVcfkmVDtaoTHUfIe455gW53mNT82yMBbQb9s90z21gwIzfasC5_-yyLteknUrlY4VidOUafBzcdq4PaTcaPPZBDjbhZPlWjKBelHUIkTzEd3usn2TJIGc3s7klbuyOA=w1200-h686-k-no"
+            }
+        ]
+    }
+]

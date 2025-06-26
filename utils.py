@@ -1,6 +1,8 @@
 import requests
 import math
 import urllib.parse
+import config
+import re
 
 from datetime import datetime
 from openai import OpenAI
@@ -27,7 +29,7 @@ def hasdata_maps_api(
     return response.json()
 
 def scrapingdog_maps_api(
-        engine: Literal["search", "place", "reviews"],
+        engine: Literal["search", "places", "reviews"],
         params: dict,
     ) -> dict:
     """Fetch data from ScrapingDog Maps API."""
@@ -161,6 +163,13 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
             results = hasdata_maps_api("search", params.copy())
         elif service == "scrapingdog":
             results = scrapingdog_maps_api("search", params.copy())
+            # TODO : remove next line for production use.
+            results["search_results"] = results["search_results"][:2]
+            for i, place in enumerate(results["search_results"]):
+                place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
+                for col in config.MERGE_COLUMNS_SCRAPINGDOG_PLACES:
+                    results["search_results"][i][col] = place_details.get(col, None)
+                results["search_results"][i]["show_image"] = results["search_results"][i]["image"]
         else:
             results = {}
 
@@ -246,11 +255,16 @@ def infer_client(client: OpenAI, prompt: str, model: str):
     )
     return output.choices[0].message.content.strip()
 
+def extract_code_blocks(text):
+    pattern = r"```(?:\w+)?\n(.*?)\n```"
+    matches = re.findall(pattern, text, re.DOTALL)
+    return matches
+
 if __name__ == "__main__":
     from dotenv import dotenv_values
     import json
 
-    config = dotenv_values(".env")
+    env = dotenv_values(".env")
     # results = get_places("Cafes in Hyderabad", config["SERPAPI_API_KEY"], 2)
     # with open("outputs/places.json", "w") as f:
     #     json.dump(results, f, indent=4)
@@ -258,6 +272,8 @@ if __name__ == "__main__":
     # print(get_address_GPS_coord("Malkajgiri", config["GOOGLE_MAPS_API_KEY"]))
     # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["SCRAPINGDOG_API_KEY"], 2, service="scrapingdog")
     # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["HASDATA_API_KEY"], 2, service="hasdata")
-    # results = get_places("Cafes in Hyderabad", config["SCRAPINGDOG_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="scrapingdog")
-    results = get_places("Cafes in Hyderabad", config["HASDATA_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="hasdata")
+    results = get_places("Cafes in Hyderabad", env["SCRAPINGDOG_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 1, service="scrapingdog")
+    # results = get_places("Cafes in Hyderabad", config["HASDATA_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="hasdata")
     print(results)
+    # results = scrapingdog_maps_api("places", {"data_id": "0x3bcb972ac27e4959:0xa3d14c260e61ddb9", "api_key": config["SCRAPINGDOG_API_KEY"]})
+    # print(results)
