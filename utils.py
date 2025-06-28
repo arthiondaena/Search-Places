@@ -7,7 +7,6 @@ import re
 from datetime import datetime
 from openai import OpenAI
 from typing import Literal
-from serpapi import GoogleSearch
 
 def hasdata_maps_api(
         engine: Literal["search", "reviews"],
@@ -167,6 +166,7 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
             results["search_results"] = results["search_results"][:2]
             for i, place in enumerate(results["search_results"]):
                 place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
+                place_details = place_details['place_results']
                 for col in config.MERGE_COLUMNS_SCRAPINGDOG_PLACES:
                     results["search_results"][i][col] = place_details.get(col, None)
                 results["search_results"][i]["show_image"] = results["search_results"][i]["image"]
@@ -260,6 +260,61 @@ def extract_code_blocks(text):
     matches = re.findall(pattern, text, re.DOTALL)
     return matches
 
+def create_place_html(place):
+    reviews_html = ''.join(
+        f'<div class="review">"{review["review"]}"</div>' for review in place["User Reviews"]
+    )
+
+    return f"""
+    <div class="card">
+        <div class="card-hero">
+            <img src="{place['Image URL']}" alt="{place['name']}" referrerpolicy="no-referrer">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h2 class="place-title">{place['name']}</h2>
+                <div class="rating">
+                    <span class="rating-value">{place['rating']}</span>
+                    <span class="reviews">({place["reviews"]} reviews)</span>
+                </div>
+            </div>
+            <div class="price-level">{place['price Level']}</div>
+            <div class="details">
+                <p class="description">{place['description']}</p>
+                <div class="match-reason">
+                    <strong>Why this fits:</strong> {place['Why this place fits the prompt']}
+                </div>
+                <div class="reviews-section">
+                    <h3>Recent Customer Feedback:</h3>
+                    {reviews_html}
+                </div>
+                <div class="contact-grid">
+                    <div class="info-group">
+                        <h4>Address</h4>
+                        <p>{place['Address']}</p>
+                    </div>
+                    <div class="info-group">
+                        <h4>Opening Hours</h4>
+                        <p>{place['Opening Hours']}</p>
+                    </div>
+                    <div class="info-group">
+                        <h4>Phone</h4>
+                        <p>{place['Phone Number']}</p>
+                    </div>
+                </div>
+                <a href="{place['Website']}" class="btn" target="_blank">Visit Website</a>
+                <a href="{place['Google Maps URL']}" class="btn" target="_blank">View on Google Maps</a>
+            </div>
+        </div>
+    </div>
+    """
+
+def create_places_html(places: list, template_html: str) -> str:
+    """Create HTML for a list of places."""
+    place_cards = ''.join(create_place_html(place) for place in places)
+    return template_html.replace('<!--PLACEHOLDER-->', place_cards)
+
+
 if __name__ == "__main__":
     from dotenv import dotenv_values
     import json
@@ -272,8 +327,19 @@ if __name__ == "__main__":
     # print(get_address_GPS_coord("Malkajgiri", config["GOOGLE_MAPS_API_KEY"]))
     # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["SCRAPINGDOG_API_KEY"], 2, service="scrapingdog")
     # results = get_place_reviews("0x3bcb972ac27e4959:0xa3d14c260e61ddb9", config["HASDATA_API_KEY"], 2, service="hasdata")
-    results = get_places("Cafes in Hyderabad", env["SCRAPINGDOG_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 1, service="scrapingdog")
+    # results = get_places("Cafes in Hyderabad", env["SCRAPINGDOG_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 1, service="scrapingdog")
     # results = get_places("Cafes in Hyderabad", config["HASDATA_API_KEY"], {"lat": 17.406498, "lng": 78.47724389999999, "zoom": 11}, 2, service="hasdata")
-    print(results)
+    # print(results)
     # results = scrapingdog_maps_api("places", {"data_id": "0x3bcb972ac27e4959:0xa3d14c260e61ddb9", "api_key": config["SCRAPINGDOG_API_KEY"]})
     # print(results)
+    with open("template.html", "r") as f:
+        template_html = f.read()
+
+    import json
+
+    with open("outputs/2025-06-28_18-40-21/places_with_reviews.json", "r", encoding="utf8") as f:
+        places = json.load(f)
+
+    html_output = create_places_html(places, template_html)
+    with open("outputs/2025-06-28_18-40-21/places.html", "w", encoding="utf8") as f:
+        f.write(html_output)

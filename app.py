@@ -30,8 +30,8 @@ if st.button("Search") and user_prompt.strip():
         places = fetch_places(user_prompt, client, "scrapingdog", st.session_state["output_folder"])
 
         status.write("Fetching reviews for places...")
-        # Only take first 2 places for demo
-        places = places[:2]
+        # TODO: Remove this limit in production
+        places = places[:5]
         places = fetch_places_reviews(places, st.session_state["output_folder"])
 
         status.write("Filtering places...")

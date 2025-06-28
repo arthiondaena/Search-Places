@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    /* [All the CSS from your provided template remains unchanged] */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    }
+
+    body {
+        background-color: #f8fafc;
+        color: #1e293b;
+        line-height: 1.6;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        text-align: center;
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+
+    header h1 {
+        font-size: 2.8rem;
+        color: #1e293b;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    header p {
+        font-size: 1.2rem;
+        color: #64748b;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    }
+
+    .card-hero {
+        height: 260px;
+        overflow: hidden;
+    }
+
+    .card-hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card-content {
+        padding: 28px;
+    }
+
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .place-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #0f172a;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: #f8fafc;
+        padding: 6px 12px;
+        border-radius: 20px;
+    }
+
+    .rating-value {
+        font-weight: 700;
+        color: #eab308;
+    }
+
+    .reviews {
+        color: #64748b;
+        font-size: 0.9em;
+    }
+
+    .price-level {
+        background: #1e293b;
+        color: white;
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .details {
+        margin: 25px 0;
+    }
+
+    .description {
+        color: #475569;
+        margin-bottom: 25px;
+        font-size: 1.1rem;
+    }
+
+    .match-reason {
+        background: #fffbeb;
+        border-left: 4px solid #eab308;
+        padding: 15px;
+        border-radius: 0 8px 8px 0;
+        margin: –15px -10px 25px -10px;
+    }
+
+    .reviews-section {
+        background: #f8fafc;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .review {
+        margin-bottom: 15px;
+        padding-left: 15px;
+        border-left: 2px solid #cbd5e1;
+        font-style: italic;
+        color: #475569;
+    }
+
+    .review:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 15px;
+    }
+
+    .info-group h4 {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #64748b;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .info-group p {
+        color: #334155;
+        font-weight: 500;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #0f172a;
+        color: white !important;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        text-align: center;
+        transition: background-color 0.3s;
+        margin-top: 15px;
+    }
+
+    .btn:hover {
+        background-color: #1e293b;
+    }
+
+    footer {
+        text-align: center;
+        color: #64748b;
+        padding: 30px 0;
+        font-size: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .cards-container {
+            grid-template-columns: 1fr;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .place-title {
+            font-size: 1.5rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cards-container">
+      <!--PLACEHOLDER-->
+    </div>
+  </div>
+</body>
+</html>

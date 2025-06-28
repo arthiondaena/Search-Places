@@ -1,7 +1,3 @@
-from typing import Literal
-
-from docker.api import service
-
 import config
 from datetime import datetime
 import logging
@@ -9,9 +5,10 @@ import json
 import concurrent.futures
 import os
 
-from utils import get_address_GPS_coord, get_places, get_place_reviews, infer_client, extract_code_blocks
+from utils import get_address_GPS_coord, get_places, get_place_reviews, infer_client, extract_code_blocks, create_places_html
 from openai import OpenAI
 from dotenv import dotenv_values
+from typing import Literal
 
 logging.basicConfig(
     level=logging.INFO,
@@ -96,12 +93,22 @@ def fetch_places_reviews(places, output_folder: str = None):
 
 def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["markdown", "html"] = "html", output_folder: str = None):
     """Filters places based on the user prompt using the LLM."""
-    template = config.FILTER_PLACES_HTML_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
+    template = config.FILTER_PLACES_JSON_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
 
     output = infer_client(client, template.format(user_prompt=user_prompt, places=places), config.LLM_MODEL)
 
     # Extract code blocks from the output if present
     output = extract_code_blocks(output)[0] if extract_code_blocks(output) else output
+
+    if output_type == "html":
+        # TODO: Handle the case where the output is not a valid JSON (retrying the LLM call might be necessary)
+        output = eval(output)
+        if output_folder is not None:
+            with open(output_folder + "/filtered_places.json", "w", encoding="utf8") as f:
+                json.dump(output, f, indent=4)
+        with open("template.html", "r", encoding="utf8") as f:
+            template_html = f.read()
+        output = create_places_html(output, template_html)
 
     if output_folder is not None:
         output_file = output_folder + "/filtered_places.md" if output_type == "markdown" else output_folder + "/filtered_places.html"
@@ -125,8 +132,8 @@ def main(user_prompt: str, save_output: bool = False):
 
     places = fetch_places(user_prompt, client, "hasdata", output_folder)
 
-    # Only taking the first 10 places into account
-    places = places[:2]
+    # TODO: Only taking the first 10 places into account
+    places = places[:5]
 
     places = fetch_places_reviews(places, output_folder)
 
@@ -137,8 +144,8 @@ def main(user_prompt: str, save_output: bool = False):
 if __name__ == "__main__":
     # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
     import json
-    with open("outputs/2025-06-26_21-05-28/places_with_reviews.json", "r", encoding="utf8") as f:
+    with open("outputs/2025-06-28_22-56-33/places_with_reviews.json", "r", encoding="utf8") as f:
         places = json.load(f)
 
-    markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "markdown", "outputs/2025-06-26_21-05-28/")
+    markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
     # main("cafe with Asian cuisine in hyderabad", save_output=True)

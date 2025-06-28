@@ -2,6 +2,7 @@ BASE_URL = "https://openrouter.ai/api/v1"
 # LLM_MODEL = "meta-llama/llama-3.3-70b-instruct:free"
 # LLM_MODEL = "google/gemini-2.0-flash-exp:free"
 LLM_MODEL = "deepseek/deepseek-r1-0528:free"
+LLM_MODEL = "deepseek/deepseek-chat-v3-0324:free"
 
 REQUIRED_COLUMNS_PLACES = ["title", "place_id", "gps_coordinates", "rating", "reviews", "price", "types", "type_id",
                            "type_ids", "address", "open_state", "hours", "operating_hours", "phone", "website",
@@ -169,5 +170,121 @@ Ensure the visual hierarchy is clear (headings, spacing, font weights), and sect
 ```json
 {places}
 ```
+
+"""
+
+FILTER_PLACES_JSON_TEMPLATE = """
+You are a helpful assistant that takes a user's natural language prompt about a type of place they are looking for (e.g., cafe, restaurant, bakery) and a list of metadata-rich place entries. Your task is to analyze the prompt carefully and return a **JSON list of the top 5–10 most relevant places**, structured according to the specified format.
+
+---
+
+## ✅ Output Requirements
+
+Return a **JSON array** of the top 5–10 most relevant places that best match the user’s query. Each place object in the JSON should contain the following fields:
+
+- `"name"`: The name of the place.
+- `"rating"`: Numeric rating (e.g., 4.5).
+- `"reviews"`: Number of reviews (e.g., 230).
+- `"price Level"`: String describing price level (e.g., "₹2,000+").
+- `"description"`: A short, concise 1–2 line description summarizing the place.
+- `"Why this place fits the prompt"`: A clear explanation of why the place matches the user's query (mentioning cuisine, vibe, highlights, etc.).
+- `"User Reviews"`: A list of 1–2 short user review objects supporting the match, each containing:
+  - `"review"`: Text of the review.
+  - `"rating"`: Numeric rating from that reviewer.
+- `"Address"`: Full address.
+- `"Phone Number"`: Contact phone number.
+- `"Website"`: URL to the official website.
+- `"Image URL"`: Direct URL to an image representing the place.
+- `"Opening Hours"`: Opening hours string.
+- `"Google Maps URL"`: Link to Google Maps location.
+- `"Extensions"`: Optional additional features (e.g., "Rooftop seating, pet-friendly, live music").
+
+---
+
+## 🧠 Relevance Guidelines
+
+Analyze the user's intent from their prompt, considering:
+
+- **Type of place** (e.g., cafe, rooftop bar, fine dining)
+- **Cuisine** (e.g., Indian, Sushi, Italian, fusion)
+- **Ambience or vibe** (e.g., cozy, romantic, live music, casual, trendy)
+- **Recency** (e.g., "recently opened", "newly trending")
+- **Location** (specific city, neighborhood, or general area)
+
+Evaluate each place using:
+
+### Structured data
+- Tags, type, cuisine, highlights, price level, ratings, description, reviews count
+
+### Unstructured data
+- **reviews_content**: Extract relevant sentiments or keywords supporting the place’s fit to the user prompt.
+
+### Prioritize
+- Relevance to the user query over pure numerical rating or popularity.
+
+---
+
+## 📸 Image Handling
+
+Each place will have an `"Image URL"` field (corresponding to `show_image` in some datasets). Include this in the final JSON output.
+
+---
+
+## 💡 Input Format
+
+### User Prompt
+```plaintext
+{user_prompt}
+```
+
+### Places Data
+```json
+{places}
+```
+
+---
+
+## ✅ Output Format
+
+Return only a **JSON array** matching the following example structure (do not include additional explanation or markdown) and return the JSON as a single code block
+If the value for a key doesn't exist, you can assign a default value as an empty string to the key.
+
+```json
+[
+  {{
+    "name": "test1",
+    "rating": 4.5,
+    "reviews": 230,
+    "price Level": "₹2,000+",
+    "description": "This is a test description for test1.",
+    "Why this place fits the prompt": "Reasoning...",
+    "User Reviews": [
+      {{
+        "review": "This is a test review for test1 by User1.",
+        "rating": 4.5
+      }},
+      {{
+        "review": "This is another test review for test1 by User2.",
+        "rating": 4.0
+      }}
+    ],
+    "Address": "123 Test Street, Test City, TC 12345",
+    "Phone Number": "+91-1234567890",
+    "Website": "https://www.test1.com",
+    "Image URL": "https://www.example.com/test1.jpg",
+    "Opening Hours": "10:00 AM - 11:00 PM",
+    "Google Maps URL": "google.com/maps/place/Test1",
+    "Extensions": "Rooftop seating, Bollywood nights"
+  }},
+  ...
+]
+```
+
+---
+
+## 🔒 Final Instructions
+
+- Return **only** valid JSON output in the exact structure above.
+- Do not include markdown, comments, explanations, or additional text.
 
 """
