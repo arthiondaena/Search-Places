@@ -2,4 +2,4 @@ dotenv==0.9.9
 # prefect==3.4.6
 openai==1.90.0
 fastapi[standard]==0.115.13
-streamlit==1.46.0
+# streamlit==1.46.0

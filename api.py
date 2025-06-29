@@ -1,14 +1,13 @@
 import config
+import uvicorn
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from main import fetch_places, fetch_places_reviews, filter_places
 from openai import OpenAI
 from dotenv import dotenv_values
-from datetime import datetime
 
 app = FastAPI()
-
 
 @app.get("/run")
 def run(user_prompt: str):
@@ -48,3 +47,6 @@ def run(user_prompt: str):
         raise HTTPException(
             status_code=500, detail=f"Error processing document: {str(e)}"
         )
+
+if __name__ == "__main__":
+   uvicorn.run(app, host="0.0.0.0", port=8080)
