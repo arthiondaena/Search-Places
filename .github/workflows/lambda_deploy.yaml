@@ -1,0 +1,26 @@
+name: deploy to lambda
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to AWS Lambda
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+        uses: actions/checkout@v2
+    - name: Build zip
+      run: |
+        zip -r function.zip .
+    - name: Deploy to AWS Lambda
+      uses: appleboy/lambda-action@v0.2.0
+        aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws_region: ${{ secrets.AWS_REGION }}
+        function_name: search-places
+        zip_file: function.zip
+        memory_size: 512
+        handler: main.lambda_handler
+        runtime: python3.12
