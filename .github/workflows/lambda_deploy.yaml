@@ -23,5 +23,4 @@ jobs:
         function_name: search_places_test
         zip_file: function.zip
         memory_size: 512
-        handler: main.lambda_handler
         runtime: python3.12
