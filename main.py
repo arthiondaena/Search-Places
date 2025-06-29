@@ -137,9 +137,29 @@ def main(user_prompt: str, save_output: bool = False):
 
     places = fetch_places_reviews(places, output_folder)
 
-    markdown_output = filter_places(places, user_prompt, client, "markdown", output_folder)
+    output = filter_places(places, user_prompt, client, "markdown", output_folder)
 
-    return markdown_output
+    return output
+
+def lambda_handler(event, context):
+    """Lambda handler function to process the event and return the filtered places."""
+    try:
+        user_prompt = event.get("user_prompt", "Cafes with live music and Indian cuisine in Hyderabad")
+        output_type = event.get("output_type", "html")
+        save_output = event.get("save_output", False)
+
+        output = main(user_prompt, save_output)
+
+        return {
+            "statusCode": 200,
+            "body": output
+        }
+    except Exception as e:
+        logger.error(f"Error in lambda_handler: {e}")
+        return {
+            "statusCode": 500,
+            "body": str(e)
+        }
 
 if __name__ == "__main__":
     # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
