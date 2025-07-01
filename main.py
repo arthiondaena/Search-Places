@@ -1,5 +1,6 @@
 import config
 from datetime import datetime
+import functools
 import logging
 import json
 import concurrent.futures
@@ -19,6 +20,16 @@ logger = logging.getLogger(__name__)
 
 env = dotenv_values(".env")
 
+def log_function(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        logger.info(f"Entering {func.__name__}")
+        result = func(*args, **kwargs)
+        logger.info(f"Exiting {func.__name__}")
+        return result
+    return wrapper
+
+@log_function
 def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog", "hasdata"] = "scrapingdog", output_folder: str = None):
     """Fetches places based on the user prompt and saves the output to a specified folder."""
     extracted_location = infer_client(client, config.EXTRACT_LOC_TEMPLATE.format(user_prompt=user_prompt),
@@ -46,20 +57,23 @@ def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog
 
     return places
 
+@log_function
 def _fetch_and_save_reviews(args):
     """Helper function for parallel fetching and saving of reviews."""
     i, place, output_folder, env = args
     # TODO: Handle this case more gracefully.
     dataId = place.get("dataId", place.get("data_id", None))
-    from utils import get_place_reviews  # Import inside for multiprocessing compatibility
-    import json
-    import logging
+    # from utils import get_place_reviews  # Import inside for multiprocessing compatibility
+    # import json
+    # import logging
     logger = logging.getLogger(__name__)
+    logger.info(f"{dataId}_{output_folder}")
     reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=2, service="scrapingdog")
     try:
         if output_folder is not None:
             # Remove invalid characters and replace space with underscore from the title to create a valid filename.
-            filename = output_folder + "/reviews/" + "".join(i for i in place["title"].replace(" ", "_") if i not in r"\/:*?<>|") + ".json"
+            filename = output_folder + "/reviews/" + "".join(
+                i for i in place["title"].replace(" ", "_") if i not in r"\/:*?<>|") + ".json"
             with open(filename, "w") as f:
                 json.dump(reviews_output, f, indent=4)
     except Exception as e:
@@ -69,17 +83,28 @@ def _fetch_and_save_reviews(args):
     for page in reviews_output:
         reviews = page["reviews_results"]
         for review in reviews:
-            review_dict = {"iso_date": review["iso_date"], "rating": review["rating"], "text": review.get("snippet", "")}
+            review_dict = {"iso_date": review["iso_date"], "rating": review["rating"],
+                           "text": review.get("snippet", "")}
             reviews_content.append(review_dict)
     return (i, reviews_content)
 
+@log_function
 def fetch_places_reviews(places, output_folder: str = None):
     """Fetches reviews for each place and saves them to the specified output folder using multiprocessing."""
     args_list = [(i, place, output_folder, env) for i, place in enumerate(places)]
 
+    logger.info("Starting Parallel fetching")
     # Use ProcessPoolExecutor for CPU-bound or IO-bound tasks
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        results = list(executor.map(_fetch_and_save_reviews, args_list))
+    # try:
+    #     with concurrent.futures.ProcessPoolExecutor() as executor:
+    #         results = list(executor.map(_fetch_and_save_reviews, args_list))
+    #         logger.info("Completed Parallel fetching")
+    # except:
+    logger.warning("Failed Parallel fetching")
+    results = []
+    for arg in args_list:
+        results.append(_fetch_and_save_reviews(arg))
+    logger.info("Completed Sequential fetching")
 
     # Update places with reviews_content
     for i, reviews_content in results:
@@ -91,6 +116,7 @@ def fetch_places_reviews(places, output_folder: str = None):
 
     return places
 
+@log_function
 def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["markdown", "html"] = "html", output_folder: str = None):
     """Filters places based on the user prompt using the LLM."""
     template = config.FILTER_PLACES_JSON_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
@@ -117,6 +143,7 @@ def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: L
 
     return output
 
+@log_function
 def main(user_prompt: str, save_output: bool = False):
     """Main function to execute the place review fetching and filtering process."""
     if save_output:
@@ -137,7 +164,7 @@ def main(user_prompt: str, save_output: bool = False):
 
     places = fetch_places_reviews(places, output_folder)
 
-    output = filter_places(places, user_prompt, client, "markdown", output_folder)
+    output = filter_places(places, user_prompt, client, "html", output_folder)
 
     return output
 
@@ -162,10 +189,10 @@ def lambda_handler(event, context):
         }
 
 if __name__ == "__main__":
-    # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
-    import json
-    with open("outputs/2025-06-28_22-56-33/places_with_reviews.json", "r", encoding="utf8") as f:
-        places = json.load(f)
-
-    markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
+    main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
+    # import json
+    # with open("outputs/2025-06-28_22-56-33/places_with_reviews.json", "r", encoding="utf8") as f:
+    #     places = json.load(f)
+    #
+    # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
     # main("cafe with Asian cuisine in hyderabad", save_output=True)
