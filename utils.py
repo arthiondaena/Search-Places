@@ -3,16 +3,26 @@ import math
 import urllib.parse
 import config
 import re
+import logging
 
 from datetime import datetime
 from openai import OpenAI
 from typing import Literal
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+)
+
+logger = logging.getLogger(__name__)
 
 def hasdata_maps_api(
         engine: Literal["search", "reviews"],
         params: dict,
     ) -> dict:
     """Fetch data from HasData Maps API."""
+    logger.info(f"Calling hasdata_maps_api with engine={engine}, params={params}")
     assert "api_key" in params.keys(), "API key is required in params"
 
     api_url = "https://api.hasdata.com/scrape/google-maps"
@@ -24,7 +34,9 @@ def hasdata_maps_api(
     url_params = urllib.parse.urlencode(params)
 
     url = api_url + "/" + engine + "?" + url_params
+    logger.debug(f"Requesting URL: {url}")
     response = requests.get(url, headers=headers)
+    logger.info(f"Received response from hasdata_maps_api with status_code={response.status_code}")
     return response.json()
 
 def scrapingdog_maps_api(
@@ -32,6 +44,7 @@ def scrapingdog_maps_api(
         params: dict,
     ) -> dict:
     """Fetch data from ScrapingDog Maps API."""
+    logger.info(f"Calling scrapingdog_maps_api with engine={engine}, params={params}")
     assert "api_key" in params.keys(), "API key is required in params"
     api_url = "http://api.scrapingdog.com/google_maps"
 
@@ -42,7 +55,9 @@ def scrapingdog_maps_api(
     else:
         url = api_url + "/" + engine + "?" + url_params
 
+    logger.debug(f"Requesting URL: {url}")
     response = requests.get(url)
+    logger.info(f"Received response from scrapingdog_maps_api with status_code={response.status_code}")
     return response.json()
 
 def get_geocode_data(address, api_key) -> dict:
@@ -55,6 +70,7 @@ def get_geocode_data(address, api_key) -> dict:
     Returns:
         Dictionary containing geocode of the address.
     """
+    logger.info(f"Getting geocode data for address: {address}")
     params = {
         "address": address,
         "key": api_key
@@ -64,10 +80,13 @@ def get_geocode_data(address, api_key) -> dict:
         response = requests.get("https://maps.googleapis.com/maps/api/geocode/json", params=params)
         response.raise_for_status()  # Raise an exception for HTTP errors
         data = response.json()
+        logger.info(f"Received geocode data for address: {address}")
         return data['results']
     except requests.exceptions.RequestException as e:
+        logger.error(f"An error occurred while getting geocode data: {e}")
         return f"An error occurred: {e}"
     except KeyError:
+        logger.error("Unable to parse response data for geocode")
         return "Unable to parse response data."
 
 def bounds_zoom_level(bounds, map_width_px=800, map_height_px=600, zoom_max=21):
@@ -113,9 +132,12 @@ def get_address_GPS_coord(address, api_key):
     Returns:
         Dictionary containing geocode and zoom level of the address.
     """
+    logger = logging.getLogger(__name__)
+    logger.info(f"Getting GPS coordinates for address: {address}")
     data = get_geocode_data(address, api_key)[0]
     GPS = data["geometry"]["location"]
     GPS['zoom'] = bounds_zoom_level(data["geometry"]["bounds"])
+    logger.info(f"GPS coordinates for address {address}: {GPS}")
     return GPS
 
 def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal["hasdata", "scrapingdog"] = "hasdata"):
@@ -155,16 +177,18 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
         params = {}
 
     final_result = []
-
     for _ in range(pages):
         # Fetch places from SerpAPI.
         if service == "hasdata":
+            logger.debug("Fetching places from hasdata_maps_api")
             results = hasdata_maps_api("search", params.copy())
         elif service == "scrapingdog":
+            logger.debug("Fetching places from scrapingdog_maps_api")
             results = scrapingdog_maps_api("search", params.copy())
             # TODO : remove next line for production use.
-            results["search_results"] = results["search_results"][:5]
+            results["search_results"] = results["search_results"][:2]
             for i, place in enumerate(results["search_results"]):
+                logger.debug(f"Fetching place details for data_id={place['data_id']}")
                 place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
                 place_details = place_details['place_results']
                 for col in config.MERGE_COLUMNS_SCRAPINGDOG_PLACES:
@@ -182,6 +206,7 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
         elif service == "scrapingdog":
             params['page'] = str(int(params['page']) + 20)
 
+    logger.info(f"Returning {len(final_result)} pages of places results")
     return final_result
 
 def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: datetime = None, service: Literal["hasdata", "scrapingdog"] = "scrapingdog") -> list:
@@ -219,18 +244,20 @@ def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: dateti
     else:
         params = {}
     final_result = []
-
     for _ in range(pages):
         # Fetch reviews from respective service.
         if service == "hasdata":
+            logger.debug("Fetching reviews from hasdata_maps_api")
             results = hasdata_maps_api("reviews", params.copy())
         elif service == "scrapingdog":
+            logger.debug("Fetching reviews from scrapingdog_maps_api")
             results = scrapingdog_maps_api("reviews", params.copy())
         else:
             results = {}
 
         # Check if the date of the first review is before the start date.
         if start_date and datetime.fromisoformat(results["reviews"][0]["iso_date"]) < start_date:
+            logger.info("Review date is before start_date, breaking")
             break
 
         # Append the results to the final result list.
@@ -244,11 +271,14 @@ def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: dateti
 
         params['results'] = "20"
 
+    logger.info(f"Returning {len(final_result)} pages of reviews")
     return final_result
 
 def infer_client(client: OpenAI, prompt: str, model: str):
+    """Infer using the OpenAI client with retries."""
+    logger.info(f"Calling infer_client with model={model}")
     MAX_TRIES = 3
-    for _ in range(MAX_TRIES):
+    for attempt in range(MAX_TRIES):
         try:
             output = client.chat.completions.create(
                 model=model,
@@ -257,10 +287,12 @@ def infer_client(client: OpenAI, prompt: str, model: str):
                 ],
                 timeout=60,
             )
+            logger.info("infer_client succeeded")
             return output.choices[0].message.content.strip()
         except Exception as e:
-            print(f"Error inferring client: {e}")
+            logger.error(f"Error inferring client (attempt {attempt+1}): {e}")
             continue
+    logger.error("Failed to infer client after multiple attempts.")
     raise Exception("Failed to infer client after multiple attempts.")
 
 def extract_code_blocks(text):
