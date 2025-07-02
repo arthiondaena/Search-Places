@@ -163,7 +163,7 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
         elif service == "scrapingdog":
             results = scrapingdog_maps_api("search", params.copy())
             # TODO : remove next line for production use.
-            results["search_results"] = results["search_results"][:2]
+            results["search_results"] = results["search_results"][:5]
             for i, place in enumerate(results["search_results"]):
                 place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
                 place_details = place_details['place_results']
@@ -247,13 +247,21 @@ def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: dateti
     return final_result
 
 def infer_client(client: OpenAI, prompt: str, model: str):
-    output = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return output.choices[0].message.content.strip()
+    MAX_TRIES = 3
+    for _ in range(MAX_TRIES):
+        try:
+            output = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                timeout=60,
+            )
+            return output.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"Error inferring client: {e}")
+            continue
+    raise Exception("Failed to infer client after multiple attempts.")
 
 def extract_code_blocks(text):
     pattern = r"```(?:\w+)?\n(.*?)\n```"

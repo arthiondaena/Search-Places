@@ -57,7 +57,6 @@ def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog
 
     return places
 
-@log_function
 def _fetch_and_save_reviews(args):
     """Helper function for parallel fetching and saving of reviews."""
     i, place, output_folder, env = args
@@ -67,7 +66,6 @@ def _fetch_and_save_reviews(args):
     # import json
     # import logging
     logger = logging.getLogger(__name__)
-    logger.info(f"{dataId}_{output_folder}")
     reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=2, service="scrapingdog")
     try:
         if output_folder is not None:
@@ -157,7 +155,7 @@ def main(user_prompt: str, save_output: bool = False):
         os.makedirs(output_folder, exist_ok=True)
         os.makedirs(output_folder + "/reviews", exist_ok=True)
 
-    places = fetch_places(user_prompt, client, "hasdata", output_folder)
+    places = fetch_places(user_prompt, client, "scrapingdog", output_folder)
 
     # TODO: Only taking the first 10 places into account
     places = places[:5]
