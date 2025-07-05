@@ -13,6 +13,13 @@ from openai import OpenAI
 from dotenv import dotenv_values, load_dotenv
 from typing import Literal
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+logger = logging.getLogger(__name__)
+
 # Load environment variables
 load_dotenv()
 
@@ -70,7 +77,6 @@ def flush_s3_log():
 def log_function(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
-        logger = logging.getLogger(__name__)
         logger.info(f"Entering {func.__name__}")
         result = func(*args, **kwargs)
         logger.info(f"Exiting {func.__name__}")
@@ -79,7 +85,6 @@ def log_function(func):
 
 @log_function
 def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog", "hasdata"] = "scrapingdog", output_folder: str = None):
-    logger = logging.getLogger(__name__)
     logger.info(f"fetch_places called with user_prompt={user_prompt}, service={service}, output_folder={output_folder}")
     extracted_location = infer_client(client, config.EXTRACT_LOC_TEMPLATE.format(user_prompt=user_prompt),
                                       config.LLM_MODEL)
@@ -116,7 +121,6 @@ def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog
 
 def _fetch_and_save_reviews(args):
     i, place, output_folder, env = args
-    logger = logging.getLogger(__name__)
     logger.info(f"Fetching reviews for place index={i}, title={place.get('title')}")
     dataId = place.get("dataId", place.get("data_id", None))
     if not dataId:
@@ -150,7 +154,6 @@ def _fetch_and_save_reviews(args):
 
 @log_function
 def fetch_places_reviews(places, output_folder: str = None):
-    logger = logging.getLogger(__name__)
     logger.info(f"fetch_places_reviews called for {len(places)} places, output_folder={output_folder}")
     args_list = [(i, place, output_folder, env) for i, place in enumerate(places)]
 
@@ -180,7 +183,6 @@ def fetch_places_reviews(places, output_folder: str = None):
 
 @log_function
 def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["markdown", "html"] = "html", output_folder: str = None):
-    logger = logging.getLogger(__name__)
     logger.info(f"filter_places called with {len(places)} places, user_prompt={user_prompt}, output_type={output_type}, output_folder={output_folder}")
     template = config.FILTER_PLACES_JSON_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
 
@@ -226,7 +228,6 @@ def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: L
 
 @log_function
 def main(user_prompt: str, save_output: str = None):
-    logger = logging.getLogger(__name__)
     logger.info(f"main called with user_prompt={user_prompt}, save_output={save_output}")
     if save_output:
         output_folder = save_output
@@ -262,11 +263,10 @@ def main(user_prompt: str, save_output: str = None):
     return output
 
 def lambda_handler(event, context):
-    setup_logging(str(uuid.uuid4()))
-    logger = logging.getLogger(__name__)
+    setup_logging(context.aws_request_id)
     logger.info(f"lambda_handler called with event={event}, context={context}")
     # Generate a unique ID for this request
-    request_id = str(uuid.uuid4())
+    request_id = str(context.aws_request_id)
 
     logger.info(f"Request ID: {request_id} - Received event: {json.dumps(event)}")
     try:
@@ -279,6 +279,7 @@ def lambda_handler(event, context):
         logger.info("lambda_handler completed successfully")
         return {
             "statusCode": 200,
+            "request_id": request_id,
             "body": output
         }
     except Exception as e:
@@ -287,13 +288,15 @@ def lambda_handler(event, context):
             flush_s3_log()
         return {
             "statusCode": 500,
+            "request_id": request_id,
             "body": str(e)
         }
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
+    class context:
+        aws_request_id = str(uuid.uuid4())
     logger.info("Starting script in __main__")
-    lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, None)
+    lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, context())
     # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
     # import json
     # with open("outputs/2025-06-28_22-56-33/places_with_reviews.json", "r", encoding="utf8") as f:
