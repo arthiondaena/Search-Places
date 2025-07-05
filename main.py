@@ -1,10 +1,7 @@
 import config
-from datetime import datetime
 import functools
 import logging
 import json
-import uuid
-import concurrent.futures
 import os
 import boto3
 
@@ -293,6 +290,7 @@ def lambda_handler(event, context):
         }
 
 if __name__ == "__main__":
+    import uuid
     class context:
         aws_request_id = str(uuid.uuid4())
     logger.info("Starting script in __main__")
