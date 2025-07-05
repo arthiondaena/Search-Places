@@ -285,8 +285,7 @@ def lambda_handler(event, context):
             flush_s3_log()
         return {
             "statusCode": 500,
-            "request_id": request_id,
-            "body": str(e)
+            "body": f"An error occurred. Reference ID: {request_id}. Please try again later.",
         }
 
 if __name__ == "__main__":
