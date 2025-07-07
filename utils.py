@@ -22,6 +22,7 @@ def hasdata_maps_api(
         params: dict,
     ) -> dict:
     """Fetch data from HasData Maps API."""
+    # TODO: Before using this function, ensure to implement error handling similar to scrapingdog_maps_api.
     logger.info(f"Calling hasdata_maps_api with engine={engine}, params={params}")
     assert "api_key" in params.keys(), "API key is required in params"
 
@@ -42,7 +43,7 @@ def hasdata_maps_api(
 def scrapingdog_maps_api(
         engine: Literal["search", "places", "reviews"],
         params: dict,
-    ) -> dict:
+    ) -> dict | None:
     """Fetch data from ScrapingDog Maps API."""
     logger.info(f"Calling scrapingdog_maps_api with engine={engine}, params={params}")
     assert "api_key" in params.keys(), "API key is required in params"
@@ -56,8 +57,17 @@ def scrapingdog_maps_api(
         url = api_url + "/" + engine + "?" + url_params
 
     logger.debug(f"Requesting URL: {url}")
-    response = requests.get(url)
-    logger.info(f"Received response from scrapingdog_maps_api with status_code={response.status_code}")
+
+    max_retries = 3
+    for attempt in range(max_retries):
+        response = requests.get(url)
+        logger.info(f"Received response from scrapingdog_maps_api with status_code={response.status_code}")
+        if response.status_code == 200:
+            break
+        else:
+            logger.error(f"Error in scrapingdog_maps_api attempt {attempt+1}: {response.text}")
+            if attempt == max_retries - 1:
+                return None
     return response.json()
 
 def get_geocode_data(address, api_key) -> dict:
@@ -140,14 +150,14 @@ def get_address_GPS_coord(address, api_key):
     logger.info(f"GPS coordinates for address {address}: {GPS}")
     return GPS
 
-def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal["hasdata", "scrapingdog"] = "hasdata"):
+def get_places(query: str, api_key: str, gps: dict, num_places: int, service: Literal["hasdata", "scrapingdog"] = "hasdata"):
     """Get places based on a query. Every page contains 20 places.
 
     Args:
         query: The query to search for places.
         api_key: API key of SerpAPI.
         gps: A dict containing lat, lng, and zoom level of the location to search for places in.
-        pages: Number of pages to fetch. It's better to limit the pages to 6 or less.
+        num_places: Number of places to fetch. It's better to limit the places to 60 or less.
             More than that, the result might be duplicated or irrelevant.
         service: The service to use for fetching places. Can be either 'hasdata' or 'scrapingdog'.
 
@@ -176,17 +186,23 @@ def get_places(query: str, api_key: str, gps: dict, pages: int, service: Literal
     else:
         params = {}
 
+    pages = num_places // 20 if num_places > 20 else 1
     final_result = []
-    for _ in range(pages):
+    for page in range(pages):
         # Fetch places from SerpAPI.
         if service == "hasdata":
             logger.debug("Fetching places from hasdata_maps_api")
             results = hasdata_maps_api("search", params.copy())
+            if page == pages - 1:
+                results["search_results"] = results.get("search_results", [])[:num_places % 20]
         elif service == "scrapingdog":
             logger.debug("Fetching places from scrapingdog_maps_api")
             results = scrapingdog_maps_api("search", params.copy())
-            # TODO : remove next line for production use.
-            results["search_results"] = results["search_results"][:2]
+            if results is None:
+                logger.error("No results found, breaking")
+                break
+            if page == pages - 1:
+                results["search_results"] = results.get("search_results", [])[:num_places % 20]
             for i, place in enumerate(results["search_results"]):
                 logger.debug(f"Fetching place details for data_id={place['data_id']}")
                 place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
@@ -255,19 +271,32 @@ def get_place_reviews(data_id: str, api_key: str, pages: int, start_date: dateti
         else:
             results = {}
 
+        if results is None:
+            logger.error("No results found, breaking")
+            break
+
         # Check if the date of the first review is before the start date.
         if start_date and datetime.fromisoformat(results["reviews"][0]["iso_date"]) < start_date:
             logger.info("Review date is before start_date, breaking")
             break
 
         # Append the results to the final result list.
-        final_result.append(results)
+        if "reviews_results" in results.keys() or "reviews" in results.keys():
+            final_result.append(results)
+        else:
+            logger.warning("No review results found in the response, breaking")
+            break
 
         # Update the next page token and number of reviews per page.
-        if service == "scrapingdog":
-            params['next_page_token'] = results["pagination"]["next_page_token"]
-        elif service == "hasdata":
-            params['nextPageToken'] = results["pagination"]["nextPageToken"]
+        if "pagination" in results:
+            if service == "scrapingdog":
+                params['next_page_token'] = results["pagination"]["next_page_token"]
+            elif service == "hasdata":
+                params['nextPageToken'] = results["pagination"]["nextPageToken"]
+
+        else:
+            logger.warning("No pagination found in results, breaking")
+            break
 
         params['results'] = "20"
 
@@ -282,12 +311,14 @@ def infer_client(client: OpenAI, prompt: str, model: str):
         try:
             output = client.chat.completions.create(
                 model=model,
+                extra_body={"provider": {"only": ["chutes"]}},
                 messages=[
                     {"role": "user", "content": prompt}
                 ],
                 timeout=60,
             )
             logger.info("infer_client succeeded")
+            logger.info(f"{output}")
             return output.choices[0].message.content.strip()
         except Exception as e:
             logger.error(f"Error inferring client (attempt {attempt+1}): {e}")

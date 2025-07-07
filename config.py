@@ -4,11 +4,16 @@ BASE_URL = "https://openrouter.ai/api/v1"
 LLM_MODEL = "deepseek/deepseek-r1-0528:free"
 LLM_MODEL = "deepseek/deepseek-chat-v3-0324:free"
 
+NUM_PLACES = 15
+NUM_REVIEWS = 100
+
 REQUIRED_COLUMNS_PLACES = ["title", "place_id", "gps_coordinates", "rating", "reviews", "price", "types", "type_id",
                            "type_ids", "address", "open_state", "hours", "operating_hours", "phone", "website",
                            "description", "extensions", "service_options"]
 
 MERGE_COLUMNS_SCRAPINGDOG_PLACES = ["type", "type_ids", "service_options", "extensions"]
+
+REQUIRED_COLUMNS_INFER = ["title", "rating", "reviews", "price", "type", "types", "type_ids", "address", "open_state", "hours", "phone", "website", "image", "thumbnail", "description", "extensions", "google_maps_url", "show_image", "service_options", "extensions", "reviews_content"]
 
 EXTRACT_LOC_TEMPLATE = """
 Task:

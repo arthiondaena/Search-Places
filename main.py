@@ -81,7 +81,7 @@ def log_function(func):
     return wrapper
 
 @log_function
-def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog", "hasdata"] = "scrapingdog", output_folder: str = None):
+def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog", "hasdata"] = "scrapingdog", output_folder: str = None, num_places: int = 10):
     logger.info(f"fetch_places called with user_prompt={user_prompt}, service={service}, output_folder={output_folder}")
     extracted_location = infer_client(client, config.EXTRACT_LOC_TEMPLATE.format(user_prompt=user_prompt),
                                       config.LLM_MODEL)
@@ -92,7 +92,7 @@ def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog
 
     api_key = env["SCRAPINGDOG_API_KEY"] if service == "scrapingdog" else env["HASDATA_API_KEY"]
     logger.info(f"Using API key for service {service}")
-    places_output = get_places(user_prompt, api_key, location_coordinates, pages=1, service=service)
+    places_output = get_places(user_prompt, api_key, location_coordinates, num_places=num_places, service=service)
     logger.info(f"Fetched places_output: {len(places_output)} pages")
 
     if output_folder is not None:
@@ -117,12 +117,13 @@ def fetch_places(user_prompt: str, client: OpenAI, service: Literal["scrapingdog
     return places
 
 def _fetch_and_save_reviews(args):
-    i, place, output_folder, env = args
+    i, place, output_folder, env, num_reviews = args
     logger.info(f"Fetching reviews for place index={i}, title={place.get('title')}")
     dataId = place.get("dataId", place.get("data_id", None))
     if not dataId:
         logger.warning(f"No dataId found for place: {place}")
-    reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=2, service="scrapingdog")
+    pages = num_reviews // 20 if num_reviews > 10 else 1
+    reviews_output = get_place_reviews(dataId, env["SCRAPINGDOG_API_KEY"], pages=pages, service="scrapingdog")
     logger.info(f"Fetched {sum(len(page['reviews_results']) for page in reviews_output)} reviews for {place.get('title')}")
     try:
         if output_folder is not None:
@@ -150,9 +151,9 @@ def _fetch_and_save_reviews(args):
     return (i, reviews_content)
 
 @log_function
-def fetch_places_reviews(places, output_folder: str = None):
+def fetch_places_reviews(places, output_folder: str = None, num_reviews: int = 100):
     logger.info(f"fetch_places_reviews called for {len(places)} places, output_folder={output_folder}")
-    args_list = [(i, place, output_folder, env) for i, place in enumerate(places)]
+    args_list = [(i, place, output_folder, env, num_reviews) for i, place in enumerate(places)]
 
     logger.info("Starting Parallel fetching")
     logger.warning("Failed Parallel fetching, falling back to sequential fetching")
@@ -182,6 +183,15 @@ def fetch_places_reviews(places, output_folder: str = None):
 def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["markdown", "html"] = "html", output_folder: str = None):
     logger.info(f"filter_places called with {len(places)} places, user_prompt={user_prompt}, output_type={output_type}, output_folder={output_folder}")
     template = config.FILTER_PLACES_JSON_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
+
+    # Select only necessary columns for places
+    for i, place in enumerate(places):
+        delete_keys = [key for key in place.keys() if key not in config.REQUIRED_COLUMNS_INFER]
+        logger.info(f"Deleting keys {delete_keys} from place: {place.get('title')}")
+        for key in delete_keys:
+            places[i].pop(key, None)
+        logger.info("Removing empty reviews_content from places")
+        places[i]["reviews_content"] = [review for review in place.get("reviews_content", []) if len(review["text"]) > 0]
 
     output = infer_client(client, template.format(user_prompt=user_prompt, places=places), config.LLM_MODEL)
     logger.info("LLM output received")
@@ -240,14 +250,10 @@ def main(user_prompt: str, save_output: str = None):
         os.makedirs(f"{output_folder}/reviews", exist_ok=True)
 
     logger.info("Fetching places...")
-    places = fetch_places(user_prompt, client, "scrapingdog", output_folder)
-
-    # TODO: Only taking the first 10 places into account
-    logger.info(f"Limiting places to first 2 for processing")
-    places = places[:2]
+    places = fetch_places(user_prompt, client, "scrapingdog", output_folder, config.NUM_PLACES)
 
     logger.info("Fetching reviews for places...")
-    places = fetch_places_reviews(places, output_folder)
+    places = fetch_places_reviews(places, output_folder, config.NUM_REVIEWS)
 
     logger.info("Filtering places using LLM...")
     output = filter_places(places, user_prompt, client, "html", output_folder)
@@ -289,17 +295,18 @@ def lambda_handler(event, context):
         }
 
 if __name__ == "__main__":
-    import uuid
-    class context:
-        aws_request_id = str(uuid.uuid4())
-    logger.info("Starting script in __main__")
-    lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, context())
+    # import uuid
+    # class context:
+    #     aws_request_id = str(uuid.uuid4())
+    # logger.info("Starting script in __main__")
+    # lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, context())
     # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
-    # import json
-    # with open("outputs/2025-06-28_22-56-33/places_with_reviews.json", "r", encoding="utf8") as f:
-    #     places = json.load(f)
-    #
-    # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
+    import json
+    input_folder = "s3/b7ac9053-d472-45ba-b7c9-263acbc26ede"
+    with open(input_folder + "/places_with_reviews.json", "r", encoding="utf8") as f:
+        places = json.load(f)
+
+    # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", input_folder)
     # main("cafe with Asian cuisine in hyderabad", save_output=True)
     # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
     # main("cafe with Asian cuisine in hyderabad", save_output=True)
