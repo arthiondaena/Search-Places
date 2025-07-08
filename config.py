@@ -188,7 +188,7 @@ You are a helpful assistant that takes a user's natural language prompt about a 
 ## ✅ Output Requirements
 
 Return a **JSON array** of the top 5–10 most relevant places that best match the user’s query.
-The JSON must contain atleast 5 entires if the number of places is more than 5, otherwise return all the places.
+The JSON must contain at least 5 places and at most 7 if the number of places is more than 5, otherwise return all the places.
 
 ---
 
