@@ -8,6 +8,8 @@ import logging
 from datetime import datetime
 from openai import OpenAI
 from typing import Literal
+from typing import List, Optional
+from pydantic import BaseModel, Field, HttpUrl
 
 # Configure logging
 logging.basicConfig(
@@ -311,7 +313,7 @@ def infer_client(client: OpenAI, prompt: str, model: str):
         try:
             output = client.chat.completions.create(
                 model=model,
-                extra_body={"provider": {"only": ["chutes"]}},
+                # extra_body={"provider": {"only": ["chutes"]}},
                 messages=[
                     {"role": "user", "content": prompt}
                 ],
@@ -326,6 +328,59 @@ def infer_client(client: OpenAI, prompt: str, model: str):
     logger.error("Failed to infer client after multiple attempts.")
     raise Exception("Failed to infer client after multiple attempts.")
 
+class UserReview(BaseModel):
+    """A Pydantic model to represent a single user review."""
+    review: str = Field(..., description="The text content of the user review.")
+    rating: int = Field(..., description="The rating given by the user, on a scale of 1-5.")
+
+class Place(BaseModel):
+    """
+    A Pydantic model to represent a place with details, reviews, and contact information.
+    """
+    name: str = Field(..., description="The name of the place.")
+    rating: float = Field(..., description="The overall rating of the place.")
+    reviews: int = Field(..., description="The total number of reviews for the place.")
+    price_level: Optional[str] = Field(None, description="The price level of the place (e.g., '₹2,000+').")
+    description: str = Field(..., description="A brief description of the place.")
+    why_this_place_fits_the_prompt: str = Field(..., description="An explanation of why this place is a good recommendation.")
+    user_reviews: List[UserReview] = Field(..., description="A list of user reviews.")
+    address: str = Field(..., description="The full address of the place.")
+    phone_number: str = Field(..., description="The contact phone number for the place.")
+    website: Optional[HttpUrl] = Field(None, description="The official website of the place.")
+    image_url: HttpUrl = Field(..., description="A URL for an image of the place.")
+    opening_hours: str = Field(..., description="The opening and closing times of the place.")
+    maps_url: HttpUrl = Field(..., description="A Google Maps URL for the location of the place.")
+    extensions: str = Field(..., description="Additional features or categories of the place (e.g., 'Live music bar').")
+
+class Places(BaseModel):
+    """
+    A Pydantic model to represent a list of places.
+    """
+    places: List[Place] = Field(..., description="A list of places with their details and reviews.")
+
+def infer_client_structured(client: OpenAI, prompt: str, model: str, pydantic_model):
+    """Infer using the OpenAI client with retries."""
+    logger.info(f"Calling infer_client with model={model}")
+    MAX_TRIES = 3
+    for attempt in range(MAX_TRIES):
+        try:
+            output = client.beta.chat.completions.parse(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                response_format=pydantic_model,
+                timeout=60,
+            )
+            logger.info("infer_client succeeded")
+            logger.info(f"{output}")
+            return output.choices[0].message.parsed
+        except Exception as e:
+            logger.error(f"Error inferring client (attempt {attempt + 1}): {e}")
+            continue
+    logger.error("Failed to infer client after multiple attempts.")
+    raise Exception("Failed to infer client after multiple attempts.")
+
 def extract_code_blocks(text):
     pattern = r"```(?:\w+)?\n(.*?)\n```"
     matches = re.findall(pattern, text, re.DOTALL)
@@ -333,27 +388,27 @@ def extract_code_blocks(text):
 
 def create_place_html(place):
     reviews_html = ''.join(
-        f'<div class="review">"{review["review"]}"</div>' for review in place["User Reviews"]
+        f'<div class="review">"{review.review}"</div>' for review in place.user_reviews
     )
 
     return f"""
     <div class="card">
         <div class="card-hero">
-            <img src="{place['Image URL']}" alt="{place['name']}" referrerpolicy="no-referrer">
+            <img src="{place.image_url}" alt="{place.name}" referrerpolicy="no-referrer">
         </div>
         <div class="card-content">
             <div class="card-header">
-                <h2 class="place-title">{place['name']}</h2>
+                <h2 class="place-title">{place.name}</h2>
                 <div class="rating">
-                    <span class="rating-value">{place['rating']}</span>
-                    <span class="reviews">({place["reviews"]} reviews)</span>
+                    <span class="rating-value">{place.rating}</span>
+                    <span class="reviews">({place.reviews} reviews)</span>
                 </div>
             </div>
-            <div class="price-level">{place['price Level']}</div>
+            <div class="price-level">{place.price_level}</div>
             <div class="details">
-                <p class="description">{place['description']}</p>
+                <p class="description">{place.description}</p>
                 <div class="match-reason">
-                    <strong>Why this fits:</strong> {place['Why this place fits the prompt']}
+                    <strong>Why this fits:</strong> {place.why_this_place_fits_the_prompt}
                 </div>
                 <div class="reviews-section">
                     <h3>Recent Customer Feedback:</h3>
@@ -362,25 +417,25 @@ def create_place_html(place):
                 <div class="contact-grid">
                     <div class="info-group">
                         <h4>Address</h4>
-                        <p>{place['Address']}</p>
+                        <p>{place.address}</p>
                     </div>
                     <div class="info-group">
                         <h4>Opening Hours</h4>
-                        <p>{place['Opening Hours']}</p>
+                        <p>{place.opening_hours}</p>
                     </div>
                     <div class="info-group">
                         <h4>Phone</h4>
-                        <p>{place['Phone Number']}</p>
+                        <p>{place.phone_number}</p>
                     </div>
                 </div>
-                <a href="{place['Website']}" class="btn" target="_blank">Visit Website</a>
-                <a href="{place['Google Maps URL']}" class="btn" target="_blank">View on Google Maps</a>
+                <a href="{place.website}" class="btn" target="_blank">Visit Website</a>
+                <a href="{place.maps_url}" class="btn" target="_blank">View on Google Maps</a>
             </div>
         </div>
     </div>
     """
 
-def create_places_html(places: list, template_html: str) -> str:
+def create_places_html(places, template_html: str) -> str:
     """Create HTML for a list of places."""
     place_cards = ''.join(create_place_html(place) for place in places)
     return template_html.replace('<!--PLACEHOLDER-->', place_cards)

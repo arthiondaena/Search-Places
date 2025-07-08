@@ -5,10 +5,12 @@ import json
 import os
 import boto3
 
-from utils import get_address_GPS_coord, get_places, get_place_reviews, infer_client, extract_code_blocks, create_places_html
+from utils import get_address_GPS_coord, get_places, get_place_reviews, infer_client, \
+    create_places_html, Places, infer_client_structured
 from openai import OpenAI
 from dotenv import dotenv_values, load_dotenv
 from typing import Literal
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 logging.basicConfig(
     level=logging.INFO,
@@ -158,10 +160,11 @@ def fetch_places_reviews(places, output_folder: str = None, num_reviews: int = 1
     logger.info("Starting Parallel fetching")
     logger.warning("Failed Parallel fetching, falling back to sequential fetching")
     results = []
-    for arg in args_list:
-        logger.debug(f"Fetching reviews for place index={arg[0]}")
-        results.append(_fetch_and_save_reviews(arg))
-    logger.info("Completed Sequential fetching")
+
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = [executor.submit(_fetch_and_save_reviews, arg) for arg in args_list]
+        for future in as_completed(futures):
+            results.append(future.result())
 
     # Update places with reviews_content
     for i, reviews_content in results:
@@ -180,7 +183,7 @@ def fetch_places_reviews(places, output_folder: str = None, num_reviews: int = 1
     return places
 
 @log_function
-def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["markdown", "html"] = "html", output_folder: str = None):
+def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: Literal["html"] = "html", output_folder: str = None):
     logger.info(f"filter_places called with {len(places)} places, user_prompt={user_prompt}, output_type={output_type}, output_folder={output_folder}")
     template = config.FILTER_PLACES_JSON_TEMPLATE if output_type == "html" else config.FILTER_PLACES_README_TEMPLATE
 
@@ -193,32 +196,22 @@ def filter_places(places: list, user_prompt: str, client: OpenAI, output_type: L
         logger.info("Removing empty reviews_content from places")
         places[i]["reviews_content"] = [review for review in place.get("reviews_content", []) if len(review["text"]) > 0]
 
-    output = infer_client(client, template.format(user_prompt=user_prompt, places=places), config.LLM_MODEL)
+    output = infer_client_structured(client, template.format(user_prompt=user_prompt, places=places), config.LLM_MODEL, Places)
     logger.info("LLM output received")
+    logger.info(f"Output: {output}")
 
-    # Extract code blocks from the output if present
-    code_blocks = extract_code_blocks(output)
-    if code_blocks:
-        logger.info("Extracted code block from LLM output")
-        output = code_blocks[0]
-    else:
-        logger.info("No code block found in LLM output")
-
-    if output_type == "html":
-        logger.info("Parsing LLM output as Python object for HTML rendering")
-        output = eval(output)
-        if output_folder is not None:
-            logger.info(f"Saving filtered_places.json to {'S3' if ENVIRON == 'prod' else 'local'} at {output_folder}/filtered_places.json")
-            if ENVIRON == "prod":
-                s3_key = f"{output_folder}/filtered_places.json"
-                upload_to_s3(json.dumps(output, indent=4, ensure_ascii=False), s3_key)
-            else:
-                with open(f"{output_folder}/filtered_places.json", "w", encoding="utf8") as f:
-                    json.dump(output, f, indent=4, ensure_ascii=False)
-        with open("template.html", "r", encoding="utf8") as f:
-            template_html = f.read()
-        logger.info("Creating HTML output from filtered places")
-        output = create_places_html(output, template_html)
+    if output_folder is not None:
+        logger.info(f"Saving filtered_places.json to {'S3' if ENVIRON == 'prod' else 'local'} at {output_folder}/filtered_places.json")
+        if ENVIRON == "prod":
+            s3_key = f"{output_folder}/filtered_places.json"
+            upload_to_s3(output.model_dump_json(indent=4), s3_key)
+        else:
+            with open(f"{output_folder}/filtered_places.json", "w", encoding="utf8") as f:
+                f.write(output.model_dump_json(indent=4))
+    with open("template.html", "r", encoding="utf8") as f:
+        template_html = f.read()
+    logger.info("Creating HTML output from filtered places")
+    output = create_places_html(output.places, template_html)
 
     if output_folder is not None:
         output_file = f"{output_folder}/filtered_places.md" if output_type == "markdown" else f"{output_folder}/filtered_places.html"
@@ -276,8 +269,12 @@ def lambda_handler(event, context):
         user_prompt = event.get("user_prompt", "Cafes with live music and Indian cuisine in Hyderabad")
         output_type = event.get("output_type", "html")
         logger.info(f"Calling main with user_prompt={user_prompt}, output_type={output_type}, request_id={request_id}")
+        if ENVIRON == "local":
+            output_folder = f"s3/{request_id}"
+        else:
+            output_folder = request_id
 
-        output = main(user_prompt, request_id)
+        output = main(user_prompt, output_folder)
 
         logger.info("lambda_handler completed successfully")
         return {
@@ -295,17 +292,17 @@ def lambda_handler(event, context):
         }
 
 if __name__ == "__main__":
-    # import uuid
-    # class context:
-    #     aws_request_id = str(uuid.uuid4())
-    # logger.info("Starting script in __main__")
-    # lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, context())
-    # main("Cafes with live music and Indian cuisine in Hyderabad", save_output=True)
-    import json
-    input_folder = "s3/b7ac9053-d472-45ba-b7c9-263acbc26ede"
-    with open(input_folder + "/places_with_reviews.json", "r", encoding="utf8") as f:
-        places = json.load(f)
+    import uuid
+    class context:
+        aws_request_id = str(uuid.uuid4())
+    logger.info("Starting script in __main__")
+    lambda_handler({"user_prompt": "Cafes with live music and Indian cuisine in Hyderabad"}, context())
 
+    # import json
+    # input_folder = "s3/42702988-7eae-4a30-9c57-18a207dad28c"
+    # with open(input_folder + "/places_with_reviews.json", "r", encoding="utf8") as f:
+    #     places = json.load(f)
+    #
     # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", input_folder)
     # main("cafe with Asian cuisine in hyderabad", save_output=True)
     # markdown_output = filter_places(places, "Cafes with live music and Indian cuisine in Hyderabad", OpenAI(base_url=config.BASE_URL, api_key=env["LLM_API_KEY"]), "html", "outputs/2025-06-28_22-56-33")
