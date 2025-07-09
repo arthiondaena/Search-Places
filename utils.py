@@ -10,6 +10,7 @@ from openai import OpenAI
 from typing import Literal
 from typing import List, Optional
 from pydantic import BaseModel, Field, HttpUrl
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Configure logging
 logging.basicConfig(
@@ -189,6 +190,8 @@ def get_places(query: str, api_key: str, gps: dict, num_places: int, service: Li
         params = {}
 
     pages = num_places // 20 if num_places > 20 else 1
+    if num_places % 20 != 0 and num_places > 20:
+        pages += 1
     final_result = []
     for page in range(pages):
         # Fetch places from SerpAPI.
@@ -205,13 +208,26 @@ def get_places(query: str, api_key: str, gps: dict, num_places: int, service: Li
                 break
             if page == pages - 1:
                 results["search_results"] = results.get("search_results", [])[:num_places % 20]
-            for i, place in enumerate(results["search_results"]):
+
+            # Parallelize fetching place details
+            def fetch_place_details(place):
                 logger.debug(f"Fetching place details for data_id={place['data_id']}")
                 place_details = scrapingdog_maps_api("places", {"data_id": place["data_id"], "api_key": api_key})
-                place_details = place_details['place_results']
-                for col in config.MERGE_COLUMNS_SCRAPINGDOG_PLACES:
-                    results["search_results"][i][col] = place_details.get(col, None)
-                results["search_results"][i]["show_image"] = results["search_results"][i]["image"]
+                if place_details and 'place_results' in place_details:
+                    place_details = place_details['place_results']
+                    for col in config.MERGE_COLUMNS_SCRAPINGDOG_PLACES:
+                        place[col] = place_details.get(col, None)
+                    place["show_image"] = place.get("image")
+                return place
+
+            search_results = results.get("search_results", [])
+            with ThreadPoolExecutor(max_workers=10) as executor:
+                futures = [executor.submit(fetch_place_details, place) for place in search_results]
+                enriched_places = []
+                for future in as_completed(futures):
+                    enriched_places.append(future.result())
+            results["search_results"] = enriched_places
+
         else:
             results = {}
 

@@ -6,7 +6,7 @@ LLM_MODEL = "deepseek/deepseek-r1-0528:free"
 LLM_MODEL = "deepseek/deepseek-chat-v3-0324:free"
 LLM_MODEL = "gemini-2.5-flash-lite-preview-06-17"
 
-NUM_PLACES = 15
+NUM_PLACES = 30
 NUM_REVIEWS = 100
 
 REQUIRED_COLUMNS_PLACES = ["title", "place_id", "gps_coordinates", "rating", "reviews", "price", "types", "type_id",
