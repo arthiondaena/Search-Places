@@ -6,8 +6,8 @@ LLM_MODEL = "deepseek/deepseek-r1-0528:free"
 LLM_MODEL = "deepseek/deepseek-chat-v3-0324:free"
 LLM_MODEL = "gemini-2.5-flash-lite-preview-06-17"
 
-NUM_PLACES = 30
-NUM_REVIEWS = 100
+NUM_PLACES = 15
+NUM_REVIEWS = 40
 
 REQUIRED_COLUMNS_PLACES = ["title", "place_id", "gps_coordinates", "rating", "reviews", "price", "types", "type_id",
                            "type_ids", "address", "open_state", "hours", "operating_hours", "phone", "website",
@@ -26,7 +26,7 @@ Input:
 {user_prompt}
 
 Output:
-<extracted_location>
+extracted location
 """
 
 FILTER_PLACES_README_TEMPLATE = """
@@ -181,56 +181,66 @@ Ensure the visual hierarchy is clear (headings, spacing, font weights), and sect
 """
 
 FILTER_PLACES_JSON_TEMPLATE = """
-You are a helpful assistant that takes a user's natural language prompt about a type of place they are looking for (e.g., cafe, restaurant, bakery) and a list of metadata-rich place entries. Your task is to analyze the prompt carefully and return a **JSON list of the top 5–10 most relevant places**, structured according to the specified format.
+You are a helpful assistant that takes a user's natural language prompt describing the type of place they are looking for (e.g., restaurant, cafe, bakery, hotel, resort, guesthouse, sightseeing spot, landmark, tourist attraction, adventure spot) along with a list of metadata-rich place entries. Your task is to analyze the prompt carefully and return a **JSON list of the top 5–10 most relevant places**, structured according to the specified format.
 
 ---
 
 ## ✅ Output Requirements
 
-Return a **JSON array** of the top 5–10 most relevant places that best match the user’s query.
-The JSON must contain at least 5 places and at most 7 if the number of places is more than 5, otherwise return all the places.
+Return a **JSON array** of the most relevant places that best match the user’s query.
+- Include **at least 5 and at most 7 places** if the total number of places is more than 5.
+- If there are 5 or fewer places in total, return all of them.
 
 ---
 
-## 🧠 Relevance Guidelines
+## 🧭 Relevance Guidelines
 
-Analyze the user's intent from their prompt, considering:
+Carefully analyze the user's intent, considering:
 
-- **Type of place** (e.g., cafe, rooftop bar, fine dining)
-- **Cuisine** (e.g., Indian, Sushi, Italian, fusion)
-- **Ambience or vibe** (e.g., cozy, romantic, live music, casual, trendy)
-- **Recency** (e.g., "recently opened", "newly trending")
-- **Location** (specific city, neighborhood, or general area)
+- **Type of place** (e.g., cafe, bakery, rooftop restaurant, boutique hotel, heritage guesthouse, adventure park, landmark, viewpoint)
+- **Cuisine or food focus** (for dining places, e.g., local cuisine, vegan, continental, seafood)
+- **Ambience or vibe** (e.g., romantic, family-friendly, luxury, budget-friendly, nature-focused, cozy, Instagram-worthy)
+- **Recency or trends** (e.g., "newly opened", "currently popular", "trending")
+- **Location** (city, neighborhood, nearby landmarks, general region)
 
 Evaluate each place using:
 
-### Structured data
-- Tags, type, cuisine, highlights, price level, ratings, description, reviews count, extensions
+### Structured Data
+- Type, tags, cuisine (if applicable), highlights, price level, ratings, description, reviews count, features, extensions
 
-### Unstructured data
-- **reviews_content**: Extract relevant sentiments or keywords supporting the place’s fit to the user prompt.
+### Unstructured Data
+- **reviews_content**: Extract relevant sentiments, keywords, or expressions that indicate suitability for the user's request (e.g., "great for sunrise views", "adventurous trails", "cozy rooms", "excellent breakfast buffet").
 
 ### Prioritize
-- Relevance to the user query over pure numerical rating or popularity.
+- Alignment with the user query is more important than highest rating or popularity alone.
 
 ---
 
-## 📸 Image Handling
+## 🖼️ Image Handling
 
-Each place will have an `"Image URL"` field (corresponding to `show_image` in some datasets). Include this in the final JSON output.
+Each place entry will include an `"Image URL"` field (sometimes from `show_image`). Make sure to include this in the final JSON output.
 
 ---
 
 ## 💡 Input Format
 
 ### User Prompt
-```plaintext
+<user_prompt>
 {user_prompt}
-```
+</user_prompt>
 
 ### Places Data
-```json
+<places_data>
 {places}
-```
+</places_data>
+"""
 
+CONVERT_PROMPT_TO_PARAMS = """
+Today's date: {date}
+Given a user prompt, extract the following parameters to be used for searching places:
+If the check in and check out dates are not provided, use the tomorrow's date as the check-in date and the day after tomorrow as the check-out date.
+
+<user_prompt>
+{user_prompt}
+</user_prompt>
 """
