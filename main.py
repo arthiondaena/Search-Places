@@ -261,13 +261,19 @@ def main(user_prompt: str, save_output: str = None):
 def lambda_handler(event, context):
     setup_logging(context.aws_request_id)
     logger.info(f"lambda_handler called with event={event}, context={context}")
+    body = json.loads(event['body'])
+    if 'user_prompt' not in body.keys():
+        return {
+            "statusCode": 200,
+            "body": f"Must pass user_prompt key in the JSON",
+        }
     # Generate a unique ID for this request
     request_id = str(context.aws_request_id)
 
     logger.info(f"Request ID: {request_id} - Received event: {json.dumps(event)}")
     try:
-        user_prompt = event.get("user_prompt", "Cafes with live music and Indian cuisine in Hyderabad")
-        output_type = event.get("output_type", "html")
+        user_prompt = body.get("user_prompt", "")
+        output_type = body.get("output_type", "html")
         logger.info(f"Calling main with user_prompt={user_prompt}, output_type={output_type}, request_id={request_id}")
         if ENVIRON == "local":
             output_folder = f"s3/{request_id}"
